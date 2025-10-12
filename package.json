@@ -1,4 +1,15 @@
-npm install
-git add package.json package-lock.json
-git commit -m "Add package.json for Rock Solid Man Devotionals"
-git push
+{
+  "name": "rock-solid-man-devotionals",
+  "version": "1.0.0",
+  "description": "Daily devotional generator for the Rock Solid Man app — encouraging strong Christian men to walk faithfully every day.",
+  "main": "generate-devotional.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node generate-devotional.js",
+    "generate": "node generate-devotional.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "openai": "^4.59.0"
+  }
+}
