@@ -1,1 +1,56 @@
+name: Generate Rock Solid Man Devotional
+
+on:
+  schedule:
+    # Runs at 7 PM EST every day (00:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      force_regenerate:
+        description: 'Force regenerate even if devotional exists'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  generate-devotional:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧰 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📦 Install deps
+        run: npm ci || npm i
+
+      - name: ✨ Generate Rock Solid Man Devotional
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FORCE_REGENERATE: ${{ github.event.inputs.force_regenerate || 'false' }}
+        run: |
+          node generate-devotional.js
+
+      - name: ✅ Commit results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(devotional): add Rock Solid Man devotional for $(date -u +'%Y-%m-%d')"
+          file_pattern: devotionals/*.json
+
+      - name: 📣 Summary
+        run: |
+          TODAY=$(date -u +'%Y-%m-%d')
+          if [ -f "devotionals/${TODAY}.json" ]; then
+            echo "✅ Rock Solid Man devotional created for ${TODAY}"
+            SIZE=$(wc -c < "devotionals/${TODAY}.json")
+            echo "📏 File size: ${SIZE} bytes"
+            TOTAL=$(find devotionals/ -name "*.json" 2>/dev/null | wc -l)
+            echo "📚 Total devotionals: ${TOTAL}"
+          else
+            echo "❌ No devotional file found"
+          fi
 
