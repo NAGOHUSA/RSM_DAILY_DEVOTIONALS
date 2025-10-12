@@ -1,0 +1,4 @@
+npm install
+git add package.json package-lock.json
+git commit -m "Add package.json for Rock Solid Man Devotionals"
+git push
