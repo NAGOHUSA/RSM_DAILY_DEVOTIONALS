@@ -1,17 +1,16 @@
-// generate-devotional.js — multi-provider (DeepSeek → OpenRouter → Together), low-cost
+// generate-devotional.js — Multi-provider DeepSeek → OpenAI → Groq (low-cost daily)
 // Node 18+ (global fetch). No external deps.
 
 import fs from "node:fs/promises";
 import path from "node:path";
 
-// ---------- Provider order ----------
-// Comma-separated list of providers to try in order.
-const PROVIDERS = (process.env.DEVOTIONAL_PROVIDERS || "deepseek,openrouter,together")
+// ===== Provider order (edit via env if you like) =====
+const PROVIDERS = (process.env.DEVOTIONAL_PROVIDERS || "deepseek,openai,groq")
   .split(",")
   .map(s => s.trim().toLowerCase())
   .filter(Boolean);
 
-// ---------- Common content controls ----------
+// ===== Common content controls =====
 const WORDS_MIN = Number(process.env.DEVOTIONAL_WORDS_MIN || 250);
 const WORDS_MAX = Number(process.env.DEVOTIONAL_WORDS_MAX || 350);
 const MAX_TOKENS = Number(process.env.DEVOTIONAL_MAX_TOKENS || 500);
@@ -20,27 +19,27 @@ const TIMEOUT_MS  = Number(process.env.DEVOTIONAL_TIMEOUT_MS  || 25000);
 const MAX_ATTEMPTS_PER_PROVIDER = Number(process.env.DEVOTIONAL_MAX_ATTEMPTS || 2);
 const THEME = process.env.DEVO_THEME || "";
 
-// ---------- Provider config (fill only the ones you use) ----------
+// ===== Provider config =====
 const DS = {
   apiKey: process.env.DEEPSEEK_API_KEY,
   model:  process.env.DEEPSEEK_MODEL || "deepseek-chat",
   url:    "https://api.deepseek.com/chat/completions",
 };
 
-const OR = {
-  apiKey: process.env.OPENROUTER_API_KEY,                  // <— add this secret if you want fallback via OpenRouter
-  // Use a low-cost, OpenAI-compatible model on OpenRouter (kept DeepSeek for similar style/cost)
-  model:  process.env.OPENROUTER_MODEL || "deepseek/deepseek-chat",
-  url:    "https://openrouter.ai/api/v1/chat/completions",
+const OA = {
+  apiKey: process.env.OPENAI_API_KEY,
+  model:  process.env.OPENAI_MODEL || "gpt-4o-mini",
+  url:    "https://api.openai.com/v1/chat/completions",
 };
 
-const TG = {
-  apiKey: process.env.TOGETHER_API_KEY,                    // <— add this secret for Together fallback
-  model:  process.env.TOGETHER_MODEL || "deepseek-ai/DeepSeek-V3",
-  url:    "https://api.together.xyz/v1/chat/completions",
+const GQ = {
+  apiKey: process.env.GROQ_API_KEY,
+  model:  process.env.GROQ_MODEL || "llama-3.1-8b-instant",
+  // Groq uses an OpenAI-compatible endpoint:
+  url:    "https://api.groq.com/openai/v1/chat/completions",
 };
 
-// ---------- Prompt ----------
+// ===== Prompt =====
 function devotionalMessages(dateISO) {
   const themeLine = THEME ? `Theme: ${THEME}\n` : "";
   return [
@@ -78,7 +77,7 @@ function devotionalMessages(dateISO) {
   ];
 }
 
-// ---------- Utils ----------
+// ===== Utils =====
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function wordCount(s) { return s ? s.trim().split(/\s+/).length : 0; }
 
@@ -92,7 +91,7 @@ async function postJSON(url, body, headers, timeoutMs) {
       headers: { "Content-Type": "application/json", ...headers },
       body: JSON.stringify(body),
     });
-    const text = await res.text();
+    const text = await res.text(); // read once
     return { ok: res.ok, status: res.status, text };
   } finally {
     clearTimeout(timer);
@@ -108,7 +107,7 @@ function parseChatContent(jsonText) {
   }
 }
 
-// ---------- Provider callers (all OpenAI-compatible) ----------
+// ===== Provider callers (OpenAI-compatible schema) =====
 async function tryDeepSeek(messages) {
   if (!DS.apiKey) throw new Error("MISSING_KEY_DEEPSEEK");
   for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_PROVIDER; attempt++) {
@@ -118,7 +117,6 @@ async function tryDeepSeek(messages) {
       { Authorization: `Bearer ${DS.apiKey}` },
       TIMEOUT_MS
     );
-
     if (!ok) {
       if (status === 402) throw Object.assign(new Error("DS_402"), { code: "INSUFFICIENT_BALANCE" });
       if (status === 429 || status === 408 || (status >= 500 && status <= 599)) {
@@ -138,21 +136,112 @@ async function tryDeepSeek(messages) {
   throw new Error("[DeepSeek] exhausted retries");
 }
 
-async function tryOpenRouter(messages) {
-  if (!OR.apiKey) throw new Error("MISSING_KEY_OPENROUTER");
+async function tryOpenAI(messages) {
+  if (!OA.apiKey) throw new Error("MISSING_KEY_OPENAI");
   for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_PROVIDER; attempt++) {
     const { ok, status, text } = await postJSON(
-      OR.url,
-      { model: OR.model, messages, temperature: TEMPERATURE, max_tokens: MAX_TOKENS },
-      {
-        Authorization: `Bearer ${OR.apiKey}`,
-        "HTTP-Referer": "https://github.com/",    // recommended headers
-        "X-Title": "RSM_DAILY_DEVOTIONALS",
-      },
+      OA.url,
+      { model: OA.model, messages, temperature: TEMPERATURE, max_tokens: MAX_TOKENS },
+      { Authorization: `Bearer ${OA.apiKey}` },
       TIMEOUT_MS
     );
-
     if (!ok) {
-      if (status === 402) throw Object.assign(new Error("OR_402"), { code: "INSUFFICIENT_BALANCE" });
+      if (status === 402) throw Object.assign(new Error("OA_402"), { code: "INSUFFICIENT_BALANCE" });
       if (status === 429 || status === 408 || (status >= 500 && status <= 599)) {
-        i
+        if (attempt < MAX_ATTEMPTS_PER_PROVIDER) {
+          const d = 900 * (2 ** (attempt - 1)) + Math.floor(Math.random() * 250);
+          console.warn(`[OpenAI] transient ${status}, retry in ${d}ms`);
+          await sleep(d);
+          continue;
+        }
+      }
+      throw new Error(`[OpenAI] error ${status}: ${text}`);
+    }
+    const content = parseChatContent(text);
+    if (!content) throw new Error("[OpenAI] empty content");
+    return { provider: "openai", model: OA.model, content };
+  }
+  throw new Error("[OpenAI] exhausted retries");
+}
+
+async function tryGroq(messages) {
+  if (!GQ.apiKey) throw new Error("MISSING_KEY_GROQ");
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_PROVIDER; attempt++) {
+    const { ok, status, text } = await postJSON(
+      GQ.url,
+      { model: GQ.model, messages, temperature: TEMPERATURE, max_tokens: MAX_TOKENS },
+      { Authorization: `Bearer ${GQ.apiKey}` },
+      TIMEOUT_MS
+    );
+    if (!ok) {
+      if (status === 402) throw Object.assign(new Error("GQ_402"), { code: "INSUFFICIENT_BALANCE" });
+      if (status === 429 || status === 408 || (status >= 500 && status <= 599)) {
+        if (attempt < MAX_ATTEMPTS_PER_PROVIDER) {
+          const d = 900 * (2 ** (attempt - 1)) + Math.floor(Math.random() * 250);
+          console.warn(`[Groq] transient ${status}, retry in ${d}ms`);
+          await sleep(d);
+          continue;
+        }
+      }
+      throw new Error(`[Groq] error ${status}: ${text}`);
+    }
+    const content = parseChatContent(text);
+    if (!content) throw new Error("[Groq] empty content");
+    return { provider: "groq", model: GQ.model, content };
+  }
+  throw new Error("[Groq] exhausted retries");
+}
+
+// ===== Main =====
+async function main() {
+  const dateISO = new Date().toISOString().slice(0, 10);
+  const messages = devotionalMessages(dateISO);
+
+  const errors = [];
+  for (const p of PROVIDERS) {
+    try {
+      if (p === "deepseek")  return await writeResult(await tryDeepSeek(messages), dateISO);
+      if (p === "openai")    return await writeResult(await tryOpenAI(messages),   dateISO);
+      if (p === "groq")      return await writeResult(await tryGroq(messages),     dateISO);
+      console.warn(`Unknown provider "${p}" — skipping`);
+    } catch (e) {
+      errors.push(`${p}: ${e.code || ""} ${e.message}`);
+      console.warn(`Provider ${p} failed: ${e.message}`);
+      continue;
+    }
+  }
+  throw new Error(`All providers failed. Details: ${errors.join(" | ")}`);
+}
+
+async function writeResult({ provider, model, content }, dateISO) {
+  const wc = wordCount(content);
+  if (wc < 120) throw new Error(`Too short (${wc} words) from ${provider}`);
+
+  const outDir = path.resolve("devotionals");
+  await fs.mkdir(outDir, { recursive: true });
+  const outPath = path.join(outDir, `${dateISO}.json`);
+  const payload = {
+    date: dateISO,
+    provider,
+    model,
+    max_tokens: MAX_TOKENS,
+    temperature: TEMPERATURE,
+    words: wc,
+    theme: THEME || null,
+    content_markdown: content,
+    meta: {
+      version: "multi-provider-ds-oa-gq-1",
+      constraints: {
+        scripture_quote_words_max: 50,
+        total_words_target: [WORDS_MIN, WORDS_MAX],
+      }
+    }
+  };
+  await fs.writeFile(outPath, JSON.stringify(payload, null, 2), "utf-8");
+  console.log(`✅ Wrote ${outPath} via ${provider}/${model} (${wc} words)`);
+}
+
+main().catch((err) => {
+  console.error("❌ Generation failed:", err);
+  process.exit(1);
+});
