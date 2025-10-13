@@ -11,11 +11,8 @@ class ContentTracker {
 
   load() {
     if (fs.existsSync(this.trackerFile)) {
-      try {
-        return JSON.parse(fs.readFileSync(this.trackerFile, 'utf8'));
-      } catch (e) {
-        console.warn('⚠️  Could not parse tracker, starting fresh.');
-      }
+      try { return JSON.parse(fs.readFileSync(this.trackerFile, 'utf8')); }
+      catch { /* fall through */ }
     }
     return {
       titles: [],
@@ -60,9 +57,7 @@ class ContentTracker {
     for (const t of this.data.titles) {
       const m = this.normalize(t.title);
       if (n === m) return { ok: false, reason: 'Exact title match', similar: t.title };
-      if (this.sim(n, m) > threshold) {
-        return { ok: false, reason: 'Title too similar', similar: t.title };
-      }
+      if (this.sim(n, m) > threshold) return { ok: false, reason: 'Title too similar', similar: t.title };
     }
     return { ok: true };
   }
@@ -70,9 +65,7 @@ class ContentTracker {
   isContentFresh(content) {
     const h = this.hash(content);
     const already = this.data.contentHashes.find(x => x.hash === h);
-    if (already) {
-      return { ok: false, reason: 'Content body duplicated', similarDate: already.dateUsed };
-    }
+    if (already) return { ok: false, reason: 'Content body duplicated', similarDate: already.dateUsed };
     return { ok: true };
   }
 
@@ -81,76 +74,41 @@ class ContentTracker {
     const cutoff = Date.now() - lookbackDays * 86400000;
     const recent = this.data.recentScriptures.filter(s => new Date(s.dateUsed).getTime() >= cutoff);
     const usedRecently = recent.find(s => this.normalize(s.reference) === this.normalize(reference));
-    if (usedRecently) {
-      return { ok: false, reason: `Scripture used in last ${lookbackDays} days`, lastUsed: usedRecently.dateUsed };
-    }
+    if (usedRecently) return { ok: false, reason: `Scripture used in last ${lookbackDays} days`, lastUsed: usedRecently.dateUsed };
     return { ok: true };
   }
 
   validate(devotional) {
-    const titleCheck = this.isTitleUnique(devotional.title);
-    if (!titleCheck.ok) return { ok: false, ...titleCheck };
-
-    const contentCheck = this.isContentFresh(devotional.content);
-    if (!contentCheck.ok) return { ok: false, ...contentCheck };
-
-    const scriptureCheck = this.isScriptureFresh(devotional.scriptureReference);
-    if (!scriptureCheck.ok) return { ok: false, ...scriptureCheck };
-
+    const t = this.isTitleUnique(devotional.title);
+    if (!t.ok) return { ok: false, ...t };
+    const c = this.isContentFresh(devotional.content);
+    if (!c.ok) return { ok: false, ...c };
+    const s = this.isScriptureFresh(devotional.scriptureReference);
+    if (!s.ok) return { ok: false, ...s };
     return { ok: true };
   }
 
   record(devotional) {
     const date = devotional.date || new Date().toISOString().slice(0, 10);
 
-    this.data.titles.push({
-      title: devotional.title,
-      dateUsed: date,
-      theme: devotional.theme || 'rock-solid'
-    });
-
-    this.data.contentHashes.push({
-      hash: this.hash(devotional.content),
-      dateUsed: date
-    });
+    this.data.titles.push({ title: devotional.title, dateUsed: date, theme: devotional.theme || 'rock-solid' });
+    this.data.contentHashes.push({ hash: this.hash(devotional.content), dateUsed: date });
 
     if (devotional.scriptureReference) {
-      this.data.scriptureReferences.push({
-        reference: devotional.scriptureReference,
-        dateUsed: date,
-        theme: devotional.theme || 'rock-solid'
-      });
-      this.data.recentScriptures.push({
-        reference: devotional.scriptureReference,
-        dateUsed: date
-      });
-      if (this.data.recentScriptures.length > 180) {
-        this.data.recentScriptures = this.data.recentScriptures.slice(-180);
-      }
+      this.data.scriptureReferences.push({ reference: devotional.scriptureReference, dateUsed: date, theme: devotional.theme || 'rock-solid' });
+      this.data.recentScriptures.push({ reference: devotional.scriptureReference, dateUsed: date });
+      if (this.data.recentScriptures.length > 180) this.data.recentScriptures = this.data.recentScriptures.slice(-180);
     }
 
-    if (devotional.theme) {
-      this.data.themes.push({
-        category: devotional.theme,
-        dateUsed: date,
-        title: devotional.title
-      });
-    }
+    if (devotional.theme) this.data.themes.push({ category: devotional.theme, dateUsed: date, title: devotional.title });
 
     this.save();
   }
 
-  getUsageReport() {
-    const last7 = this.data.titles.slice(-7).map(t => t.title);
-    const lastScriptures = this.data.recentScriptures.slice(-21).map(s => s.reference);
+  getRecentBlocklists() {
     return {
-      overview: {
-        totalDevotionals: this.data.titles.length
-      },
-      recentActivity: {
-        lastWeekTitles: last7,
-        lastScriptures
-      }
+      titles: this.data.titles.slice(-10).map(t => t.title),
+      scriptures: this.data.recentScriptures.slice(-30).map(s => s.reference)
     };
   }
 }
