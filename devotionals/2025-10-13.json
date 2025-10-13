@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 228,
+  "theme": null,
+  "content_markdown": "# The Gentle Shepherd's Care\n\n## John 10:11\n\n\"We must work the works of him who sent me while it is day; night is coming, when no one can work.\" - John 9:4\n\"But the good shepherd lays down his life for the sheep.\" - John 10:11\n\n## Reflection\n\nIn today's hectic world, it's easy to get caught up in the pressure to perform and achieve. We often view our time as a limited resource, feeling guilty if we don't fill every moment with productivity. However, Jesus reminds us that He came to do the Father's work, and our role is to follow His example. As the Good Shepherd, He laid down His life for His sheep, demonstrating a selfless love that prioritizes the needs of others above His own. We must imitate this selfless love by laying down our own desires and ambitions, trusting that God will guide us in His timing. By surrendering our schedules and to-do lists to Him, we can rest in the assurance that He is working even when we feel like we're not.\n\n## Prayer\n\nWe confess our tendency to control and manage our time, seeking Your guidance to prioritize Your work above our own. Help us to trust in Your sovereignty and surrender our schedules to Your care.\n\n## One-Line Application\n\nPrioritize faithfulness over productivity, trusting God's work in His timing.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
