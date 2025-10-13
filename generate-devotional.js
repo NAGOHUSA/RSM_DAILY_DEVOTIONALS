@@ -1,177 +1,158 @@
-// generate-devotional.js — DeepSeek (low-cost daily)
-// Node 18+ required (global fetch). No external deps.
+// generate-devotional.js — multi-provider (DeepSeek → OpenRouter → Together), low-cost
+// Node 18+ (global fetch). No external deps.
 
 import fs from "node:fs/promises";
 import path from "node:path";
 
-// ---------- Config (env overrides supported) ----------
-const API_KEY   = process.env.DEEPSEEK_API_KEY;
-const MODEL     = process.env.DEEPSEEK_MODEL || "deepseek-chat";
-const ENDPOINT  = "https://api.deepseek.com/chat/completions";
+// ---------- Provider order ----------
+// Comma-separated list of providers to try in order.
+const PROVIDERS = (process.env.DEVOTIONAL_PROVIDERS || "deepseek,openrouter,together")
+  .split(",")
+  .map(s => s.trim().toLowerCase())
+  .filter(Boolean);
 
-// Cost controls (tune via env if needed)
-const MAX_TOKENS   = Number(process.env.DEVOTIONAL_MAX_TOKENS || 500); // hard cap
-const TEMPERATURE  = Number(process.env.DEVOTIONAL_TEMPERATURE || 0.7);
-const TIMEOUT_MS   = Number(process.env.DEVOTIONAL_TIMEOUT_MS || 25000);
-const MAX_ATTEMPTS = Number(process.env.DEVOTIONAL_MAX_ATTEMPTS || 3);
-
-// Content size targets (soft limits enforced in prompt)
-const TARGET_WORDS_MIN = Number(process.env.DEVOTIONAL_WORDS_MIN || 250);
-const TARGET_WORDS_MAX = Number(process.env.DEVOTIONAL_WORDS_MAX || 350);
-
-// Optional theme seed (leave empty for variety)
+// ---------- Common content controls ----------
+const WORDS_MIN = Number(process.env.DEVOTIONAL_WORDS_MIN || 250);
+const WORDS_MAX = Number(process.env.DEVOTIONAL_WORDS_MAX || 350);
+const MAX_TOKENS = Number(process.env.DEVOTIONAL_MAX_TOKENS || 500);
+const TEMPERATURE = Number(process.env.DEVOTIONAL_TEMPERATURE || 0.7);
+const TIMEOUT_MS  = Number(process.env.DEVOTIONAL_TIMEOUT_MS  || 25000);
+const MAX_ATTEMPTS_PER_PROVIDER = Number(process.env.DEVOTIONAL_MAX_ATTEMPTS || 2);
 const THEME = process.env.DEVO_THEME || "";
 
-// ------------------------------------------------------
+// ---------- Provider config (fill only the ones you use) ----------
+const DS = {
+  apiKey: process.env.DEEPSEEK_API_KEY,
+  model:  process.env.DEEPSEEK_MODEL || "deepseek-chat",
+  url:    "https://api.deepseek.com/chat/completions",
+};
 
+const OR = {
+  apiKey: process.env.OPENROUTER_API_KEY,                  // <— add this secret if you want fallback via OpenRouter
+  // Use a low-cost, OpenAI-compatible model on OpenRouter (kept DeepSeek for similar style/cost)
+  model:  process.env.OPENROUTER_MODEL || "deepseek/deepseek-chat",
+  url:    "https://openrouter.ai/api/v1/chat/completions",
+};
+
+const TG = {
+  apiKey: process.env.TOGETHER_API_KEY,                    // <— add this secret for Together fallback
+  model:  process.env.TOGETHER_MODEL || "deepseek-ai/DeepSeek-V3",
+  url:    "https://api.together.xyz/v1/chat/completions",
+};
+
+// ---------- Prompt ----------
 function devotionalMessages(dateISO) {
   const themeLine = THEME ? `Theme: ${THEME}\n` : "";
-  const system = [
-    "You are a concise, pastoral devotional writer.",
-    `Overall length target: ${TARGET_WORDS_MIN}-${TARGET_WORDS_MAX} words total.`,
-    "Use Markdown. Keep language simple and warm.",
-    "Sections and constraints:",
-    "1) Title — ≤8 words.",
-    "2) Scripture — exactly ONE verse or passage, ≤50 words quoted; include reference.",
-    "3) Reflection — 150–220 words, practical and theologically sound.",
-    "4) Prayer — 30–50 words, first-person plural (“we”).",
-    "5) One-Line Application — 1 sentence, ≤12 words.",
-    "No extra prefaces or explanations. No HTML. No duplicate sections.",
-  ].join(" ");
-
-  const user = [
-    `Date: ${dateISO}`,
-    themeLine,
-    "Output format (exact headers):",
-    "# Title",
-    "",
-    "## Scripture",
-    "",
-    "## Reflection",
-    "",
-    "## Prayer",
-    "",
-    "## One-Line Application",
-  ].join("\n");
-
   return [
-    { role: "system", content: system },
-    { role: "user",   content: user }
+    {
+      role: "system",
+      content: [
+        "You are a concise, pastoral devotional writer.",
+        `Write ${WORDS_MIN}-${WORDS_MAX} words total, Markdown only (no HTML).`,
+        "Sections in order:",
+        "1) Title — ≤8 words.",
+        "2) Scripture — exactly ONE verse/passage, ≤50 words quoted, include reference.",
+        "3) Reflection — 150–220 words, practical and theologically sound.",
+        "4) Prayer — 30–50 words, first-person plural (“we”).",
+        "5) One-Line Application — one sentence, ≤12 words.",
+        "No prefaces or duplicate sections.",
+      ].join(" ")
+    },
+    {
+      role: "user",
+      content: [
+        `Date: ${dateISO}`,
+        themeLine,
+        "Output using exactly these headers:",
+        "# Title",
+        "",
+        "## Scripture",
+        "",
+        "## Reflection",
+        "",
+        "## Prayer",
+        "",
+        "## One-Line Application"
+      ].join("\n")
+    }
   ];
 }
 
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
+// ---------- Utils ----------
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+function wordCount(s) { return s ? s.trim().split(/\s+/).length : 0; }
 
-async function callDeepSeek(messages) {
+async function postJSON(url, body, headers, timeoutMs) {
   const controller = new AbortController();
-  const t = setTimeout(() => controller.abort(), TIMEOUT_MS);
-
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const res = await fetch(ENDPOINT, {
+    const res = await fetch(url, {
       method: "POST",
       signal: controller.signal,
-      headers: {
-        "Authorization": `Bearer ${API_KEY}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        messages,
-        temperature: TEMPERATURE,
-        max_tokens: MAX_TOKENS,
-      }),
+      headers: { "Content-Type": "application/json", ...headers },
+      body: JSON.stringify(body),
     });
-
-    if (!res.ok) {
-      const body = await res.text();
-      // Gracefully skip when out of balance
-      if (res.status === 402) {
-        const err = new Error(`Insufficient balance (402): ${body}`);
-        err.code = "INSUFFICIENT_BALANCE";
-        throw err;
-      }
-      // Retryable statuses
-      if (res.status === 408 || res.status === 429 || (res.status >= 500 && res.status <= 599)) {
-        const err = new Error(`Transient DeepSeek error ${res.status}: ${body}`);
-        err.code = "RETRYABLE";
-        throw err;
-      }
-      throw new Error(`DeepSeek API error ${res.status}: ${body}`);
-    }
-
-    const json = await res.json();
-    return (json.choices?.[0]?.message?.content || "").trim();
+    const text = await res.text();
+    return { ok: res.ok, status: res.status, text };
   } finally {
-    clearTimeout(t);
+    clearTimeout(timer);
   }
 }
 
-function wordCount(s) {
-  return s ? s.trim().split(/\s+/).length : 0;
+function parseChatContent(jsonText) {
+  try {
+    const j = JSON.parse(jsonText);
+    return (j.choices?.[0]?.message?.content || "").trim();
+  } catch {
+    return "";
+  }
 }
 
-async function main() {
-  if (!API_KEY) throw new Error("Missing DEEPSEEK_API_KEY environment variable.");
+// ---------- Provider callers (all OpenAI-compatible) ----------
+async function tryDeepSeek(messages) {
+  if (!DS.apiKey) throw new Error("MISSING_KEY_DEEPSEEK");
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_PROVIDER; attempt++) {
+    const { ok, status, text } = await postJSON(
+      DS.url,
+      { model: DS.model, messages, temperature: TEMPERATURE, max_tokens: MAX_TOKENS },
+      { Authorization: `Bearer ${DS.apiKey}` },
+      TIMEOUT_MS
+    );
 
-  const now = new Date();
-  const dateISO = now.toISOString().slice(0, 10);
-
-  const messages = devotionalMessages(dateISO);
-
-  // Exponential backoff with small jitter for retryable errors
-  let content = "";
-  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-    try {
-      content = await callDeepSeek(messages);
-      if (content) break;
-      throw new Error("Empty response from DeepSeek");
-    } catch (err) {
-      if (err.code === "INSUFFICIENT_BALANCE") {
-        console.warn("⚠️ DeepSeek balance is insufficient. Skipping generation today.");
-        // Exit 0 so workflow stays green without committing anything.
-        process.exit(0);
+    if (!ok) {
+      if (status === 402) throw Object.assign(new Error("DS_402"), { code: "INSUFFICIENT_BALANCE" });
+      if (status === 429 || status === 408 || (status >= 500 && status <= 599)) {
+        if (attempt < MAX_ATTEMPTS_PER_PROVIDER) {
+          const d = 900 * (2 ** (attempt - 1)) + Math.floor(Math.random() * 250);
+          console.warn(`[DeepSeek] transient ${status}, retry in ${d}ms`);
+          await sleep(d);
+          continue;
+        }
       }
-      if (attempt >= MAX_ATTEMPTS) throw err;
-      const delayMs = 800 * (2 ** (attempt - 1)) + Math.floor(Math.random() * 300);
-      console.warn(`Retry ${attempt}/${MAX_ATTEMPTS - 1} after ${delayMs}ms… (${err.message})`);
-      await sleep(delayMs);
+      throw new Error(`[DeepSeek] error ${status}: ${text}`);
     }
+    const content = parseChatContent(text);
+    if (!content) throw new Error("[DeepSeek] empty content");
+    return { provider: "deepseek", model: DS.model, content };
   }
-
-  // Final sanity clamp to keep cost low if the model overshoots
-  const words = wordCount(content);
-  if (!content || words < 120) {
-    throw new Error(`Unexpectedly short content (${words} words).`);
-  }
-
-  const outDir = path.resolve("devotionals");
-  await fs.mkdir(outDir, { recursive: true });
-  const outPath = path.join(outDir, `${dateISO}.json`);
-
-  const payload = {
-    date: dateISO,
-    model: MODEL,
-    max_tokens: MAX_TOKENS,
-    temperature: TEMPERATURE,
-    words: words,
-    theme: THEME || null,
-    content_markdown: content,
-    meta: {
-      version: "low-cost-ds-1",
-      constraints: {
-        scripture_quote_words_max: 50,
-        total_words_target: [TARGET_WORDS_MIN, TARGET_WORDS_MAX],
-      }
-    }
-  };
-
-  await fs.writeFile(outPath, JSON.stringify(payload, null, 2), "utf-8");
-  console.log(`✅ Wrote ${outPath} (${words} words)`);
+  throw new Error("[DeepSeek] exhausted retries");
 }
 
-main().catch((err) => {
-  console.error("❌ Generation failed:", err);
-  process.exit(1);
-});
+async function tryOpenRouter(messages) {
+  if (!OR.apiKey) throw new Error("MISSING_KEY_OPENROUTER");
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_PROVIDER; attempt++) {
+    const { ok, status, text } = await postJSON(
+      OR.url,
+      { model: OR.model, messages, temperature: TEMPERATURE, max_tokens: MAX_TOKENS },
+      {
+        Authorization: `Bearer ${OR.apiKey}`,
+        "HTTP-Referer": "https://github.com/",    // recommended headers
+        "X-Title": "RSM_DAILY_DEVOTIONALS",
+      },
+      TIMEOUT_MS
+    );
+
+    if (!ok) {
+      if (status === 402) throw Object.assign(new Error("OR_402"), { code: "INSUFFICIENT_BALANCE" });
+      if (status === 429 || status === 408 || (status >= 500 && status <= 599)) {
+        i
