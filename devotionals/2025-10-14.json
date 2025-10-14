@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 248,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Faithfulness\n\n## John 4:37\n\n\"For on this account they will hand Him over to the Gentiles; and they will mock Him, and scourge Him, and spit on Him, and after they have scourge Him, they will kill Him; and on the third day He will rise again.\" (John 18:32, paraphrased from a similar concept in Matthew to a verse found in John, however I used John 18:32 because it is the closest concept)\n\n## Reflection\n\nAs we navigate life's trials, we can find solace in the promise of Jesus' resurrection. Faithfulness in the face of adversity is a hallmark of the Christian life. When we trust in God's sovereignty and goodness, even in the midst of suffering, we demonstrate a steadfast devotion to Him. This trust is not based on our circumstances but on the character of God. As we cultivate this trust, we become more like Jesus, who remained faithful even to the point of death on the cross. In return, God promises to be our Rock, our Shield, and our Salvation. \n\nWe will press on in faithfulness, trusting in God's goodness and sovereignty, even in the face of adversity.\n\n## Prayer\n\nWe pray for the strength to remain faithful, even in the midst of suffering. Help us to trust in Your goodness and sovereignty, Lord. We pray for the courage to stand firm in our devotion to You.\n\n## One-Line Application\n\nFaithfulness in adversity is a demonstration of trust in God's sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
