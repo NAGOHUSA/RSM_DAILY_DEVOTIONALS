@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 220,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds with Faithful Expectancy\n\n## Scripture\n\n\"Then he said to them, 'The one who sows sparingly will also reap sparingly, and the one who sows bountifully will also reap bountifully.' \" - 2 Corinthians 9:6 (ESV)\n\n## Reflection\n\nAs we sow seeds in our lives, whether through our words, actions, or resources, we must do so with faithful expectancy. This means trusting that God will provide for us and use our offerings for His glory. It's not about how much we have or can give, but about the attitude of the heart behind our giving. We must not be stingy or selfish with what God has given us, but rather generous and open-handed. When we sow bountifully, we demonstrate our faith in God's provision and trust in His goodness. This mindset allows us to experience the joy of giving and receiving, as we are able to see the fruit of our labor and the impact it has on others.\n\n## Prayer\n\nWe pray that you would help us to sow seeds with faithful expectancy, trusting in your provision and goodness. May our hearts be generous and open-handed, and may we experience the joy of giving and receiving as we trust in your sovereignty.\n\n## One-Line Application\n\nWe must sow seeds with faithful expectancy, trusting God's provision and goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
