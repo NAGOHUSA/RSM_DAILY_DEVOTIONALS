@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 215,
+  "theme": null,
+  "content_markdown": "# Trust in the Lord with All Your Heart\n\n## Matthew 6:25 (NIV)\n\n\"Do not worry about your life, what you will eat or drink; or about your body, what you will wear. Is not life more than food, and the body more than clothes?\" - Matthew 6:25 (NIV)\n\n## Reflection\n\nWorrying about the future and our needs can be overwhelming. It's natural to have concerns, but our trust in God is what sets us free from anxiety. We must recognize that our worth and value come from who we are in Christ, not from our accomplishments or possessions. As we look to the future, we must also look to God's provision and faithfulness. His promise is that He will meet our needs, and His goodness will be sufficient for us. We must learn to trust in His sovereignty and goodness, even when we don't see the answers to our prayers. When we put our trust in God, we are free to live a life of peace and joy, unencumbered by the weight of worry.\n\n## Prayer\n\nLord, we trust in Your goodness and provision. Help us to let go of anxiety and worry, and to trust in Your faithfulness.\n\n## One-Line Application\n\nWe can trust God to meet our needs and provide for us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
