@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 210,
+  "theme": null,
+  "content_markdown": "# A Life Rooted in Faith\n\n## Psalm 37:3 - \"Trust in the Lord and do good; dwell in the land and enjoy safe pasture.\" - Psalm 37:3 (NIV)\n\n## Reflection\n\nIn a world filled with uncertainty, it's easy to lose our footing and question where our security lies. The psalmist reminds us that our trust should be rooted in the Lord, not in fleeting earthly possessions or temporary circumstances. When we trust in Him, we're free to focus on doing good and enjoying the safe pasture He provides. This means letting go of our need for control and accepting the unknowns of life with faith. As we dwell in the land and enjoy the safe pasture, we'll find our hearts filled with peace and our souls nourished by the presence of God. By placing our trust in the Lord, we'll be able to navigate life's challenges with confidence and hope.\n\n## Prayer\n\nWe pray, Lord, that You would help us to trust in You alone, to let go of our need for control, and to dwell in the safe pasture You provide. Give us faith to navigate life's uncertainties and peace that surpasses understanding.\n\n## One-Line Application\nTrust in the Lord and do good, not the other way around.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
