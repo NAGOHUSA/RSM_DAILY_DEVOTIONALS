@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 219,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Christ's Presence\n\n## Psalm 16:8-11\n\nThe Lord said to my Lord, \"Sit at my right hand, till I make your enemies your footstool.\" You have made known to me the path of life; you will fill me with joy in your presence, with eternal pleasures at your right hand. (Psalm 16:8-11, NIV)\n\n## Reflection\n\nIn the midst of life's chaos, it's easy to lose sight of what truly brings us peace. We often search for peace in temporary solutions or fleeting pleasures. However, the Bible tells us that true peace is found in the presence of Christ. When we sit at His right hand, we're not worried about our enemies or the uncertainties of life. Instead, we're filled with joy and eternal pleasures. This peace is not just a feeling, but a reality that's rooted in our relationship with Christ. As we walk through life's challenges, we must remember to seek His presence and find our peace in Him.\n\n## Prayer\n\nWe thank you for being our Rock and our Savior. Help us to seek your presence in the midst of chaos and find our peace in you. Fill us with joy and eternal pleasures as we sit at your right hand.\n\n## One-Line Application\n\nWe find peace in Christ's presence, not in temporary solutions.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
