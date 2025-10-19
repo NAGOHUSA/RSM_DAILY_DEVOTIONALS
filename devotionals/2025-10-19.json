@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 194,
+  "theme": null,
+  "content_markdown": "# The Shepherd's Presence\n\n## Psalm 23:4\n\n\"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\" (Psalm 23:4, ESV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to feel overwhelmed and fearful. But God reminds us that He is always present, even in the darkest moments. His presence is not just a feeling or an emotional high, but a tangible reality that sustains us through the toughest times. Just as a shepherd's staff and rod provide comfort and protection to his sheep, God's presence is our comfort and shelter. We don't have to face our fears alone, for God is with us, guiding us through the valley of shadows. This truth gives us the courage to face whatever comes our way, knowing that God's presence is our greatest comfort.\n\n## Prayer\n\nWe thank you, God, for your presence in our lives, especially in times of fear and uncertainty. May we know your comfort and peace as we walk through life's darkest valleys.\n\n## One-Line Application\n\nWe trust God's presence to comfort and guide us through life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
