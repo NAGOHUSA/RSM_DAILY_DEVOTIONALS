@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 196,
+  "theme": null,
+  "content_markdown": "# Peace in Every Storm\n\n## Psalm 46:10\n\n\"Be still, and know that I am God;\nI will be exalted in the earth!\"\n— Psalm 46:10 (ESV)\n\n## Reflection\n\nLife is full of turbulent moments. But amidst the chaos, we are called to find peace. It's not about avoiding the storms, but about being still in the midst of them. Stillness is not about physical inactivity, but about trusting in God's sovereignty. As we face difficulties, we must learn to quiet our hearts and minds, focusing on God's presence and power. This is not a natural response, but a supernatural one that only comes from faith. When we choose to be still, we are reminded that God is God, and He is in control. We can trust Him to be our refuge and strength, even in the midst of the fiercest storms.\n\n## Prayer\n\nWe confess that we often struggle to find peace in the midst of turmoil. Help us to be still and know that you are God. Calm our hearts and minds, and give us the faith to trust in your sovereignty.\n\n## One-Line Application\nChoose stillness over anxiety, trusting God in every storm.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
