@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 203,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\n\"Humble yourselves before the Lord, and he will lift you up.\" - James 4:10 (NIV)\n\n## Reflection\n\nAs we navigate life's turbulent waters, it's easy to become overwhelmed by the challenges that arise. The world around us seems to be spinning out of control, and our own struggles can feel insurmountable. In the midst of this chaos, it's tempting to try and control everything, to put our faith in our own strength and abilities. But James reminds us that this is not the path to peace. Instead, we are called to humble ourselves before the Lord. This means acknowledging our limitations, our weaknesses, and our dependence on God. When we do, we open ourselves up to receive the peace that passes understanding. It's a peace that transcends our circumstances and calms our minds. It's a peace that comes from knowing we are loved, accepted, and forgiven by our heavenly Father. \n\n## Prayer\n\nWe humble ourselves before you, Lord, and ask for your peace to reign in our lives. Fill us with your presence and calm our anxious hearts.\n\n## One-Line Application\nWe find peace by acknowledging our dependence on God's strength, not our own.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
