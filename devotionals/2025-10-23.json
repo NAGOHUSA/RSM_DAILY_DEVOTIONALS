@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 202,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care\n\n## Scripture\n\n\"And the Lord is the One who goes ahead of you; He will be with you. He will not leave you nor forsake you. Do not fear or be dismayed.\" - Deuteronomy 31:8 (NASB)\n\n## Reflection\n\nAs we walk through life's uncertain paths, it's easy to feel like we're facing them alone. But God's Word tells us that He is the One who goes before us. He is the Shepherd who guides and protects us, who walks alongside us through every trial and every triumph. We don't have to fear or be dismayed, because He is with us. His presence is a constant reminder that we are not alone, that we are not abandoned to face life's challenges on our own. His presence is a source of strength and comfort, a reminder that He is our Rock, our Refuge, and our Redeemer.\n\n## Prayer\n\nWe thank you, Lord, for being our Shepherd. You go before us, guide us, and protect us. We trust in Your presence and Your promises. Help us to draw near to You in times of fear and uncertainty.\n\n## One-Line Application\n\nMay God's presence be our guiding light in life's uncertain paths.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
