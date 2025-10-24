@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 191,
+  "theme": null,
+  "content_markdown": "# Shepherd's Care in Times of Trouble\n\n## Scripture\n\n\"Bear one another's burdens, and so fulfill the law of Christ.\" \n- Galatians 6:2 (ESV)\n\n## Reflection\n\nIn times of trouble, it's easy to feel overwhelmed and alone. But as believers, we're not called to carry our burdens by ourselves. Instead, we're called to bear one another's burdens, just as Christ bore the weight of our sins on the cross. This means being present with those who are struggling, offering a listening ear, and providing practical help when needed. It also means being willing to receive the same kind of care and support from others when we're the ones struggling. By doing so, we fulfill the law of Christ, which is to love and serve one another.\n\n## Prayer\n\nWe ask that you would give us the strength and courage to bear one another's burdens, just as Christ has borne ours. Help us to be present with those who are struggling, and to receive the same kind of care and support from others when we need it.\n\n## One-Line Application\n\nWe must be willing to bear the burdens of those around us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
