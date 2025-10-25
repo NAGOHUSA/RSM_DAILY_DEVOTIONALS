@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 188,
+  "theme": null,
+  "content_markdown": "# A Gentle Shepherd's Care\n\n## Psalm 23:4 (ESV)\n\nEven though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff comfort me.\n\n## Reflection\n\nWe often find ourselves in dark valleys, unsure of what lies ahead. It's natural to feel anxious or fearful in such situations. However, as followers of Christ, we can trust that He is with us, even in the midst of uncertainty. The psalmist's declaration is not a denial of the reality of danger, but rather an affirmation of God's presence and provision. Just as a shepherd's rod and staff comfort the sheep, God's presence and care can calm our fears and guide us through the darkest moments. We can rest in His sovereignty, knowing that He is working everything out for our good.\n\n## Prayer\n\nWe thank you, Lord, for your constant presence in our lives. Help us to trust in your goodness and care, even when we face uncertainty and fear.\n\n## One-Line Application\n\nWe can find comfort in God's presence, even in the darkest of times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
