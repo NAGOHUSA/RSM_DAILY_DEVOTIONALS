@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 202,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Presence\n\n## Scripture\n\n\"For we are God’s handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.\" Ephesians 2:10 (NIV)\n\n## Reflection\n\nAs we navigate life’s complexities, it's easy to lose sight of our purpose. We get caught up in worries about the future or regrets about the past. But God reminds us that we are His handiwork, created to do good works. These works weren't just a random assignment; they were specifically prepared for us by God. This truth frees us from the burden of figuring it all out on our own. Instead, we can trust that God has a plan for us, and it's already in motion. As we surrender to His will, we'll find ourselves rooted in His presence, where we can rest in the confidence that He is working everything out for our good.\n\n## Prayer\n\nWe thank you, God, for creating us for good works. Help us to trust in your plan and find rest in your presence. Guide us to the works you have prepared for us.\n\n## One-Line Application\n\nWe must surrender to God's plan to find our purpose and purpose in life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
