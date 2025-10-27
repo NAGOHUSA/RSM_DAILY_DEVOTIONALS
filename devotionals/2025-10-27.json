@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 207,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\nIn the midst of chaos, it's easy to feel overwhelmed and anxious. We may feel like our world is crumbling around us, and we're unsure of how to respond. But as believers, we have a promise from Jesus that we can cling to. He offers us a peace that the world cannot give. This peace is not based on our circumstances, but on our relationship with Him. It's a peace that calms our souls and gives us the strength to face whatever challenges come our way. We don't have to be afraid, because we know that God is with us and He is in control.\n\n## Prayer\nWe thank you, Lord, for the peace you give us. Help us to rest in your presence and not be troubled by the world's chaos. Give us the strength to face every challenge with confidence in your goodness and control. \n\n## One-Line Application\nWe can trust God's peace to quiet our anxious hearts.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
