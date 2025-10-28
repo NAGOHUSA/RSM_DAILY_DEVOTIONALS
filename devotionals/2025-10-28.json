@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 189,
+  "theme": null,
+  "content_markdown": "# Trusting God through Life's Storms\n\n## Psalm 46:10\n\n\"The Lord will fulfill his purpose for me; your steadfast love, O God, endures forever. Do not forsake the work of your hands.\" - Psalm 138:8, cf. Psalm 46:10\n\n## Reflection\n\nLife's storms can be overwhelming, leaving us feeling lost and uncertain about the future. Yet, in the midst of turmoil, we are reminded that our steadfast God is always present and working. His purpose for us may not always be clear, but His love endures forever. Trusting in Him means surrendering our need to control and instead seeking refuge in His sovereignty. As we walk through life's challenges, we can find peace in knowing that God is working, even when we can't see the outcome. This trust is not a denial of our struggles but a recognition that He is with us, guiding us through the darkness.\n\n## Prayer\n\nWe trust in Your steadfast love, Lord, and seek refuge in Your sovereignty. Help us to surrender our need for control and find peace in Your presence.\n\n## One-Line Application\n\nTrusting God means surrendering to His sovereignty in life's storms.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
