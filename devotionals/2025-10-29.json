@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# A Life of Abiding in God's Love\n\n## Psalm 103:17\n\nThe Lord is righteous in all his ways and kind in all his works. He made his wonders to be remembered; the Lord is gracious and compassionate. (Psalm 103:6-8, NRSV)\n\n## Reflection\n\nAs autumn leaves fall and wither, we're reminded that our lives are fragile and fleeting. Yet, amidst this impermanence, we can anchor ourselves in God's unchanging love. Psalm 103:6-8 assures us that God's nature is characterized by righteousness, kindness, and compassion. His ways and works are a reflection of his gracious heart. In a world where uncertainty and hardship can threaten our sense of security, we must cling to the truth that God's love is unwavering. We can trust that even as our circumstances change, His love remains constant and unshakeable. When fear or doubt creeps in, let us turn to the Psalms and remember the Lord's goodness and compassion.\n\n## Prayer\n\nWe thank you, Heavenly Father, for your unchanging love that surrounds us like a warm autumn breeze. Help us to abide in your grace and compassion, that our hearts may remain steadfast in the midst of life's turmoil. We pray in Jesus' name.\n\n## One-Line Application\n\nAnchor your life in God's unchanging love amidst life's uncertainties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
