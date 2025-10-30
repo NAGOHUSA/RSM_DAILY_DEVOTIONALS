@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 236,
+  "theme": null,
+  "content_markdown": "# Cultivating Hope in Uncertain Times\n\n## Scripture\n\n\"For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.\" - Jeremiah 29:11\n\n## Reflection\n\nIn uncertain times, it's easy to lose sight of hope. We worry about the future, fearing what might come. But God's plan is to give us hope and a future. This verse reminds us that God's plans are not for our harm, but for our prosperity. When we face challenges, we can trust that God is working everything out for our good. This doesn't mean we won't face difficulties, but it means we can face them with confidence, knowing that God is with us. We can hold onto the promise of hope and a future, even when the present seems uncertain. \n\nWe can choose to trust in God's goodness and faithfulness, even when our circumstances don't make sense. We can choose to look to the future with hope, knowing that God is working everything out for our good. This takes faith, but it's a faith that is rooted in God's character and promises.\n\n## Prayer\n\nWe pray for the hope and a future that only you can give, Lord. Help us to trust in your goodness and faithfulness, even in uncertain times.\n\n## One-Line Application\n\nWe can face uncertainty with confidence, trusting God's plans.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
