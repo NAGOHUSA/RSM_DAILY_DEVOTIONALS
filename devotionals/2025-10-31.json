@@ -1,0 +1,20 @@
+{
+  "date": "2025-10-31",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 235,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart\n\n## Scripture\n\n\"Love each other as I have loved you.\" - Jesus (John 15:12)\n\n## Reflection\n\nAs we reflect on this verse, we're reminded of the depth of God's love for us. It's not a shallow, conditional love, but a profound, selfless love that gives itself away for our sake. This is the same kind of love we're called to demonstrate towards one another. In a world filled with division and discord, our hearts must beat with a similar rhythm: one of love, compassion, and unity. We're not just called to tolerate each other; we're called to cherish and value one another, to see the beauty in each person's unique story and to reflect God's love back to them through our words and actions.\n\nAs followers of Jesus, we're not just individuals; we're a community, a family that's bound together by a shared love for God and for each other. We're called to prioritize love, to make it the very fabric of our relationships. This isn't always easy, but it's essential for building a strong, resilient community that shines with the light of Christ.\n\n## Prayer\n\nWe pray, dear Lord, that our hearts would overflow with Your love for each other. Help us to cherish and prioritize our relationships, to see each other through Your eyes.\n\n## One-Line Application\n\nPrioritize love in your relationships, just as God prioritizes love for you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
