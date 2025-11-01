@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 202,
+  "theme": null,
+  "content_markdown": "# Peace in the Presence of God\n\n## Scripture\n\n\"Be still before the Lord and say, 'Lord, what do you want me to do?'\" - Psalm 37:7 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to get caught up in the hustle and bustle. We often find ourselves questioning the next step, worrying about the future, or even dwelling on past mistakes. In the midst of this chaos, the Lord reminds us to be still. To pause, to quiet our minds, and to seek His presence. It's in the stillness that we find peace. We learn to trust in His goodness, to rely on His sovereignty, and to find comfort in His love. When we ask, \"Lord, what do you want me to do?\" we're not just seeking direction; we're acknowledging our dependence on Him. We're recognizing that our strength comes not from our own abilities, but from His presence in our lives.\n\n## Prayer\n\nWe come before You, Lord, and ask for the gift of stillness. Help us quiet our minds and hearts, that we may seek Your presence and Your guidance.\n\n## One-Line Application\n\nWe must pause and seek God's direction before taking our next steps.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
