@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 278,
+  "theme": null,
+  "content_markdown": "# Gentle Rain of God's Presence\n\n## Isaiah 30:23\n\nFor your people will be like a fire for burning away everything, and like a flame that blazes like a torch. It will burn up the thorns and the briers; it will dry up the mighty oak trees and leave them nothing but stubble, as if they had never been. It will make all the people of the earth bring you praise and honor, forever and ever. (Isaiah 30:27-29, NCV)\n\n## Reflection\n\nImagine walking through a barren landscape, feeling dry and withered from the lack of rain. Then, suddenly, a gentle rain begins to fall. The droplets touch the parched earth, bringing new life to the withered plants. In the same way, God's presence can be a gentle rain that refreshes and rejuvenates our lives. When we feel dry and barren, we can seek out God's presence, knowing that He desires to revive and restore us.\n\nAs we seek His presence, we must be willing to let go of the old and allow the new life to grow. This may involve pruning away the withered and dead parts of our lives, making room for the fresh wind of God's Spirit to blow. As we surrender to His presence, we can experience the joy and beauty of being transformed by His love.\n\n## Prayer\n\nWe ask that Your gentle rain of presence would fall upon our lives, bringing new life and restoration to our souls. Help us to let go of the old and make room for the new, that we may be transformed by Your love.\n\n## One-Line Application\nSurrender to God's presence to experience spiritual renewal and restoration.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
