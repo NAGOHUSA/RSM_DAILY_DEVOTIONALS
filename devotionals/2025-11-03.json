@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 226,
+  "theme": null,
+  "content_markdown": "# Finding Peace in God's Presence\n\n## Psalm 16:11 - \"You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore.\" (ESV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to lose sight of the peace that God offers. We become entangled in worries, fears, and anxieties, forgetting that we have a Savior who promises to be with us always. The psalmist reminds us that in God's presence, we find true joy and pleasure. This is not a fleeting feeling, but a lasting experience that transcends life's ups and downs. When we prioritize spending time with God, seeking His guidance and wisdom, we begin to understand the peace that surpasses our understanding (Philippians 4:7). We learn to trust in His goodness and sovereignty, even when circumstances seem uncertain. As we abide in His presence, we discover that peace is not a feeling, but a person – Jesus Christ, who dwells within us.\n\n## Prayer\n\nWe come before You, Lord, and ask for the peace that only You can give. Help us to prioritize time with You, seeking Your guidance and wisdom. Grant us the ability to trust in Your goodness and sovereignty, even in uncertain times.\n\n## One-Line Application\n\nAs we seek God's presence, we discover lasting joy and peace.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
