@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 272,
+  "theme": null,
+  "content_markdown": "# Peaceful Presence in Turbulent Times\n\n## Isaiah 26:3\n\nYou will keep in perfect peace those whose minds are steadfast, because they trust in you. (NIV, Isaiah 26:3)\n\n## Reflection\n\nIn the midst of life's turmoil, it's easy to lose sight of peace. We may feel overwhelmed by the noise of the world, our own fears, and the doubts that creep in. But God's promise to us is one of perfect peace – not just a fleeting calm, but a deep and abiding sense of peace that comes from trusting in Him. This peace is not based on our circumstances, but on our steadfast commitment to Him. When we fix our minds on God, we are able to stand firm in the midst of chaos, trusting that He is our Rock and our Refuge.\n\nAs we navigate the ups and downs of life, let us remember that peace is not just a feeling, but a promise from God. Let us choose to fix our minds on Him, to trust in His goodness and sovereignty, and to experience the perfect peace that only He can give. This peace is not just a destination, but a journey – one that requires us to trust God in the midst of uncertainty.\n\n## Prayer\n\nWe thank you for the promise of perfect peace, Lord. Help us to fix our minds on you and trust in your goodness and sovereignty. Give us the strength to stand firm in the midst of chaos, trusting that you are our Rock and our Refuge.\n\n## One-Line Application\n\nWe trust in God's promise of perfect peace, no matter what life brings.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
