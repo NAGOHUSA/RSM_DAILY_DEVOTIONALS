@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 204,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for the Weary\n\n## Scripture\n\n\"For the Lamb in the midst of the throne will be their shepherd, and he will guide them to springs of living water, and God will wipe away every tear from their eyes.\" - Revelation 7:17 (ESV)\n\n## Reflection\n\nIn a world filled with turmoil and uncertainty, it's easy to feel overwhelmed and weary. But as followers of Christ, we have a promise from God that He will care for us like a Shepherd. Just as a Shepherd gently guides His sheep to green pastures and still waters, God will lead us to springs of living water. The image of Jesus as our Shepherd brings comfort and peace. He knows our deepest needs and will wipe away every tear from our eyes. In the midst of chaos, we can trust that He is with us and will guide us through the storm.\n\n## Prayer\n\nWe ask that You would be our Shepherd, guiding us to the still waters of peace and comfort. Help us to trust in Your care and provision, and wipe away every tear from our eyes.\n\n## One-Line Application\n\nGod's loving care for us is a refuge from the storms of life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
