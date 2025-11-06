@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 206,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Gentle Guidance\n\n## Psalm 23:4 (ESV)\n\nEven though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff comfort me.\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to feel overwhelmed by uncertainty and fear. But in Psalm 23:4, we're reminded that even in the darkest valleys, God is with us. His presence is a source of comfort, a reminder that we're not alone. This verse encourages us to trust in God's sovereignty and goodness, even when we can't see what's ahead. Just as a shepherd's rod and staff provide protection and guidance, God's presence in our lives offers the same. We can trust that He'll lead us through difficult times, using them to shape us into stronger, more faithful followers of Christ.\n\n## Prayer\n\nWe pray for the courage to trust in Your presence, Lord, even in the face of uncertainty. Help us to rest in Your sovereignty and to find comfort in Your rod and staff. Grant us the strength to walk through life's valleys with faith and confidence in You.\n\n## One-Line Application\n\nTrusting in God's presence can guide us through life's dark valleys.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
