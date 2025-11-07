@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 216,
+  "theme": null,
+  "content_markdown": "# The Shepherd's Care\n\n## Scripture\n\n\"I am the good shepherd; I know my sheep and my sheep know me—just as the Father knows me and I know the Father—and I lay down my life for the sheep.\" - John 10:14-15 (NIV)\n\n## Reflection\n\nIn a world filled with uncertainty and fear, God's promise of care and provision stands firm. The good shepherd knows his sheep, not just as a collection of individuals, but as beloved children. He knows their needs, their struggles, and their joys. And just as the Father knows the shepherd, the shepherd knows his sheep. This intimate relationship is built on trust and surrender. As we face the challenges of life, we can rest in the knowledge that our shepherd is always with us, guiding us, protecting us, and laying down his life for us. We can trust in his goodness, his wisdom, and his love.\n\n## Prayer\n\nWe thank you, dear Shepherd, for your unwavering care and provision. Help us to trust in your goodness and to surrender our fears to you. May we know your presence in our lives and may we be a reflection of your love to a world in need.\n\n## One-Line Application\n\nWe can rest in God's care and provision, trusting in his goodness and love.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
