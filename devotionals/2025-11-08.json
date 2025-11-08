@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 244,
+  "theme": null,
+  "content_markdown": "# A Refuge for the Weary Soul\n\n## Matthew 11:28-30\n\n\"Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy and my burden is light.\" (Matthew 11:28-30)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to become weary and burdened. The weight of responsibilities, relationships, and expectations can feel overwhelming. Yet, Jesus invites us to come to Him, to take His yoke upon us, and to learn from Him. He promises to give us rest for our souls. This is not a promise of absence of problems, but of presence in the midst of them. Jesus is gentle and humble, and His burden is light. When we surrender our burdens to Him, we discover that His strength is made perfect in our weakness. We learn to rely on Him, to trust in His goodness, and to find rest in His presence.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened. We ask that you give us rest for our souls. Help us to take your yoke upon us and to learn from you. May your gentleness and humility guide us, and may your strength be made perfect in our weakness.\n\n## One-Line Application\n\nWe find rest in Jesus, who offers us a gentle and humble heart.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
