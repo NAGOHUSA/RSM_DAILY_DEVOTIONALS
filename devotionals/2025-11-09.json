@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 230,
+  "theme": null,
+  "content_markdown": "# Trusting in God's Sovereignty\n\n## Matthew 5:45 (NIV)\n\n\"But if you love those who love you, what reward will you get? Are not even the tax collectors doing that?\"\n\n## Reflection\n\nIn a world where chaos and uncertainty reign, it's easy to lose sight of God's sovereignty. We can become entangled in the complexities of life, worrying about the outcomes of our decisions and the events that unfold. However, as Believers, we are called to trust in God's goodness and wisdom, even when we don't understand the bigger picture.\n\nConsider the tax collectors in Matthew 5:45. They were seen as outcasts, yet they showed kindness to those who loved them. Jesus asks, \"What reward will you get?\" implying that even the secular world expects some form of reciprocity. As Christians, we are called to do more than just love those who love us. We are called to love our enemies, to pray for those who persecute us, and to trust in God's sovereignty, even when the world around us seems to be falling apart.\n\n## Prayer\n\nWe pray for the strength to trust in God's sovereignty, to love our enemies, and to pray for those who persecute us. Help us to see the world through Your eyes, Lord, and to find peace in Your goodness and wisdom.\n\n## One-Line Application\nWe trust in God's sovereignty, loving even our enemies.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
