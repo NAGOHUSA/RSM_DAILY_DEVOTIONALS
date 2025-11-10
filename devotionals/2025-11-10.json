@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 233,
+  "theme": null,
+  "content_markdown": "# Rest in the Shepherd's Presence\n\n## Scripture\n\n\"For you are all sons of God through faith in Christ Jesus.\" \n- Galatians 3:26\n\n## Reflection\n\nAs we navigate through life, it's easy to become overwhelmed by the demands and responsibilities that come our way. But in the midst of chaos, we can find peace in knowing that we are loved and accepted as children of God. This truth should encourage us to rest in the Shepherd's presence, trusting that He is our good and loving Father who cares for us deeply. We don't have to strive to earn His love or prove ourselves worthy; we can simply rest in the knowledge that we are already loved and accepted as His children.\n\nThe Shepherd's presence is a place where we can find peace, comfort, and guidance. It's a place where we can let go of our fears and doubts, and trust in His goodness and sovereignty. As we rest in His presence, we can experience the joy and freedom that comes from knowing we are His beloved children.\n\n## Prayer\n\nWe come before You, Lord, and ask that You help us rest in Your loving presence. May we know Your peace and comfort in the midst of our struggles, and may we trust in Your goodness and sovereignty.\n\n## One-Line Application\n\nWe can rest in the Shepherd's presence, trusting in His love and care.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
