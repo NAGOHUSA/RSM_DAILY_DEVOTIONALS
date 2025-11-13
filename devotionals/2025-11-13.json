@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 239,
+  "theme": null,
+  "content_markdown": "# Cultivating Inner Peace in Turbulent Times\n\n## Psalm 119:105\n\n\"Your word is a lamp to my feet and a light to my path.\" (Psalm 119:105, NIV)\n\n## Reflection\n\nAs we navigate life's uncertainties, it's easy to get caught up in anxiety and doubt. But God's Word remains a constant source of guidance and reassurance. In the midst of turmoil, we can find peace by meditating on Scripture. As we immerse ourselves in the truth of God's Word, we discover the stability and hope that only He can provide. Rather than relying on fleeting emotions or external circumstances, we can anchor our hearts in the unchanging promises of Scripture.\n\nWhen we focus on God's Word, we begin to see the world through His perspective. We start to recognize that our troubles are not isolated incidents, but opportunities for growth and trust in Him. As we learn to trust God's guidance, we can approach each day with a sense of peace and purpose. We can rest in the knowledge that He is always with us, working for our good and guiding us along the path He has laid out for us.\n\n## Prayer\n\nWe pray for the peace that surpasses understanding, a peace that comes from knowing You are with us. Guide us in Your Word and help us to trust in Your goodness.\n\n## One-Line Application\n\nWe find inner peace by immersing ourselves in the truth of God's Word.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
