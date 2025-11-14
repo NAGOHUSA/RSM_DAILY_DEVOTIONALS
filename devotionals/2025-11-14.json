@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 207,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Love and Strength\n\n## Scripture\n1 Peter 5:7\n\"Cast all your anxiety on him because he cares for you.\" (NIV 2011)\n\n## Reflection\nIn the midst of life's uncertainty and turmoil, it's easy to feel overwhelmed. But in this verse, Peter reminds us of our true source of strength and security: God's love. When anxiety threatens to consume us, we can cast our cares on God, trusting that He cares for us deeply. This doesn't mean our problems will magically disappear, but it does mean we'll find the peace and courage to face them head-on. As we learn to let go of our burdens and trust in God's goodness, we'll discover a sense of liberation and freedom that surpasses our understanding. We'll be rooted in God's love and strength, unshakeable and unmovable in the face of adversity.\n\n## Prayer\nWe come to you, Lord, with heavy hearts and anxious minds. Cast out our fears and doubts, and remind us of your unwavering love and care for us. Help us to trust in your goodness and strength, and to find peace in the midst of turmoil.\n\n## One-Line Application\nWe must learn to cast our anxiety on God, trusting in His care for us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
