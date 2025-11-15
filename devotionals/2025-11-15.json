@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 235,
+  "theme": null,
+  "content_markdown": "# Resting in God's Sovereignty\n\n## John 11:22\n\n\"Do you believe this?\" Jesus replied. \"The hour is coming; right now is not the hour. The dead will hear the voice of the Son of God, and those who hear will live.\" (John 11:22, CSB)\n\n## Reflection\n\nIn the midst of life's challenges and uncertainties, we often struggle to trust in God's sovereignty. We worry about the future, doubt His goodness, and question His timing. Yet, Jesus' response to Martha's plea reveals a profound truth: God's sovereignty and our trust are not mutually exclusive. In fact, they are deeply intertwined. When we rest in His sovereignty, we can boldly declare, \"Even in death, life is found in the voice of the Son of God.\" This is not a simplistic or naive trust; rather, it's a trust that's rooted in the character and promises of God. As we navigate the complexities of life, we must remind ourselves that God is always working, always moving, and always speaking. Our task is not to control the outcome but to trust the One who holds the future.\n\n## Prayer\n\nWe confess our tendency to doubt and worry. We trust You, Lord, to work all things for our good and to bring life out of death. Give us eyes to see Your sovereignty at work in our lives.\n\n## One-Line Application\n\nTrusting God's sovereignty empowers us to rest in His goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
