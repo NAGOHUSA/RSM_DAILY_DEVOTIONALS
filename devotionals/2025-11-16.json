@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 213,
+  "theme": null,
+  "content_markdown": "# The Gentle Shepherd's Care\n\n## Psalm 23:4\n\n\"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\" (Psalm 23:4, NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to get caught up in fear and anxiety. But the psalmist reminds us that we are not alone. The Gentle Shepherd is always with us, guiding us through the darkest valleys. His presence is a comfort, a reminder that we are not abandoned or forgotten. In the midst of uncertainty, we can trust in His sovereignty and His love. Just as a shepherd uses a rod to protect his sheep and a staff to guide them, God's care is our protection and our guiding light. We don't have to face the unknown alone, for we are part of His flock. We can rest in His goodness, even when the road ahead seems uncertain.\n\n## Prayer\n\nWe thank you, Lord, for Your presence in our lives. You are our comfort, our guide, and our protector. We trust in Your care, and we rest in Your goodness. Thank you for being our Gentle Shepherd.\n\n## One-Line Application\n\nTrust in God's presence to calm your fears and uncertainties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
