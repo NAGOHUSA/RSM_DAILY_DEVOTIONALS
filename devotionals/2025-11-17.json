@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 185,
+  "theme": null,
+  "content_markdown": "# Trusting in God's Presence\n\n## Scripture\n\n\"Where can I go from your Spirit? Or where can I flee from your presence?\" \n- Psalm 139:7 (NIV)\n\n## Reflection\n\nWe often feel overwhelmed by life's challenges and seek comfort in escaping from our troubles. However, Psalm 139 reminds us that no matter where we go, God's presence is always with us. This reality should bring us peace and confidence in the midst of uncertainty. We don't have to look anywhere else for safety because God's presence is our shelter. As we walk through life's storms, we can trust that God's Spirit is with us, guiding and comforting us. This truth frees us from the need to control everything and allows us to rest in God's sovereignty. By trusting in God's presence, we can face our fears and anxieties with hope and courage.\n\n## Prayer\n\nWe pray for the courage to trust in Your presence, Lord, and to rest in Your sovereignty. Enable us to face our fears with hope and confidence.\n\n## One-Line Application\n\nTrust in God's presence to guide and comfort you in life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
