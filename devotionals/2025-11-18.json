@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 212,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart of Compassion\n\n## Matthew 9:36 - \"But when he saw the crowds, he had compassion on them, because they were harassed and helpless, like sheep without a shepherd.\" (Matt 9:36)\n\n## Reflection\nWe often view our spiritual lives as a solo endeavor, but Jesus saw the crowds as needing care and guidance. As shepherds, we too must be attuned to the needs of those around us, recognizing that they may be struggling to find their way. This compassion is not a feeling, but a choice, one that requires us to embody the love and care of our Good Shepherd. It means being willing to slow down, to listen, and to offer guidance in the midst of chaos. In a world that often values productivity and efficiency, we must rediscover the value of slowing down and being present with others. This is the heart of compassion, and it is essential for building strong, loving communities.\n\n## Prayer\nWe pray that you would give us a shepherd's heart, Lord, filled with compassion and care for those around us. Help us to see the needs of others and to respond with love and guidance.\n\n## One-Line Application\nLet us respond to those in need with compassion and care, as Jesus did.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
