@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 228,
+  "theme": null,
+  "content_markdown": "# Cultivating Gratitude in the Midst of Chaos\n\n## Psalm 118:24 - \"This is the day the Lord has made; let us rejoice and be glad in it.\" (NIV, Psalm 118:24)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to become overwhelmed by the demands and stressors that bombard us from all sides. In the midst of chaos, it's crucial to cultivate a sense of gratitude. We can do this by intentionally focusing on the good things in our lives, no matter how small they may seem. It's the practice of naming and thanking God for the blessings we often take for granted. When we choose to rehearse the goodness of God, our hearts are renewed, and our perspective shifts. We begin to see the world through God's eyes, and the weight of our worries is lifted. As we rejoice in the day the Lord has made, we find peace, hope, and joy that transcends our circumstances.\n\n## Prayer\n\nWe thank you, Lord, for the gift of every new day and for the countless blessings that fill our lives. Help us to cultivate a heart of gratitude and to see the beauty in the midst of chaos. May our joy be contagious, and may our praise be a sweet aroma to you.\n\n## One-Line Application\n\nReframe your challenges as opportunities to express gratitude to God.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
