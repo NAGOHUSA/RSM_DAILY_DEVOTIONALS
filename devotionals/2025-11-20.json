@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 252,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart\n\n## Scripture\n\n\"But the one who stands firm to the end will be saved. And this gospel of the kingdom will be preached in all the world as a testimony to all nations, and then the end will come.\" - Matthew 24:13-14\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to lose sight of our purpose. The world around us can be overwhelming, and it's tempting to give up or lose focus. But the promise of Jesus is clear: those who stand firm to the end will be saved. This isn't about being perfect or never faltering, but about persevering in faith despite the challenges we face. It's about holding onto the gospel, the good news of salvation, and trusting that it will ultimately prevail.\n\nIn a world that often values strength and success above all else, we're reminded that true strength comes from God. It's not about our own abilities or accomplishments, but about surrendering to Him and trusting in His plan. As we walk this journey of faith, we're called to be witnesses of the gospel, sharing the hope of salvation with a world that desperately needs it.\n\n## Prayer\n\nWe ask that you give us the strength to stand firm in our faith, even in the midst of difficulty. Help us to hold onto the gospel and to trust in your plan, no matter what lies ahead.\n\n## One-Line Application\n\nStand firm in faith, trusting in God's plan and promise of salvation.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
