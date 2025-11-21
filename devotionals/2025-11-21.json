@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 223,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## Scripture\n\n\"For the Lord your God is a consuming fire, a jealous God.\" - Deuteronomy 4:24 (NIV)\n\n## Reflection\n\nAs followers of Christ, we are called to shepherd the flock of God. But what does it mean to be a shepherd in the midst of a chaotic world? It means being consumed by a passion for the Lord, and a jealousy for the souls of those we are called to care for. It means being willing to give ourselves fully to the task of guiding and protecting those who are vulnerable and in need. We must not be content with a half-hearted devotion to our calling, but rather, we must be driven by a fierce and unrelenting passion for the Lord and for the people He has entrusted to our care. We must be willing to surrender our own desires and ambitions, and to be consumed by the fire of His love.\n\n## Prayer\n\nWe pray that You would ignite a fire within us, a fire that burns away our complacency and our self-centeredness, and that consumes us with a passion for You and for the people You have called us to serve.\n\n## One-Line Application\n\nWe must be willing to surrender our own desires for the sake of those we are called to shepherd.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
