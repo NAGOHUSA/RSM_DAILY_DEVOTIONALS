@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 216,
+  "theme": null,
+  "content_markdown": "# Seeking Peace in Turbulent Times\n\n## Psalm 37:7\n\nTrust in the Lord and do good; dwell in the land and enjoy safe pasture. (Psalm 37:7, NIV)\n\n## Reflection\n\nIn the midst of life's turmoil, it's easy to lose sight of God's peace. But the psalmist reminds us that trust in the Lord is the key to enjoying safe pasture. This is not a call to ignore our problems or pretend they don't exist, but rather to anchor ourselves in God's goodness and sovereignty. When we trust in Him, we can face the challenges of life with confidence, knowing that He is our Rock and our Refuge. This trust is not a feeling, but a choice we make every day, and it's a choice that requires us to dwell in the Word and to seek God's face. As we learn to trust in the Lord, we'll find that His peace becomes our guiding force, even in the midst of turbulence.\n\n## Prayer\n\nWe trust in you, Lord, to provide us with safe pasture, even in the midst of turmoil. Help us to anchor ourselves in your goodness and sovereignty, and guide us to make choices that reflect our trust in you. \n\n## One-Line Application\n\nWe must trust in the Lord to find peace in turbulent times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
