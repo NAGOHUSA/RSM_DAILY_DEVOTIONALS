@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 198,
+  "theme": null,
+  "content_markdown": "# A Balm for the Weary Soul\n\n## Scripture\n\n\"For God is my rock and my salvation; he is my stronghold; I shall not be shaken. My salvation and glory proceed from God, and my rock, my savior, is God.\" - Psalm 62:6-7 (ESV)\n\n## Reflection\n\nIn a world filled with turmoil and uncertainty, it's easy to feel worn out and weary. We often seek solace in temporary fixes and fleeting comforts, only to find ourselves feeling emptier and more drained than before. But as Psalm 62 reminds us, our true strength and salvation come from God alone. He is our rock, our stronghold, and our savior. When we fix our eyes on Him, we can stand firm against any storm that comes our way. We can trust that His power and presence are always with us, working to bring us peace, comfort, and hope.\n\n## Prayer\n\nWe thank you, Lord, for being our rock and our salvation. Help us to fix our eyes on you in times of uncertainty and to trust in your power and presence. Keep us steadfast and unwavering in our faith.\n\n## One-Line Application\n\nWe will anchor our souls in God's unshakeable rock.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
