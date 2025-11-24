@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 243,
+  "theme": null,
+  "content_markdown": "# Trusting in God's Faithfulness\n\n## Psalm 37:3-4\n\nTrust in the Lord and do good; dwell in the land and enjoy safe pasture. Take delight in the Lord, and he will give you the desires of your heart. (Psalm 37:3-4, NIV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to get caught up in anxiety and fear. We worry about our future, our finances, and our relationships. But Psalm 37 reminds us to trust in God's faithfulness. When we place our trust in Him, we can dwell in the land and enjoy safe pasture. This means we can experience peace and contentment, even in the midst of uncertainty. It's not that our problems will disappear, but we can have confidence that God is working everything out for our good. As we take delight in the Lord, He will give us the desires of our heart, but not necessarily in the way we expect. Our desires may be transformed, our priorities may shift, and our hearts may be filled with a deeper longing for God.\n\n## Prayer\n\nWe trust in Your faithfulness, Lord, and ask that You would give us the strength to dwell in Your safe pasture. Help us to take delight in You, and to prioritize Your will above our own desires. We pray for peace and contentment, even in the midst of uncertainty.\n\n## One-Line Application\n\nTrust in God's faithfulness, and He will give you the desires of your heart.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
