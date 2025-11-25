@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 204,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Trial\n\n## Scripture\n\n\"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.\" - James 1:2-3 (NIV)\n\n## Reflection\n\nIn the midst of life's challenges, it's easy to feel overwhelmed and lose sight of God's presence. However, James reminds us that trials are not something to be feared, but rather opportunities for our faith to grow. As we face difficulties, we have the choice to view them as a chance to develop perseverance and trust in God's sovereignty. This perspective shift allows us to find peace in the midst of turmoil, knowing that our faith is being refined and strengthened. We can learn to rejoice in the midst of trials, not because we enjoy suffering, but because we know that it produces a deeper, more resilient faith.\n\n## Prayer\n\nWe ask that You would give us the heart to consider trials as opportunities for growth and joy. Help us to trust in Your sovereignty and to view challenges as chances to develop perseverance.\n\n## One-Line Application\n\nWe can find peace in trials by viewing them as opportunities for faith growth and development.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
