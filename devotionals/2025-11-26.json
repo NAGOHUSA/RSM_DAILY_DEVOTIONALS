@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 215,
+  "theme": null,
+  "content_markdown": "# Cultivating a Heart of Gratitude\n\n## Psalm 100:4\n\n\"Enter his gates with thanksgiving, and his courts with praise. Give thanks to him and bless his name.\" - Psalm 100:4\n\n## Reflection\n\nAs we navigate the ups and downs of life, it's easy to get caught up in our struggles and forget to give thanks. But the psalmist reminds us to \"enter his gates with thanksgiving\" and \"give thanks to Him and bless His name.\" This isn't just a suggestion, but a command from God Himself. When we choose to cultivate a heart of gratitude, we open ourselves up to a deeper sense of joy and contentment. We begin to see the goodness of God in every circumstance, even in the midst of trials. This doesn't mean our struggles disappear, but it means we have the strength and perspective to face them with hope. As we practice gratitude, we also become more aware of God's presence and character, and our worship and praise become more authentic and sincere.\n\n## Prayer\n\nWe thank you, Lord, for your goodness and lovingkindness. Help us to cultivate a heart of gratitude in every circumstance, that we may give thanks to you and bless your name.\n\n## One-Line Application\n\nGive thanks to God in every situation, no matter how difficult.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
