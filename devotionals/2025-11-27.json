@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 271,
+  "theme": null,
+  "content_markdown": "# Peace in Every Storm\n\n## Isaiah 43:2\n\n\"Do not be afraid, for I have raised you up to be a light to the nations, that my hand might be over you to protect you and to save you, declares the Lord, your Redeemer, the Holy One of Israel.\"\n\n(Isaiah 43:2, ESV)\n\n## Reflection\n\nIn the midst of life's turbulent waters, we often lose sight of God's presence and peace. Yet, Isaiah reminds us that we are not alone. God has raised us up to be a light to the nations and has placed His hand over us for protection and salvation. This promise is not limited to the past; it is a present reality. We can trust that God is our Redeemer, the Holy One who has claimed us as His own. \n\nThis understanding should bring us comfort and peace in every storm. We must learn to look beyond the surface level of our circumstances and gaze upon the face of God. Our fears and worries may rage like the sea, but our hearts can remain calm and steadfast, knowing that we are under God's watchful care. \n\nAs we navigate life's challenges, let us hold fast to this truth and draw near to our merciful God. He longs to calm the storms and speak peace to our souls.\n\n## Prayer\n\nWe come to you, Lord, in the midst of turmoil, seeking your peace and presence. Help us to gaze upon your face and trust in your protection. We pray for calm hearts and steadfast faith.\n\n## One-Line Application\n\nWe can rely on God's peace and presence in every turbulent situation.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
