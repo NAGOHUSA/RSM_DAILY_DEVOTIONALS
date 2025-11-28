@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Faithfulness\n\n## Scripture\n\"For God is not a God of disorder but of peace—as in all the congregations of the Lord’s people.\" - 1 Corinthians 14:33 (NIV)\n\n## Reflection\nAs we walk in faith, we must acknowledge that God is not a God of chaos but of peace. This principle applies to our personal lives and our interactions within the church community. When we allow the Lord to guide us, we will find harmony and unity among His people. It's easy to get caught up in our own desires and priorities, but we must remember that His peace is not about avoiding conflict, but about living in submission to His will. This means surrendering our own agendas and desires, and instead, working together as one body in Christ. By doing so, we create an environment where love, kindness, and understanding can flourish. May we strive to be a source of peace in the midst of turmoil, reflecting the character of our loving Father.\n\n## Prayer\nWe pray for the peace and unity of the church, that we may walk in harmony with one another, and that the Lord's presence may be evident in our midst.\n\n## One-Line Application\nMay we surrender our own agendas for the sake of peace and unity in the church.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
