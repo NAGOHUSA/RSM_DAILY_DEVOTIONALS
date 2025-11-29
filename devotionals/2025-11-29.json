@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 220,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Comfort in Times of Crisis\n\n## Psalm 23:4\n\n\"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\" (Psalm 23:4, NIV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to feel overwhelmed by the darkness that surrounds us. However, our trust in God should not waver. In times of crisis, our Shepherd is always present, guiding us through the darkest valleys. We can face our fears with confidence, knowing that His rod and staff comfort us. Just as a shepherd uses his rod to protect and guide his sheep, God uses His presence to safeguard and direct us through life's trials. We can rest in the assurance that we are not alone, and that His love and care for us are unwavering. In the midst of turmoil, let us remember that we are His beloved sheep, and He will lead us to green pastures.\n\n## Prayer\n\nWe thank you for being our Shepherd in times of crisis. Help us to trust in your presence and guidance, even when the road ahead seems uncertain. Comfort us with your rod and staff, and lead us to green pastures.\n\n## One-Line Application\nWe can face our fears with confidence, knowing God's presence comforts us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
