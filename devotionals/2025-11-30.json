@@ -1,0 +1,20 @@
+{
+  "date": "2025-11-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# Rest in the Strength of the Lord\n\n## Matthew 11:28-30\n\n\"Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy and my burden is light.\" - Matthew 11:28-30 (NIV)\n\n## Reflection\n\nAs we navigate life's challenges and overwhelming circumstances, it's easy to become weary and burdened. But Jesus invites us to come to Him, to find rest in His strength. His yoke is not a burden, but a partnership that allows us to share the weight and learn from Him. This is not a call to avoid difficulties, but to face them with confidence, knowing that we are not alone. We can trust in His gentle and humble heart, and find rest for our souls.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened. Help us to take your yoke upon us, and learn from your gentle and humble heart. Give us rest for our souls, and strengthen us to face the challenges ahead.\n\n## One-Line Application\n\nWe find rest and strength in surrendering to God's gentle and humble leadership.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
