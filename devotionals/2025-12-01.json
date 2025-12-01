@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 228,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Midst of Chaos\n\n## Psalm 119:165 - \"Great peace have those who love your law, and nothing can make them stumble.\" (NIV)\n\n## Reflection\n\nAs we navigate the complexities and uncertainties of life, it's easy to get caught up in the chaos and lose sight of peace. But the Bible reminds us that true peace is not something we find by avoiding challenges or difficulties, but by loving and obeying God's law. When we prioritize God's Word in our lives, we can experience a deep sense of peace that goes beyond our circumstances. This peace is not a feeling, but a reality that is rooted in our relationship with God. It's the peace that enables us to trust in His goodness and sovereignty, even when we don't understand what's happening. As we seek to love and obey God's law, we can experience this peace that passes all understanding. It's a peace that gives us the strength to face challenges with courage and faith, and to trust in God's goodness even in the midst of chaos.\n\n## Prayer\n\nWe thank you, Lord, for the gift of peace that comes from loving and obeying Your law. Help us to prioritize Your Word in our lives, and to trust in Your goodness and sovereignty.\n\n## One-Line Application\nWe experience peace by loving and obeying God's law.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
