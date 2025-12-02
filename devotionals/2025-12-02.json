@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 182,
+  "theme": null,
+  "content_markdown": "# Gentle Winter Snow Reminds Us of God's Peace\n\n## Psalm 119:52\n\n\"I remember your precepts of old, O Lord, and I ponder them by night.\" - Psalm 119:52\n\n## Reflection\n\nAs winter snow gently falls, it brings a stillness and quiet to our busy lives. In a similar way, God's word reminds us of His peace in the midst of chaos. We can find comfort in remembering His precepts, those timeless truths that guide us through life's storms. Just as a snowflake falls gently, unwavering from its path, so too can we trust that God's word will guide us, even when our world seems uncertain. As we ponder His precepts by night, we can rest in the knowledge that He is always with us, working all things for our good.\n\n## Prayer\n\nWe ask that You would remind us of Your precepts, Lord, and help us to ponder them in stillness. Give us the peace that comes from knowing You are always with us.\n\n## One-Line Application\n\nMay God's word be the anchor that holds us firm in times of uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
