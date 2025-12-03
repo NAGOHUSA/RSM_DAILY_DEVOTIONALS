@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 239,
+  "theme": null,
+  "content_markdown": "# Trusting in God's Sovereignty\n\n## Psalm 37:7\n\n\"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" - Psalm 37:7 (ESV)\n\n## Reflection\n\nIn a world that values progress and achievement, it's easy to get caught up in the idea that we need to work harder, be more productive, and push ourselves to succeed. But the psalmist reminds us to be still and wait patiently for God. This doesn't mean being idle or passive, but rather trusting in God's sovereignty and timing. When we focus on our own efforts and outcomes, we can become anxious and fretful, but when we entrust our lives to God, we can trust that He is working everything out for our good.\n\nAs we navigate the ups and downs of life, let's remember that God is not waiting for us to get our acts together before He intervenes. He is working even now, even when things seem to be going wrong. Let's learn to trust in His sovereignty and timing, and wait patiently for Him to work out His plans for our lives.\n\n## Prayer\n\nWe trust in Your sovereignty, Lord, and wait patiently for You to work out Your plans. Help us to be still and not fret when things seem uncertain. \n\n## One-Line Application\n\nTrusting in God's sovereignty brings peace in the midst of uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
