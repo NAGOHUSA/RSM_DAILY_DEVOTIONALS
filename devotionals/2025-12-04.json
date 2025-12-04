@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 164,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## Scripture\n\n\"For the Lord your God is a forgiving God.\" - Jonah 4:2\n\n## Reflection\n\nAs we reflect on the nature of our God, we are reminded of His compassion and mercy. Just as Jonah was instructed to care for the people of Nineveh, we too are called to tend to the spiritual needs of those around us. This includes our family, friends, and even strangers. We are not just caretakers, but also ambassadors of God's love. As we strive to be good shepherds, we must remember that our role is not to condemn or judge, but to guide and support. May we embody the heart of a shepherd, one who is gentle, yet firm in their care for others.\n\n## Prayer\n\nWe ask that You give us a shepherd's heart, Lord, to care for those around us with compassion and mercy.\n\n## One-Line Application\n\nMay our hearts be shaped by God's forgiving love for others.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
