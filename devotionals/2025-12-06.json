@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 190,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\n\nIn a world full of noise, distractions, and demands, it's easy to feel overwhelmed and worn out. We try to find peace in various things, but true rest and peace can only be found in Jesus. He invites us to come to Him, to lay down our burdens, and to find rest in His presence. We don't have to be controlled by our circumstances or emotions; we can choose to come to Jesus and find peace in the midst of chaos. This isn't a one-time event, but a daily choice we can make. We can come to Him time and time again, no matter what we're facing.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened. Help us to find rest in your presence. Give us the strength to lay down our burdens and to trust in your peace.\n\n## One-Line Application\n\nWe can find true peace in Jesus by coming to Him and laying down our burdens.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
