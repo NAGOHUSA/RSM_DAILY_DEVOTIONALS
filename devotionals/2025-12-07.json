@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 246,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Peace in Turbulent Times\n\n## Scripture\n\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\n\nIn a world filled with chaos and uncertainty, it's easy to lose sight of peace. But as followers of Christ, we have a unique source of peace that transcends the turmoil around us. This peace is not a feeling or an emotion, but a gift from God that resides within us. It's a peace that's rooted in our relationship with Him and our trust in His sovereignty.\n\nAs we navigate the challenges of life, we must remember that peace is not the absence of conflict, but the presence of God's calm in the midst of it. We can't manufacture peace on our own, but we can choose to rest in God's peace, even when our circumstances are difficult. This means trusting in His goodness, even when we don't understand what's happening, and relying on His strength to carry us through.\n\n## Prayer\n\nWe ask that you would give us your peace, Lord, and help us to rest in it, even in the midst of turmoil. Help us to trust in Your goodness and sovereignty, and to rely on Your strength to carry us through.\n\n## One-Line Application\n\nMay God's peace be our anchor in times of uncertainty and turmoil.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
