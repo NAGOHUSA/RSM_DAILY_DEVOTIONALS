@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Peace Amidst Life's Turmoil\n\n## Scripture\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\nIn the midst of life's chaos, we often find ourselves searching for peace. It's as if we're trying to find a calm harbor amidst raging waves. But the truth is, peace is not something we have to find; it's something we receive from Christ. In John 14:27, Jesus promises to leave His peace with us, a peace that's not based on our circumstances, but on the presence of God in our lives. This peace is not the world's idea of peace, which is often fleeting and dependent on external factors. No, this peace is a deep and abiding sense of calm that comes from knowing God's sovereignty and love. It's a peace that allows us to trust Him, even when our hearts are troubled and our fears are real.\n\n## Prayer\nWe thank you, God, for the gift of peace that You give us. Help us to trust in Your presence and Your love, even in the midst of turmoil. \n\n## One-Line Application\nWe can trust God's peace to calm our troubled hearts.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
