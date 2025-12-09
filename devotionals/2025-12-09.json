@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 233,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Midst of Chaos\n\n## Psalm 37:7 - \"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to get caught up in the whirlwind of our surroundings. We become anxious, worried, and fearful, trying to control the uncontrollable. But God's word reminds us to \"be still\" and \"wait patiently\" for Him. This doesn't mean we become passive or inactive; it means we trust in God's sovereignty and goodness, even when circumstances seem to contradict it. We recognize that God is working all things together for our good (Romans 8:28), and we rest in His promises. As we learn to wait on God, we experience peace that surpasses our understanding (Philippians 4:7). We become like a tree planted by streams of water, whose roots grow deep and whose leaves remain green even in the midst of drought (Psalm 1:3).\n\n## Prayer\n\nWe come before you, Lord, and ask for the gift of peace that only You can give. Help us to be still and wait patiently for You, trusting in Your sovereignty and goodness. Give us the strength to rest in Your promises, even when circumstances seem uncertain.\n\n## One-Line Application\nWe find peace in stillness, trusting God's sovereignty and goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
