@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 224,
+  "theme": null,
+  "content_markdown": "# Peace in the Storm\n\n## Psalm 46:10 - \"Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" (Psalm 46:10, NIV)\n\n## Reflection\n\nIn the midst of chaos, it's easy to become overwhelmed and lose sight of who God is. But He is a God of peace, calm, and control. When the storms of life rage around us, we must remember that He is our Rock, our Refuge, and our Peace. We can choose to be still, to trust in His goodness and power, and to know that He is God. This is not a passive inactivity, but an active surrender to His sovereignty. As we quiet our hearts and minds, we can experience His peace that surpasses all understanding. In the midst of the storm, we can find a sense of calm and clarity, knowing that God is in control.\n\n## Prayer\n\nWe come before You, Lord, and ask for Your peace to invade our hearts and minds. Help us to be still and know that You are God, even in the midst of chaos and uncertainty. We trust in Your goodness and power, and we thank You for being our Rock and our Refuge.\n\n## One-Line Application\nTrust in God's sovereignty to bring peace in the midst of chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
