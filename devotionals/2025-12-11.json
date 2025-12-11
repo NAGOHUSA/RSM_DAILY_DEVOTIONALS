@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-11",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 194,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Stormy Night\n\n## Scripture\n\"And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.\" - Philippians 4:7 (NIV)\n\n## Reflection\nLife can be tumultuous, and we often find ourselves facing unexpected challenges and uncertainties. Yet, in the midst of this chaos, we are reminded of the promise of peace that God provides. This peace is not a natural response to our situation, but rather a supernatural gift that transcends our understanding. It is not a feeling that we can conjure up, but a deep sense of calm and security that comes from knowing that we are in God's care. As we navigate the stormy nights of life, we can hold onto this promise, trusting that God's peace will guard our hearts and minds, even when our circumstances seem to be spiraling out of control.\n\n## Prayer\nWe ask for Your peace, God, to guard our hearts and minds in Christ Jesus. Help us to trust in Your sovereignty and goodness, even in the midst of uncertainty.\n\n## One-Line Application\nWe can find peace by trusting in God's sovereignty and goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
