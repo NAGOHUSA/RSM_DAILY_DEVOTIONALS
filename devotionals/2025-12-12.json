@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 213,
+  "theme": null,
+  "content_markdown": "# Rest in God's Presence\n\n## Scripture\n\n\"The Lord is near to the brokenhearted and saves the crushed in spirit.\" - Psalm 34:18 (ESV)\n\n## Reflection\n\nIn a world that often values productivity and busyness, it's easy to overlook the importance of rest. But the Bible reminds us that God is near to those who are brokenhearted and crushed in spirit. This is not a call to avoid our problems or responsibilities, but rather to acknowledge that we can't carry them alone. Just as a tree needs its roots to remain grounded in order to grow strong, we need to stay grounded in God's presence. This means taking time to slow down, be still, and listen to God's voice. It means recognizing that our worth and identity are not defined by our accomplishments, but by our relationship with God. As we learn to rest in God's presence, we'll find that our hearts are renewed, our minds are clarified, and our spirits are lifted.\n\n## Prayer\n\nWe lift our weary heads to you, Lord, and ask for the courage to rest in your presence. Help us to slow down and be still, knowing that you are near to us.\n\n## One-Line Application\n\nRest in God's presence to find renewal and clarity in your life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
