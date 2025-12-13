@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 214,
+  "theme": null,
+  "content_markdown": "# A Gentle Reminder of God's Presence\n\n## Scripture\n\n\"Be still before the Lord and say, 'Lord, God, my salvation; I will put my trust in you.'\" – Psalm 38:15 (ESV)\n\n## Reflection\n\nLife can be overwhelming, and it's easy to become anxious about the future or caught up in the chaos of the present. In Psalm 38, David reminds us of the importance of staying still before the Lord. It's not about being inactive or avoiding problems, but about choosing to trust in God's presence and sovereignty. When we're still before Him, we're able to recognize that our salvation comes from Him alone. This reminder frees us from the burden of trying to control everything and instead allows us to rest in the peace that only comes from God. As we learn to be still, we'll find that our trust in Him grows, and our hearts become more at peace.\n\n## Prayer\n\nWe come before you today, Lord, and choose to be still. Help us to trust in your presence and sovereignty, and may our salvation be our focus. We pray for peace that passes understanding and the ability to rest in your peace.\n\n## One-Line Application\n\nWe must choose to be still before the Lord to trust in His presence and sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
