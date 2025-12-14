@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 205,
+  "theme": null,
+  "content_markdown": "# Comfort in the Midst of Suffering\n\n## Psalm 34:18 (NIV)\n\nThe Lord is close to the brokenhearted and saves the crushed in spirit. - Psalm 34:18 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, we may find ourselves broken and crushed. It's in these moments that we must remember God's presence and promise. He is near to those who feel the weight of their circumstances. His closeness brings comfort, and His presence offers hope in dark times. We don't have to face our struggles alone because He is with us, guiding and sustaining us. When feelings of despair creep in, we can rest in the truth that God is saving those who are crushed in spirit. This saving work is not just about rescuing us from our troubles but also about transforming us in the midst of them. He is our refuge, our strength, and our guiding light in the darkest of times.\n\n## Prayer\n\nWe pray that You would be our comfort in the midst of suffering, drawing near to those who are brokenhearted. Help us rest in Your presence and trust Your saving work.\n\n## One-Line Application\n\nWe find comfort in knowing God is close to those who feel brokenhearted.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
