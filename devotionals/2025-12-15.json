@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 209,
+  "theme": null,
+  "content_markdown": "# Gentle Guidance in the Dark Times\n\n## Psalm 119:105 - \"Your word is a lamp for my feet, a light on my path.\"\n\nIn the midst of life's uncertainty, we often find ourselves navigating through dark times. It's during these moments that we need guidance to lead us forward. The Bible reminds us that God's word is our lamp, illuminating our path. This isn't a promise of an easy journey or a guarantee of a smooth road. Rather, it's an assurance that even in the midst of challenges, we have a divine guide to accompany us.\n\nThe lamp of God's word shines brightest when we're willing to seek it out. It requires us to open our Bibles, to read and meditate on its teachings. We must be intentional about seeking guidance from Scripture, rather than relying solely on our own understanding or the counsel of others. As we do, we'll find that God's word provides us with wisdom, comfort, and direction, even in the darkest of times.\n\n## Prayer\nWe pray for the light of Your word to guide us through life's challenges, illuminating our path and giving us wisdom and direction.\n\n## One-Line Application\nMay God's word be our primary source of guidance in times of uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
