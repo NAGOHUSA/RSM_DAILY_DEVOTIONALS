@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Storm\n\n## Psalm 46:10 (NIV)\n\n\"He says, 'Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!'\"\n\nIn the midst of life's turbulent storms, it's easy to get caught up in worry and anxiety. We try to control the winds and the waves, but ultimately, we're unable to calm the tempest. It's in these moments that we're reminded of God's sovereignty and power. He is the one who holds the reins, and He says to us, \"Be still.\" Not to be idle or inactive, but to trust in His goodness and faithfulness. He is our rock, our refuge, and our shelter from the storm. As we learn to trust in Him, we find peace that transcends understanding. We find peace that calms the raging waters and quiets the howling wind. We find peace that allows us to rest in His presence, knowing that He is in control.\n\n## Prayer\n\nWe thank you, Lord, for the reminder to be still and trust in you. Help us to quiet our hearts and minds, and to rest in your presence. Give us the peace that passes all understanding.\n\n## One-Line Application\n\nWe must learn to trust God's sovereignty in the midst of life's storms.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
