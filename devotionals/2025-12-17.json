@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 243,
+  "theme": null,
+  "content_markdown": "# Peace that Transcends Circumstances\n\n## Scripture\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.\" - Philippians 4:6-7\n\n## Reflection\n\nIn the chaos of life, it's easy to become overwhelmed and anxious. We worry about the future, stress about the present, and dwell on the past. But as Christians, we have a different approach. We can choose to bring every situation to God in prayer, with thanksgiving and humility. As we do, we experience the peace of God that goes beyond our understanding. This peace is not a feeling, but a promise. It's a reality that guards our hearts and minds in the midst of turmoil. We can trust that God is working, even when we can't see it. We can trust that He is sovereign, even when our circumstances seem out of control. And we can trust that He is good, even when life is hard.\n\n## Prayer\n\nWe pray for the peace that transcends all understanding to guard our hearts and minds in Christ Jesus. Help us to present every situation to you in prayer, with thanksgiving and humility. Give us the courage to trust in your goodness and sovereignty, even when life is hard.\n\n## One-Line Application\n\nBring every situation to God in prayer with thanksgiving and humility.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
