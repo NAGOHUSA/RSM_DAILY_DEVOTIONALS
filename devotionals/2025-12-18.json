@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 215,
+  "theme": null,
+  "content_markdown": "# Peaceful Presence in Turbulent Times\n\n## Scripture\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.\" - Philippians 4:6-7 (NIV)\n\n## Reflection\n\nIn the midst of chaotic and uncertain times, it's easy to become consumed by worry and anxiety. Yet, Scripture reminds us that peace is available to those who seek it in prayer. We are not called to navigate our struggles alone, but to bring them before God with thanksgiving and trust. As we do, the peace that surpasses human understanding will envelop our hearts and minds, providing a sense of calm and stability. This peace is not a feeling, but a promise, and one that we can cling to even when our circumstances seem overwhelming.\n\n## Prayer\n\nWe ask that You would guard our hearts and minds in Christ Jesus, providing peace that transcends our understanding. Help us to present our requests to You with thanksgiving, trusting in Your goodness and care. Give us the strength to seek You in times of turmoil, and to rest in Your peace.\n\n## One-Line Application\n\nSeek peace by praying with thanksgiving in all situations.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
