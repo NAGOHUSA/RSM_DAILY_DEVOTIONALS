@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 253,
+  "theme": null,
+  "content_markdown": "# Hope in the Midst of Winter\n\n## Matthew 24:22\n\n\"For then there will be a great tribulation, such as has not been from the beginning of the world until now—no, and never will be. And if those days had not been cut short, no human being would be saved. But for the sake of the elect those days will be cut short.\" \n\n## Matthew 24:22 (ESV)\n\n## Reflection\n\nAs winter brings cold and darkness, we face our own seasons of spiritual tribulation. The world may seem bleak, and our faith may be tested. Yet, just as winter's shortest days signal the return of longer days, so too will God cut short our trials for the sake of His people. We hold onto hope, not in our circumstances, but in Jesus, who has overcome the darkness and offers us His enduring light. We are not abandoned, but rather, we are being refined and strengthened by the trials we face. As we walk through the winter of our lives, we remember that our trials are not random, but rather, they are designed by a loving Father to reveal our dependence on Him and to showcase His glory in our lives.\n\n## Prayer\n\nWe pray for hope to rise above our winter, and for faith to anchor us securely in Your promise. We trust that You will cut short our trials for our good and Your glory.\n\n## One-Line Application\n\nWe cling to the promise of a brighter tomorrow in the midst of winter's darkness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
