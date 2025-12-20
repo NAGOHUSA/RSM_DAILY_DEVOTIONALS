@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 213,
+  "theme": null,
+  "content_markdown": "# Embracing the Peace of God's Presence\n\n## Scripture\n\n\"Therefore I have hope in Him. We shall again see good.\" - Job 19:27 (ESV)\n\n## Reflection\n\nIn the midst of turmoil and uncertainty, Job's words serve as a powerful reminder of God's faithfulness. Despite his suffering and questions about God's presence, Job holds on to hope. This hope is not rooted in his circumstances but in the character of God. When we face our own struggles and doubts, we can echo Job's confession: \"I have hope in Him.\" This hope is not a feeling but a confident trust in God's goodness and sovereignty. It's a promise that, even in the darkest moments, He is working all things for our good (Romans 8:28). We can cling to this hope, trusting that God's presence is always near, even when it doesn't feel like it. And in that presence, we can find the peace that surpasses all understanding (Philippians 4:7).\n\n## Prayer\n\nWe pray for the peace that comes from trusting in Your presence, God. Help us to hold on to hope in You, even when circumstances seem uncertain. We surrender our doubts and fears to You, trusting Your goodness and sovereignty.\n\n## One-Line Application\n\nMay our hope be rooted in God's character, not our circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
