@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 255,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Faith in Times of Uncertainty\n\n## Scripture\n\n\"For God did not give us a spirit of fear, but of power and of love and of a sound mind.\" - 2 Timothy 1:7\n\n## Reflection\n\nAs the year draws to a close, uncertainty can be a prevailing emotion for many of us. We may be uncertain about the future, our circumstances, or the path ahead. However, the Bible reminds us that God doesn't give us a spirit of fear. Instead, He gives us a spirit of power, love, and a sound mind. This is not to say that we won't face challenges or difficulties, but it is to say that we have the capacity to face them with confidence and faith. We can trust that God is working all things together for our good, even in the midst of uncertainty.\n\nAs we reflect on this verse, let's remember that a sound mind is not the absence of fear, but the presence of faith. It's the ability to trust God's sovereignty and goodness, even when we don't understand what's happening. We can cultivate a sound mind by meditating on God's Word, praying for wisdom, and trusting in His promises.\n\n## Prayer\n\nWe ask, Lord, for a spirit of power, love, and a sound mind as we navigate uncertain times. Help us to trust in Your goodness and sovereignty, even when we don't understand what's happening.\n\n## One-Line Application\n\nWe can face uncertainty with confidence and faith by trusting in God's power and goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
