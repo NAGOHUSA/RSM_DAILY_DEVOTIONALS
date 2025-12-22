@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 240,
+  "theme": null,
+  "content_markdown": "# Hope in the Midst of Darkness\n\n## Scripture\n\n\"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.\" - John 3:16 (NIV)\n\n## Reflection\n\nAs the world around us grows darker, it's easy to lose hope. But in this passage, we're reminded of the greatest act of love in history – God's gift of His Son to save us. In the midst of chaos and uncertainty, we can hold onto this truth: that no matter what we face, God's love remains constant. We don't have to rely on our own strength or understanding to navigate life's challenges. Instead, we can trust in the love of our Heavenly Father, who gave His best for us.\n\nIn the darkest moments, we can whisper John 3:16 to ourselves, reminding us that God's love is greater than any fear or doubt. We can rest in the knowledge that we are loved, valued, and cherished by the One who created us. This hope anchors us to the present, and gives us the courage to face the future with faith and confidence.\n\n## Prayer\n\nWe pray for the gift of hope in our lives, reminding us of Your unwavering love, Father. May Your presence be our anchor in the midst of darkness.\n\n## One-Line Application\nWe can find hope in the darkest moments by trusting in God's unwavering love.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
