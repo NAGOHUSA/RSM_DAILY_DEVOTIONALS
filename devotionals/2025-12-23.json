@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 219,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\n\"I am leaving you with a gift—peace of mind and heart! And the world is going to hear that we are coming back, one fine day. So, let the Father be your home.\" - John 14:27 (NLT)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to become overwhelmed by the noise around us. But Jesus reminds us that He has left us with a gift – peace of mind and heart. This peace is not dependent on our circumstances but is rooted in our relationship with Him. When we choose to dwell in His presence, our hearts find calm in the midst of chaos. It's not that the world around us becomes quieter, but our souls learn to rest in the midst of turmoil. This peace is not just a feeling but a promise from God, one that guides us through the darkest times and equips us to face the most daunting challenges.\n\n## Prayer\n\nWe ask for the gift of peace that comes from knowing You, Lord. Help us to dwell in Your presence and find calm in the midst of chaos. Fill our hearts with Your peace that passes understanding.\n\n## One-Line Application\n\nChoose to dwell in God's presence to find peace in chaotic circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
