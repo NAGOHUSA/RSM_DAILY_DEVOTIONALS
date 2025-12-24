@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 213,
+  "theme": null,
+  "content_markdown": "# A Christmas Eve Reflection on Peace\n\n## Matthew 2:6\n\n\"And you, O Bethlehem, in the land of Judah, are by no means least among the rulers of Judah: for out of you will come a ruler who will shepherd my people Israel.\" - Matthew 2:6\n\n## Reflection\n\nIn a time when the world is often marked by chaos and uncertainty, we find a profound reminder of God's peace in the birth of Jesus. The prophet Micah foretells that a savior will be born in Bethlehem, a city considered insignificant by the world's standards. Yet, this child will bring hope and guidance to God's people. As we reflect on the significance of Jesus' birth, we're reminded that true peace is not found in the things that often distract us, but in the quiet presence of God. May we seek to still our hearts and minds, focusing on the promise of a Shepherd who will lead us to peace and salvation.\n\n## Prayer\n\nWe ask that you would calm our anxious hearts, O Lord, and fill us with the peace that comes from knowing you as our Shepherd. Guide us to seek your presence in the stillness of the night.\n\n## One-Line Application\nMay the gentle peace of Jesus' birth calm our troubled minds.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
