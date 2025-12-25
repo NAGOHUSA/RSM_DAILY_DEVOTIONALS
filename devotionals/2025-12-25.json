@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 242,
+  "theme": null,
+  "content_markdown": "# A Christmas Gift of Peace\n\n## Scripture\n\n\"For to us a child is born, to us a son is given; and the government shall be upon his shoulder, and his name shall be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.\" - Isaiah 9:6 (ESV)\n\n## Reflection\n\nAs we celebrate the gift of Jesus Christ on this Christmas Day, let us not forget the true nature of His gift. He is not just a baby in a manger, but a Prince of Peace who brings calm in the midst of chaos. In a world filled with conflict and division, we need His peace more than ever. It is a peace that transcends human understanding, a peace that is not dependent on circumstances, but on the presence of God in our lives. As we reflect on the birth of Jesus, let us also reflect on the peace He brings. Let us ask ourselves, \"Are we allowing His peace to rule in our hearts and minds?\" Let us seek to be agents of peace in a world that desperately needs it.\n\n## Prayer\n\nWe pray that the Prince of Peace would calm our fears and bring us His peace today. We ask that He would rule in our hearts and minds, and that we would be instruments of peace to those around us.\n\n## One-Line Application\n\nMay the Prince of Peace rule in your heart and be your source of calm.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
