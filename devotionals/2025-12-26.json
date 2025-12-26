@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 213,
+  "theme": null,
+  "content_markdown": "# Christmas Morning Reflections\n\n## Psalm 98:2\n\nThe Lord has made his salvation known and revealed his righteousness to nations. (Psalm 98:2, NIV)\n\n## Reflection\n\nAs we gather around the nativity scene, we're reminded of God's grand plan to redeem the world. The birth of Jesus is more than a historical event; it's a declaration of God's love and justice. The angels sang of His salvation, and we continue to share this good news with the world. Just as the shepherds left their flocks to worship, we're called to leave our comfort zones to share the Gospel. This season, let's not just focus on the presents and the festivities but on the purpose behind it all – to glorify God and to make Him known to the nations. May our hearts be filled with the joy and wonder of the Christmas story, and may our lives reflect the love of Christ to those around us.\n\n## Prayer\n\nWe thank you, Lord, for the gift of salvation and the chance to share it with others. Help us to be your witnesses, both in word and deed, and fill our hearts with the joy of the Gospel.\n\n## One-Line Application\n\nMay our Christmas celebrations overflow with the love and joy of our Savior Jesus Christ.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
