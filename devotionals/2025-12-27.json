@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 201,
+  "theme": null,
+  "content_markdown": "# Peaceful Reflections on Emmanuel's Presence\n\n## Scripture\n\n\"Behold, a virgin shall be with child and shall bear a son, and they shall call his name Emmanuel, which means, God with us.\" - Matthew 1:23\n\n## Reflection\n\nAs we celebrate Christmas and the birth of Jesus, let us not forget the significance of the name Emmanuel, God with us. It's a reminder that our God is not distant or disconnected from us, but a loving Father who chooses to dwell among us. Just as a child grows and develops within their mother's womb, so too is our spiritual growth nurtured by God's presence within us. As we navigate life's challenges, we can find comfort in knowing that Emmanuel walks beside us, guiding and empowering us to trust in His goodness. May we cultivate a deep sense of His presence and rely on Him for strength and peace.\n\n## Prayer\n\nWe thank you, Heavenly Father, for the gift of Emmanuel, God with us. Help us to sense Your presence and to trust in Your loving care. May we be vessels of Your peace and comfort to those around us.\n\n## One-Line Application\n\nMay you rest in the assurance of God's presence, Emmanuel.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
