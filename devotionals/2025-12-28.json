@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 226,
+  "theme": null,
+  "content_markdown": "# Steadfast in the Face of Adversity\n\n## Matthew 10:22\n\n\"Do not be afraid of those who kill the body but cannot kill the soul. Rather, be afraid of the One who can destroy both soul and body in hell.\" - Jesus (Matthew 10:28, NIV)\n\n## Reflection\n\nLife can be unpredictable and challenging at times. As followers of Christ, we're called to stand firm in our faith, even when faced with adversity. Jesus' words remind us that our ultimate fear should be the Lord Himself. When we place our trust in Him, we're not exempt from difficulties, but we can face them with confidence, knowing that God is our Rock and our Refuge. This steadfastness doesn't come from our own strength but from the power of Christ living within us. As we walk through life's trials, let's remember that our faith is not just about intellectual agreement but about a deep, personal relationship with the Lord. It's in this relationship that we find the courage and resilience to persevere.\n\n## Prayer\n\nWe pray for the strength to stand firm in our faith, even in the face of adversity. Help us to fear You more than anything else, Lord. Fill us with Your presence and give us the courage to trust in You.\n\n## One-Line Application\nTrust in God's presence gives us the strength to face adversity.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
