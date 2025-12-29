@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 212,
+  "theme": null,
+  "content_markdown": "# Quiet Trust in the New Year\n\n## Psalm 37:3-4 (NIV)\n\n3 Trust in the Lord and do good; dwell in the land and enjoy safe pasture. 4 Take delight in the Lord, and he will give you the desires of your heart.\n\n## Reflection\n\nAs we step into a new year, it's easy to get caught up in making resolutions and setting goals. But before we do, let's take a step back and remember the foundation of our hope: trust in the Lord. When we trust in Him, we can be confident that He will provide for us, guide us, and give us the desires of our heart. This trust doesn't mean we won't face challenges or uncertainties, but rather that we will face them with a sense of peace and security. As we reflect on our desires for the new year, let's ask ourselves if they align with God's will for our lives. Are we seeking to please Him, or are we seeking our own selfish desires?\n\n## Prayer\n\nWe trust in You, Lord, to guide us this new year. Give us the desires of our heart that align with Your will.\n\n## One-Line Application\n\nTrust in the Lord and do good to enjoy a safe and peaceful new year.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
