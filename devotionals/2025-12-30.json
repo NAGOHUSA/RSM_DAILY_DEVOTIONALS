@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 241,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Midst of Chaos\n\n## Scripture\n\n\"Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.\" - John 14:27 (ESV)\n\n## Reflection\n\nIn a world filled with uncertainty and turmoil, it's easy to feel overwhelmed and anxious. But as followers of Christ, we have a source of peace that transcends the chaos. This peace is not the fleeting calm of the world, but a deep sense of trust and confidence in God's presence and sovereignty. It's the peace that comes from knowing that He is with us, guiding us through life's storms.\n\nAs we navigate the challenges of this season, let's remember that God's peace is not just a feeling, but a promise. It's a gift that He gives to us, and it's available to us in the midst of chaos. In order to experience this peace, we must learn to trust in God's goodness and faithfulness, even when we don't understand what's happening.\n\n## Prayer\n\nWe ask for Your peace, Lord, that passes all understanding. Fill our hearts with a sense of trust and confidence in Your presence and sovereignty. Help us to not let our hearts be troubled, but to rest in Your peace.\n\n## One-Line Application\n\nWe can find peace in the midst of chaos by trusting in God's goodness and faithfulness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
