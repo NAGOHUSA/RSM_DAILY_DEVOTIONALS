@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-31",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 226,
+  "theme": null,
+  "content_markdown": "# New Year's Eve: A Call to Humble Faith\n\n## Scripture\n\"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.\" - Proverbs 3:5-6 (NIV)\n\n## Reflection\nAs we stand at the threshold of a new year, our hearts are filled with anticipation and uncertainty. We don't know what the future holds, but we do know that it belongs to God. In the face of unknowns, it's easy to rely on our own understanding and plans. But Proverbs 3:5-6 reminds us to trust in the Lord with all our heart, to submit to Him in all our ways. This means surrendering our agendas to His sovereignty and trusting that He will make our paths straight. It's not about having all the answers or being in control; it's about having a humble faith that submits to God's guidance and wisdom. As we enter this new year, let's choose to trust in the Lord, even when we don't understand what's ahead.\n\n## Prayer\nWe trust in your sovereignty, Lord, and submit to your guidance in the new year. Help us to lean not on our own understanding, but on your wisdom and faithfulness.\n\n## One-Line Application\nTrust in God's sovereignty as you face the unknowns of the new year.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
