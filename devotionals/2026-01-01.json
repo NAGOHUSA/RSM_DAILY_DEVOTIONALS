@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 235,
+  "theme": null,
+  "content_markdown": "# A New Year's Hope in the Promised Land\n\n## Scripture\n\"Thus says the Lord who made the earth, the Lord who formed it to establish it—the Lord is his name: Call unto me, and I will answer you, and show you great and mighty things which you do not know.\" - Jeremiah 33:2-3\n\n## Reflection\nAs we begin this new year, our hearts are filled with anticipation and hope. We look to the future, seeking answers to the questions that have held us back. The Lord reminds us that He is the One who forms and establishes the earth, and that He is willing to share His wisdom with those who call upon Him. We don't have to navigate the unknowns of life on our own. We can bring our deepest fears and desires to the One who knows all. He will answer us, but we must be willing to listen. In a world that often whispers \"you're on your own,\" the Lord's promise is a powerful reminder that we are not alone.\n\n## Prayer\nWe call out to You, Lord, and ask that You would answer us in this new year. Show us great and mighty things that we do not know, and guide us on the path that You have laid out for us.\n\n## One-Line Application\nWe can trust the Lord to guide us in the unknowns of this new year.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
