@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 251,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Uncertain Times\n\n## Scripture\n\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\n\nIn a world filled with uncertainty, it's easy to feel anxious and fearful. But as followers of Christ, we are called to a different way of living. Jesus promises us his peace, a peace that is not based on circumstances but on our relationship with Him. When we trust in Him, we can find calm in the midst of chaos. This peace is not like the world's peace, which is often fleeting and dependent on external factors. Rather, it's a deep and abiding peace that comes from knowing we are loved and cared for by God.\n\nAs we navigate uncertain times, let's hold onto this promise. Let's remember that God is not surprised by the things that are happening in our lives. He is always working, always moving, and always loving us. And in the midst of it all, He promises to give us peace.\n\n## Prayer\n\nWe ask that you would give us your peace, Lord. Help us to trust in you, even when we don't understand what's happening. Give us the courage to face our fears and uncertainties with confidence in your love and care for us.\n\n## One-Line Application\n\nWe can find peace by trusting in God's love and care for us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
