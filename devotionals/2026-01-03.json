@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 277,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Midst of Chaos\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.\" - Matthew 11:28-29 (NIV)\n\n## Reflection\n\nAs we navigate the twists and turns of life, it's easy to become overwhelmed by the demands and responsibilities that surround us. But Jesus invites us to come to him, to lay down our burdens and take on his gentle yoke. This isn't a call to escape our problems or avoid the challenges that lie ahead, but rather to find rest in the midst of them. When we learn from Jesus, we begin to see the world through his eyes, and we discover that even in the midst of chaos, there is a deep peace that can be found.\n\nThis peace isn't about avoiding difficult situations, but about trusting in God's sovereignty and goodness, even when we don't understand what's happening. As we take on Jesus' yoke, we begin to see that our burdens are not too great for him, and that he is strong enough to carry us through even the most trying times.\n\n## Prayer\n\nWe pray, Lord, that you would help us to find rest in the midst of chaos. Give us the strength to lay down our burdens and take on your gentle yoke. Help us to trust in your sovereignty and goodness, and to find peace in the midst of uncertainty.\n\n## One-Line Application\n\nWe must trust in God's sovereignty and goodness during chaotic times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
