@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for the Flock\n\n## Matthew 26:31\n\n\"Do you think that I cannot call on my Father, and he will at once put at my disposal more than twelve legions of angels?\" Matthew 26:31 (ESV)\n\n## Reflection\n\nIn times of uncertainty, we often feel like sheep without a shepherd. Yet, our Good Shepherd is always with us, watching over us and caring for our souls. Jesus reminds us here that He has the power to call on divine help, if needed. But He doesn't because He is our Shepherd, not a hireling who flees when danger comes. He laid down His life for us, and in His absence, His promise to us remains: \"I am with you always, to the end of the age\" (Matthew 28:20). This promises us peace, comfort, and guidance. When we feel lost or frightened, we must remember that our Shepherd's care is always near, and He will never forsake us.\n\n## Prayer\n\nWe thank you, heavenly Father, for sending us a Shepherd who cares for us so deeply. May we trust in your promise to be always with us, and may we find peace and comfort in your loving care.\n\n## One-Line Application\n\nWe can trust our Shepherd's care in times of uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
