@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 297,
+  "theme": null,
+  "content_markdown": "# Anchored in Faith\n\n## Matthew 14:31\n\n\"When Jesus came walking by the lake, he saw them casting their nets into the water—for they were fishermen. 'Get into the boat,' he said, 'and let's go out to the other side.' And they set out, leaving the crowd behind. But other boats followed in Jesus' wake. Suddenly, a fierce storm burst upon them, and the waves crashed against the boat. But Jesus was in the boat, and he was asleep. The disciples went and woke him, saying, 'Lord, save us! We are perishing!' He replied, 'Why are you so afraid? Have you still no faith?' They were awestruck and exclaimed, 'Who is this, that even the wind and the waves obey him?' Then he got up and rebuked the wind and the raging waves. 'Quiet! Be still!' he said. And immediately the storm subsided.\" (Matthew 14:31-32, 22-32, NIV)\n\n## Reflection\n\nIn the midst of life's turmoil, we often find ourselves in a stormy sea, wondering if our faith will hold. The disciples, seasoned fishermen that they were, couldn't navigate the tempest. Yet, they took Jesus' word and stepped into the darkness, trusting Him to guide them. Jesus' presence brought calm to the waves, reassuring the disciples that He was with them. When we doubt our faith, we must look to Jesus, who has authority over the tempests of life.\n\n## Prayer\n\nWe come before You, Lord Jesus, in the midst of life's turmoil. Help us to trust in Your presence and authority over the storms that rage within and around us. Calm our fears and quiet our doubts, that we may anchor our hearts in faith and obedience.\n\n## One-Line Application\n\nFaith is not about our ability to navigate life's storms, but about trusting Jesus' presence and authority.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
