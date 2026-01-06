@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 199,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Midst of Chaos\n\n## Scripture\n\"And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.\" - Philippians 4:7 (ESV)\n\n## Reflection\nLife is full of unexpected twists and turns. The world around us can seem chaotic, leaving us feeling anxious and uncertain. Yet, as followers of Christ, we have access to a peace that goes beyond our human comprehension. This peace is not a feeling, but a promise from God. It is a shelter from the storms that rage within and around us. When we fix our eyes on Christ, we can trust that His peace will guard our hearts and minds, protecting us from the fear and doubt that can consume us. This peace is not a one-time event, but a constant presence that we can draw upon in every moment.\n\n## Prayer\nWe ask that You would envelop us with Your peace, guarding our hearts and minds in Christ Jesus. Help us to trust in Your presence and power, even in the midst of chaos.\n\n## One-Line Application\nWe can find peace in the midst of chaos by fixing our eyes on Christ.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
