@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# Abiding in Christ's Love\n\n## John 15:9\n\nGreater love has no one than this: to lay down one's life for one's friends. - John 15:9 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to get caught up in the pressures of our surroundings. We may feel like we're drowning in a sea of expectations, responsibilities, and cares. In these moments, it's crucial to remember that our identity is rooted in Christ's love for us. He laid down His life for our sake, demonstrating a love that transcends our circumstances. This love is not a feeling, but a choice – a choice that we can choose to emulate in our relationships with others. When we prioritize love and sacrifice, we begin to experience the freedom to live not by our own strength, but by the power of Christ's love. We are no longer bound by fear, anxiety, or doubt, but empowered to love as He loves.\n\n## Prayer\n\nWe ask that you would help us to prioritize love in our lives, laying down our own desires for the sake of others. May we experience the freedom that comes from living in your love.\n\n## One-Line Application\nLay down your life for the sake of those around you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
