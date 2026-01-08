@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 248,
+  "theme": null,
+  "content_markdown": "# Steadfast in the Stormy Night\n\n## Matthew 14:22-23\n\nBut Jesus instructed his disciples to get into the boat and go before him to the other side, while he dismissed the crowds. And after he had dismissed the crowds, he went up on the mountain by himself to pray. When evening came, he was there alone.\n\n## Reflection\n\nAs we navigate life's turbulent seasons, we find ourselves in situations where we're left to face the darkness alone. In this moment, we can choose to panic, or we can take a cue from Jesus, who retreated to a solitary place to pray. In the stillness, he found the strength to carry on, even as the storm raged on. We, too, can find solace in the quiet hours, where we can pour out our fears and doubts to the Lord. It's in these moments that we discover our faith is not in our own ability to control the circumstances, but in the unshakeable promise of God's presence. As we face the unknown, let us remember that we are not alone, for the Lord is always near, guiding us through the storm.\n\n## Prayer\n\nWe ask that you give us the courage to retreat to the quiet hours, to pour out our hearts to you, and to trust in your unwavering presence. Help us to find solace in your peace and guidance in the midst of life's turmoil.\n\n## One-Line Application\n\nWe must seek solitude to find comfort in God's presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
