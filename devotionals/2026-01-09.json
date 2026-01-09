@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 269,
+  "theme": null,
+  "content_markdown": "# Gentle Roots in Dry Seasons\n\n## Scripture\n\n\"For in the time of trouble he shall hide me in his pavilion: in the secret of his tabernacle he shall hide me; he shall set me up upon a rock.\" - Psalm 27:5 (KJV)\n\n## Reflection\n\nAs we navigate through life's uncertain seasons, it's easy to feel like we're losing our footing. The world around us seems to be shifting, and we're left wondering if we can trust in God's goodness. But the Psalmist reminds us that even in the midst of trouble, God is a refuge. He is our hiding place, our secret haven where we can find peace and safety. Just as a tree puts down deep roots to weather the storms, we can dig our roots deeper into God's love and provision. We don't have to be swayed by the winds of worry or doubt. Instead, we can anchor ourselves in His promises and trust that He will set us up on solid ground. This trust is not a feeling, but a choice. We choose to believe that God is good, even when we can't see it. We choose to trust that He is working everything out for our good, even when it feels like the opposite.\n\n## Prayer\n\nWe choose to trust in Your goodness, Lord, even when it's hard. Help us to dig our roots deeper into Your love and provision, and to anchor ourselves in Your promises. Give us the courage to trust You, even when we can't see the way ahead.\n\n## One-Line Application\n\nWe choose to trust God's goodness over our circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
