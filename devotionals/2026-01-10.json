@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 249,
+  "theme": null,
+  "content_markdown": "# Abiding in Christ's Presence\n\n## \"Remain in me, as I also remain in you. No branch can bear fruit by itself; it must remain in the vine. Neither can you bear fruit unless you remain in me.\" - John 15:4 (NIV)\n\n## Reflection\n\nAs we begin a new year, we are often tempted to set ambitious goals and try to accomplish them on our own. However, Jesus reminds us that true fruitfulness comes from abiding in His presence. It's not about our strength or determination, but about our dependence on Him. Just as a branch needs the vine to produce fruit, we need Christ to produce the good works He has prepared for us to do. As we navigate the challenges and opportunities of this year, let us remember to stay connected to the Vine, trusting that He will enable us to bear fruit that will bring glory to Him. This means surrendering our own plans and expectations, and instead, seeking to listen to His voice and follow His lead. By doing so, we will find that our lives are filled with purpose, joy, and fruitfulness.\n\n## Prayer\n\nWe ask that you would help us to remain in Your presence, Lord, and to trust in Your enabling power. May we not try to bear fruit on our own, but instead, may we stay connected to the Vine, relying on Your strength and guidance.\n\n## One-Line Application\nAbide in Christ's presence to bear fruit that brings glory to Him.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
