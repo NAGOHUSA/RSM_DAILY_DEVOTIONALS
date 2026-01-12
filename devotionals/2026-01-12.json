@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 268,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Storm\n\n## Matthew 8:23-27 (NIV)\n\nJesus got into the boat and his disciples followed him. Suddenly a fierce storm came up on the lake, so that the boat was being swamped, and they were in great danger. But Jesus was sleeping. The disciples went to him and woke him, saying, \"Lord, save us! We're going to drown!\" He replied, \"You of little faith, why are you so afraid?\" Then he got up and rebuked the winds and the waves, and it was completely calm. The men were amazed and asked, \"What kind of man is this? Even the winds and the waves obey him!\"\n\n## Reflection\n\nLife is full of storms, and we can become overwhelmed by the turmoil. Yet, in the midst of chaos, Jesus reminds us of His power and authority. He can calm the most raging tempests with just a word. As His followers, we must learn to trust Him, even when the winds of adversity are howling around us. The key to peace in the storm is not avoiding the storm, but trusting the One who is in control. We must not let fear grip us, but instead, fix our eyes on Jesus, the Author of peace. His presence is not just a comfort, but a guarantee of His sovereign care.\n\n## Prayer\n\nWe ask for the faith to trust You in the midst of storms, Lord. Help us to fix our eyes on You and find peace in Your presence.\n\n## One-Line Application\nWe must fix our eyes on Jesus, trusting His authority in the midst of chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
