@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 209,
+  "theme": null,
+  "content_markdown": "# The Gentle Hand of God\n\n## Isaiah 41:10\n\"Do not fear, for I am with you; \nDo not be afraid, for I am your God.\nI will strengthen you and help you; \nI will uphold you with my righteous right hand.\"\n\n- Isaiah 41:10 (NIV)\n\n## Reflection\n\nIn a world filled with chaos and uncertainty, we often find ourselves facing fears and doubts. The gentle hand of God is a reminder that He is always with us, guiding and strengthening us through every trial. Just as a parent gently holds their child's hand to protect them from harm, God's presence is a shield that keeps us safe from the storms of life. His word is a source of comfort and peace, assuring us that He will never leave us nor forsake us. As we navigate the complexities of life, we can trust in God's goodness and faithfulness, knowing that He will uphold us with His righteous right hand.\n\n## Prayer\n\nWe thank you, Lord, for your gentle hand that guides and protects us. Help us to trust in your goodness and faithfulness, even in the midst of uncertainty and fear.\n\n## One-Line Application\n\nWe can face our fears with confidence, knowing God's gentle hand is always with us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
