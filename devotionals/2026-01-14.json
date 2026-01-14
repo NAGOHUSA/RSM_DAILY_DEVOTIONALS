@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 195,
+  "theme": null,
+  "content_markdown": "# Rooted in Hope\n\n## Scripture\n\"May the God of hope fill you with all joy and peace in believing, so that by the power of the Holy Spirit you may abound in hope.\" - Romans 15:13 (ESV)\n\n## Reflection\nAs we navigate life's challenges, it's easy to lose sight of the hope that anchors us. But hope isn't just a feeling; it's a firm conviction based on God's character and promises. The God of hope is a personal, relational God who desires to fill us with joy and peace. This hope isn't dependent on our circumstances but is rooted in our faith in Christ and the power of the Holy Spirit. When we're rooted in hope, we're not controlled by fear or anxiety but are empowered to trust God's goodness, even in the midst of uncertainty.\n\n## Prayer\nWe pray that you would fill us with joy and peace in believing. Root us in hope, that we may abound in it by the power of the Holy Spirit. Help us to trust your goodness, even when circumstances are uncertain.\n\n## One-Line Application\nWe are anchored in hope through faith in Christ's character and promises.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
