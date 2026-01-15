@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 228,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\nIn a world filled with uncertainty and turmoil, we often find ourselves struggling to maintain peace. Yet, Jesus reminds us that His peace is not like the fleeting comfort the world offers. His peace is a gift that transcends circumstances, a peace that remains when everything else falls apart. It's a peace that enables us to trust in God's sovereignty and goodness, even when we don't understand what's happening. As we navigate life's challenges, we can cling to this peace, knowing that it's not dependent on external circumstances but on our relationship with Jesus. This peace is a fruit of the Holy Spirit, who dwells within us and guides us through the darkest of times.\n\n## Prayer\nWe ask that You would give us Your peace that passes all understanding. Help us to trust in Your sovereignty and goodness, even when we don't see the way forward. May Your peace be our anchor in times of turmoil and our comfort in times of grief.\n\n## One-Line Application\nMay we learn to rest in Jesus' peace, regardless of the chaos around us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
