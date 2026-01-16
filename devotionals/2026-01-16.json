@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 228,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Life's Turmoil\n\n## Psalm 119:165 (ESV)\n\nI do your commandments and exalt them above my greatest reward.\n\n## Reflection\n\nIn life's chaos, it's easy to lose sight of what truly matters. We become overwhelmed by the demands of the day, the weight of responsibilities, and the uncertainty of the future. But in the midst of turmoil, God's Word offers a promise of peace. When we prioritize obedience to God's commandments, we find that our greatest reward is not the fleeting satisfaction of temporary solutions, but the deep peace that comes from following His lead. This peace is not dependent on circumstances, but on our relationship with the One who is always in control.\n\nAs we navigate life's ups and downs, let us not forget to exalt God's commandments above our own desires and plans. Let us prioritize obedience, and in doing so, find the peace that passes understanding. This peace is not just a feeling, but a reality that can be experienced in the midst of turmoil.\n\n## Prayer\n\nWe pray for the peace that comes from following Your commandments, Lord. Help us to prioritize obedience and exalt Your Word above our own desires. Grant us the strength to trust in Your sovereignty and find peace in the midst of life's turmoil.\n\n## One-Line Application\nWe prioritize obedience to God's commandments for lasting peace.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
