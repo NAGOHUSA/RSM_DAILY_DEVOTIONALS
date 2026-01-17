@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 206,
+  "theme": null,
+  "content_markdown": "# Trusting God in the Valley\n\n## Psalm 46:10 (NIV)\n\n\"Be still and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\"\n\nReflection\nAs we journey through life, we inevitably face seasons of uncertainty and despair. It's in these moments that we're tempted to lose our grip on faith and doubt God's goodness. However, Psalm 46:10 reminds us that our response to adversity should be one of stillness and trust. We must learn to be quiet before God, acknowledging His sovereignty and power. When we do, we'll discover that His presence is not diminished by our circumstances, but rather, He is exalted above them. This verse invites us to surrender our worries and fears to God, trusting that He is working everything out for our good. As we practice stillness and trust, we'll find that our souls are strengthened, and our hearts are renewed.\n\n## Prayer\n\nWe ask for the gift of stillness and trust as we navigate life's challenges. Help us to quiet our minds and hearts, knowing that You are God, and You are worthy of our praise.\n\n## One-Line Application\nLet stillness and trust in God be your response to uncertainty and despair.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
