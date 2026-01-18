@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 209,
+  "theme": null,
+  "content_markdown": "# Cultivating Peace in a Chaotic World\n\n## Psalm 119:165\n\n\"I find peace when I do what is right, and I rest in the Lord.\"\n\n- Psalm 119:165 (NLT)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to become overwhelmed by the demands and pressures that surround us. However, God's Word reminds us that true peace can only be found in Him. When we prioritize what is right and follow His guidance, we experience a deep sense of rest and peace that transcends the chaos. This isn't a passive acceptance of circumstances, but rather an intentional choice to trust in the Lord's goodness and sovereignty. As we submit to His will and follow His principles, we can find peace in the midst of turmoil. It's not about avoiding difficult situations, but about trusting that God is working all things together for our good (Romans 8:28).\n\n## Prayer\n\nWe ask that You would give us the wisdom to prioritize what is right, Lord, and the courage to follow Your guidance, even when it's difficult. Help us to rest in Your peace and trust in Your goodness, whatever circumstances may arise.\n\n## One-Line Application\n\nWe prioritize what is right and follow His guidance to find peace in chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
