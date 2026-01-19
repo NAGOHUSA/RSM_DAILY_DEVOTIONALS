@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 205,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## 1 Peter 5:2\n\n\"Be shepherds of God's flock that is under your care, watching over them—not because you must, but because you are willing, as God wants you to be; not pursuing dishonest gain, but eager to serve.\" - 1 Peter 5:2 (NIV)\n\n## Reflection\n\nAs shepherds of God's flock, we have a noble responsibility to care for and watch over those under our influence. This involves not only protecting them from harm but also guiding and nurturing them in their spiritual journey. We should not be motivated by a desire for personal gain or glory, but rather by a heart of service and a willingness to put the needs of others before our own. This selfless attitude is pleasing to God and reflects the character of our Chief Shepherd, Jesus Christ. As we strive to be faithful shepherds, may we remember that our role is not one of power or authority, but of humble service and devotion.\n\n## Prayer\n\nWe pray that we may be willing shepherds, eager to serve and care for God's flock with humility and love.\n\n## One-Line Application\n\nMay our leadership be characterized by humble service and selfless devotion to God's flock.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
