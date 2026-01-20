@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 227,
+  "theme": null,
+  "content_markdown": "# A Quiet Confidence in God's Presence\n\n## Matthew 10:29-30\n\n\"Are not two sparrows sold for a penny? Yet not one of them will fall in a trap apart from the will of your Father. And as for you, even the hairs of your head are all counted. So do not fear; you are of more value than many sparrows.\" - Matthew 10:29-30 (ESV)\n\n## Reflection\n\nAs we face the unknowns of life, it's easy to feel anxious about what the future holds. We worry about the well-being of our loved ones, our livelihoods, even our own mortality. But the Bible reminds us that we are not just insignificant specks in the grand scheme of things. Rather, we are of immense value to our Creator. Every detail of our lives is known and loved by God. In His presence, we can find a quiet confidence that calms our fears and gives us the strength to face whatever comes our way. This confidence is not based on our ability to control everything, but on God's sovereignty and love for us.\n\n## Prayer\n\nWe thank you, Father, for reminding us of our worth in your sight. Help us to quiet our fears and trust in your loving care.\n\n## One-Line Application\n\nWe are of immense value to God, and nothing can happen to us without His knowledge and permission.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
