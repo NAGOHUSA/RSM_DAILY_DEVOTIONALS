@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 210,
+  "theme": null,
+  "content_markdown": "# Finding Strength in Weakness\n\n## Scripture\n\n\"For when I am weak, then I am strong.\"\n2 Corinthians 12:10 (ESV)\n\n## Reflection\n\nIn our lives, we often try to hide our weaknesses, pretending to be stronger than we truly are. But what if we were to shift our perspective? What if we were to see our weaknesses as opportunities to experience the strength of God? Paul wrote to the Corinthians that it was in his weakness that he experienced God's strength. This is a remarkable reversal of the way we often think. Instead of trying to mask our weaknesses, we can be honest about them and trust that God's power is made perfect in our weakness. This is a liberating truth that frees us from the pressure to be self-sufficient and allows us to rely on God's strength. As we acknowledge our weaknesses and limitations, we open ourselves up to the possibility of experiencing God's power in new and unexpected ways.\n\n## Prayer\n\nWe confess our tendency to hide behind a mask of strength, and we ask for the courage to be vulnerable and weak before You, Lord. Help us to see our weaknesses as opportunities to experience Your strength. \n\n## One-Line Application\n\nWe experience God's strength in our vulnerabilities.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
