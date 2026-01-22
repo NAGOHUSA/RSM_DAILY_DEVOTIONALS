@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 270,
+  "theme": null,
+  "content_markdown": "# The Shepherd's Peace\n\n## Matthew 11:28-30 (NIV)\n\n\"Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy and my burden is light.\"\n\n## Reflection\n\nAs the world around us continues to change and present challenges, it's easy to become weary and burdened. We may feel overwhelmed by the demands of life, work, and relationships. But Jesus offers us a different path. He invites us to come to Him, to take His yoke upon us, and to learn from Him. His yoke is not a heavy burden, but a gentle and easy one. It's a reminder that we don't have to carry the weight of the world on our shoulders. We can trust in Jesus' strength and guidance, and find rest for our souls.\n\nWhen we choose to follow Jesus, we're not only freed from the weight of our own burdens, but we're also given the opportunity to serve others. We can use our gifts and talents to make a difference in the world, not out of a sense of duty or obligation, but out of a desire to serve and bring rest to others.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened. Give us rest for our souls and strength for our journey. Help us to take your yoke upon us and to learn from you.\n\n## One-Line Application\n\nWe must surrender our burdens to find rest in Jesus' easy yoke.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
