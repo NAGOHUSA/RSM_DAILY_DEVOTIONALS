@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 358,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Storms of Life\n\n## Matthew 14:22-33 (NIV)\n\n\"Jesus made the disciples get into the boat and go ahead of him to the other side, while he dismissed the crowd. After he had dismissed them, he went up on a mountainside by himself to pray. Later that night, the boat was in the middle of the lake, and he was alone on land. He saw the men straining at the oars, for the wind was against them. Shortly before dawn he went out to them, walking on the lake. He was about to pass by them, but noticed them straining at the oars, for the wind was against them. Immediately he was concerned about them and reached out his hand and helped them into the boat. 'Don't be afraid,' he said. 'Take courage. I am here.'\" - Matthew 14:22-27 (NIV)\n\n## Reflection\n\nLife can be overwhelming, and storms can arise from any direction. However, Jesus reminds us that He is always present, even in the midst of turmoil. When the disciples were struggling to keep their boat afloat, Jesus walked towards them, demonstrating His power and control over nature. His concern for them was evident, and He reached out to help them. We can trust that Jesus is with us, too, and that He is capable of calming the storms in our lives. We simply need to trust in His presence and power. \n\nWhen we feel overwhelmed by the challenges we face, we can take courage in the knowledge that Jesus is with us. We don't have to face our struggles alone, for He is always present to guide and support us. His love for us is unwavering, and His concern for our well-being is genuine. We can rest in His care, knowing that He will help us navigate even the most treacherous of waters.\n\n## Prayer\n\nWe thank you, Lord, for being our constant companion in times of storm. Help us to trust in your power and presence, and give us the courage to face our challenges with faith.\n\n## One-Line Application\n\nTrust in Jesus' presence and power to calm your life's storms.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
