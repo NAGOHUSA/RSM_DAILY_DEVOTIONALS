@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Storms\n\n## Psalm 37:3\n\n\"Trust in the Lord and do good; dwell in the land and enjoy safe pasture.\"\n\n(Psalms 37:3, NIV)\n\n## Reflection\n\nIn the midst of life's storms, it's easy to get caught up in anxiety and worry. We try to control the uncontrollable, and before we know it, we've lost sight of the peace that's available to us. But the psalmist reminds us to trust in the Lord and do good. When we trust in God's goodness and sovereignty, we can rest in His care, even when the storms rage on. This doesn't mean we won't face challenges or difficulties, but it means we can face them with peace and confidence, knowing that God is with us. We can dwell in the land and enjoy safe pasture, not despite the storms, but because of our trust in God.\n\n## Prayer\n\nWe trust in Your goodness and sovereignty, Lord. Help us to dwell in the land and enjoy safe pasture, even in the midst of life's storms. Give us the peace that passes understanding, so we can face challenges with confidence and trust in You.\n\n## One-Line Application\n\nTrust in God's goodness and sovereignty to find peace in life's storms.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
