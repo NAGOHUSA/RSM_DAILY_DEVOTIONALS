@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 202,
+  "theme": null,
+  "content_markdown": "# Finding Peace Amid Life's Turmoil\n\n## Psalm 119:165 - \"Great peace have those who love your law, and nothing can make them stumble.\"\n\nThe pursuit of peace often seems elusive, especially in today's chaotic world. Yet, Psalm 119:165 reveals a profound truth: those who love God's law find great peace, a peace that shields them from life's pitfalls. This isn't to say that they're immune to challenges, but rather that they're anchored in a deeper reality. Their love for God's law gives them the stability to navigate turbulent circumstances, trusting in a higher purpose.\n\nAs we follow God's commands and seek to understand His ways, we develop a sense of inner peace that's not dependent on external circumstances. This peace doesn't shield us from difficulties, but it equips us to face them with confidence. It's the peace that passes understanding (Philippians 4:7), a peace that flows from a heart surrendered to God.\n\n## Prayer\n\nWe pray for the love of Your law, Lord, that we may know great peace in the midst of turmoil. Help us to seek Your ways and trust in Your goodness.\n\n## One-Line Application\nWe find peace by loving and following God's law in our daily lives.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
