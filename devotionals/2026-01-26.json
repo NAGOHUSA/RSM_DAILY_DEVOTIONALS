@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 193,
+  "theme": null,
+  "content_markdown": "# Rooting our Trust in God's Providence\n\n## Isaiah 46:10\n\n\"We pronounce the end from the beginning, and from ancient times things not yet done, saying, 'My counsel shall stand, and I will accomplish all my purpose.'\" (Isaiah 46:10, ESV)\n\n## Reflection\n\nAs we navigate life's twists and turns, our trust can be shaken by uncertainty and doubt. In such moments, let us turn to God's unwavering promises. Isaiah 46:10 reminds us that God's counsel is unshakeable, and He will accomplish His purpose. This truth encourages us to trust in His sovereignty, not in our own abilities or understanding. It's easy to get caught up in the present moment and lose sight of God's bigger picture, but we must remind ourselves that He is working all things together for our good (Romans 8:28). By choosing to trust in God's providence, we can find peace in the midst of chaos and uncertainty.\n\n## Prayer\n\nWe pray that You would steady our hearts and minds with the truth of Your unshakeable plan. Help us to trust in Your sovereignty, even when our circumstances seem uncertain.\n\n## One-Line Application\nWe must rest in God's unshakeable plan.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
