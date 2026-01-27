@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 252,
+  "theme": null,
+  "content_markdown": "# Rooted in Faith, Fruitful in Love\n\n## Scripture\n\n\"For if you love those who love you, what reward do you have? And if you do good to those who are good to you, what credit is that to you? Even sinners love those who love them.\" - Luke 6:32 (NIV)\n\n## Reflection\n\nAs Christians, we often focus on loving those who love us back. It's easy to be kind to those who reciprocate our affection. But Jesus calls us to something more radical. He encourages us to love those who don't necessarily love us in return. This isn't just about being better than others; it's about being like God. He loves us without condition, even when we're unlovable. As we strive to be more like Him, we're challenged to extend that same kindness and compassion to those who may not be easy to love. This might mean being patient with a difficult coworker, showing empathy to a stranger, or serving a family member who's hard to get along with. By choosing to love in this way, we reflect God's character and experience His joy and fulfillment.\n\n## Prayer\n\nWe pray for the courage to love those who don't love us back. Help us to see the potential for good in everyone and to extend Your kindness and compassion to all those we meet. May our love be a reflection of Your character and glory.\n\n## One-Line Application\n\nWe must love those who don't love us back, as Jesus loves us unconditionally.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
