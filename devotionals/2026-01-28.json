@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 285,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Hope in the Desert\n\n## Psalm 126:5\n\nWhen the Lord restored the fortunes of Zion, we were like those who dreamed. Our mouths were filled with laughter, our tongues with songs of joy. Then it was said among the nations, \"The Lord has done great things for them.\"\n\n## Reflection\n\nAs we navigate life's deserts, it's easy to lose sight of hope. The dry landscape stretches out before us, and we wonder if God is still working. But the Psalm reminds us that even in the midst of barrenness, God is at work. We are like those who have dreamed, and our mouths are full of laughter and songs of joy. This is not a denial of our current circumstances, but rather a declaration of faith in God's goodness and faithfulness. We sow seeds of hope in the desert, trusting that God will bring forth life and abundance in His time. \n\nWe must not be deceived by the appearance of things, but instead, look to the promises of God. He has a history of restoring fortunes, of bringing life from death, and of causing the barren to flourish. We can trust that He will do the same for us. As we sow seeds of hope, we must also water them with prayer and faith, refusing to give up even when the landscape around us seems barren.\n\n## Prayer\n\nWe thank You, Lord, for the hope You bring to our desolate places. Help us to sow seeds of hope in the desert and to trust in Your promise to restore and renew.\n\n## One-Line Application\nWe sow seeds of hope in the desert by trusting in God's promise to restore and renew.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
