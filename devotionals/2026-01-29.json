@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 214,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Storm\n\n## Scripture\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\" - Philippians 4:6 (NIV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to get caught up in anxiety and worry. But the Bible reminds us that we don't have to face them alone. In Philippians 4:6, Paul encourages us to bring our concerns to God through prayer and thanksgiving. This doesn't mean our worries will magically disappear, but it means we can trust that God is working in and through them. By recognizing God's sovereignty and goodness, we can cultivate a sense of peace that surpasses our understanding. This peace is not based on our circumstances, but on our relationship with God. As we learn to trust Him, we can navigate life's storms with greater confidence and calm.\n\n## Prayer\n\nWe thank you, Lord, for the promise of peace that comes through prayer and thanksgiving. Help us to bring our worries and concerns to you, and to trust in your sovereignty and goodness. Give us a sense of calm and confidence in the midst of life's storms.\n\n## One-Line Application\n\nWe can find peace by trusting in God's sovereignty and goodness in every situation.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
