@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 203,
+  "theme": null,
+  "content_markdown": "# Abiding in Christ's Love\n\n## John 15:9\n\n\"As the Father has loved me, so have I loved you. Now remain in my love.\" - John 15:9\n\n## Reflection\n\nAs we navigate life's challenges and uncertainties, it's easy to lose sight of our identity in Christ. We were created to reflect His love and to abide in His presence. However, when we focus on our own strength and abilities, we risk drifting away from the source of our true power. The Father's love for Jesus is a perfect example of the love He has for us. It's a love that is unwavering, unconditional, and all-encompassing. When we remain in His love, we are reminded that we are not alone and that we have a God who loves us deeply. This love transforms us, frees us from fear, and empowers us to love others as God loves us.\n\n## Prayer\n\nWe confess that we often try to navigate life on our own strength. Help us to remain in Your love, Abba Father, and to trust in Your goodness. May Your love be the anchor that holds us firm in times of uncertainty.\n\n## One-Line Application\nWe must prioritize abiding in Christ's love each day.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
