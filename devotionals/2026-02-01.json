@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 234,
+  "theme": null,
+  "content_markdown": "# Cultivating Patience in a Hurried World\n\n## Psalm 27:14 - \"Wait for the Lord; be strong and take heart and wait for the Lord.\" (Psalm 27:14, NIV)\n\n## Reflection\n\nIn today's fast-paced world, patience is a virtue often overlooked. We become accustomed to instant gratification and instant communication, expecting everything to happen quickly. However, this mindset can lead to anxiety, stress, and burnout. As we navigate the challenges of life, it's essential to remember that God's timing is perfect. Waiting on the Lord requires faith, trust, and surrender. When we wait on Him, we're not idly standing still; we're actively trusting in His goodness and sovereignty. This trust frees us from the pressure to control everything, allowing us to rest in His goodness. As we wait, we're given the opportunity to grow in character, develop a deeper understanding of God's love, and discover His plans for our lives. By choosing to wait on the Lord, we cultivate patience, and in doing so, we become more like Him.\n\n## Prayer\n\nWe pray, dear Lord, to cultivate patience in our lives. Help us to trust in Your perfect timing and sovereignty. Teach us to wait on You, not idly standing still, but actively trusting in Your goodness. May we grow in character and develop a deeper understanding of Your love.\n\n## One-Line Application\n\nWe must choose to trust God's timing, even when it requires patience.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
