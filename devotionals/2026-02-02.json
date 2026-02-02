@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 195,
+  "theme": null,
+  "content_markdown": "# Abiding in God's Presence\n\n## Psalm 16:8\n\n\"I keep my eyes always on the Lord. With him at my right hand, I will not be shaken.\"\n\n- Psalm 16:8 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to get distracted by the world around us. We become preoccupied with our worries, fears, and doubts. But the Psalmist reminds us that our focus should be on the Lord. When we fix our eyes on Him, we maintain our stability and peace. We are not shaken by the uncertainties of life because we are anchored in God's presence. This requires intentional effort on our part, a conscious decision to keep our eyes on Him, even when the world tries to pull us away. As we abide in His presence, we experience a sense of security and trust that guides us through life's challenges.\n\n## Prayer\n\nWe choose to keep our eyes on the Lord, trusting in His presence to guide us. Help us to stay focused on You, even when the world tries to distract us.\n\n## One-Line Application\nFix your eyes on the Lord to maintain stability and peace in life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
