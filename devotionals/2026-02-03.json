@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 255,
+  "theme": null,
+  "content_markdown": "# Cultivating Joy in the Midst of Trials\n\n## Scripture\n\n\"For my yoke is easy, and my burden is light.\" - Matthew 11:30 (ESV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to become weighed down by the pressures and responsibilities that surround us. But Jesus reminds us that his yoke is easy and his burden is light. This is not a promise that we will avoid difficulties or hardships, but rather that we will find strength and peace in the midst of them.\n\nWhen we try to carry our burdens alone, they often feel overwhelming and suffocating. But when we surrender to Jesus and allow him to share the load, we discover a sense of freedom and release. His easy yoke is not a call to laziness or complacency, but rather a reminder that God is our strength and our provider.\n\nAs we face the trials of life, let us remember that Jesus is with us, and that his presence makes all the difference. Let us seek to lean into his strength and trust in his goodness, even when the road ahead seems uncertain.\n\n## Prayer\n\nWe ask that you would give us the wisdom to recognize your presence in the midst of our trials, and the courage to surrender to your easy yoke. Help us to trust in your goodness and your strength, and to find peace in the midst of chaos.\n\n## One-Line Application\n\nWe can find freedom and release by surrendering to Jesus and allowing him to share our burdens.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
