@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 226,
+  "theme": null,
+  "content_markdown": "# Seeking Guidance in Our Decisions\n\n## Matthew 7:7-8\n\n\"Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. For everyone who asks receives, and the one who seeks finds, and to the one who knocks it will be opened.\"\n\n## Reflection\n\nAs we navigate life's challenges, we often find ourselves uncertain about the path to take. In moments like these, it's easy to feel overwhelmed and lost. However, God's Word reminds us that guidance and wisdom are just a prayer away. We don't have to be experts in decision-making or have all the answers. By asking, seeking, and knocking, we can trust that God will provide us with the direction we need. This isn't about demanding answers or trying to figure things out on our own, but rather about humbly seeking God's guidance and wisdom. As we surrender our plans and desires to Him, we can trust that He will lead us down the right path.\n\n## Prayer\n\nWe pray for guidance in our decisions, trusting that you will provide us with wisdom and direction. Help us to seek your will and not our own. Open the doors of opportunity and close those that may lead us astray.\n\n## One-Line Application\n\nSeek God's guidance in our decisions, trusting Him to provide wisdom and direction.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
