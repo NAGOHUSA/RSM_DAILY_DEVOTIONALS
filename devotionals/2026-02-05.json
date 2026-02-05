@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 262,
+  "theme": null,
+  "content_markdown": "# Calming in the Midst of Chaos\n\n## Psalm 37:7 - Peaceful Trust in God's Timing\n\n\"Do not be envious of evildoers,  \nbut continue now in the Lord’s work.  \nCommit your way to the Lord; trust in Him,  \nand He will act.\" \n- Psalm 37:7 (ESV)\n\n## Reflection\n\nAs we navigate life's turbulent waters, it's easy to get caught up in the chaos of the world around us. We're constantly bombarded with news, social media, and the expectations of others. In the midst of this noise, it's essential to remember that our peace and trust come from God alone. Committing our way to Him means surrendering our plans, worries, and fears to His sovereign care. When we trust in His goodness and timing, He promises to act. This is not a passive trust, but an active surrender, where we choose to believe that God is working everything out for our good.\n\nThis trust is not a feeling, but a choice we make daily. It's a decision to prioritize God's peace over the noise of the world. As we commit our way to Him, we begin to see the world through His eyes, and our perspective shifts from fear to faith. In His presence, we find the calm in the midst of chaos, the peace that surpasses all understanding.\n\n## Prayer\n\nWe choose to commit our way to You, Lord, and trust in Your sovereign care. Help us to prioritize Your peace over the noise of the world.\n\n## One-Line Application\n\nWe must choose daily to prioritize God's peace over the world's chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
