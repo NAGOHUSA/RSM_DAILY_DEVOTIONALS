@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 204,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Gentle Guidance\n\n## Scripture\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\nAs we navigate life's challenges and struggles, it's easy to feel overwhelmed and weighed down. We may try to find rest in temporary solutions, such as busyness or escapism, but they only provide fleeting comfort. In this passage, Jesus invites us to come to Him, not just for a quick fix, but for lasting rest. He promises to take our burdens and give us peace, not by removing our difficulties, but by being present with us in the midst of them. This rest is not a passive surrender, but an active trust in His goodness and sovereignty. As we learn to lean on Him, we find that our burdens become lighter, and our hearts become more at peace.\n\n## Prayer\nWe come to you, Lord, with our weary hearts and heavy burdens. Give us rest in your presence and peace in your promises. Help us to trust in your goodness and sovereignty, and to find comfort in your presence.\n\n## One-Line Application\nWe must learn to trust in God's presence for our rest and peace.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
