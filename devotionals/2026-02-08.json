@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 240,
+  "theme": null,
+  "content_markdown": "# A Gentle Rain in Times of Need\n\n## Scripture\n\"For I will pour water on the thirsty land, and streams on the dry ground; I will pour out my Spirit upon your offspring, and my blessing on your children.\" - Isaiah 44:3 (NRSV)\n\n## Reflection\nJust as a gentle rain nourishes the parched earth, God's presence brings life-giving sustenance to our dry and weary souls. In times of need, He pours out His Spirit, quenching our thirst and revitalizing our hearts. This promise reminds us that God is not a distant, uninvolved observer, but a loving Father who intervenes on our behalf, providing a refreshing balm for our spiritual exhaustion.\n\nAs we face life's challenges, let us remember that God's blessings are not limited to our successes or achievements, but are a gift to be received by faith. His Spirit is a steady, reliable source of comfort, guidance, and strength, available to us at all times. We don't have to look far or wait for special occasions to experience His presence – it's always available, a constant companion on our journey.\n\n## Prayer\nWe thank you, Lord, for the gift of your Spirit, who brings life and renewal to our parched hearts. Pour out your blessings on our children and our communities, that we may know your presence and your peace.\n\n## One-Line Application\nMay we trust in God's promise to pour out His Spirit in times of need.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
