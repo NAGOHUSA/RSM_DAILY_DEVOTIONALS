@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 212,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Storm\n\n## Psalm 46:10\n\n\"Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" (Psalm 46:10 ESV)\n\n## Reflection\n\nLife can be overwhelming, and storms come in many forms - relational, financial, or emotional. In the midst of chaos, it's easy to lose sight of God's sovereignty and control. But Psalm 46:10 reminds us to be still and trust in His goodness. Being still doesn't mean being passive; it means acknowledging God's presence and power in the midst of turmoil. We must learn to quiet our hearts and minds, trusting that God is working everything out for our good. As we surrender to His will, we find peace that surpasses understanding. This peace is not dependent on circumstances but on our relationship with God. It's a peace that calms the stormy waters of our souls and reminds us that God is always in control.\n\n## Prayer\n\nWe pray for the strength to be still and trust in You, Lord, especially in the midst of life's storms. Help us to quiet our hearts and minds, and remind us of Your sovereignty and control.\n\n## One-Line Application\n\nTrusting in God's sovereignty brings peace that surpasses life's understanding.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
