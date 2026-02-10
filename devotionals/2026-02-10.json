@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 185,
+  "theme": null,
+  "content_markdown": "# Seeking Refuge in God's Presence\n\n## Scripture\n\"And do not bring us to the time of trial, but rescue us from the evil one.\" - Matthew 6:13 (ESV)\n\n## Reflection\nIn the midst of life's challenges, we can easily become overwhelmed and feel like we're at our breaking point. It's during these times that we need to remember the promise of God's presence in our lives. He wants us to come to Him, not just as our Savior, but also as our Refuge. When we feel like the world is crashing in around us, we can find peace in knowing that God is always near. He's not just a distant God who watches from afar; He's a God who enters into our struggles and walks alongside us.\n\n## Prayer\nWe pray for the peace that only comes from knowing You are always near. Rescue us from the evil one and guide us through life's trials, that we may trust in Your presence and find refuge in Your love.\n\n## One-Line Application\nAs we face life's challenges, we must seek refuge in God's presence daily.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
