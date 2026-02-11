@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-11",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 201,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Valley\n\n## Scripture\n\n\"For God did not give us a spirit of fear, but of power and love and self-control.\" - 2 Timothy 1:7 (ESV)\n\n## Reflection\n\nLife has a way of taking us on unexpected journeys, leading us down paths we never intended to walk. The valleys of life can be dark, uncertain, and overwhelming. Yet, in the midst of these challenges, we find that the peace of God is not a feeling, but a promise. It's not a response to our circumstances, but a gift that accompanies us on our journey. We don't have to be controlled by fear, anxiety, or uncertainty. Instead, we can walk in the power of God's presence, filled with love and self-control. As we trust in Him, we discover that His peace is not a distant reality, but a living, breathing presence that surrounds us.\n\n## Prayer\n\nWe ask that You, Lord, would fill us with Your peace in the midst of turmoil. Help us to trust in Your power, love, and self-control, and to walk in the confidence of Your presence.\n\n## One-Line Application\n\nWe can find peace in the valley by trusting God's power, love, and self-control.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
