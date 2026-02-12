@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 207,
+  "theme": null,
+  "content_markdown": "# Abiding in God's Presence\n\n## John 15:4\n\n\"Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me.\" - John 15:4 (ESV)\n\n## Reflection\n\nIn Jesus' teaching, abiding in Him is not a passive state, but an active surrender. It's a continuous choice to rely on His strength, not our own. When we abide in Christ, we become the conduit of His life-giving power, bearing fruit that reflects His character. This abiding relationship is not a one-time decision but a daily surrender, where we yield to His presence and guidance. It's in the midst of trials and challenges that we learn to lean on Him, trusting in His sovereignty and goodness. As we walk in obedience and dependence on Christ, we'll discover the depths of His love and the power of His presence in our lives.\n\n## Prayer\n\nWe ask that You would help us to abide in You, Lord, and to trust in Your presence. Teach us to surrender our strength to Your power, that we may bear fruit that reflects Your character.\n\n## One-Line Application\n\nWe must daily choose to surrender our strength to Christ's power.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
