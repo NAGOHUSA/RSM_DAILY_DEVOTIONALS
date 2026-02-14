@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 248,
+  "theme": null,
+  "content_markdown": "# The Gentle Shepherd's Love\n\n## Scripture\n\n\"His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness.\" - 2 Peter 1:3\n\n## Reflection\n\nAs we walk through life's trials and uncertainties, it's easy to lose sight of the divine power that resides within us. But 2 Peter 1:3 reminds us that God's power is not just a distant concept, but a tangible reality that transforms our lives. This divine power equips us to live a godly life, not by our own strength or wisdom, but by our knowledge of Him who called us. It's a power that works in us to overcome fear, anxiety, and doubt, and to live a life that reflects His glory and goodness. As we cultivate our knowledge of God, we experience this power at work in us, guiding us, strengthening us, and empowering us to live a life that honors Him. And when we feel overwhelmed or uncertain, we can rest in the assurance that God's power is always available to us.\n\n## Prayer\n\nWe thank you, Lord, for the divine power that resides within us. Help us to know you more deeply and to experience your power at work in our lives. May we live a godly life, reflecting your glory and goodness to a world in need.\n\n## One-Line Application\n\nWe can trust in God's power to guide us through life's challenges and uncertainties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
