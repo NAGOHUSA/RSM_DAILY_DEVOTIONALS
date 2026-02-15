@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 222,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Storm\n\n## Scripture\n\"Hurry up and wait,\" is not God's way. He works in His own timing, and it's often in the waiting that we find peace. \"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" - Psalm 37:7 (NIV)\n\n## Reflection\nWe often find ourselves in situations where we feel like we are waiting for an eternity. Whether it's for a job, a break in a relationship, or healing from an illness, the waiting can be overwhelming. But as Christians, we are called to be still before the Lord and wait patiently for Him. This doesn't mean we sit idly by; it means we trust in God's goodness and sovereignty. We can be still in the midst of chaos, knowing that He is working everything out for our good. Trusting in God's timing can be difficult, but it's in those moments of stillness that we find peace.\n\n## Prayer\nWe wait patiently for you, Lord, and trust in your sovereignty. Give us the strength to be still in the midst of chaos. Help us to trust in your goodness and timing.\n\n## One-Line Application\nWe must learn to be still before the Lord and trust in His perfect timing.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
