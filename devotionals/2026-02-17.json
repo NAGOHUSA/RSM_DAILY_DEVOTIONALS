@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 226,
+  "theme": null,
+  "content_markdown": "# A Life Rooted in God's Presence\n\n## Scripture\n\nAnd David said to Solomon, \"My son, as for you, may God make you like one of the branches on a fruitful tree, under whose shade two hundred women will be fruitful.\" 1 Kings 2:46 (ESV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to feel uprooted and uncertain about our place in the world. We may feel like we're struggling to produce fruit or make a meaningful impact. But David's words to Solomon remind us that our identity and fruitfulness come from being rooted in God's presence. When we prioritize a deep connection with Him, we become like a sturdy tree that can weather any storm and provide shade for others. This isn't about achieving a certain status or producing a certain amount of fruit; it's about being securely grounded in God's love and promise. As we focus on growing in our relationship with Him, we'll find that our lives become more productive, purposeful, and fruitful.\n\n## Prayer\n\nWe thank you, God, for the promise of being rooted in your presence. Help us to prioritize time with you and to grow in our relationship with you. May we be a source of shade and fruitfulness to those around us.\n\n## One-Line Application\n\nWe prioritize our relationship with God to find stability and fruitfulness in life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
