@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 189,
+  "theme": null,
+  "content_markdown": "# Finding Rest in God's Presence\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\n\nWe often try to find rest in our own strength, in our accomplishments, or in temporary escapes. However, true rest can only be found in the presence of God. He invites us to come to Him, to lay down our burdens and our worries, and to experience the peace that He offers. This is not a passive acceptance of our circumstances, but an active surrender to God's sovereignty. When we choose to rest in God's presence, we are not ignoring the challenges of life, but trusting in God's ability to carry us through them. By surrendering our burdens to Him, we are freed to live a life of purpose and joy.\n\n## Prayer\n\nWe come before You, Lord, weary and burdened. Help us to surrender our weights to You and find rest in Your presence. May we trust in Your sovereignty and Your peace.\n\n## One-Line Application\n\nRest in God's presence, trusting in His sovereignty, not your own strength.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
