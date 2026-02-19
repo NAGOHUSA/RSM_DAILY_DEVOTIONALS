@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 228,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## Psalm 23:4 (ESV)\n\nEven though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff comfort me.\n\n## Reflection\n\nAs a shepherd, David knew the dangers and uncertainties of leading a flock. He could have easily felt overwhelmed by the predators and harsh conditions of the wilderness. But instead of giving in to fear, David chose to trust in the presence of his Good Shepherd. We can learn from David's example by recognizing that our Shepherd is always with us, even in the darkest of times. When we walk through the valley of the shadow of death, we can find comfort in the rod and staff of our Shepherd, which remind us of His protection and guidance. This comfort is not just a feeling, but a reality that is rooted in God's character and His promise to be with us always. May we, like David, trust in the goodness of our Shepherd and find peace in His presence.\n\n## Prayer\n\nWe thank you for being our Good Shepherd, always present and watching over us. Help us to trust in your goodness and find comfort in your rod and staff.\n\n## One-Line Application\nWe trust in the presence of our Good Shepherd, even in uncertain times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
