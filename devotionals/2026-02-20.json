@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 205,
+  "theme": null,
+  "content_markdown": "# A Season of Abundance\n\n## Scripture\n\n\"For I will pour water on the thirsty land, and streams on the dry ground; I will pour my Spirit upon your offspring, and my blessing on your descendants.\" (Isaiah 44:3, NIV)\n\n## Reflection\n\nAs we navigate the ebbs and flows of life, we often find ourselves parched and dry. Our hearts long for refreshment and renewal. But in this promise from Isaiah, we are reminded that God is our source of abundance. He is the One who pours out His Spirit and blesses our lives with fruitfulness. This is not a promise limited to a select few, but rather a blessing available to all who follow Him. We must learn to trust in His goodness and provision, even when circumstances suggest otherwise. As we surrender our lives to His care, we can experience the fullness of His presence and the abundance of His love.\n\n## Prayer\n\nWe thank you for pouring out your Spirit on us, bringing us life and renewal. Help us to trust in your goodness and provision, and may we experience the fullness of your presence in our lives.\n\n## One-Line Application\n\nWe trust in God's promise to pour out His Spirit on us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
