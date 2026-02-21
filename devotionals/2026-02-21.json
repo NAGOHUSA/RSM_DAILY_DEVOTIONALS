@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 191,
+  "theme": null,
+  "content_markdown": "# Abiding in God's Sovereignty\n\n## Psalm 135:6\n\n\"For the Lord does what he pleases, in the heavens and on the earth, in the seas and all their depths.\"\n\n- Psalm 135:6 (ESV)\n\n## Reflection\n\nIn the midst of uncertainty, we may struggle to understand God's ways. The psalmist reminds us that the Lord does what He pleases, regardless of human understanding. This truth doesn't negate our need for wisdom or guidance, but it does require us to trust in His sovereignty. We can't control every situation, but we can control our response to it. We can choose to abide in God's goodness and faithfulness, even when the circumstances around us seem chaotic. This means surrendering our expectations and accepting the present moment as an opportunity to trust in God's character. By doing so, we demonstrate our faith in His sovereignty, even when we don't fully comprehend His plans.\n\n## Prayer\n\nWe trust in your sovereignty, Lord, and choose to abide in your goodness. Help us to see your faithfulness in the midst of uncertainty.\n\n## One-Line Application\n\nAbiding in God's sovereignty requires trusting in His goodness, regardless of our circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
