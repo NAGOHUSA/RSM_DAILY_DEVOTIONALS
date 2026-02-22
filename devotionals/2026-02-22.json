@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 183,
+  "theme": null,
+  "content_markdown": "# Resting in God's Presence\n\n## Psalm 46:10 - \"Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" (Psalm 46:10 ESV)\n\n## Reflection\n\nAs we navigate life's challenges and uncertainties, it's easy to become overwhelmed and anxious. In these moments, we must remember to be still and acknowledge God's sovereignty. The world around us may be chaotic, but God remains unshaken and in control. By choosing to rest in His presence, we find peace and clarity amidst the noise. It's not about avoiding problems, but about trusting in God's goodness and power to work all things together for our good. As we quiet our minds and hearts, we open ourselves to hearing His gentle whispers and receiving His guidance.\n\n## Prayer\n\nWe confess our tendency to worry and lose sight of Your control, Lord. Help us to be still and know that You are God. May we rest in Your presence and trust in Your goodness.\n\n## One-Line Application\nWe must still our minds and hearts to trust God's sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
