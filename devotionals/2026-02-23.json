@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 267,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Life's Storms\n\n## Scripture\n\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\n\nIn the midst of life's storms, we often find ourselves searching for peace. We may try to find it in the world's solutions, such as busyness, consumption, or relationships. But true peace can only be found in Jesus Christ. He is the One who gives us this peace, a peace that surpasses understanding and guards our hearts and minds. As we face the challenges of life, we must remember that Jesus is with us, and His peace is available to us. We can trust in Him to guide us through the turmoil and lead us to a place of calm and stability.\n\nAs followers of Jesus, we must also learn to trust in His presence and power. We must not let our hearts be troubled or afraid, but instead, we must anchor ourselves in His peace. This means being still and listening to His voice, seeking His guidance and wisdom, and trusting in His goodness and sovereignty.\n\n## Prayer\n\nWe come to You, Lord, seeking Your peace in the midst of life's storms. Help us to trust in Your presence and power, and guard our hearts and minds with Your peace. May we be still and listen to Your voice, seeking Your guidance and wisdom.\n\n## One-Line Application\n\nMay we anchor ourselves in Jesus' peace, not the world's solutions.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
