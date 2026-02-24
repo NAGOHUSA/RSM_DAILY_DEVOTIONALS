@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 199,
+  "theme": null,
+  "content_markdown": "# The Gentle Rain of God's Presence\n\n## Psalm 119:92 (NIV)\n\n\"Unless your law is my delight, I am a brute beast, I am ignorant; if your law had not been my guide, I would have succumbed to my troubles.\"\n\n## Reflection\n\nAs we walk through the challenges of life, we often feel like a brute beast, struggling to find our footing and make sense of our circumstances. But in times of turmoil, God's presence is always there, like a gentle rain that nourishes and sustains us. It's in His Word that we find guidance and direction, helping us navigate the twists and turns of life. When we delight in God's law, we begin to see the world through His eyes, and His presence becomes more pronounced in our lives. We start to feel His peace, His comfort, and His strength, even in the midst of chaos.\n\n## Prayer\n\nWe thank you, Lord, for being our guide and our refuge. Help us to delight in Your law and to find comfort in Your presence. Be our gentle rain in times of trouble.\n\n## One-Line Application\n\nWe can find peace and guidance in God's presence through delighting in His law.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
