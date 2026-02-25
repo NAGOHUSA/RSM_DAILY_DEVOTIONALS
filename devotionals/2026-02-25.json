@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 255,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Love\n\n## Scripture\n\n\"For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.\" - Romans 8:38-39\n\n## Reflection\n\nIn the midst of life's turmoil, we often find ourselves searching for stability and security. We may turn to temporary fixes or fleeting sources of comfort, but true peace can only be found in the unshakeable love of God. As we navigate the complexities of life, we must hold fast to the truth that nothing can separate us from God's love. This includes not just the external forces that threaten us, but also our own doubts and fears. When we feel like we're losing our footing, we can return to the rock of God's love and find our footing again. This love is not just a feeling, but a reality that is rooted in the very heart of God. It's a love that has been demonstrated through the sacrifice of Jesus Christ and is available to us every moment of every day.\n\n## Prayer\n\nWe thank you for your unshakeable love that surrounds us, Lord. Help us to anchor our hearts in you, so that nothing can ever separate us from your presence.\n\n## One-Line Application\n\nWe can find peace in the midst of turmoil by anchoring our hearts in God's unshakeable love.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
