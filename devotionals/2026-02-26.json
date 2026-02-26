@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 196,
+  "theme": null,
+  "content_markdown": "# God's Faithfulness in the Darkest Times\n\n## Psalm 138:8 (NIV)\n\nThe Lord will fulfill his purpose for me; your steadfast love, O God, endures forever. Do not forsake the work of your hands.\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to lose sight of God's presence and faithfulness. The Psalmist reminds us that God's steadfast love endures forever, and He will fulfill His purpose for us. This truth gives us confidence to trust in God, even when our circumstances seem uncertain. We don't have to be controlled by fear or anxiety, because we know that God is working everything out for our good. As we walk through dark times, we can hold onto the promise that God's loving hand is guiding us. His work in our lives is not interrupted by difficulties, but rather, it is refined and purified in the fire of trials.\n\n## Prayer\n\nWe trust in your steadfast love, O God, and ask that you give us the strength to hold onto your promise. Help us to see your work in our lives, even in the darkest moments.\n\n## One-Line Application\nTrust in God's faithfulness, even when circumstances seem uncertain.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
