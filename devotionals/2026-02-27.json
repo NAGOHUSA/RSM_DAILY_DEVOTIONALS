@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 196,
+  "theme": null,
+  "content_markdown": "# Seeking Stillness in a World of Noise\n\n## Scripture\n\n\"Be still before the Lord and say, 'Lord, I put my trust in you.'\" - Psalm 37:7 (NIV)\n\n## Reflection\n\nIn today's fast-paced world, it's easy to get caught up in the noise of social media, news headlines, and endless distractions. We're constantly being bombarded with information, demands, and expectations. But as believers, we're called to seek stillness and quietness before the Lord. This means setting aside the noise and distractions, and creating space for God to speak to us. It's not about escaping the world, but about learning to live in the midst of chaos with a heart attuned to God's presence. As we take time to be still, we'll begin to hear the gentle whispers of His voice, guiding us and directing us on our journey.\n\n## Prayer\n\nWe come before you in stillness, Lord, and ask that you would quiet our hearts and minds. Help us to trust in you and your goodness, even in the midst of chaos. Speak to us, Lord, and guide us on our path.\n\n## One-Line Application\n\nLet stillness before God become a daily habit in your life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
