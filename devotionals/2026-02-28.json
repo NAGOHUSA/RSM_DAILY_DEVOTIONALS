@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 224,
+  "theme": null,
+  "content_markdown": "# The Quiet Strength of Humility\n\n## Psalm 138:7\n\n\"The Lord will fulfill his purpose for me; your steadfast love, O God, endures forever. Do not forsake the work of your hands.\"\n\n- Psalm 138:8 (ESV)\n\n## Reflection\n\nWe often measure success by external markers - wealth, status, or recognition. However, God's perspective on success is vastly different. In His eyes, humility is a strength, not a weakness. It's the foundation upon which He builds His purposes. When we prioritize humility, we open ourselves up to God's guidance and empowerment. We begin to see that our true strength lies not in our abilities or achievements, but in our willingness to surrender to Him. As we cultivate humility, we become more effective in our endeavors, not because of our own efforts, but because God is working through us. We must not be fooled by the world's definition of success, but instead, seek to align ourselves with God's purposes, which often look very different from our own.\n\n## Prayer\n\nWe ask that you would give us a humble heart, Lord, and help us to see our strength in your power. We pray that you would guide us in your purposes and give us the courage to surrender to your will.\n\n## One-Line Application\n\nHumility is the foundation upon which God builds His purposes in our lives.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
