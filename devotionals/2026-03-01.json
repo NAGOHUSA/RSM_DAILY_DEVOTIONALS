@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 228,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Turbulent Times\n\n## John 14:27\n\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\n\nIn the midst of chaos, it's easy to become consumed by fear and anxiety. However, Jesus' words remind us that true peace comes from Him, not from the world's fleeting solutions. This peace is not a feeling that can be taken away, but a gift that remains constant, even when circumstances change. To receive this peace, we must learn to trust in Jesus' sovereignty and goodness. This means acknowledging our limitations and weaknesses, and recognizing that He is our Rock and our Refuge. As we surrender our worries to Him, we can experience the peace that passes understanding. We can learn to rest in His presence, even in the midst of turmoil.\n\n## Prayer\n\nWe thank you for the gift of peace that you give us. Help us to trust in your sovereignty and goodness, and to find rest in your presence, even in turbulent times. Keep our hearts and minds fixed on you, and give us the courage to face whatever lies ahead.\n\n## One-Line Application\n\nWe can experience peace in turbulent times by trusting in Jesus' sovereignty and goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
