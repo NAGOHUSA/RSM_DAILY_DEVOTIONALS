@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 203,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart\n\n## Psalm 100:5\n\n\"We will exalt you, Lord, because your steadfast love is from forever and ever. The Lord is high above all nations; his glory is above the heavens.\"\n\nPsalm 100:5, ESV\n\n## Reflection\n\nAs we reflect on this verse, we are reminded of the unending love and care of our Shepherd, God. He is our Rock, our Refuge, and our Comfort. His steadfast love never changes, even when our circumstances do. We can trust in His faithfulness and guidance. Just as a shepherd guides his flock through unfamiliar territory, God leads us through the twists and turns of life. He knows our needs and provides for us. We must learn to exalt Him, to praise and worship Him, for His love that endures forever. This means trusting in His good plan, even when we don't understand it. It means resting in His peace, even when the world around us is chaotic.\n\n## Prayer\n\nWe exalt you, Lord, for your steadfast love that is from forever and ever. Help us to trust in your faithfulness and guidance, and to rest in your peace.\n\n## One-Line Application\n\nTrust in God's steadfast love, even when you don't understand His plan.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
