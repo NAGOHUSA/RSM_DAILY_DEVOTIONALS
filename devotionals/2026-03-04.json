@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# A Gentle and Quiet Strength\n\n## Isaiah 30:15\n\nThus says the Lord GOD, the Holy One of Israel, \"In returning and rest you shall be saved; in quietness and in trust shall be your strength.\" But you would not.\n\n## Reflection\n\nIn a world where strength is often equated with power, aggression, and loud declarations, it's easy to forget that true strength lies in quietness and trust. The Lord reminds us that it's in returning to Him, resting in His presence, and trusting in His goodness that we find our salvation and strength. This is not a passive or defeatist attitude, but rather a proactive trust that acknowledges our dependence on God. It's a reminder that we don't have to be loud or boisterous to be effective or strong. In fact, it's often in the quiet moments, when we're still and listening, that we're most able to discern God's will and receive His guidance.\n\n## Prayer\n\nWe ask for the strength to trust in Your goodness, Lord, and to find rest in Your presence. Help us to return to You in quietness and confidence, knowing that it's in Your strength that we are saved.\n\n## One-Line Application\n\nTrue strength is found in quiet trust, not loud declarations.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
