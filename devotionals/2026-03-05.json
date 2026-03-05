@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 206,
+  "theme": null,
+  "content_markdown": "# Hope in the Midst of Chaos\n\n## Scripture\n\n\"Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.\" \n— John 14:27 (ESV)\n\n## Reflection\n\nIn the midst of overwhelming challenges, we often feel like we're losing control. Our thoughts race, and anxiety takes over. But Jesus reminds us that He offers a different kind of peace – one that's not fleeting or dependent on circumstances. This peace isn't a feeling we can manufacture, but a gift He gives us directly. As we cling to Him, we can trust that He's in control, even when everything else seems to be spinning out of control. His peace is not a denial of the difficulties we face, but a promise that He's with us, guiding and strengthening us through every trial.\n\n## Prayer\n\nWe ask that You, Lord, would fill our hearts with Your peace and calm our fears. Help us to trust in Your sovereignty and to remember that You are always with us.\n\n## One-Line Application\n\nWe can find peace in the midst of chaos by clinging to Jesus' promise of presence and guidance.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
