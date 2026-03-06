@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## Psalm 23:4 - \"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\" (NIV)\n\n## Reflection\n\nAs shepherds, we are called to lead our flock through life's uncertain and sometimes treacherous paths. We cannot control the storms that rage outside, but we can ensure that our hearts remain steadfast and our faith unwavering. The Lord is our Good Shepherd, and He promises to be with us always, even in the darkest of times. His presence is a reminder that we are not alone, and His guidance is a comfort in the face of uncertainty. As we navigate the challenges of life, let us remember that our role as shepherds is not to shield our flock from difficulties, but to lead them closer to the Good Shepherd, who is capable of working all things for their good.\n\n## Prayer\n\nWe thank you, Lord, for being our Good Shepherd who comforts us in times of uncertainty. Help us to remain steadfast and lead our flock to you, even in the darkest of valleys.\n\n## One-Line Application\nLead your flock to the Good Shepherd, who comforts in uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
