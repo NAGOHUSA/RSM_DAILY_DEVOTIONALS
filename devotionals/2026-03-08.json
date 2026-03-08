@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# Finding Strength in Sorrow\n\n## Psalm 30:5\n\n\"Weeping may tarry for the night, but joy comes with the morning.\" \n(Psalm 30:5, NIV)\n\n## Reflection\n\nLife is full of ups and downs, and we often find ourselves walking through dark valleys. It's in these moments that we feel overwhelmed and helpless. But the Bible reminds us that even in our sorrow, we can find strength. Weeping may be our current reality, but God promises that joy will come in due time. This doesn't mean that our pain will disappear overnight, but it means that we can have hope in the midst of it. We can hold onto the promise that God is working everything out for our good (Romans 8:28) and that He will give us the strength we need to face each new day. As we walk through these difficult times, let's remember to be patient and trust in God's goodness.\n\n## Prayer\n\nWe ask, Lord, that in our moments of sorrow, you would give us strength to hold onto hope. Help us to trust in your goodness and timing, and to know that joy will come with the morning.\n\n## One-Line Application\n\nWe can find strength in sorrow by trusting in God's promise of future joy.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
