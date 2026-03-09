@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 226,
+  "theme": null,
+  "content_markdown": "# Filling the Empty Places\n\n## Scripture\n\n\"...and my God will meet all your needs according to the riches of his glory in Christ Jesus.\" - Philippians 4:19 (ESV)\n\n## Reflection\n\nWe often find ourselves wandering in the wilderness of uncertainty, searching for answers and direction. Our hearts and minds are bombarded with doubts and fears, leaving us feeling empty and unfulfilled. But in these moments, we must remember the promise of God's provision. He is the God who meets our needs, not just our physical ones, but also our emotional and spiritual ones. He is the God who satisfies our deepest longings and fills the empty spaces of our lives. As we trust in Him, we will find that He is our Rock, our Refuge, and our Redeemer. We will discover that His presence is the greatest provision of all, and that in Him, we have everything we need to face whatever comes our way.\n\n## Prayer\n\nWe come before You, Lord, with empty hands and hearts. Fill us with Your presence and provision. Meet our needs, not just our physical ones, but also our emotional and spiritual ones. Give us the peace that passes understanding, and help us to trust in Your goodness and faithfulness.\n\n## One-Line Application\n\nWe can trust God to meet our needs and fill the empty spaces in our lives.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
