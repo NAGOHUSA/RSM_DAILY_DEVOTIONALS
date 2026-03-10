@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 259,
+  "theme": null,
+  "content_markdown": "# Living with Hope in Uncertain Times\n\n## Scripture\n\n\"God is our refuge and strength, an ever-present help in trouble.\" - Psalm 46:1 (NIV)\n\n## Reflection\n\nIn times of uncertainty, it's easy to feel overwhelmed and lose hope. But we must remember that God is our refuge and strength. He is always present and available to help us through any trouble. This truth is not just a theoretical concept, but a living reality that we can experience everyday. We don't have to face our fears and anxieties alone, for God is with us. His presence is not just a feeling, but a fact that we can count on. We can trust in Him to guide us through the storm and lead us to a place of peace and calm. This doesn't mean that our problems will disappear overnight, but it means that we can face them with confidence and hope.\n\nAs we navigate the ups and downs of life, let's remember to fix our eyes on God and not on our circumstances. Let's trust in His goodness and faithfulness, and know that He is working everything out for our good. This is not a naive optimism, but a biblical hope that is rooted in the character of God.\n\n## Prayer\n\nWe pray that you would be our refuge and strength in times of trouble. Help us to trust in your presence and guidance, and to face our fears and anxieties with confidence and hope.\n\n## One-Line Application\n\nWe can face uncertainty with hope by trusting in God's ever-present help.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
