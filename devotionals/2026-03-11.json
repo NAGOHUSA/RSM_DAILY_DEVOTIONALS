@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-11",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 196,
+  "theme": null,
+  "content_markdown": "# Walking in the Light of God's Presence\n\n## Scripture\n\n\"We walk by faith, not by sight.\" 2 Corinthians 5:7 (ESV)\n\n## Reflection\n\nAs we navigate life's challenges and uncertainties, it's easy to get caught up in what we can see and control. But true freedom and peace come from trusting in God's presence, even when circumstances seem dark or unclear. This trust is not based on our emotions or instincts, but on the reality of God's character and promises. We can walk by faith, not by sight, when we remember that God is always with us, guiding and directing us. This doesn't mean we won't face difficulties or make mistakes, but it means we can face them with confidence and hope. As we focus on God's presence, we begin to see the world with new eyes, and our steps become more sure and steady.\n\n## Prayer\n\nWe pray for the courage to walk by faith, not by sight, and to trust in your presence, Lord. Help us to see beyond the uncertainty and to fix our eyes on you.\n\n## One-Line Application\n\nTrust in God's presence, not your own vision, for true freedom and peace.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
