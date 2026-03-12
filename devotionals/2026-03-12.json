@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 181,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for the Flock\n\n## Psalm 28:9\n\nThe Lord is faithful, he will not forsake his people; he will not abandon his heritage. Psalm 28:9 (ESV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to feel overwhelmed and abandoned. But Scripture reminds us that our God is a faithful Shepherd, who will not forsake His people. He has a tender care for His flock, watching over us through the darkest of times and the most mundane of days. We can trust in His goodness and faithfulness, even when our circumstances seem to suggest otherwise. Just as a shepherd guides his sheep through the wilderness, our Shepherd guides us through the ups and downs of life, leading us to still waters and green pastures. We can rest in His care, knowing that He is always with us.\n\n## Prayer\n\nWe thank you, Lord, for your faithful care and guidance. Help us to trust in your goodness and to rest in your presence.\n\n## One-Line Application\nWe can trust in God's faithful care, even in overwhelming circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
