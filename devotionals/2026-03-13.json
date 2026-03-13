@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Shepherd's Guidance in Turbulent Times\n\n## Psalm 23:4\n\n\"Even though I walk through the darkest valley,\nI will fear no evil,\nfor you are with me;\nyour rod and your staff\ncomfort me.\"\n\n- Psalm 23:4 (NIV)\n\n## Reflection\n\nAs we navigate life's turbulent waters, we can find peace in the presence of our Shepherd. David's words in Psalm 23 remind us that even in the darkest moments, we are not alone. The Shepherd's guidance is always available, and His comfort can calm our fears. This truth is not just a theoretical concept, but a living reality that we can experience in our daily lives. When we feel overwhelmed, we can turn to the Shepherd's guidance, trusting that He will lead us through the darkness to a place of safety and peace. His presence is not just a feeling, but a promise that is rooted in His character and His word.\n\n## Prayer\n\nWe thank You, Shepherd, for Your presence in our lives. Help us to trust You in turbulent times, and to find comfort in Your guidance. We pray for peace that passes understanding, and for the strength to navigate life's challenges with confidence and hope.\n\n## One-Line Application\n\nWe trust in the Shepherd's guidance to calm our fears and lead us through life's darkest moments.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
