@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 213,
+  "theme": null,
+  "content_markdown": "# Calm in the Midst of Chaos\n\n## Matthew 14:31 (NIV)\n\n\"But immediately Jesus reached out his hand and caught him. 'You of little faith,' he said, 'why did you doubt?'\"\n\n## Reflection\n\nAs we navigate the unpredictable waters of life, we may find ourselves in situations that seem impossible to control. Peter, walking on the water with Jesus, faced a similar challenge. Despite being told to have faith, he began to doubt, and his focus shifted from Jesus to the turmoil around him. We, too, can easily get caught up in our circumstances and lose sight of the One who holds us. However, Jesus is always present, ready to extend his hand and steady our hearts. He calls us to trust in his power and provision, even when the winds of doubt and fear howl around us. By fixing our eyes on Jesus and his promises, we can find calm in the midst of chaos.\n\n## Prayer\n\nWe ask for the courage to fix our eyes on you, Jesus, and to trust in your presence and power. Help us to resist the temptation to doubt and fear, and instead, to anchor our hearts in your love and faithfulness.\n\n## One-Line Application\n\nAnchor your heart in Jesus' love and trust in his presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
