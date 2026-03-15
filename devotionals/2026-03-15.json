@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 193,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Turbulent Times\n\n## Matthew 11:28\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\"\n\n(Matthew 11:28, NIV)\n\n## Reflection\n\nWe often find ourselves in situations where the world around us seems to be spinning out of control. We're worn out from the constant demands of life, and we struggle to find peace. But Jesus offers us a refuge from this chaos. He invites us to come to Him, to lay down our burdens and find rest in His presence. This invitation is not just a suggestion, but a promise. When we come to Jesus, we experience the peace that passes all understanding (Philippians 4:7). This peace is not dependent on our circumstances, but on our relationship with Jesus. As we draw near to Him, we find that our burdens become lighter, and our hearts become more at peace.\n\n## Prayer\n\nWe come to you, Lord Jesus, weary and burdened. Give us rest in your presence. Help us to lay down our worries and find peace in your love.\n\n## One-Line Application\n\nFind peace in turbulent times by coming to Jesus in prayer.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
