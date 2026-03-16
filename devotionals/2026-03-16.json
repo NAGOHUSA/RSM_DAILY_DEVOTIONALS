@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 237,
+  "theme": null,
+  "content_markdown": "# Living in the Light of God's Presence\n\n## Scripture\n\"Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own.\" - 1 Corinthians 6:19 (ESV)\n\n## Reflection\nAs followers of Christ, we often struggle with the concept of our identity and ownership. The world tells us that we are our own, free to make choices and live life however we please. But the truth is, we are not our own. We are temples of the Holy Spirit, and our lives are not our own to control. This realization can be both liberating and humbling. It frees us from the burdens of trying to control our lives and others, but it also humbles us to recognize that we are not the ultimate authorities over our own lives. We are stewards of our bodies and lives, entrusted to God to use for His glory. This understanding can bring us peace and confidence in our daily lives, as we recognize that we are not alone and that God is always present with us.\n\n## Prayer\nWe thank you, Lord, for reminding us that our lives are not our own. Help us to surrender to your presence and control, trusting that you have our best interests at heart.\n\n## One-Line Application\nWe are temples of the Holy Spirit, entrusted to God's care and control.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
