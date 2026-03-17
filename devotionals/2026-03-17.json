@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Nurturing Faith in Times of Uncertainty\n\n## Scripture\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.\" - Philippians 4:6-7 (NIV)\n\n## Reflection\n\nUncertainty can creep into our lives like a chill in the air. It can make us feel restless and anxious. However, as we read Philippians 4:6-7, we're reminded that we don't have to be controlled by our fears. Instead, we can bring them to God in prayer, with thanksgiving. This doesn't mean our problems will disappear, but it means we can have peace that transcends our understanding. We can trust that God is with us, even when we can't see what's ahead. As we learn to do this, we'll find that our faith grows stronger, and we'll be better equipped to navigate life's uncertainties.\n\n## Prayer\n\nWe ask for the peace that comes from trusting in you, Lord. Help us to be still and know that you are with us, even in the midst of uncertainty. Grant us the courage to bring our fears to you in prayer, with thanksgiving.\n\n## One-Line Application\n\nWe can find peace in uncertainty by praying with thanksgiving.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
