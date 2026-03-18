@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 238,
+  "theme": null,
+  "content_markdown": "# Rooted in Faith, Growing in Hope\n\n## Scripture\n\n\"For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.\" - Jeremiah 29:11 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to lose sight of God's plans for us. But Jeremiah 29:11 reminds us that our heavenly Father has good intentions for our lives. He desires to prosper us, not to harm us, and to give us hope for the future. This verse is not a promise that life will be easy, but it's a reminder that God is working all things for our good (Romans 8:28). When faced with challenges, we can trust that God's plan is to give us hope and a future, even in the midst of uncertainty. This hope is not based on our circumstances, but on God's character and His promise to us. As we walk through the valleys of life, we can hold onto this verse and remember that God is always working to bring us closer to Himself.\n\n## Prayer\n\nWe thank you, Lord, for your plans to prosper us and give us hope and a future. Help us to trust in your goodness and to hold onto your promise, even in the midst of uncertainty.\n\n## One-Line Application\nWe can trust God's plans, even when life is uncertain.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
