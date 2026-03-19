@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 186,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Presence\n\n## Scripture\n\n\"I am with you always, to the very end of the age.\" - Matthew 28:20 (NIV)\n\n## Reflection\n\nIn a world where uncertainty and chaos seem to dominate, we often find ourselves searching for stability and peace. As believers, we can find comfort in knowing that God's presence is with us at all times. He is not a distant or absent God, but one who is intimately connected to our lives. Just as a tree is rooted in the earth, so too can we be rooted in God's presence, finding strength and security in His unchanging love. This truth transforms our fears into faith, our worries into worship, and our doubts into declarations of His goodness. As we walk through life's trials, we can trust that God's presence is our rock, our refuge, and our guiding light.\n\n## Prayer\n\nWe thank you, Lord, for your promise to be with us always. Help us to trust in your presence and find peace in your love.\n\n## One-Line Application\n\nWe can find stability and peace in God's presence at all times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
