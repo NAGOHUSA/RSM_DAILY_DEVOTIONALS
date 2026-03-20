@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 214,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Midst of Chaos\n\n## Psalm 46:10\n\n\"Be still, and know that I am God; \nI will be exalted among the nations, \nI will be exalted in the earth!\" \n(Psalm 46:10, ESV)\n\n## Reflection\n\nLife can be overwhelming, and it's easy to get caught up in the whirlwind of responsibilities and worries. But in the midst of chaos, God calls us to be still. It's not a call to do nothing, but rather to be mindful of His presence and sovereignty. When we're still before Him, we can trust that He is God and that He is in control. This doesn't mean we won't face challenges or difficulties, but it means we can face them with confidence and peace, knowing that He is with us. As we learn to be still and trust in God's goodness and power, we'll find that His peace becomes our peace, even in the midst of chaos.\n\n## Prayer\n\nWe ask that You would help us to be still and know that You are God, even in the midst of overwhelming circumstances. Give us the peace that comes from trusting in Your goodness and power.\n\n## One-Line Application\n\nWe can find peace in the midst of chaos by being still and trusting in God's sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
