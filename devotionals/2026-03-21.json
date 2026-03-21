@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 175,
+  "theme": null,
+  "content_markdown": "# Cultivating Inner Peace in Turbulent Times\n\n## Scripture\n\"In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety.\" Psalm 4:8 (NIV)\n\n## Reflection\nAs we navigate life's challenges, it's easy to get caught up in anxiety and fear. But Psalm 4 reminds us that true peace comes from God alone. This verse invites us to trust in His presence and protection, even in the midst of turmoil. When we anchor our hearts in God's faithfulness, we can find rest and peace that surpasses our circumstances. It's not about eliminating life's difficulties, but about learning to rest in His goodness and sovereignty. As we cultivate this inner peace, we'll be better equipped to face life's challenges with hope and resilience.\n\n## Prayer\nWe ask, Lord, to dwell in Your peace and safety, trusting in Your presence and protection. Help us to rest in Your goodness and sovereignty, even in turbulent times.\n\n## One-Line Application\nMay trust in God's presence and protection bring you inner peace in challenging circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
