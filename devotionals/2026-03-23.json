@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Finding Rest in the Lord\n\n## Psalm 62:5 (NIV) - \"Find rest, O my soul, in God alone; my hope comes from him.\"\n\nAs the world around us becomes increasingly chaotic, it's easy to lose sight of our rest in God. We get caught up in the hustle and bustle of daily life, trying to control every aspect and outcome. But God's Word reminds us that our rest is found in Him alone. When we learn to trust in God's sovereignty and goodness, we can let go of our need to control and instead, find peace in His presence. It's a daily choice to surrender our worries and doubts to Him, knowing that He is our Rock and our Savior. We can trust that He is working everything out for our good, even when we can't see it. As we practice rest in God, we'll find that our souls are refreshed, our hearts are calmed, and our faith is strengthened.\n\n## Prayer\n\nWe come to you, Lord, seeking rest in your presence. Help us to let go of our need to control and trust in your sovereignty. May we find peace in your presence, even in the midst of chaos.\n\n## One-Line Application\nFind rest in God, and let go of the need to control daily life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
