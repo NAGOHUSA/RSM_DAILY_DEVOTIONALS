@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 186,
+  "theme": null,
+  "content_markdown": "# A Life Rooted in Love\n\n## Psalm 119:127 - \"Therefore I love your commandments above gold, above fine gold.\" (Psalm 119:127 NRSV)\n\n## Reflection\n\nAs we navigate the complexities of everyday life, it's easy to get caught up in the pursuit of material wealth and worldly status. But Scripture reminds us that true riches lie in the pursuit of loving and following God's commandments. When we prioritize our relationship with God, we find a sense of fulfillment and purpose that transcends the fleeting nature of earthly treasures. By choosing to love God's commandments above all else, we cultivate a deep sense of trust and intimacy with Him. This rootedness in love allows us to weather life's storms with confidence, knowing that our anchor is securely fastened in the depths of God's love.\n\n## Prayer\n\nWe ask that You help us to prioritize a love for Your commandments above all else. May we be rooted in the depths of Your love, and may this love guide us in all that we do.\n\n## One-Line Application\nPrioritize a love for God's commandments above all else in life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
