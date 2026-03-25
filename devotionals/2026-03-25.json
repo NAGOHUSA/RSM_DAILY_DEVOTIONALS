@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 263,
+  "theme": null,
+  "content_markdown": "# Shepherd's Heart: Guidance in Uncertainty\n\n## Scripture\n\n\"And I will lead the blind by a way they did not know; they shall not stumble, and they shall not be darkened, for I will guide them. I will turn the darkness into light for them, and the crooked places into straight things.\" - Isaiah 42:16 (ESV)\n\n## Reflection\n\nIn times of uncertainty, the shepherd's guidance is our greatest comfort. We're reminded that our God is a loving shepherd who leads His sheep through unfamiliar paths, ensuring they don't stumble or get lost in the darkness. His guidance transforms the seemingly impossible into achievable goals, and the crooked paths into the straight and narrow. This promise encourages us to trust in His wisdom, even when we can't see the way ahead. It's not about having a plan or being self-sufficient; it's about surrendering to His guidance and allowing Him to lead us through the unknown.\n\nAs we face life's uncertainties, let's remember that God is our shepherd, and He will guide us through the darkest of times. His guidance is not about taking away our fears but about giving us the courage to face them head-on, knowing that He's with us every step of the way.\n\n## Prayer\n\nWe pray for guidance in our uncertain times, trusting that You will lead us by a way we did not know. Give us the courage to surrender to Your wisdom and walk in Your light, even when the path ahead seems unclear.\n\n## One-Line Application\n\nTrust in God's guidance, even when the path ahead is uncertain.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
