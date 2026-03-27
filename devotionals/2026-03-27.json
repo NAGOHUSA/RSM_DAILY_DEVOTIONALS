@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# A Place of Rest for the Weary Soul\n\n## Scripture\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\nIn a world filled with chaos, noise, and endless demands, it's easy to become weary and burdened. Our minds are constantly racing, our schedules are packed, and our bodies are tired. But Jesus invites us to a different way. He invites us to come to Him, to lay down our burdens at His feet, and to find rest in His presence. This rest is not just physical or emotional, but spiritual as well. It's a rest that comes from knowing that we are loved, accepted, and forgiven by God. When we come to Jesus, we find that He is the calm in the storm, the peace that passes all understanding. And in His presence, we can let go of our worries and our fears, and simply be still.\n\n## Prayer\nWe come to you, Lord, weary and burdened. Give us rest in your presence. Help us to lay down our worries and our fears, and to find peace in your love.\n\n## One-Line Application\nLet go of your worries and fears, and find rest in God's presence today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
