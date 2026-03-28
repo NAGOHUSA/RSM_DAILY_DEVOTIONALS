@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 232,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for His Flock\n\n## John 10:14\n\n\"I have other sheep that are not of this sheep pen. I must bring them also. They too will listen to my voice; then there will be one flock and one shepherd.\" - John 10:16 (NIV)\n\n## Reflection\n\nAs Jesus spoke these words, He revealed His desire to gather all people under His care. Just as a shepherd tends to his flock with love and devotion, Jesus wants us to know that He is equally invested in each person's life. This passage reminds us that His care extends far beyond our immediate community, but encompasses the entire world. We are not alone in our struggles; Jesus is actively seeking those who need His guidance and compassion. As we look to Him for guidance, we see that His care is not limited by geography or social status. He is a shepherd who knows each of His sheep by name, and is willing to go to great lengths to bring them safely under His protection.\n\n## Prayer\n\nWe thank you, Lord, for your unwavering care and devotion to your people. Help us to recognize your presence in the lives of those around us, and to join you in your mission to gather all people under your loving care.\n\n## One-Line Application\n\nWe are part of a larger flock, cared for by our loving Shepherd.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
