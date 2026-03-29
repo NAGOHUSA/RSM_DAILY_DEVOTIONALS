@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 236,
+  "theme": null,
+  "content_markdown": "# Rest in God's Sovereign Plan\n\n## John 3:30 (NIV) - \"He must become greater; I must become less.\"\n\nIn the midst of life's chaos and uncertainties, we often struggle to surrender our plans and expectations to God's sovereign will. We want to control the narrative, to dictate the outcome, and to ensure that everything turns out as we've envisioned. But the truth is, our best-laid plans are often derailed by circumstances beyond our control. In this moment of surrender, we must recognize that our limitations are a reflection of our humanity, and that God's power and wisdom far surpass our own. As we yield to His plan, we begin to experience the freedom that comes from trusting in His goodness and sovereignty. We learn to rest in the knowledge that He is working all things together for our good, even when we can't see the bigger picture. This surrender is not a sign of weakness, but of strength, for it takes courage to trust in the unknown and to place our hope in a God who is greater than our fears.\n\n## Prayer\nWe surrender our plans and expectations to You, God, and ask for the courage to trust in Your sovereign will. Help us to rest in the knowledge that You are working all things for our good.\n\n## One-Line Application\nSurrendering our plans to God's sovereignty brings freedom and trust in His goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
