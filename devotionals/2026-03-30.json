@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 237,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for Our Souls\n\n## Psalm 23:4 (NIV)\n\nEven though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\n\n## Reflection\n\nIn the midst of life's challenges, we often feel overwhelmed and uncertain about our future. Just like sheep in a flock, we can become easily scattered and fearful when the path ahead seems unclear. However, God's Word reminds us that we are not alone. He is our Shepherd, and His presence is always with us, even in the darkest of times. His rod and staff serve as a reminder of His guidance and protection. As we navigate through life's difficulties, let us remember that God's care for us is not limited to our physical needs but also extends to our spiritual well-being. He desires to comfort us and lead us through the darkest valleys, and His presence is our greatest source of peace and hope.\n\n## Prayer\n\nWe come before you, Lord, and acknowledge our fears and doubts. We ask that you would comfort us with your presence and guide us through the challenges that lie ahead. Help us to trust in your goodness and sovereignty, and give us the courage to walk in faith, even in the darkest of times.\n\n## One-Line Application\n\nMay we trust in God's presence and guidance even in the darkest valleys of life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
