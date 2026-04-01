@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 229,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Gentle Guidance\n\n## Scripture\n\n\"For the Lord your God is a merciful God; He will neither forsake you nor destroy you.\" - Deuteronomy 4:31 (NKJV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to become overwhelmed by the weight of our circumstances. We may feel like we're wandering through a dark valley, unsure of which path to take. But in moments like these, we must remember that we are not alone. Our God is a merciful God, who promises to guide us through the darkness and lead us to green pastures. He will not forsake us, nor will He destroy us. Instead, He will gently guide us, providing for our needs and giving us the strength to carry on. This is not a God who is distant or uncaring, but one who is intimately involved in our lives. He knows our deepest fears and our greatest joys, and He is moved with compassion to help us through even the toughest times. So let us not be afraid to seek His guidance, to ask for His help, and to trust in His goodness.\n\n## Prayer\n\nWe thank you, Lord, for your merciful guidance and gentle care. Help us to trust in your goodness, even when the road ahead seems uncertain.\n\n## One-Line Application\n\nMay we find comfort in God's promise to guide us through life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
