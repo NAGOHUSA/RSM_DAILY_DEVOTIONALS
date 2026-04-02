@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 190,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Love\n\n## Scripture\n\"As a father has compassion on his children, so the Lord has compassion on those who fear him.\" - Psalm 103:13 (NIV)\n\n## Reflection\nAs we navigate life's challenges, it's easy to forget that we are beloved children of God. His compassion is not limited to our successes or failures, but is a constant presence that remains with us through every struggle. In his love, we find the strength to persevere, the wisdom to make difficult decisions, and the peace that surpasses our understanding. When we feel overwhelmed, we can trust that God's compassion is our anchor, holding us firm in the midst of chaos. May we learn to rest in his love, knowing that he is always near, guiding us and comforting us.\n\n## Prayer\nWe thank you, Father, for your unwavering compassion towards us. We ask that you grant us the courage to trust in your love, even in the midst of uncertainty. Help us to rest in your presence and find peace in your compassion.\n\n## One-Line Application\nWe can trust God's compassion to hold us firm in life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
