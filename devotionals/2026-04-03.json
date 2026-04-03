@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 229,
+  "theme": null,
+  "content_markdown": "# Living in the Fullness of His Presence\n\n## Scripture\n\n\"The Lord is near to the brokenhearted and saves the crushed in spirit.\" - Psalm 34:18 (ESV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to lose sight of God's presence. We may feel overwhelmed, crushed, and broken. But the truth is, God is always near, especially when we're at our lowest. His presence is not just a feeling or a sensation; it's a reality that is always available to us. We can trust that He is working everything out for our good, even when we can't see it. His presence is not just a comfort, but a power that can transform our circumstances and bring us peace.\n\nWe don't have to be afraid to be vulnerable and honest with God about our struggles. He wants us to come to Him just as we are, broken and weary. His presence is not just a destination; it's a journey that we're on with Him every step of the way. And in the midst of chaos, we can choose to focus on His presence, rather than our problems.\n\n## Prayer\n\nWe thank you, Lord, for your presence in our lives. Help us to recognize your nearness, especially when we're feeling broken and crushed. Fill us with your peace and power.\n\n## One-Line Application\nTrust God's presence to transform your circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
