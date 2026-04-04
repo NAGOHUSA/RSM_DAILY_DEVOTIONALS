@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 258,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Life's Storms\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to become overwhelmed by the weight of our responsibilities and worries. The world can seem like a turbulent sea, and we may feel like we're being tossed about by its waves. But in today's scripture, Jesus invites us to come to Him, to lay down our burdens and find rest in His presence. This isn't a call to ignore the problems of the world or to flee from our responsibilities, but rather to find our strength and peace in Him. When we bring our burdens to Jesus, He doesn't dismiss them or tell us to deal with them on our own. Instead, He takes them from us, and in their place, He gives us rest. This rest isn't a passive avoidance of our problems, but an active trust in God's sovereignty and goodness. When we come to Jesus with our burdens, we find that He isn't just a calm in the storm, but the One who can calm the storm itself.\n\n## Prayer\n\nWe come to you, Lord, with our burdens and our worries. Help us to lay them down at your feet and find rest in your presence. Give us the strength to trust in your sovereignty and goodness.\n\n## One-Line Application\nFind rest in Jesus, not in avoiding life's problems, but in trusting His goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
