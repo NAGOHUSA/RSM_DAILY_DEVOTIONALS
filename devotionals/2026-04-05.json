@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 210,
+  "theme": null,
+  "content_markdown": "# Calm in the Storm of Life\n\n## Psalm 46:10 (NIV)\n\n*Be still and know that I am God; I will be exalted among the nations, I will be exalted in the earth!*\n\n## Reflection\n\nAs we navigate life's turbulent waters, it's easy to get caught up in the chaos. We try to control the riptides and calm the waves through our own strength, but it's in those moments of desperation that we're reminded of God's sovereignty. He's the stillness in the storm, the anchor that holds fast when everything else seems to be spinning out of control. We must learn to recognize His presence and quiet our hearts before Him, trusting that He's working all things together for our good (Romans 8:28). It's a hard-won lesson, one that requires us to surrender our need for control and instead seek His peace that passes understanding (Philippians 4:7).\n\n## Prayer\n\nWe confess our tendency to try and control the uncontrollable, God. Help us to still our hearts and minds before You, trusting that You are God and will be exalted among the nations. We rely on Your peace in the midst of turmoil.\n\n## One-Line Application\nWe must still our hearts and minds before God in the midst of life's storms.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
