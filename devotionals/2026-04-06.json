@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 210,
+  "theme": null,
+  "content_markdown": "# Shepherd's Care in Times of Fear\n\n## Scripture\n\n\"For God did not give us a spirit of fear, but of power and of love and of a sound mind.\" - 2 Timothy 1:7 ESV\n\n## Reflection\n\nFear can be a crippling force in our lives, causing us to doubt God's goodness and His plan for us. But the Bible tells us that God has not given us a spirit of fear, but rather one of power, love, and a sound mind. This is not to say that we will never experience fear, but rather that we are not defined by it. When fear grips us, we can turn to God and ask for His presence, peace, and guidance. He promises to give us wisdom and clarity in times of uncertainty, helping us to trust Him more deeply. As we learn to cast our fears on Him, we will discover the freedom and courage that comes from knowing we are not alone.\n\n## Prayer\n\nWe pray for the peace that only comes from God, and for the wisdom to trust Him in times of fear. Help us to know Your presence and power in our lives.\n\n## One-Line Application\n\nTrust in God's presence and power to overcome fear and uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
