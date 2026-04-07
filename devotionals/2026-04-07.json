@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 225,
+  "theme": null,
+  "content_markdown": "# Rooted in His Love\n\n## Scripture\n\n\"For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.\" - Jeremiah 29:11 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to lose sight of God's goodness and love. But Jeremiah 29:11 reminds us that our Heavenly Father has a plan to prosper us, not to harm us. This promise is not a guarantee of ease or absence of trials, but it is a reminder that God's ultimate intention is our good.\n\nIn times of uncertainty, we can be tempted to worry or doubt God's love. But let's not forget that His plans are not limited by our circumstances. He can work through adversity to bring about growth, character, and a deeper understanding of His love. As we surrender to His sovereignty, we can trust that He is working everything out for our good.\n\n## Prayer\n\nWe thank you, Lord, for your loving plan for our lives. Help us to trust in your goodness, even when the road ahead seems uncertain. Give us the courage to surrender to your sovereignty and to see your hand at work in every circumstance.\n\n## One-Line Application\n\nWe can trust God's loving plan for our lives, despite life's uncertainties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
