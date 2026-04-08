@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 224,
+  "theme": null,
+  "content_markdown": "# Seeking Peace in Turbulent Times\n\n## Scripture\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" (John 14:27, NIV)\n\n## Reflection\nIn times of turmoil, we often seek peace from the world around us. However, this peace is fleeting and unreliable. As followers of Jesus, we are called to seek a different kind of peace – one that is rooted in our relationship with Him. When we are troubled or afraid, we must remind ourselves that Jesus has given us His peace. This peace is not a feeling or an emotion, but a gift that comes from knowing and trusting in Jesus' presence and power in our lives. As we seek to live out our faith in a chaotic world, we must anchor ourselves in this peace, trusting that Jesus is always with us.\n\n## Prayer\nWe ask for the peace that only comes from you, Lord. Help us to trust in your presence and power in our lives, even when the world around us is turbulent. Give us the courage to stand firm in our faith, knowing that you are with us always.\n\n## One-Line Application\nMay we anchor ourselves in Jesus' peace, trusting in His presence and power.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
