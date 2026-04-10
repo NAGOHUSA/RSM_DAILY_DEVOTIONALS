@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 226,
+  "theme": null,
+  "content_markdown": "# Nourished by the Living Vine\n\n## John 15:5\n\n\"I am the vine; you are the branches. The one who remains in me and I in him will produce much fruit, because you can do nothing without me.\" (John 15:5)\n\n## Reflection\n\nAs we walk through life's seasons, we must remember that our strength and vitality come from abiding in Christ. Just as a branch on a vine cannot produce fruit without the nourishment of the vine, we cannot produce spiritual fruit without being connected to Christ. This means that our focus should be on remaining in Him, rather than trying to produce fruit on our own. We must surrender our desires and efforts to His will and rely on His power to produce the good works He has prepared for us. This is not a passive existence, but an active surrender to His lordship. As we remain in Him, we will experience a deeper sense of peace, joy, and purpose.\n\n## Prayer\n\nWe confess that our attempts to produce fruit on our own have been futile and unfruitful. We surrender our lives to Your lordship, Christ, and ask for the strength to remain in You. Help us to trust in Your power and will, that we may bear much fruit for Your glory.\n\n## One-Line Application\n\nWe must remain in Christ to produce spiritual fruit.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
