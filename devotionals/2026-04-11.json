@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-11",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 274,
+  "theme": null,
+  "content_markdown": "# Rooted in His Presence\n\n## Scripture\n\"And the Lord God planted a garden in Eden, in the east, and there he put the man whom he had formed. And out of the ground the Lord God made to spring up every tree that produces fruit with seed, the tree yielding fruit that serves as food, and the tree yielding seed to plant. And the Lord God took the man and put him in the garden of Eden to work it and keep it.\" \nGenesis 2:8-15 (ESV)\n\n## Reflection\nIn this passage, we see God's initial creation of Eden as a place of beauty, abundance, and rest. The Lord God takes Adam, the first human, to the garden and commands him to tend and guard it. This act of commissioning Adam with the care of Eden underscores God's desire for humans to be in a mutually beneficial relationship with Him and with creation. We are called to be caretakers of the earth, just as Adam was in the beginning. This responsibility is not just about our role as stewards of the land, but also about recognizing our dependence on God for all things. As we strive to care for the world around us, we must first cultivate a deep understanding of our dependence on Him.\n\n## Prayer\nLord, we confess our neglect of the earth and our forgetfulness of our dependence on You. Grant us wisdom to care for creation as our Creator commands, that we might honor You in all things.\n\n## One-Line Application\nWe must tend to the earth with the same care and obedience as Adam in the garden of Eden.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
