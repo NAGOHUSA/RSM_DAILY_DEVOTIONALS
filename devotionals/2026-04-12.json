@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 235,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Love and Wisdom\n\n## Scripture\n\n\"For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.\" - Jeremiah 29:11 (NIV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to become uncertain about our future. But Jeremiah 29:11 reminds us that God has a plan for us, one that is rooted in His love and wisdom. This plan is not just about avoiding harm, but about giving us hope and a future filled with purpose. When we trust in God's goodness and sovereignty, we can walk in confidence, knowing that He is working everything out for our good. This doesn't mean we won't face challenges, but it means we can face them with courage and faith, knowing that God is with us every step of the way. As we look to the future, let's remember that God's plans are always better than our own, and that He is working to bring about a good and beautiful outcome.\n\n## Prayer\n\nWe trust in Your wisdom and love, Lord, and ask that You guide us as we navigate the unknown. Help us to surrender to Your plans and trust that You are working everything out for our good.\n\n## One-Line Application\nWe trust God's plans and wisdom for our lives, even when uncertain.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
