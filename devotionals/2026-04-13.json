@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 215,
+  "theme": null,
+  "content_markdown": "# Cultivating Inner Peace in Chaos\n\n## Scripture\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\" - Philippians 4:6 (NIV)\n\n## Reflection\n\nAs we navigate life's turbulent waters, it's easy to get caught up in worries and fears. But the Bible reminds us to not be anxious, instead entrusting our concerns to God through prayer and thanksgiving. This isn't a call to ignore our problems, but to approach them with a sense of trust and dependence on God. When we focus on our circumstances, we can become overwhelmed, but when we focus on God, we can experience peace that surpasses understanding. This peace isn't a feeling we manufacture, but a divine gift given to us through faith. It's a peace that enables us to face challenges with confidence, knowing that God is working everything together for our good.\n\n## Prayer\n\nWe come to you, Lord, with hearts full of anxiety and fears. Help us to present our requests to you with thanksgiving, trusting in your sovereignty and goodness. Give us the peace that surpasses understanding, that we may face life's challenges with confidence and faith.\n\n## One-Line Application\n\nWe must trust God with our worries and present them to Him in prayer.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
