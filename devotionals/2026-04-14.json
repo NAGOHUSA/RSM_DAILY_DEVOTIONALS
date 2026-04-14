@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 224,
+  "theme": null,
+  "content_markdown": "# Cultivating Hope in the Desert Seasons\n\n## Psalm 42:11 (NIV)\n\n\"Why, my soul, are you downcast? Why so disturbed within me? Put your hope in God, for I will yet praise him, my Savior and my God.\"\n\n## Reflection\n\nIn the desolate landscapes of our lives, it's easy to lose sight of hope. The dry, cracked earth and barren trees can make us feel like we're walking through the wilderness, with no promise of shade or sustenance in sight. But even in the midst of such desolation, God calls us to put our hope in Him. This is not a naive optimism, but a deep-rooted trust in the goodness and faithfulness of our Creator. He is the One who sustains us, who refreshes us, and who brings new life to the most barren of places. As we walk through the desert seasons, we must remind ourselves that God is our rock, our refuge, and our strength. He is the One who will yet praise His name in our lives, even when we cannot.\n\n## Prayer\n\nWe put our hope in You, Lord, even in the desolate seasons of life. Help us to trust in Your goodness and faithfulness, and to praise Your name in all circumstances.\n\n## One-Line Application\n\nWe must learn to put our hope in God, even when life feels desolate.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
