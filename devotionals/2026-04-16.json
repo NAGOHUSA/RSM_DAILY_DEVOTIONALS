@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 214,
+  "theme": null,
+  "content_markdown": "# Living Faith in Times of Suffering\n\n## Scripture\n\n\"For we also have believed because of your word. We would have come to you many times already, but we are hindered from coming. Now in a great hurry, I wrote to you with my own hand; I, Paul. Did I commit sin in humbling myself so that you might be exalted, because we made up ourselves to plead for you before God? I do not speak to condemn you, for I have said before that you are in our hearts to die together and to live together.\" - 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 1 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians 2:9-11, 2 Corinthians",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
