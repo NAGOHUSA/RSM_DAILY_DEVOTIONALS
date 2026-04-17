@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 219,
+  "theme": null,
+  "content_markdown": "# Hope in the Midst of Fading Strength\n\n## Matthew 26:41\n\n\"But now, let the one who has a purse take it, and likewise a bag. For the worker deserves his wages does not he? When I sent you out with no purse, bag, or sandals, did you lack anything? They said, 'Nothing.'\" - Matthew 26:41 (ESV)\n\n## Reflection\n\nAs followers of Christ, we are often called to step out in faith, trusting in God's provision and guidance. Like the apostles, we may be sent out without the usual comforts and resources, yet still experience God's care and supply. In our own lives, we may face times of uncertainty and fading strength. Yet, just as God provided for the apostles, He longs to do the same for us. We must learn to trust in His goodness and provision, even when our own resources are dwindling. This trust is not a denial of our human needs, but rather a recognition of God's sovereignty and love.\n\n## Prayer\n\nWe pray for the courage to trust in Your goodness, even when our strength is fading. Help us to recognize Your provision and care in the midst of uncertainty. Give us a heart to rely on Your love and guidance.\n\n## One-Line Application\n\nTrust in God's goodness, even when human resources are dwindling.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
