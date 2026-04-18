@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 196,
+  "theme": null,
+  "content_markdown": "# Finding Strength in Weakness\n\n## Psalm 138:8\n\n\"The Lord will fulfill his purpose for me; your steadfast love, O God, enables me to triumph over joy.\" - Psalm 138:8 (ESV)\n\n## Reflection\n\nWe often view strength as the absence of weakness, but God sees it differently. He uses the weaknesses of His people to demonstrate His power and faithfulness. David, the writer of this Psalm, had faced numerous challenges and struggles in his life, yet he knew that God was with him, giving him the strength he needed to overcome them. We too can find strength in our weaknesses when we acknowledge God's presence and purposes in our lives. It's not about hiding or denying our weaknesses, but about trusting that God can use them to bring about His glory. As we surrender to Him, He can turn our weaknesses into opportunities for growth, testimony, and triumph.\n\n## Prayer\n\nWe trust that you, God, will fulfill your purpose in us, despite our weaknesses. Use our vulnerabilities to show us your steadfast love and to bring glory to yourself.\n\n## One-Line Application\nWe can find strength in our weaknesses when we trust God's presence and purposes.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
