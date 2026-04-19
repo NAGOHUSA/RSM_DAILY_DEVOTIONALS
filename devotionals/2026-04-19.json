@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 221,
+  "theme": null,
+  "content_markdown": "# Nourished by God's Abundant Provisions\n\n## Scripture\n\n\"As your father David said, 'The Lord said to you, \"You are the shepherd, for these people shall be your inheritance.\"'\" Acts 13:36\n\n## Reflection\n\nIn our lives, we often feel like we're struggling to provide for ourselves and our loved ones. We may worry about meeting our basic needs, let alone enjoying the finer things in life. But today's scripture reminds us that we're not just stewards of our own resources, but also recipients of God's abundant provisions. As David's son, Jesus is our good Shepherd who cares for us and provides for all our needs. He wants us to trust in His goodness and faithfulness, just as David did. When we feel uncertain or anxious about our future, we can rest in the truth that God is our Shepherd, and He will always take care of us. We can trust in His power and love to meet our needs, and in doing so, we can experience peace and contentment, even in the midst of uncertainty.\n\n## Prayer\n\nWe thank you, Lord, for being our Shepherd and providing for all our needs. Help us to trust in your goodness and faithfulness, and to rest in your peace and contentment.\n\n## One-Line Application\n\nWe trust in God's abundant provisions for all our needs.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
