@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 273,
+  "theme": null,
+  "content_markdown": "# A Refuge in the Storm\n\n## Psalm 61:2\n\n\"From the end of the earth I call to you when my heart is faint. Lead me to the rock that is higher than I.\" (Psalm 61:2, NIV)\n\n## Reflection\n\nIn the midst of life's turmoil, we often feel overwhelmed and disconnected from God. We may feel like we're at the end of our rope, with no clear direction or sense of security. But the psalmist reminds us that we have a refuge in the storm. We can call out to God, even when our heart is faint, and He will lead us to a rock that is higher than our circumstances. This rock is not a physical place, but a spiritual reality - the presence of God Himself. When we're facing challenges that seem insurmountable, we can trust that God will guide us through them, even when we don't see a way forward.\n\nIn times of uncertainty, we can learn to lean on God's presence, rather than our own strength. We can trust that He will lead us to a place of safety and comfort, even when the world around us seems to be falling apart. This trust is not based on our own abilities or resources, but on God's character and promise to be our refuge.\n\n## Prayer\n\nWe confess, God, that we often feel overwhelmed and disconnected from you. Lead us to the rock that is higher than our circumstances, and help us to trust in your presence and promise. \n\n## One-Line Application\n\nWe can trust God to lead us to a place of safety and comfort in times of turmoil.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
