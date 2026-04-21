@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 224,
+  "theme": null,
+  "content_markdown": "# Hope in the Midst of Trials\n\n## Scripture\n\n\"And we know that for those who love God all things work together for good, for those who are called according to his purpose.\" - Romans 8:28 (ESV)\n\n## Reflection\n\nIn the midst of trials, it can be difficult to find hope. We may feel overwhelmed and unsure of how to move forward. But as believers, we have the confidence that God is working all things together for our good. This doesn't mean that the trials will be easy or pleasant, but it means that God is using them to shape us and conform us to the image of Christ. We can trust that He is working everything out for our benefit, even when we can't see the end result. This doesn't negate the reality of our pain or suffering, but it gives us a reason to hold on to hope, even when everything around us seems to be falling apart. We can trust that God is good, and that He will ultimately bring good out of our trials.\n\n## Prayer\n\nWe thank you, God, for being a God of hope and redemption. Help us to trust in your goodness, even when trials come our way.\n\n## One-Line Application\n\nWe trust that God is working everything out for our good in the midst of trials.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
