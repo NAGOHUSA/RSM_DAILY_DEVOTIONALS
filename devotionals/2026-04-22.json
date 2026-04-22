@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 229,
+  "theme": null,
+  "content_markdown": "# Finding Rest in God's Presence\n\n## Scripture\n\"Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.\" - Matthew 11:28-29 (NIV)\n\n## Reflection\nIn a world full of noise, distractions, and responsibilities, it's easy to feel overwhelmed and exhausted. We try to find rest in our accomplishments, our relationships, or our possessions, but ultimately, we come up short. Jesus invites us to come to Him, to take His yoke upon us, and to learn from Him. He promises that we will find rest for our souls. This rest is not a physical or emotional escape, but a spiritual one. It's a rest that comes from knowing we are loved, accepted, and forgiven. When we learn to lean on Jesus and trust in His goodness, we can find peace in the midst of chaos.\n\n## Prayer\nWe come to you, Lord, weary and burdened, seeking rest for our souls. Help us to take your yoke upon us and learn from you, that we may find the peace and tranquility we so desperately need. Guide us in your gentle and humble heart.\n\n## One-Line Application\nWe must learn to lean on Jesus, trusting in His goodness for spiritual rest.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
