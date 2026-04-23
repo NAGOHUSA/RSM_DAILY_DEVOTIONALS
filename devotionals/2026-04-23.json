@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 216,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Turbulent Times\n\n## Psalm 119:50\n\n\"I remember your precepts of old, Lord, and I ponder them. How I love your precepts! Revive me with your promise, O God, and I will ponder your precepts.\" (Psalm 119:50, NIV)\n\n## Reflection\n\nIn the midst of turbulent times, it's easy to become overwhelmed and lose our sense of peace. But God's Word reminds us that He is our Rock, our Refuge, and our Savior. His precepts, or teachings, are a source of comfort and strength. As we reflect on His promises and precepts, we are reminded that He is always present and working on our behalf. We don't have to face our fears and anxieties alone, because God is with us. His promise of revival and restoration gives us hope and encourages us to ponder His Word and trust in His goodness. Let us remember to seek refuge in God's Word, especially when the storms of life surround us.\n\n## Prayer\n\nWe come to you, Lord, in the midst of turbulent times, seeking peace and comfort. Revive us with your promise and help us to ponder your precepts. Give us the strength to trust in your goodness and presence.\n\n## One-Line Application\n\nAs you face turbulent times, turn to God's precepts for peace and comfort.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
