@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 244,
+  "theme": null,
+  "content_markdown": "# Walking in the Light of God's Presence\n\n## Scripture\n\n\"We have come to know and to believe the love that God has for us. God is love, and whoever abides in love abides in God, and God abides in him.\" 1 John 4:16 (ESV)\n\n## Reflection\n\nAs we walk through our daily lives, it's easy to get caught up in the darkness of our own struggles and worries. But God calls us to walk in the light of His presence. This light illuminates our path, guiding us through the twists and turns of life. When we abide in love, we abide in God, and He abides in us. This is not just a feeling or a decision, but a reality that changes everything. It's a reminder that we are not alone, that God is with us and for us. This love is not just a sentiment, but a powerful force that can overcome any obstacle. As we walk in the light of God's presence, we find peace, joy, and freedom. We are no longer slaves to our fears and doubts, but children of the King, loved and cherished.\n\n## Prayer\n\nWe thank You, Lord, for Your love that abides in us. Help us to walk in the light of Your presence, and to abide in love. May we be guided by Your wisdom and peace.\n\n## One-Line Application\n\nWalk in the light of God's presence, and may love guide you through life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
