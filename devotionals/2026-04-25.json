@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 200,
+  "theme": null,
+  "content_markdown": "# Cultivating a Heart for God's Sovereignty\n\n## Psalm 138:8 (NIV)\n\n\"The Lord will fulfill his purpose for me; your steadfast love, O God, endures forever. Do not forsake the work of your hands.\"\n\n## Reflection\n\nAs we navigate life's twists and turns, it's easy to feel the weight of uncertainty. We may question God's plan, wondering if He's truly in control. But the Psalmist reminds us that God's sovereignty is not limited by our understanding. His purpose is not dependent on our circumstances, but on His own character. We can trust that God's love endures forever, even when we can't see the big picture. This is not a blind trust, but a confidence rooted in God's unchanging nature. As we surrender our plans to His, we find freedom in His goodness and wisdom. We learn to trust Him, not just in the good times, but in the unknowns as well.\n\n## Prayer\n\nWe thank you, God, for your steadfast love that endures forever. Help us trust in your sovereignty, even when we can't see the way ahead. We pray for hearts that are fully surrendered to your will.\n\n## One-Line Application\nWe must trust God's sovereignty, even in uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
