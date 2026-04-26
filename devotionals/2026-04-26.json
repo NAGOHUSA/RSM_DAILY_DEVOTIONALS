@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 266,
+  "theme": null,
+  "content_markdown": "# Walking by Faith in Uncertainty\n\n## Scripture\n\n\"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.\" - Proverbs 3:5-6 (NIV)\n\n## Reflection\n\nAs we navigate life's twists and turns, it's easy to get tangled up in uncertainty. We may lose sight of the bigger picture and start making decisions based on our own understanding. But the Bible reminds us to trust in the Lord with all our heart, submitting to His guidance and plans. This means we need to let go of control and allow God to lead us, even when the path ahead is unclear.\n\nWhen we walk by faith, we're not pretending to know what's coming next. We're trusting that God knows, and He's working everything out for our good. This means being still, listening to His voice, and following His lead, even when it requires us to step into the unknown. As we do, we'll discover that His paths are always straight, even when they seem winding and uncertain.\n\nThis walk of faith requires surrender, humility, and trust. We must be willing to let go of our own ideas and follow God's guidance, no matter how difficult it may seem.\n\n## Prayer\n\nWe pray that you will help us trust in you with all our hearts, submitting to your guidance and plans. Make your paths straight for us, and help us walk by faith in uncertain times.\n\n## One-Line Application\n\nTrust in the Lord with all your heart, even in uncertain circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
