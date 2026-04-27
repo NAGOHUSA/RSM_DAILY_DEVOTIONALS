@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 256,
+  "theme": null,
+  "content_markdown": "# God's Presence in the Storm\n\n## Psalm 46:10\n\n\"Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" (Psalm 46:10, ESV)\n\n## Reflection\n\nIn the midst of chaos, it's easy to lose sight of God's presence. We might feel overwhelmed by the storm raging around us, and our initial reaction might be to try and control it. But Psalm 46:10 reminds us to be still, to quiet our hearts and minds, and to know that God is in control. He is the Rock that stands firm, even when the earth shakes and the mountains tremble. As we face our own storms, let's remember that God's presence is not removed, but rather, it's a reminder of His power and His love.\n\nWhen we're in the midst of turmoil, it's tempting to try and fix everything ourselves. But God's Word tells us to be still, to trust in His goodness and His sovereignty. We can't control the storm, but we can choose to trust in the One who does. As we surrender to His will, we'll find peace in the midst of chaos, and our hearts will be filled with the knowledge of His presence.\n\n## Prayer\n\nWe confess our tendency to try and control the storms in our lives. Help us to be still and know that you are God. May we trust in your presence and your power.\n\n## One-Line Application\nTrust in God's presence, and find peace in the midst of chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
