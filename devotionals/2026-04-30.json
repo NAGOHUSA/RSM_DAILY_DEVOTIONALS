@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 217,
+  "theme": null,
+  "content_markdown": "# Hope in God's Sovereignty\n\n## Psalm 139:16 (ESV)\n\nYour eyes saw my unformed substance;\nin your book were written, every one of them,\nthe days that were formed for me,\nwhen as yet there were none of them.\n\n## Reflection\n\nWe often find ourselves caught in the midst of uncertainty, wondering what the future holds and how we'll navigate life's challenges. In those moments, it's essential to remember that our lives are not random or haphazard. God, in His infinite wisdom and sovereignty, has a plan for each of us, and every step of our journey is ordained by Him. This doesn't mean we'll always understand the intricacies of His plan, but it does mean we can trust in His goodness and faithfulness. As we face the unknown, we can rest in the knowledge that God's eyes saw us before we were formed, and He has written our days in His book. This reality gives us hope, not because we can control the outcome, but because we know the One who holds our future in His hands.\n\n## Prayer\n\nWe pray for the wisdom to trust in Your sovereignty, Lord, and to rest in the hope that You have written our days.\n\n## One-Line Application\n\nWe trust in God's sovereignty, even when uncertain about life's future.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
