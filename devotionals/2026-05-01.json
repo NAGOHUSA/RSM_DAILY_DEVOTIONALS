@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 258,
+  "theme": null,
+  "content_markdown": "# Finding Peace in God's Presence\n\n## Psalm 16:8-11\n\nI keep my eyes always on the Lord. With him at my right hand, I will not be shaken. Therefore my heart is glad and my tongue rejoices; my body also will rest secure, because you will not abandon me to the realm of the dead, nor will you let your faithful one see decay. You make known to me the path of life; you will fill me with joy in your presence, with eternal pleasures at your right hand. (Psalm 16:8-11, NIV)\n\n## Reflection\n\nIn the midst of life's chaos and uncertainty, we often feel shaken and restless. Yet, Psalm 16:8-11 reminds us that our eyes should remain fixed on the Lord. By trusting in His presence, we can find peace that transcends the world's turmoil. This peace is not just a feeling but a reality grounded in God's unshakeable faithfulness. When we choose to keep our eyes on Jesus, we can experience joy, rest, and a sense of security that nothing else can provide. As we face life's challenges, let us hold onto the truth that God is always with us, guiding us through the darkest moments.\n\n## Prayer\n\nWe come to you, Lord, seeking peace in the midst of chaos. Help us to keep our eyes fixed on you, trusting in your unshakeable faithfulness. Fill us with joy in your presence and give us the strength to rest secure in your love.\n\n## One-Line Application\n\nFixing our eyes on Jesus provides peace that transcends life's turmoil.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
