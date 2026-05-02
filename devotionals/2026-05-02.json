@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 198,
+  "theme": null,
+  "content_markdown": "# Trusting God's Sovereignty in Life's Uncertainties\n\n## Psalm 138:8 (NIV) \n\nThe Lord will fulfill his purpose for me; your steadfast love, O God, endures forever. Do not forsake the work of your hands.\n\n## Reflection\n\nIn the midst of life's uncertainties, we often find ourselves questioning God's sovereignty. We wonder if He's truly in control or if we're left to navigate the twists and turns of life on our own. But the Psalmist reminds us that God's purpose will be fulfilled, not despite our circumstances, but because of them. His steadfast love endures forever, even when our own understanding does not. This is not to say that we won't face challenges or difficulties, but rather that we can trust that God is working everything out for our good, even when it doesn't feel that way. We can rest in the knowledge that His hands are at work, shaping us into the people He desires us to be.\n\n## Prayer\n\nWe trust in your sovereignty, Lord, and your steadfast love. Help us to rest in your purposes, even when life's uncertainties assail us.\n\n## One-Line Application\nWe trust that God's purpose will be fulfilled, regardless of life's circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
