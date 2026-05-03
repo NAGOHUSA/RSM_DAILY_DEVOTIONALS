@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 194,
+  "theme": null,
+  "content_markdown": "# Tending the Garden of Our Hearts\n\n## Scripture\n\"But the seed sown on good soil refers to those with a noble and good heart, who hear the word, retain it, and by persevering produce fruit.\" - Luke 8:15 (NRSV)\n\n## Reflection\nAs we cultivate our relationship with God, we must be mindful of the soil in which we sow the seeds of faith. A hard, unyielding heart can choke out the life of the gospel, while a heart open to God's word can produce a bountiful harvest. We must tend to our hearts, allowing the gentle rains of God's presence to nourish us, and the warmth of His love to bring us to life. This requires perseverance, for the process of growing in faith is not instantaneous, but a gradual and ongoing work of the Spirit.\n\n## Prayer\nWe ask that You would cultivate in us a heart of good soil, receptive to Your word and open to the work of Your Spirit. Help us to persevere in faith, and to produce fruit that brings glory to Your name.\n\n## One-Line Application\nWe must nurture our hearts with God's word and His presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
