@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 215,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Hope\n\n## Scripture\n\n\"For God did not give us a spirit of fear, but of power and of love and of a sound mind.\" - 2 Timothy 1:7\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to become overwhelmed by fear and uncertainty. But the Bible reminds us that we don't have to live in dread. Instead, we have been given a spirit of power, which enables us to face challenges with courage, a spirit of love, which allows us to respond with compassion, and a sound mind, which gives us wisdom to make discerning decisions. When we're rooted in God's presence, we can trust that He is working everything out for our good. This doesn't mean we won't experience difficulties, but it means we can approach them with confidence and hope. We can trust that God's power, love, and wisdom are at work in us, guiding us through the tough times.\n\n## Prayer\n\nWe thank you for the gift of the Holy Spirit, who gives us power, love, and a sound mind. Help us to trust in your goodness and to approach life's challenges with confidence and hope.\n\n## One-Line Application\n\nWe can face life's challenges with courage and confidence by trusting in God's power and love.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
