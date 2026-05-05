@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 265,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for the Flock\n\n## Psalm 23:4 (NIV)\n\nEven though I walk through the darkest valley,\nI will fear no evil,\nfor you are with me;\nyour rod and your staff\ncomfort me.\n\n## Reflection\n\nAs we walk through the trials and difficulties of life, it's easy to feel overwhelmed and forsaken. But the Psalmist reminds us that even in the darkest moments, God is present with us. His rod and staff serve as a reminder of His guidance and protection. We don't have to face our challenges alone, for God's presence is a comfort that surpasses our circumstances. Just as a shepherd's staff guides and protects the sheep, God's presence guides and protects us, even in the midst of turmoil.\n\nAs we navigate the ups and downs of life, we must learn to trust in God's presence and care. We must recognize that His presence is not just a feeling, but a reality that is always with us. When we feel lost and alone, we must remember that God's rod and staff are comforting us, even if we can't see it. And in His presence, we find the strength to face our challenges with courage and hope.\n\n## Prayer\n\nWe ask that You would be our comfort in times of trouble,\nthat Your presence would guide and protect us,\nand that we would trust in Your care for us.\nHelp us to recognize Your presence in our lives,\nand to find strength in Your rod and staff.\n\n## One-Line Application\n\nTrust in God's presence and care, even when circumstances seem darkest.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
