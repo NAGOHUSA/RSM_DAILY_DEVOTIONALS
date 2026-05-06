@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 204,
+  "theme": null,
+  "content_markdown": "# Shepherd's Calm Amid Life's Turbulence\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" Matthew 11:28 (NIV)\n\n## Reflection\n\nAs we navigate life's turbulent waters, it's easy to lose our footing and become overwhelmed. We can try to control the waves, or we can turn to the Shepherd who offers us rest. Jesus didn't say we wouldn't face challenges or difficulties, but He promised to be with us through them all. He invites us to come to Him, to unload our burdens and find peace in His presence. This isn't a one-time event, but a daily choice to surrender our worries and fears to Him. As we learn to trust in His goodness and faithfulness, we'll find the calm in the midst of the storm.\n\n## Prayer\n\nWe come to you, Lord, seeking rest from the burdens of life. Help us to lay down our worries and fears at your feet, and to trust in your goodness and faithfulness. Give us the peace that passes understanding, and help us to walk in your calm and serene presence.\n\n## One-Line Application\n\nLet go of your burdens and turn to the Shepherd for rest and peace.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
