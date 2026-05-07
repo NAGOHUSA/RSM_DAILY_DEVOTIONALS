@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 202,
+  "theme": null,
+  "content_markdown": "# Finding Rest in a Restless World\n\n## \"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\n\nIn a world that constantly demands our attention and energy, it's easy to feel drained and overwhelmed. We're tempted to believe that the only way to find peace is to push ourselves harder and achieve more. But Jesus offers a different perspective: come to Him, and He will give us rest. This isn't a call to inaction, but to surrender. We don't have to strive to find rest; instead, we can simply receive it from Jesus. When we come to Him, we're not just resting from our physical or emotional exhaustion, but also from the weight of our own expectations and the pressure to perform. By surrendering our burdens to Jesus, we can experience the deep rest that He promises.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened. Give us rest in your presence. Help us to surrender our expectations and trust that you will provide for us. Thank you for the gift of rest.\n\n## One-Line Application\n\nWe can find rest in Jesus by surrendering our burdens to Him.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
