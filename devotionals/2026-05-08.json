@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 244,
+  "theme": null,
+  "content_markdown": "# Rest in the Sovereignty of God\n\n## Scripture\n\"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.\" - James 1:2-3 (NIV)\n\n## Reflection\nWhen life's circumstances become overwhelming, it's easy to lose sight of God's sovereignty. We may feel like we're at the mercy of the world, with no control over our outcomes. However, James reminds us that even in the midst of trials, we can find joy because we know that God is at work, shaping us into the people He desires us to be. This isn't to say that trials are something to be sought after, but rather that we can trust God's goodness and wisdom, even when we don't understand what's happening.\n\nIn a world that often values control and self-reliance, it's a freeing thought to know that we don't have to have all the answers. We can rest in the knowledge that God is working everything out for our good, even when it doesn't feel like it. This perspective allows us to trust in God's sovereignty, rather than trying to micromanage our lives according to our own understanding.\n\n## Prayer\nWe thank you for your goodness and sovereignty, God. Help us to rest in your plans and trust your wisdom, even when the road ahead is uncertain.\n\n## One-Line Application\nWe must learn to trust God's sovereignty in the midst of trials.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
