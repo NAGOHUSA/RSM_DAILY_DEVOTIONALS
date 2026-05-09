@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 219,
+  "theme": null,
+  "content_markdown": "# Resting in God's Faithfulness\n\n## Scripture\n\"Consider the lilies, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these... But if God so clothes the grass, which is alive today and tomorrow is thrown into the oven, how much more will he clothe you...?\" - Matthew 6:28-30 (ESV)\n\n## Reflection\nAs spring arrives, we're reminded of the beauty and life that God brings forth from the earth. The lilies, though unassuming, are clothed in splendor, a testament to God's faithfulness. We often worry about our own provision and security, but Scripture reminds us that God's care for us is even more reliable than the sun's warmth that nourishes the grass. When we begin to fret, we must look to God's past faithfulness and trust that He will continue to provide for our needs. Just as the lilies don't strive to bloom, we can rest in God's goodness and let our hearts be at peace.\n\n## Prayer\nWe thank You, Lord, for Your faithfulness in providing for our needs. Help us to rest in Your goodness and trust in Your provision, just as the lilies bloom without struggle.\n\n## One-Line Application\nWe must rest in God's faithfulness, trusting Him to provide for our needs.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
