@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 178,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart in Times of Trouble\n\n## Psalm 23:4\n\nYea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me. (Psalm 23:4, KJV)\n\n## Reflection\n\nIn times of trouble, it's easy to lose sight of God's presence and provision. But as we walk through the darkest of valleys, we can be assured that God is with us. His rod and staff comfort us, reminding us of His power and care. This doesn't mean we won't face challenges or difficulties; but it does mean we're not alone. We're not left to face them on our own. The Shepherd is with us, guiding us through the darkest moments. And as we trust in His presence, we find comfort in the midst of chaos.\n\n## Prayer\n\nWe pray for the comfort of God's presence in times of trouble, that we might trust in His guidance and care.\n\n## One-Line Application\n\nRest in God's presence, even in the midst of darkness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
