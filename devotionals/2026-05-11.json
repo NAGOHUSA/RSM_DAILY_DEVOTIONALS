@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-11",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 219,
+  "theme": null,
+  "content_markdown": "# Finding Rest in Our Weary Souls\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" Matthew 11:28 (NIV)\n\n## Reflection\n\nAs we navigate life's complexities, it's easy to feel worn down and exhausted. Our souls cry out for relief, and in this passage, Jesus invites us to come to Him. He offers us rest, not just physical rest but spiritual rest. It's a rest that's not dependent on our circumstances but is instead found in Him. This rest is not a fleeting feeling but a deep-seated peace that pervades our being. It's the peace that surpasses understanding, guarding our hearts and minds in Christ Jesus (Philippians 4:7). When we come to Jesus, we're not expected to put on a mask of strength or pretend that everything is okay. Rather, we're invited to bring our true selves, our fears, our doubts, and our weariness. He welcomes us as we are, and in His presence, we find the rest we've been searching for.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened. We lay our souls before you, seeking the rest you promise. Give us the peace that surpasses understanding, guarding our hearts and minds in you.\n\n## One-Line Application\n\nMay we find rest in Jesus, not in our circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
