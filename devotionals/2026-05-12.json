@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 240,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Goodness\n\n## Scripture\n\n\"Consider the lilies, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these. But if God so clothes the grass, which is alive today and tomorrow is thrown into the oven, how much more will he clothe you—you of little faith!\" \n- Luke 12:27-28 (ESV)\n\n## Reflection\n\nAs we face uncertain times and uncertain futures, it's easy to become anxious. We worry about our circumstances, our relationships, and our own well-being. But in the midst of this anxiety, we can find peace by looking to God's goodness. The lilies in this passage remind us that God's goodness is not limited to our own lives or experiences. He is a God who provides for all of creation, not just for those who deserve it. And if He can clothe the grass with such beauty and care, how much more will He care for us? We don't have to worry about our tomorrows because God is already there, weaving His goodness into the fabric of our lives.\n\n## Prayer\n\nWe thank you for your goodness, Lord, and we ask that you help us to trust in it, even when we can't see it. Give us peace in the midst of uncertainty and remind us of your faithful provision.\n\n## One-Line Application\n\nTrust in God's goodness, even when circumstances seem uncertain.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
