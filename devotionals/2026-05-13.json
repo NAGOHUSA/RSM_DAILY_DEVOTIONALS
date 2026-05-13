@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 214,
+  "theme": null,
+  "content_markdown": "# Cultivating a Heart of Gratitude\n\n## Scripture\n\n\"Give thanks to the Lord, for He is good; His love endures forever!\" - Psalm 107:1 (NIV)\n\n## Reflection\n\nAs we cultivate a heart of gratitude, we're reminded of God's goodness and faithfulness in our lives. We often get caught up in our daily struggles and forget to acknowledge the blessings we have. But when we do, we experience a shift in perspective and find joy in the midst of challenges. We begin to see that God is working even in the difficult times, using them to shape us and refine our character. Gratitude is not just a feeling; it's a choice we make every day. By choosing to thank God for His goodness, we open ourselves up to receive more of His love and blessings. As we practice gratitude, we'll find that our hearts become more receptive to God's presence and our lives become more peaceful.\n\n## Prayer\n\nWe thank You, Lord, for Your goodness and love that endures forever. Help us to cultivate a heart of gratitude and to see Your hand at work in our lives. May our hearts be filled with joy and peace as we acknowledge Your goodness.\n\n## One-Line Application\n\nChoose to thank God for His goodness in every circumstance.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
