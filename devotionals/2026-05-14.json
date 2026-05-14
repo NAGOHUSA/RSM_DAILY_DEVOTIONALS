@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 195,
+  "theme": null,
+  "content_markdown": "# Abiding in the Vine\n\n## John 15:5 (NIV)\n\n\"I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing.\"\n\n## Reflection\n\nAs we navigate life's challenges and uncertainties, it's easy to feel disconnected from God's presence and power. Yet, Jesus reminds us that we are not alone – we are the branches connected to the vine. When we abide in Him, we experience His life-giving energy, and our lives produce fruit that reflects His character. Abiding in Christ is not just a passive state; it's an active choice that requires surrender, trust, and obedience. As we cultivate intimacy with Him through prayer, Bible study, and community, we bear witness to His transforming love in our lives and in the world around us.\n\n## Prayer\n\nWe ask for the power to remain in You, Lord, and for the fruit of Your Spirit to be revealed in our lives. Help us to surrender to Your will and to trust in Your goodness.\n\n## One-Line Application\n\nPrioritize intimacy with Christ through prayer and Bible study to produce spiritual fruit.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
