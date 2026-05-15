@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 205,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for the Flock\n\n## Scripture\n\n\"Surely your goodness and love will follow me all the days of my life, and I will dwell in the house of the Lord forever.\" - Psalm 23:6 (NIV)\n\n## Reflection\n\nAs we navigate life's trials and uncertainties, it's easy to lose sight of God's presence and care. But the psalmist reminds us that our Shepherd's goodness and love are always with us, even in the darkest of times. Just as a shepherd watches over his flock, guarding them from harm and providing for their every need, so too does our Heavenly Father lovingly care for us. His goodness is not just a theoretical concept, but a tangible, experiential reality that we can rely on every day. As we trust in His sovereignty and provision, we can find peace in the midst of chaos and rest in the knowledge that we are not alone.\n\n## Prayer\n\nWe thank you, Father, for your unwavering goodness and love that follow us always. Help us to trust in your care and provision, and may we find peace in your presence.\n\n## One-Line Application\n\nWe can rest in the knowledge that our Shepherd's goodness and love are always with us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
