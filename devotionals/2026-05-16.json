@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 212,
+  "theme": null,
+  "content_markdown": "# The Peace of Quiet Contemplation\n\n## Matthew 11:28 - \"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\n\nAs the noise of the world surrounds us, it's easy to become weighed down. In this verse, Jesus invites us to find rest in Him, away from the burdens we carry. It's a call to quiet contemplation, to step away from the hustle and bustle and simply be with Him. This isn't about escaping our problems, but about finding peace in the midst of them. By surrendering our burdens to Jesus, we can experience the rest that only He can provide. It's a reminder that our worth and value come not from what we do, but from who we are as beloved children of God. As we learn to rest in Him, we'll find the strength to face the challenges of life with a sense of peace and clarity.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened, and we ask for your rest. Help us to quiet our minds and hearts, to surrender our burdens to you, and to find peace in your presence.\n\n## One-Line Application\nSurrender your burdens to Jesus, and find rest in His presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
