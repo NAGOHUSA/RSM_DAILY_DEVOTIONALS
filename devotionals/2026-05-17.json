@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 209,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## Scripture\n\"He tends his flock with care.\" - 1 Peter 5:2 (NIV)\n\n## Reflection\nAs church leaders, we are called to shepherd God's people with care and compassion. This means being willing to listen, to guide, and to protect those under our care. It involves spending time with them, getting to know them, and learning from their struggles and triumphs. We must be willing to sacrifice our own desires and interests for the sake of the flock, just as Jesus did for us. As we strive to be good shepherds, we must also be aware of our own spiritual condition, ensuring that we are not leading others astray with our own sin and weakness. By the power of the Holy Spirit, we can cultivate a heart for the flock, and our leadership can be a reflection of God's love and care for his people.\n\n## Prayer\nWe ask that you would give us a shepherd's heart, Lord, one that is willing to care for and protect your people. Help us to be gentle, yet firm, and to lead with wisdom and compassion.\n\n## One-Line Application\nWe must prioritize the well-being of those under our care in all our decisions and actions.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
