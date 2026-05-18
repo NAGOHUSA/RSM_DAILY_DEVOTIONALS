@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 209,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Peaceful Presence\n\n## Scripture\n\"For He will give His angels charge concerning you, to guard you in all your ways.\" - Psalm 91:11 (ESV)\n\n## Reflection\nAs we navigate life's challenges, it's easy to feel overwhelmed and anxious. But God reminds us that He has not left us alone. He has given His angels charge to guard and protect us in all our ways. This promise is not meant to eliminate our difficulties, but to give us peace in the midst of them. When we feel like we're walking through a storm, we can trust that God's angels are watching over us, shielding us from harm. This truth gives us the courage to face each new day with confidence, knowing that we are not alone. As we surrender our worries to God, we can rest in His peaceful presence, trusting that He is working all things for our good.\n\n## Prayer\nWe trust in Your loving care, Lord, and ask that You would give us Your peace that passes understanding. Guard us in all our ways, and give us the courage to face each new day with confidence in Your presence.\n\n## One-Line Application\nWe can face life's challenges with peace, knowing God's angels guard us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
