@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 216,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care in Times of Uncertainty\n\n## Scripture\n\n\"For he will deliver you from the snare of the fowler and from the deadly pestilence. He will cover you with his pinions, and under his wings you may take refuge; his faithfulness is a shield and buckler.\" - Psalm 91:3-4 (ESV)\n\n## Reflection\n\nIn the midst of uncertainty, we often find ourselves searching for a sense of security and protection. The Psalmist reminds us that God is our Shepherd, who cares for us and watches over us. His presence is like a shield and buckler, protecting us from the snares of life. We can take refuge under His wings, trusting in His faithfulness to deliver us from harm. This doesn't mean we won't face challenges or difficult times, but it means we can face them with confidence, knowing that God is with us. As we navigate uncertainty, let us remember to look to God as our source of strength and protection.\n\n## Prayer\n\nWe thank you, God, for your care and protection over our lives. Help us to trust in your faithfulness and take refuge under your wings. Guard us from the snares of life and deliver us from harm.\n\n## One-Line Application\n\nWe can face uncertainty with confidence, trusting in God's presence and protection.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
