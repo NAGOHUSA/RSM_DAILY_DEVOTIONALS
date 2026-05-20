@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 260,
+  "theme": null,
+  "content_markdown": "# Finding Rest in God's Presence\n\n## Isaiah 30:15 (NIV)\n\nThough the Lord gives you the bread of adversity and the water of restriction, your teachers will be hidden no more; with your own eyes you will see them. Whether you turn to the right or to the left, your ears will hear a voice behind you, saying, \"This is the way; walk in it.\" – Isaiah 30:20-21\n\n## Reflection\n\nLife's difficulties can leave us feeling drained and uncertain. Yet, in the midst of uncertainty, God calls us to seek His presence and rest in His guidance. The verse reminds us that even in times of adversity, God is near, speaking His voice of direction in our hearts and minds. We must be willing to listen and trust in His leading, for it is in His presence that we find our true north, our direction and purpose.\n\nAs we walk through life's challenges, we often feel the need to take control and make our own way. However, God's promise is that He will be our guide, even when our teachers and mentors may be hidden from view. He will speak to us through His Word, the Holy Spirit, and the wisdom of others, pointing us in the right direction.\n\n## Prayer\n\nWe seek Your presence, Lord, in the midst of our struggles. Help us to hear Your voice and trust in Your guidance. May we learn to rest in Your presence and walk in Your ways.\n\n## One-Line Application\n\nMay we trust God's guidance to lead us through life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
