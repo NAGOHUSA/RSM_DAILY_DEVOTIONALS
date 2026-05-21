@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## Psalm 23:4 - \"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\" (Psalm 23:4, NIV)\n\n## Reflection\nAs we navigate the challenges of life, it's easy to feel overwhelmed and lost. The world can be a dark and intimidating place, full of uncertainties and unknowns. But as followers of Christ, we have a profound assurance that God is always with us, even in the midst of darkness. Just as a shepherd's staff and rod comfort and protect the flock, God's presence and guidance comfort and protect us. We can trust in His goodness and provision, even when we can't see what's ahead. In times of uncertainty, let's not forget to look to the Shepherd who walks beside us. His presence is a constant reminder that we are not alone, and that He is working all things for our good.\n\n## Prayer\nWe thank you, Lord, for being our Shepherd and guiding us through life's darkest valleys. Help us to trust in your presence and provision, and to find comfort in your goodness.\n\n## One-Line Application\nWe trust in God's presence and provision, even in the darkest moments.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
