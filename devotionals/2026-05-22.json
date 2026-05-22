@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 230,
+  "theme": null,
+  "content_markdown": "# Rooted in Hope\n\n## Scripture\n\n\"So we fix our eyes not on what is seen, but on what is unseen, since what is seen is temporary, but what is unseen is eternal.\" - 2 Corinthians 4:18 (NIV)\n\n## Reflection\n\nAs we navigate life's ups and downs, it's easy to get caught up in the present moment and focus on the temporary and fleeting things. But as followers of Christ, we are called to fix our eyes on the eternal. This means shifting our gaze from the things that will pass away to the One who is eternal and unchanging. It means trusting in His goodness and sovereignty, even when circumstances seem uncertain. By doing so, we are able to experience peace and joy that transcends our current situation. This hope is not based on our circumstances, but on the promises of God. As we walk by faith and not by sight, we are able to see beyond the present moment and find our strength and security in the eternal.\n\n## Prayer\n\nWe fix our eyes on You, Lord, and trust in Your eternal goodness. Help us to see beyond the temporary and focus on the things that will last forever. Give us the strength to walk by faith and not by sight.\n\n## One-Line Application\n\nLet us look to the eternal promises of God for our hope and strength.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
