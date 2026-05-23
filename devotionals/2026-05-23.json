@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 319,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Faithfulness\n\n## Psalm 1:3\n\n\"Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers; but his delight is in the law of the Lord, and on his law he meditates day and night. He is like a tree planted by streams of water that yields its fruit in its season, and its leaf does not wither. In all that he does, he prospers.\" (Psalm 1:1-3, ESV)\n\n## Reflection\n\nAs we walk through life, we have the choice to either conform to the world around us or stand firm in our faith. The psalmist reminds us that true blessedness comes from delighting in God's law and meditating on it day and night. This is not a one-time decision, but a consistent lifestyle of seeking God's wisdom and guidance. When we prioritize our relationship with God, we become like a tree planted by streams of water, yielding fruit in our season and prospering in all we do.\n\nThis requires us to be intentional about our time and energy, choosing to invest in our spiritual growth and development. It means seeking out communities of believers who will encourage and support us, and being willing to learn from others who have gone before us. As we cultivate a deep root system of faith, we will be better equipped to weather the storms of life and produce fruit that honors God.\n\n## Prayer\n\nWe ask that you would help us to prioritize our relationship with you, Lord. Grant us the desire to delight in your law and meditate on it day and night. Help us to be intentional about our spiritual growth and development, and to seek out communities of believers who will support and encourage us.\n\n## One-Line Application\n\nWe must prioritize our relationship with God to produce fruit that honors Him.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
