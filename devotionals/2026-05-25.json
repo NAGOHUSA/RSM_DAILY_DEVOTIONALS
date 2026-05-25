@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 188,
+  "theme": null,
+  "content_markdown": "# A Garden of Rest in the Storm\n\n## Matthew 11:28\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" (Matthew 11:28, NIV)\n\n## Reflection\n\nAs we navigate life's turbulent waters, it's easy to become worn out and weary. The world's demands can be overwhelming, leaving us feeling drained and exhausted. But Jesus invites us to come to Him, to find rest in His presence. He understands our burdens, and He offers us a refuge from the storm. In His stillness, we can find peace and relief from the weight of our worries. We don't have to face life's challenges alone; Jesus is with us, guiding us and strengthening us. As we learn to surrender our burdens to Him, we can experience the rest that only He can provide.\n\n## Prayer\n\nWe come to you, Lord, seeking rest and refuge from the storm. Help us to surrender our burdens to you, and give us the strength to trust in your presence with us.\n\n## One-Line Application\n\nWe can experience rest in the midst of chaos by surrendering our burdens to Jesus.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
