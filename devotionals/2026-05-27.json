@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 216,
+  "theme": null,
+  "content_markdown": "# Rest in the Lord's Presence\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" - Matthew 11:28 (NIV)\n\n## Reflection\n\nAs we go about our busy days, it's easy to get caught up in the hustle and bustle of life and forget to rest in the Lord's presence. But Jesus reminds us that He invites us to come to Him, to lay down our burdens and find rest in His care. This isn't a rest that ignores our struggles, but one that seeks to meet us in the midst of them. It's a rest that says, \"You don't have to carry this alone.\" When we rest in the Lord, we're not avoiding our problems, but rather, we're finding the strength to face them with courage and hope. This isn't a one-time event, but a daily choice to surrender our worries and doubts to the One who loves us most.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened, and we ask for your rest. Help us to lay down our worries and doubts at your feet, and to find strength in your presence.\n\n## One-Line Application\n\nTake a few minutes each day to sit in silence, and invite the Lord's rest into your weary soul.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
