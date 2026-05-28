@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 270,
+  "theme": null,
+  "content_markdown": "# Rest in God's Sovereignty\n\n## Scripture\n\n\"And we know that for those who love God all things work together for good, for those who are called according to his purpose.\" - Romans 8:28\n\n## Reflection\n\nIn a world where chaos and uncertainty often rule, it's easy to become overwhelmed by the complexities of life. Yet, as believers, we have a promise that reminds us of God's sovereign control. His Word assures us that He is working everything out for our good, even when it seems like the opposite is true. This truth frees us from the need to control every situation and trust God's plan, even when we can't see the end result.\n\nWhen faced with uncertainty, we often ask, \"What's next?\" or \"How will this turn out?\" But the question we should be asking is, \"What is God doing in this situation?\" Trusting in God's sovereignty reminds us that our circumstances are not a surprise to Him. He is working everything together for our good, even in the midst of turmoil.\n\nAs we walk through life's challenges, let's remember that God's plan is not our plan. His way is often different from ours, but His way is always best. We must learn to trust Him, even when we don't understand.\n\n## Prayer\n\nWe thank You, Lord, for Your promise that all things work together for our good. Help us to trust in Your sovereignty, even when life's circumstances seem uncertain. Grant us peace and confidence in Your plan, knowing that it's always for our good.\n\n## One-Line Application\n\nWe trust God's sovereignty in the midst of life's uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
