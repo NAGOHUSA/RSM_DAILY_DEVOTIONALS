@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 277,
+  "theme": null,
+  "content_markdown": "# Finding Rest in the Presence of God\n\n## Isaiah 30:15 \n\nThus says the Lord God, the Holy One of Israel: In returning and rest you shall be saved; in quietness and in trust shall be your strength.\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to get caught up in the hustle and bustle, exhausting ourselves in the process. But today's passage reminds us that there is a better way – a way of rest, quietness, and trust in the presence of God. When we return to Him, and rest in His loving arms, we find our strength. It's not about avoiding the challenges that come our way, but about facing them with a sense of peace and confidence that comes from knowing we are not alone. We can trust that God is with us, guiding us and giving us the strength we need to walk through the darkest of times.\n\nAs we reflect on this passage, let's not forget that rest is not just a physical state, but a spiritual one as well. It's about surrendering our worries and anxieties to God, and trusting that He is working everything out for our good. Let's make time to sit in the presence of God, to quiet our minds, and to trust in His goodness.\n\n## Prayer\n\nWe come before You, Lord, seeking rest in Your presence. Help us to quiet our minds and trust in Your goodness. Give us the strength we need to walk through the challenges of life, knowing that You are with us.\n\n## One-Line Application\n\nWe find our strength in returning to God and resting in His loving presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
