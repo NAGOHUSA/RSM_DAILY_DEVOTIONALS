@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 253,
+  "theme": null,
+  "content_markdown": "# The Shepherd's Peace\n\n## Isaiah 49:9-10\n\n\"We were not a people, but now we are the people of God; yet not owing to our own righteousness, but owing to His righteousness, because we believe in Him. But the Lord was pleased to crush Him and cause Him to suffer. And who would have believed what we heard? And who has the arm of the Lord been revealed to?\"\n\n- Isaiah 49:9-10 (NASB)\n\n## Reflection\n\nIn times of uncertainty and unrest, we often seek peace and refuge. The Bible reminds us that true peace comes not from human efforts or circumstances, but from trusting in God's righteousness. The prophet Isaiah writes of the Messiah, who would bring salvation to His people. This peace is not the absence of conflict, but the presence of God in the midst of chaos. As followers of Christ, we have access to this peace, not because of our own worthiness, but because of His. We can rest in His sovereignty and trust that He is working all things for our good. This peace is not just a feeling, but a reality that can be experienced in the midst of turmoil.\n\n## Prayer\n\nWe thank You, Lord, for Your peace that passes understanding. Help us to trust in Your righteousness and sovereignty. Grant us the wisdom to see Your hand at work in all circumstances, and give us the courage to rest in Your presence.\n\n## One-Line Application\n\nTrusting in God's righteousness brings peace in the midst of turmoil.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
