@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-31",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 252,
+  "theme": null,
+  "content_markdown": "# Finding Peace in God's Presence\n\n## Psalm 16:8-9\n\n\"I keep my eyes always on the Lord. With him at my right hand, I will not be shaken. Therefore my heart is glad and my tongue rejoices; my body also will rest secure, for you will not abandon me to the realm of the dead, nor will you let your faithful one see decay.\"\n\n(Psalm 16:8-9, NIV)\n\n## Reflection\n\nWe often find ourselves in situations where we feel overwhelmed and shaken. It's easy to lose sight of God's presence and peace in our lives. But Psalm 16 reminds us that we can keep our eyes on the Lord and trust in His goodness. With Him by our side, we can face any challenge and know that we will not be shaken. This is not a promise of a life without struggles, but rather a promise that we will not be abandoned in those struggles. We can rest secure in the knowledge that God is with us and will carry us through. As we walk through difficult times, let us fix our eyes on the Lord and trust in His goodness.\n\n## Prayer\n\nWe ask that you would help us to keep our eyes on you, Lord, and to trust in your goodness even in the midst of challenges. Help us to rest secure in your presence and to know that we are not alone.\n\n## One-Line Application\n\nWe can face life's challenges with confidence when our eyes are fixed on the Lord.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
