@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 190,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Lost\n\n## Psalm 119:176 - \"I have strayed like a lost sheep. Seek your servant, for I have not forgotten your commands.\" (NIV)\n\n## Reflection\n\nAs we tend to the flock of Christ, we must first recognize that we too are sheep who have strayed. The Good Shepherd's heart beats with a deep love for the lost, and so should ours. We are called to seek those who have wandered away from the fold, not with a condemning spirit, but with a gentle and compassionate one. This requires patience, empathy, and understanding. We must be willing to listen to their stories, to journey with them, and to guide them back to the green pastures of God's presence. In doing so, we become vessels of the Good Shepherd's love, reflecting His heart to a world that desperately needs it.\n\n## Prayer\n\nWe pray for a shepherd's heart, Lord, to seek and find those who have wandered away. Give us patience and compassion to guide them back to the fold.\n\n## One-Line Application\n\nWe must tenderly seek those who have strayed, reflecting the Good Shepherd's heart.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
