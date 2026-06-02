@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 214,
+  "theme": null,
+  "content_markdown": "# Shepherd's Guidance in Uncertain Times\n\n## Scripture\n\"And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.\" - Philippians 4:7 ESV\n\n## Reflection\nAs we navigate life's uncertainties, we often find ourselves searching for solace and peace. In a world filled with chaos and noise, it's easy to become overwhelmed and lose sight of what truly matters. But as believers, we have access to a peace that surpasses our understanding - a peace that comes from knowing God is ultimately in control. This peace is not a feeling we conjure up, but a promise we can cling to, even in the midst of turmoil. When we fix our eyes on Christ, we can trust that His peace will guard our hearts and minds, giving us the courage to face each new day with hope and confidence.\n\n## Prayer\nWe ask that You would guard our hearts and minds with Your peace, Lord. Help us to fix our eyes on Christ and trust in Your sovereignty, even in uncertain times. Give us the courage to face each new day with hope and confidence in Your goodness.\n\n## One-Line Application\nWe can find peace in the midst of chaos by focusing on God's sovereignty and presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
