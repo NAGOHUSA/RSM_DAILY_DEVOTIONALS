@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 242,
+  "theme": null,
+  "content_markdown": "# Abiding in God's Presence\n\n## Psalm 16:8 (ESV) - “I have set the Lord always before me; because he is at my right hand, I shall not be shaken.”\n\nReflection\nAs we navigate life's challenges and uncertainties, it's easy to lose sight of God's presence. We can become preoccupied with the world around us, forgetting that He is always with us. In this verse, King David reminds us of the importance of keeping God at the forefront of our minds. He writes that by doing so, we will not be shaken, no matter what life brings. This is not a promise of a problem-free life, but rather a promise of God's faithful presence in the midst of our struggles. When we choose to set God before us, we are reminded of His sovereignty and power. We are called to trust in His goodness, even when we don't understand what's happening.\n\nIn practical terms, this means taking time each day to meditate on God's Word, to pray, and to seek His guidance. It means being intentional about acknowledging His presence in our lives, even in the midst of chaos. By doing so, we will find stability and peace, even when the world around us is shaken.\n\n## Prayer\nWe ask that you help us to set you always before us, Lord, and to trust in your presence.\n\n## One-Line Application\nMay our trust in God's presence stabilize us in times of uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
