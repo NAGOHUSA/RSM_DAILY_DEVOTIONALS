@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 275,
+  "theme": null,
+  "content_markdown": "# The Joy of Abiding in Christ\n\n## John 15:4\n\n\"I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.\" (John 15:4, ESV)\n\n## Reflection\n\nAs we walk through life, it's easy to get tangled up in our own efforts and desires. But Jesus reminds us that we are branches, and He is the vine. Our strength and fruitfulness come not from our own abilities, but from our connection to Him. When we abide in Christ, we are filled with His life and power, and we bear fruit that brings glory to God.\n\nThink of a tree branch that's cut off from the tree. It may still look a bit like a branch, but it's lifeless and dead. Without the tree's nourishment and support, it's unable to produce fruit or grow. But when we're connected to Christ, we're like a branch that's securely attached to the vine. We're filled with His life, and we're able to bear much fruit.\n\nThis isn't a call to work harder or try to produce more, but to simply rest in our connection to Christ. When we do, we'll find that we're able to bear fruit that brings joy to ourselves and others, and glory to God.\n\n## Prayer\n\nWe pray that we would abide in Christ, trusting in His strength and life to bear much fruit. Help us to rest in our connection to You, and to bring glory to You through our lives.\n\n## One-Line Application\n\nAbide in Christ to bear fruit and bring glory to God.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
