@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — Rock Solid Man</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --stone: #1a1a1a;
+    --stone-mid: #2a2a2a;
+    --stone-light: #3a3a3a;
+    --green-deep: #2d5a3b;
+    --green-mid: #3a7a4a;
+    --green-bright: #4a9a5a;
+    --green-light: #6aba7a;
+    --cream: #f4efe6;
+    --cream-dark: #e8dfd0;
+    --white: #faf8f5;
+    --text-muted: #8a7f74;
+    --ff-display: 'Bebas Neue', sans-serif;
+    --ff-serif: 'Playfair Display', serif;
+    --ff-body: 'DM Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--stone);
+    color: var(--cream);
+    font-family: var(--ff-body);
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(26,26,26,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .nav-logo {
+    font-family: var(--ff-display);
+    font-size: 1.6rem;
+    letter-spacing: 0.08em;
+    color: var(--green-light);
+    text-decoration: none;
+  }
+  .nav-logo span { color: var(--cream); }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--cream-dark);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--green-light); }
+
+  .nav-cta {
+    background: var(--green-deep);
+    color: var(--white) !important;
+    padding: 0.45rem 1.2rem;
+    border-radius: 2px;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.12em !important;
+  }
+  .nav-cta:hover { background: var(--green-mid); color: var(--white) !important; }
+
+  /* MAIN */
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8rem 2rem 4rem;
+    position: relative;
+  }
+
+  /* Subtle stone texture overlay */
+  main::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(45,90,59,0.08) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 30%, rgba(45,90,59,0.05) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .error-code {
+    font-family: var(--ff-display);
+    font-size: clamp(8rem, 20vw, 16rem);
+    line-height: 1;
+    letter-spacing: 0.05em;
+    color: var(--stone-light);
+    position: relative;
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .error-code::after {
+    content: '404';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--green-light) 0%, var(--green-mid) 50%, transparent 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.15;
+  }
+
+  .cross-divider {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 0.5rem 0 1.5rem;
+    animation: fadeUp 0.8s 0.1s ease both;
+    opacity: 0;
+  }
+
+  .cross-divider::before,
+  .cross-divider::after {
+    content: '';
+    flex: 1;
+    max-width: 80px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--green-deep));
+  }
+
+  .cross-divider::after {
+    background: linear-gradient(to left, transparent, var(--green-deep));
+  }
+
+  .cross-icon {
+    color: var(--green-mid);
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .headline {
+    font-family: var(--ff-display);
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    letter-spacing: 0.06em;
+    color: var(--cream);
+    margin-bottom: 0.75rem;
+    animation: fadeUp 0.8s 0.15s ease both;
+    opacity: 0;
+  }
+
+  .verse {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    max-width: 480px;
+    margin: 0 auto 0.5rem;
+    animation: fadeUp 0.8s 0.2s ease both;
+    opacity: 0;
+  }
+
+  .verse-ref {
+    font-family: var(--ff-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 2.5rem;
+    animation: fadeUp 0.8s 0.25s ease both;
+    opacity: 0;
+  }
+
+  .message {
+    font-size: 1rem;
+    color: var(--cream-dark);
+    max-width: 420px;
+    margin: 0 auto 2.5rem;
+    animation: fadeUp 0.8s 0.3s ease both;
+    opacity: 0;
+  }
+
+  .actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: fadeUp 0.8s 0.35s ease both;
+    opacity: 0;
+  }
+
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: var(--ff-body);
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.75rem 1.8rem;
+    border-radius: 2px;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .btn-primary {
+    background: var(--green-deep);
+    color: var(--white);
+  }
+  .btn-primary:hover { background: var(--green-mid); }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--cream-dark);
+    border: 1px solid var(--stone-light);
+  }
+  .btn-secondary:hover { border-color: var(--green-deep); color: var(--cream); }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--stone-light);
+    letter-spacing: 0.06em;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 600px) {
+    nav { padding: 1rem 1.25rem; }
+    .nav-links { gap: 1rem; }
+    .nav-links li:not(:last-child) { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Rock Solid <span>Man</span></a>
+  <ul class="nav-links">
+    <li><a href="/#devotionals">Devotionals</a></li>
+    <li><a href="/#events">Events</a></li>
+    <li><a href="/#gallery">Gallery</a></li>
+    <li><a href="/#connect" class="nav-cta">Get Connected</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="error-code">404</div>
+
+  <div class="cross-divider">
+    <span class="cross-icon">✛</span>
+  </div>
+
+  <h1 class="headline">Page Not Found</h1>
+
+  <p class="verse">"Your word is a lamp to my feet and a light to my path."</p>
+  <p class="verse-ref">Psalm 119:105</p>
+
+  <p class="message">Looks like this path led somewhere unexpected. Let's get you back on solid ground.</p>
+
+  <div class="actions">
+    <a href="/" class="btn btn-primary">Return Home</a>
+    <a href="/#devotionals" class="btn btn-secondary">Read a Devotional</a>
+  </div>
+</main>
+
+<footer>
+  &copy; <script>document.write(new Date().getFullYear())</script> Rock Solid Man &mdash; Are You on the Rock?
+</footer>
+
+</body>
+</html>
