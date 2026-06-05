@@ -1,0 +1,2054 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock Solid Man — Are You on the Rock?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --stone: #1a1a1a;
+    --stone-mid: #2a2a2a;
+    --stone-light: #3a3a3a;
+    --green-deep: #2d5a3b;
+    --green-mid: #3a7a4a;
+    --green-bright: #4a9a5a;
+    --green-light: #6aba7a;
+    --cream: #f4efe6;
+    --cream-dark: #e8dfd0;
+    --white: #faf8f5;
+    --text-muted: #8a7f74;
+    --ff-display: 'Bebas Neue', sans-serif;
+    --ff-serif: 'Playfair Display', serif;
+    --ff-body: 'DM Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--stone);
+    color: var(--cream);
+    font-family: var(--ff-body);
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* Floating Background Image */
+  .floating-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+  }
+  
+  .floating-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: slowZoom 30s ease-in-out infinite alternate;
+  }
+  
+  @keyframes slowZoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(26,26,26,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .nav-logo {
+    font-family: var(--ff-display);
+    font-size: 1.6rem;
+    letter-spacing: 0.08em;
+    color: var(--green-light);
+    text-decoration: none;
+  }
+  .nav-logo span { color: var(--cream); }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--cream-dark);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--green-light); }
+
+  .nav-cta {
+    background: var(--green-deep);
+    color: var(--white) !important;
+    padding: 0.45rem 1.2rem;
+    border-radius: 2px;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.12em !important;
+  }
+  .nav-cta:hover { background: var(--green-mid); color: var(--white) !important; }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 6rem 2rem 4rem;
+  }
+
+  .hero-logo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.8s ease both;
+    filter: brightness(0) invert(1);
+  }
+
+  .hero-texture {
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%233a7a4a' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    pointer-events: none;
+    opacity: 0.6;
+  }
+
+  .hero-eyebrow {
+    font-family: var(--ff-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .hero-title {
+    font-family: var(--ff-display);
+    font-size: clamp(5rem, 14vw, 11rem);
+    line-height: 0.92;
+    letter-spacing: 0.03em;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.9s 0.1s ease both;
+  }
+
+  .hero-title em {
+    font-style: normal;
+    color: var(--green-light);
+  }
+
+  .hero-verse {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    animation: fadeUp 1s 0.2s ease both;
+  }
+
+  .hero-verse strong {
+    color: var(--green-light);
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-family: var(--ff-body);
+    font-weight: 500;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeUp 1s 0.35s ease both;
+  }
+
+  .btn-primary {
+    background: var(--green-deep);
+    color: var(--white);
+    padding: 0.85rem 2.2rem;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    transition: background 0.2s, transform 0.15s;
+    display: inline-block;
+  }
+  .btn-primary:hover { background: var(--green-mid); transform: translateY(-1px); }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--cream);
+    padding: 0.85rem 2.2rem;
+    border-radius: 2px;
+    border: 1px solid rgba(244,239,230,0.25);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    transition: border-color 0.2s, color 0.2s, transform 0.15s;
+    display: inline-block;
+  }
+  .btn-outline:hover { border-color: var(--green-light); color: var(--green-light); transform: translateY(-1px); }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    animation: fadeUp 1s 0.6s ease both;
+  }
+
+  .scroll-line {
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to bottom, var(--green-mid), transparent);
+    animation: scrollPulse 2s ease-in-out infinite;
+  }
+
+  /* SECTIONS */
+  section { padding: 5rem 2rem; }
+
+  .container { max-width: 1100px; margin: 0 auto; }
+  .container-narrow { max-width: 720px; margin: 0 auto; }
+  .container-wide { max-width: 1400px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    line-height: 1;
+    letter-spacing: 0.04em;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+  }
+
+  /* TILED EVENTS SECTION */
+  .tiled-events-section {
+    background: rgba(42,42,42,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .events-tiles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .event-tile {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.3);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .event-tile:hover {
+    transform: translateY(-4px);
+    background: rgba(58,122,74,0.12);
+    border-color: var(--green-mid);
+  }
+
+  .event-tile.featured {
+    border-left: 4px solid var(--green-bright);
+  }
+
+  .event-tile-date {
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+
+  .event-tile-title {
+    font-family: var(--ff-display);
+    font-size: 1.4rem;
+    letter-spacing: 0.03em;
+    color: var(--cream);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+
+  .event-tile-speaker {
+    font-size: 0.9rem;
+    color: var(--green-light);
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+  }
+
+  .event-tile-details {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .event-tile-detail {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .event-tile-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: rgba(58,122,74,0.2);
+    color: var(--green-light);
+    padding: 0.25rem 0.75rem;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+  }
+
+  .event-tile-desc {
+    font-size: 0.85rem;
+    color: var(--cream-dark);
+    line-height: 1.5;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  /* GALLERY SECTION */
+  .gallery-section {
+    background: rgba(42,42,42,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    aspect-ratio: 4 / 3;
+    background: rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+
+  .gallery-item.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(58,122,74,0.15);
+    border: 2px dashed var(--green-mid);
+    color: var(--text-muted);
+    font-family: var(--ff-serif);
+    font-style: italic;
+    text-align: center;
+    padding: 2rem;
+    aspect-ratio: auto;
+    min-height: 200px;
+  }
+
+  .gallery-view-all {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  /* LIGHTBOX MODAL */
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.95);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .lightbox.open {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 3rem;
+    color: var(--cream);
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: var(--ff-body);
+  }
+
+  .lightbox-close:hover {
+    color: var(--green-light);
+  }
+
+  /* DEVOTIONAL */
+  .devotional-section {
+    background: rgba(26,26,26,0.85);
+    backdrop-filter: blur(4px);
+    border-top: 1px solid rgba(58,122,74,0.3);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .devotional-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.3);
+    border-radius: 4px;
+    padding: 2.5rem 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .devotional-card::before {
+    content: '\201C';
+    position: absolute;
+    top: -1rem;
+    left: 1.5rem;
+    font-family: var(--ff-serif);
+    font-size: 10rem;
+    color: rgba(58,122,74,0.08);
+    line-height: 1;
+    pointer-events: none;
+  }
+
+  .devotional-date {
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+
+  .devotional-verse-ref {
+    font-family: var(--ff-display);
+    font-size: 2rem;
+    letter-spacing: 0.06em;
+    color: var(--cream);
+    margin-bottom: 0.5rem;
+  }
+
+  .devotional-verse-text {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--cream-dark);
+    margin-bottom: 2rem;
+    border-left: 2px solid var(--green-mid);
+    padding-left: 1.25rem;
+    line-height: 1.8;
+  }
+
+  .devotional-content {
+    font-size: 0.97rem;
+    color: var(--cream-dark);
+    line-height: 1.85;
+    margin-bottom: 2rem;
+  }
+
+  .devotional-reflection {
+    background: rgba(58,122,74,0.08);
+    border-radius: 3px;
+    padding: 1.25rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .devotional-reflection h4 {
+    font-family: var(--ff-body);
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+  }
+
+  .devotional-reflection p {
+    font-size: 0.92rem;
+    color: var(--cream-dark);
+    line-height: 1.7;
+  }
+
+  .devotional-prayer {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .devotional-loading {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    font-family: var(--ff-serif);
+    font-style: italic;
+  }
+
+  .loading-dots::after {
+    content: '...';
+    animation: loadDots 1.2s steps(4, end) infinite;
+  }
+
+  @keyframes loadDots {
+    0%, 100% { content: ''; }
+    25% { content: '.'; }
+    50% { content: '..'; }
+    75% { content: '...'; }
+  }
+
+  .devotional-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .btn-ghost {
+    background: transparent;
+    border: 1px solid rgba(58,122,74,0.4);
+    color: var(--green-light);
+    padding: 0.55rem 1.4rem;
+    border-radius: 2px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--ff-body);
+  }
+  .btn-ghost:hover { background: rgba(58,122,74,0.15); border-color: var(--green-mid); }
+  .btn-ghost:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  /* ARCHIVE SECTION */
+  .archive-section {
+    background: rgba(42,42,42,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .archive-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.25);
+    border-radius: 4px;
+    padding: 1.25rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .archive-card:hover {
+    background: rgba(58,122,74,0.1);
+    transform: translateY(-2px);
+    border-color: var(--green-mid);
+  }
+
+  .archive-card .date {
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  .archive-card .title {
+    font-family: var(--ff-display);
+    font-size: 1.2rem;
+    letter-spacing: 0.03em;
+    color: var(--cream);
+    margin-bottom: 0.5rem;
+  }
+
+  .archive-card .verse {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .archive-loading, .archive-error {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-muted);
+  }
+
+  .load-more-btn {
+    display: block;
+    margin: 2rem auto 0;
+    background: transparent;
+    border: 1px solid var(--green-mid);
+    color: var(--green-light);
+    padding: 0.75rem 2rem;
+    border-radius: 2px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .load-more-btn:hover {
+    background: rgba(58,122,74,0.15);
+  }
+
+  /* CALENDAR */
+  .calendar-section { 
+    background: rgba(42,42,42,0.85);
+    backdrop-filter: blur(4px);
+  }
+
+  .calendar-grid { display: grid; grid-template-columns: 1fr 320px; gap: 2.5rem; align-items: start; }
+
+  .calendar-widget {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(58,122,74,0.25);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .cal-header {
+    background: rgba(58,122,74,0.12);
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(58,122,74,0.25);
+  }
+
+  .cal-header h3 {
+    font-family: var(--ff-display);
+    font-size: 1.4rem;
+    letter-spacing: 0.08em;
+    color: var(--cream);
+  }
+
+  .cal-nav button {
+    background: none;
+    border: 1px solid rgba(58,122,74,0.35);
+    color: var(--green-light);
+    width: 32px; height: 32px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.15s;
+  }
+  .cal-nav button:hover { background: rgba(58,122,74,0.15); }
+  .cal-nav { display: flex; gap: 0.5rem; }
+
+  .cal-days-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .cal-day-label {
+    text-align: center;
+    padding: 0.6rem 0;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .cal-cell {
+    min-height: 60px;
+    padding: 0.4rem 0.5rem;
+    border-right: 1px solid rgba(255,255,255,0.04);
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    cursor: pointer;
+    transition: background 0.15s;
+    position: relative;
+  }
+  .cal-cell:hover { background: rgba(58,122,74,0.08); }
+  .cal-cell.other-month { opacity: 0.3; }
+  .cal-cell.today { background: rgba(58,122,74,0.12); }
+  .cal-cell.today .cal-num { color: var(--green-light); font-weight: 500; }
+  .cal-cell.has-event::after {
+    content: '';
+    display: block;
+    width: 5px; height: 5px;
+    background: var(--green-mid);
+    border-radius: 50%;
+    margin: 2px auto 0;
+  }
+  .cal-cell.selected { background: rgba(58,122,74,0.18); }
+
+  .cal-num {
+    font-size: 0.82rem;
+    color: var(--cream-dark);
+    font-weight: 400;
+  }
+
+  /* EVENTS SIDEBAR */
+  .events-sidebar h3 {
+    font-family: var(--ff-display);
+    font-size: 1.8rem;
+    letter-spacing: 0.06em;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+  }
+
+  .event-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.2);
+    border-left: 3px solid var(--green-mid);
+    border-radius: 0 3px 3px 0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .event-card:hover { background: rgba(58,122,74,0.08); border-left-color: var(--green-bright); transform: translateX(2px); }
+  .event-card.featured { border-left-color: var(--green-bright); background: rgba(58,122,74,0.07); }
+
+  .event-date-tag {
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+
+  .event-name {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--cream);
+    margin-bottom: 0.2rem;
+    line-height: 1.4;
+  }
+
+  .event-detail {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .event-badge {
+    display: inline-block;
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: rgba(58,122,74,0.2);
+    color: var(--green-light);
+    padding: 0.15rem 0.5rem;
+    border-radius: 1px;
+    margin-top: 0.4rem;
+  }
+
+  /* STATEMENT OF FAITH SECTION */
+  .faith-section {
+    background: rgba(42,42,42,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .faith-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  .faith-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.3);
+    border-radius: 8px;
+    padding: 1.75rem;
+  }
+
+  .faith-card h3 {
+    font-family: var(--ff-display);
+    font-size: 1.8rem;
+    letter-spacing: 0.04em;
+    color: var(--green-light);
+    margin-bottom: 1.25rem;
+    border-left: 3px solid var(--green-mid);
+    padding-left: 1rem;
+  }
+
+  .faith-card ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .faith-card li {
+    font-size: 0.95rem;
+    color: var(--cream-dark);
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+  }
+
+  .faith-card li::before {
+    content: "●";
+    color: var(--green-light);
+    font-size: 0.7rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .faith-card .scripture-ref {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    color: var(--green-light);
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    display: block;
+    text-align: right;
+  }
+
+  @media (max-width: 768px) {
+    .faith-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    .faith-card h3 {
+      font-size: 1.4rem;
+    }
+  }
+
+  /* ABOUT */
+  .about-section { 
+    background: rgba(26,26,26,0.85);
+    backdrop-filter: blur(4px);
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .about-text p {
+    color: var(--cream-dark);
+    font-size: 1.02rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.85;
+  }
+
+  .about-pillars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .pillar {
+    border-left: 2px solid var(--green-mid);
+    padding-left: 1rem;
+  }
+  .pillar h4 {
+    font-family: var(--ff-display);
+    font-size: 1.1rem;
+    letter-spacing: 0.06em;
+    color: var(--green-light);
+    margin-bottom: 0.2rem;
+  }
+  .pillar p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .about-visual {
+    position: relative;
+  }
+
+  .about-quote-block {
+    background: rgba(58,122,74,0.08);
+    border: 1px solid rgba(58,122,74,0.3);
+    padding: 2.5rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .about-quote-block blockquote {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: var(--cream);
+    margin-bottom: 1rem;
+  }
+
+  .about-quote-block cite {
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  /* CTA STRIP */
+  .cta-section {
+    background: var(--green-deep);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    color: var(--white);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 1rem;
+  }
+
+  .cta-section p {
+    color: rgba(255,255,255,0.75);
+    font-size: 1.05rem;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+  }
+
+  .btn-white {
+    background: var(--white);
+    color: var(--green-deep);
+    padding: 0.9rem 2.5rem;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.2s;
+  }
+  .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+  /* FOOTER */
+  footer {
+    background: #0e0c0a;
+    padding: 3rem 2rem;
+    border-top: 1px solid rgba(58,122,74,0.2);
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+  }
+
+  .footer-brand .logo {
+    font-family: var(--ff-display);
+    font-size: 1.5rem;
+    letter-spacing: 0.08em;
+    color: var(--green-light);
+    display: block;
+    margin-bottom: 0.75rem;
+    text-decoration: none;
+  }
+  .footer-brand p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-donate-btns { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .footer-donate-btns a {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: rgba(58,122,74,0.15);
+    color: var(--green-light);
+    padding: 0.4rem 0.9rem;
+    border-radius: 2px;
+    border: 1px solid rgba(58,122,74,0.35);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  .footer-donate-btns a:hover { background: rgba(58,122,74,0.28); }
+
+  .footer-col h4 {
+    font-size: 0.68rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 0.55rem; }
+  .footer-col a {
+    font-size: 0.87rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover { color: var(--cream); }
+
+  .footer-bottom {
+    max-width: 1100px;
+    margin: 2.5rem auto 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  /* MODAL */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+  }
+  .modal-overlay.open { opacity: 1; pointer-events: all; }
+
+  .modal-box {
+    background: #221e18;
+    border: 1px solid rgba(58,122,74,0.35);
+    border-radius: 4px;
+    padding: 2rem 2.5rem;
+    max-width: 520px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 1rem; right: 1.25rem;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .modal-close:hover { color: var(--cream); }
+
+  .modal-event-date { font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--green-light); font-weight: 500; margin-bottom: 0.5rem; }
+  .modal-event-title { font-family: var(--ff-display); font-size: 2rem; letter-spacing: 0.05em; color: var(--cream); margin-bottom: 0.5rem; }
+  .modal-event-desc { font-size: 0.95rem; color: var(--cream-dark); line-height: 1.75; }
+  .modal-event-details { margin-top: 1.5rem; display: grid; gap: 0.6rem; }
+  .modal-detail-row { display: flex; gap: 0.75rem; font-size: 0.87rem; }
+  .modal-detail-label { color: var(--text-muted); min-width: 70px; }
+  .modal-detail-val { color: var(--cream-dark); }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes scrollPulse {
+    0%, 100% { opacity: 0.4; transform: scaleY(1); }
+    50% { opacity: 1; transform: scaleY(1.1); }
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.25rem; }
+    .nav-links { display: none; }
+    .calendar-grid { grid-template-columns: 1fr; }
+    .about-grid { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .about-pillars { grid-template-columns: 1fr; }
+    .devotional-card { padding: 1.75rem; }
+    .hero-title { font-size: clamp(4rem, 18vw, 7rem); }
+    .events-tiles-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+    .hero-logo { max-width: 150px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Floating Background Image -->
+<div class="floating-bg">
+  <img src="https://rsm.mypccdev.com/wp-content/uploads/2025/03/hero-1.jpg" alt="Rock Solid Man Background" loading="lazy">
+</div>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#"><span>Rock</span> Solid Man</a>
+  <ul class="nav-links">
+    <li><a href="#events-tiles">Upcoming Events</a></li>
+    <li><a href="#devotional">Daily Word</a></li>
+    <li><a href="#archive">Archive</a></li>
+    <li><a href="#gallery">Photos</a></li>
+    <li><a href="#calendar">Calendar</a></li>
+    <li><a href="#faith">Statement of Faith</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" class="nav-cta">Volunteer</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-texture"></div>
+  <img class="hero-logo" src="https://rocksolidman.org/wp-content/uploads/2023/08/logo-wh.png" alt="Rock Solid Man Logo">
+  <p class="hero-eyebrow">Matthew 7:24</p>
+  <h1 class="hero-title">ARE YOU<br>ON THE <em>ROCK?</em></h1>
+  <p class="hero-verse">
+    "Everyone who hears these words of mine and puts them into practice<br>is like a wise man who built his house on the rock."
+    <br><br><strong>Matthew 7:24</strong>
+  </p>
+  <div class="hero-actions">
+    <a href="#about" class="btn-primary">Our Mission</a>
+    <a href="#events-tiles" class="btn-outline">View Events</a>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- TILED EVENTS SECTION -->
+<section class="tiled-events-section" id="events-tiles">
+  <div class="container">
+    <span class="section-label">Upcoming Gatherings</span>
+    <h2>JOIN US<br>THIS MONTH</h2>
+    <div id="events-tiles-container" class="events-tiles-grid">
+      <div class="devotional-loading">Loading events...</div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY SECTION (NEW) -->
+<section class="gallery-section" id="gallery">
+  <div class="container-wide">
+    <span class="section-label">Captured Moments</span>
+    <h2>SEEING THE<br>BROTHERHOOD</h2>
+    <div class="gallery-grid">
+                      <div class="gallery-item" onclick="openLightbox('gallery/RSM (1).png')">
+          <img src="gallery/RSM (1).png" alt="Gallery image" loading="lazy">
+        </div>
+                <div class="gallery-item" onclick="openLightbox('gallery/RSM (10).png')">
+          <img src="gallery/RSM (10).png" alt="Gallery image" loading="lazy">
+        </div>
+                <div class="gallery-item" onclick="openLightbox('gallery/RSM (11).png')">
+          <img src="gallery/RSM (11).png" alt="Gallery image" loading="lazy">
+        </div>
+                <div class="gallery-item" onclick="openLightbox('gallery/RSM (12).png')">
+          <img src="gallery/RSM (12).png" alt="Gallery image" loading="lazy">
+        </div>
+                <div class="gallery-item" onclick="openLightbox('gallery/RSM (13).png')">
+          <img src="gallery/RSM (13).png" alt="Gallery image" loading="lazy">
+        </div>
+                <div class="gallery-item" onclick="openLightbox('gallery/RSM (14).png')">
+          <img src="gallery/RSM (14).png" alt="Gallery image" loading="lazy">
+        </div>
+                  </div>
+        <div class="gallery-view-all">
+      <a href="/gallery/" class="btn-outline">View Full Gallery →</a>
+    </div>
+      </div>
+</section>
+
+<!-- DEVOTIONAL -->
+<section class="devotional-section" id="devotional">
+  <div class="container">
+    <span class="section-label">Daily Devotional</span>
+    <h2>TODAY'S<br>WORD</h2>
+    <div class="devotional-card">
+      <div id="devotional-content" class="devotional-loading">
+        <span class="loading-dots">Loading today's devotional</span>
+      </div>
+    </div>
+    <div class="devotional-actions">
+      <button class="btn-ghost" id="refresh-dev" onclick="loadDevotion(true)">↻ Refresh</button>
+      <button class="btn-ghost" onclick="shareDevotional()">Share Today's Word</button>
+    </div>
+  </div>
+</section>
+
+<!-- ARCHIVE SECTION -->
+<section class="archive-section" id="archive">
+  <div class="container">
+    <span class="section-label">Past Devotionals</span>
+    <h2>ARCHIVE</h2>
+    <div id="archive-container">
+      <div class="archive-loading">Loading past devotionals...</div>
+    </div>
+    <button id="load-more-btn" class="load-more-btn" style="display: none;">Load More</button>
+  </div>
+</section>
+
+<!-- CALENDAR SECTION -->
+<section class="calendar-section" id="calendar">
+  <div class="container">
+    <span class="section-label">Event Calendar View</span>
+    <h2>MONTHLY<br>OVERVIEW</h2>
+    <div class="calendar-grid">
+      <div>
+        <div class="calendar-widget">
+          <div class="cal-header">
+            <h3 id="cal-month-label">April 2026</h3>
+            <div class="cal-nav">
+              <button onclick="changeMonth(-1)">&#8592;</button>
+              <button onclick="changeMonth(1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="cal-days-header">
+            <div class="cal-day-label">Sun</div>
+            <div class="cal-day-label">Mon</div>
+            <div class="cal-day-label">Tue</div>
+            <div class="cal-day-label">Wed</div>
+            <div class="cal-day-label">Thu</div>
+            <div class="cal-day-label">Fri</div>
+            <div class="cal-day-label">Sat</div>
+          </div>
+          <div class="cal-grid" id="cal-grid"></div>
+        </div>
+      </div>
+      <div class="events-sidebar">
+        <h3>THIS MONTH</h3>
+        <div id="events-list"></div>
+        <a href="https://rocksolidman.org/events" class="btn-outline" style="font-size:0.78rem; padding: 0.6rem 1.4rem; margin-top:1rem; display:inline-block;">View All Events</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATEMENT OF FAITH SECTION -->
+<section class="faith-section" id="faith">
+  <div class="container">
+    <span class="section-label">What We Believe</span>
+    <h2>OUR<br>FOUNDATION</h2>
+    <div class="faith-grid">
+      <div class="faith-card">
+        <h3>The Word & The Trinity</h3>
+        <ul>
+          <li><strong>THE BIBLE</strong> is the divinely inspired, inerrant, infallible, sufficient Word of God.</li>
+          <li><strong>ONE GOD</strong> eternally existent in three persons: Father, Son, and Holy Spirit.</li>
+          <li><strong>JESUS CHRIST</strong> is fully God and fully man. We believe in His virgin birth, sinless life, miracles, vicarious and atoning death through His shed blood, bodily resurrection, ascension to the right hand of the Father, and ultimate personal return in power and glory.</li>
+        </ul>
+        <span class="scripture-ref">2 Timothy 3:16-17 | Matthew 28:19 | 1 Corinthians 15:3-4</span>
+      </div>
+      <div class="faith-card">
+        <h3>Salvation & The Holy Spirit</h3>
+        <ul>
+          <li><strong>SALVATION</strong> and regeneration by the Holy Spirit is essential for all people. It comes through repentance of sin and belief in Jesus Christ's death on our behalf. This is the only way to a personal relationship with a Holy God.</li>
+          <li><strong>THE HOLY SPIRIT</strong> indwells every believer upon profession of faith, enabling the Christian to live a godly life.</li>
+          <li><strong>MARRIAGE</strong> is the uniting of one man and woman in covenant commitment for a lifetime.</li>
+          <li><strong>LEADERSHIP</strong> A father must manage his household well. (1 Timothy 3:4a)</li>
+        </ul>
+        <span class="scripture-ref">John 14:6 | Romans 10:9 | Genesis 2:24</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="section-label">About Rock Solid Man</span>
+        <h2>BUILT TO BE<br>UNBREAKABLE</h2>
+        <p>At Rock Solid Man, we help men build unshakable strength — physically, mentally, and spiritually. Through proven strategies, expert guidance, and a community of iron-sharpening-iron brotherhood, we empower men to stand firm.</p>
+        <p>Whether it's battling addiction, growing in faith, or stepping into leadership, we believe every man has the potential to be Rock Solid — anchored in Christ and unmovable.</p>
+        <div class="about-pillars">
+          <div class="pillar">
+            <h4>FAITH</h4>
+            <p>Grounded in the Word. Built on the Rock.</p>
+          </div>
+          <div class="pillar">
+            <h4>BROTHERHOOD</h4>
+            <p>Iron sharpens iron. No man stands alone.</p>
+          </div>
+          <div class="pillar">
+            <h4>DISCIPLINE</h4>
+            <p>Daily habits that forge unbreakable character.</p>
+          </div>
+          <div class="pillar">
+            <h4>SERVICE</h4>
+            <p>Pouring out what God has poured in.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="about-quote-block">
+          <blockquote>"As iron sharpens iron, so one person sharpens another."</blockquote>
+          <cite>Proverbs 27:17</cite>
+          <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(58,122,74,0.25);">
+            <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1.25rem;">Join the community of men standing firm on the Rock.</p>
+            <a href="mailto:rocksolidmaninc@gmail.com" class="btn-primary">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="cta-section">
+  <div class="container-narrow">
+    <h2>BE PART OF<br>THE FAMILY</h2>
+    <p>Don't walk this road alone. Connect with Rock Solid Man and find your place in the brotherhood.</p>
+    <a href="mailto:rocksolidmaninc@gmail.com" class="btn-white">Reach Out Today</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo">Rock Solid Man</span>
+      <p>Helping men build unshakable strength — physically, mentally, and spiritually. Anchored in Christ. Rooted in community.</p>
+      <div class="footer-donate-btns">
+        <a href="https://www.paypal.com/donate/?hosted_button_id=T8NLD6Y9Z7AYG">Donate via PayPal</a>
+        <a href="https://www.paypal.com/qrcodes/venmocs/35583249-8548-40b0-a609-de92029468d0?created=1729007121">Venmo</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="#events-tiles">Upcoming Events</a></li>
+        <li><a href="#devotional">Daily Devotional</a></li>
+        <li><a href="#archive">Archive</a></li>
+        <li><a href="#gallery">Photo Gallery</a></li>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#faith">Statement of Faith</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header">Volunteer Sign-Up</a></li>
+        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit">TXT Alerts</a></li>
+        <li><a href="https://rock-solid-man.printify.me/category/all/1">Gear / Swag</a></li>
+        <li><a href="mailto:rocksolidmaninc@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>Rock Solid Man &copy; 2026. All rights reserved.</span>
+    <span>Matthew 7:24</span>
+  </div>
+</footer>
+
+<!-- LIGHTBOX MODAL -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <img id="lightbox-img" src="" alt="Enlarged view">
+</div>
+
+<!-- EVENT MODAL -->
+<div class="modal-overlay" id="event-modal" onclick="closeModal(event)">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('event-modal').classList.remove('open')">&#215;</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script>
+// ========== LIGHTBOX FUNCTIONS ==========
+function openLightbox(imagePath) {
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  lightboxImg.src = imagePath;
+  lightbox.classList.add('open');
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('open');
+}
+
+// Close lightbox with Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    closeLightbox();
+  }
+});
+
+// ========== DEVOTIONAL FUNCTIONS ==========
+const DEVOTIONAL_BASE_URL = 'https://raw.githubusercontent.com/NAGOHUSA/RSM_DAILY_DEVOTIONALS/main/devotionals/';
+
+// ========== CALENDAR EVENTS - FETCH FROM JSON ==========
+let EVENTS = [];
+
+async function loadCalendarEvents() {
+  try {
+    const response = await fetch('https://raw.githubusercontent.com/NAGOHUSA/NAGOH.US/main/RSM/calendar-events.json');
+    if (!response.ok) throw new Error('Failed to load events');
+    const data = await response.json();
+    EVENTS = data.events;
+    renderCalendar();
+    renderTiledEvents();
+  } catch (error) {
+    console.error('Error loading calendar events:', error);
+    EVENTS = [];
+    renderCalendar();
+    renderTiledEvents();
+  }
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// ========== TILED EVENTS RENDERING ==========
+function renderTiledEvents() {
+  const container = document.getElementById('events-tiles-container');
+  if (!container) return;
+  
+  if (!EVENTS || EVENTS.length === 0) {
+    container.innerHTML = '<div class="archive-loading">No upcoming events scheduled.</div>';
+    return;
+  }
+  
+  const sortedEvents = [...EVENTS].sort((a, b) => new Date(a.date) - new Date(b.date));
+  
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  
+  container.innerHTML = sortedEvents.map(event => {
+    const eventDate = new Date(event.date + 'T00:00:00');
+    const formattedDate = `${days[eventDate.getDay()]}, ${months[eventDate.getMonth()]} ${eventDate.getDate()}, ${eventDate.getFullYear()}`;
+    const displayTitle = event.speaker ? `${event.speaker}` : event.title;
+    const displaySubtitle = event.speaker ? event.topic || event.description : '';
+    const modalDesc = event.description || (event.speaker ? `Join us for a special evening with ${event.speaker}.` : "Monthly gathering of men for worship, a message, and fellowship.");
+    
+    return `
+      <div class="event-tile ${event.featured ? 'featured' : ''}" onclick="openEventModal(${event.id})">
+        <div class="event-tile-date">${formattedDate} • ${event.time}</div>
+        <div class="event-tile-title">${escapeHtml(displayTitle)}</div>
+        ${displaySubtitle ? `<div class="event-tile-speaker">${escapeHtml(displaySubtitle)}</div>` : ''}
+        <div class="event-tile-details">
+          <div class="event-tile-detail">📍 ${event.location}</div>
+        </div>
+        <span class="event-tile-badge">${event.badge}</span>
+        <div class="event-tile-desc">${escapeHtml(modalDesc.substring(0, 120))}${modalDesc.length > 120 ? '...' : ''}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+function parseMarkdownContent(markdown) {
+  if (!markdown) return { html: '', verseRef: '', verseText: '', title: '' };
+  
+  const lines = markdown.split('\n');
+  let html = '';
+  let verseRef = '';
+  let verseText = '';
+  let title = '';
+  let inReflection = false;
+  let inPrayer = false;
+  
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i].trim();
+    if (!line) continue;
+    
+    if (line.startsWith('# ')) {
+      title = line.substring(2).trim();
+      continue;
+    }
+    if (line.startsWith('## ') && !title) {
+      title = line.substring(3).trim();
+      continue;
+    }
+    
+    if (line.startsWith('### ')) {
+      verseRef = line.substring(4).trim();
+      continue;
+    }
+    
+    if (verseRef && !verseText && line.startsWith('"')) {
+      verseText = line.replace(/^"|"$/g, '');
+      continue;
+    }
+    
+    if (line === '## Reflection' || line.startsWith('## Reflection')) {
+      inReflection = true;
+      inPrayer = false;
+      continue;
+    }
+    
+    if (line === '## Prayer' || line.startsWith('## Prayer')) {
+      inReflection = false;
+      inPrayer = true;
+      continue;
+    }
+    
+    if (line === '## One-Line Application' || line.startsWith('## One-Line Application')) {
+      inReflection = false;
+      inPrayer = false;
+      continue;
+    }
+    
+    if (!inReflection && !inPrayer && !line.startsWith('##') && !line.startsWith('###') && !line.startsWith('#')) {
+      if (line.length > 0 && !line.startsWith('*') && !line.startsWith('-')) {
+        if (!line.includes('provider') && !line.includes('model') && !line.includes('max_tokens')) {
+          html += `<p>${escapeHtml(line)}</p>`;
+        }
+      }
+    }
+  }
+  
+  if (!title) title = 'Daily Devotional';
+  if (!verseText && verseRef) verseText = 'Lead me to the rock that is higher than I.';
+  
+  return { html, verseRef, verseText, title };
+}
+
+async function loadDevotion(force = false) {
+  const today = new Date();
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+  const cacheKey = `devotional_${todayStr}`;
+  const btn = document.getElementById('refresh-dev');
+  
+  if (btn) btn.disabled = true;
+  
+  if (!force) {
+    const cached = localStorage.getItem(cacheKey);
+    if (cached) {
+      renderDevotion(JSON.parse(cached));
+      if (btn) btn.disabled = false;
+      return;
+    }
+  }
+  
+  const devotionalDiv = document.getElementById('devotional-content');
+  devotionalDiv.innerHTML = '<div class="devotional-loading"><span class="loading-dots">Loading today\'s word</span></div>';
+  
+  try {
+    const response = await fetch(`${DEVOTIONAL_BASE_URL}${todayStr}.json`);
+    if (!response.ok) throw new Error('Devotional not found');
+    
+    const data = await response.json();
+    const parsed = parseMarkdownContent(data.content_markdown);
+    
+    let reflection = 'How can you trust God more deeply today?';
+    let prayer = 'Lord, be my rock and my refuge. Amen.';
+    
+    const lines = data.content_markdown.split('\n');
+    let inReflection = false;
+    let inPrayer = false;
+    let reflectionText = '';
+    let prayerText = '';
+    
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (trimmed === '## Reflection' || trimmed.startsWith('## Reflection')) {
+        inReflection = true;
+        inPrayer = false;
+        continue;
+      }
+      if (trimmed === '## Prayer' || trimmed.startsWith('## Prayer')) {
+        inReflection = false;
+        inPrayer = true;
+        continue;
+      }
+      if (trimmed === '## One-Line Application' || trimmed.startsWith('## One-Line Application')) {
+        inReflection = false;
+        inPrayer = false;
+        continue;
+      }
+      if (inReflection && trimmed && !trimmed.startsWith('##')) {
+        reflectionText += `<p>${escapeHtml(trimmed)}</p>`;
+      }
+      if (inPrayer && trimmed && !trimmed.startsWith('##')) {
+        prayerText += trimmed + ' ';
+      }
+    }
+    
+    if (reflectionText) reflection = reflectionText;
+    if (prayerText) prayer = prayerText.trim();
+    
+    const devotional = {
+      date: todayStr,
+      verseRef: parsed.verseRef || 'Psalm 61:2',
+      verseText: parsed.verseText || 'Lead me to the rock that is higher than I.',
+      title: parsed.title,
+      body: parsed.html,
+      reflection: reflection,
+      prayer: prayer
+    };
+    
+    localStorage.setItem(cacheKey, JSON.stringify(devotional));
+    renderDevotion(devotional);
+  } catch (error) {
+    console.error('Error loading devotional:', error);
+    devotionalDiv.innerHTML = `
+      <div class="devotional-date">Today — ${today.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}</div>
+      <div class="devotional-verse-ref">Psalm 61:2</div>
+      <div class="devotional-verse-text">"From the end of the earth I call to you when my heart is faint. Lead me to the rock that is higher than I."</div>
+      <div class="devotional-content">
+        <p>When life feels overwhelming, remember that God is your refuge. He is higher than any storm you face. Call out to Him today.</p>
+      </div>
+      <div class="devotional-reflection">
+        <h4>For Reflection</h4>
+        <p>What storm are you facing that you need to surrender to God?</p>
+      </div>
+      <div class="devotional-prayer">Lord, be my rock and my refuge today. Amen.</div>
+    `;
+  }
+  
+  if (btn) btn.disabled = false;
+}
+
+function renderDevotion(dev) {
+  const formattedDate = new Date(dev.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+  document.getElementById('devotional-content').innerHTML = `
+    <div class="devotional-date">${formattedDate}</div>
+    <div class="devotional-verse-ref">${escapeHtml(dev.verseRef)}</div>
+    <div class="devotional-verse-text">"${escapeHtml(dev.verseText)}"</div>
+    <div class="devotional-content">${dev.body || '<p>Trust in God as your refuge.</p>'}</div>
+    <div class="devotional-reflection">
+      <h4>For Reflection</h4>
+      ${dev.reflection}
+    </div>
+    <div class="devotional-prayer">${escapeHtml(dev.prayer)}</div>
+  `;
+}
+
+function shareDevotional() {
+  const verseText = document.querySelector('.devotional-verse-text')?.textContent || '';
+  const text = `Today's Rock Solid Man devotional — ${verseText}\n\nRead more at rocksolidman.org`;
+  if (navigator.share) {
+    navigator.share({ title: 'Rock Solid Man Daily Devotional', text, url: 'https://rocksolidman.org' });
+  } else {
+    navigator.clipboard?.writeText(text).then(() => alert('Devotional copied to clipboard!'));
+  }
+}
+
+// ========== ARCHIVE FUNCTIONS ==========
+let archiveDevotionals = [];
+let archiveLoadedCount = 0;
+const ARCHIVE_BATCH_SIZE = 12;
+let isLoadingArchive = false;
+let hasMoreArchive = true;
+
+async function loadArchive() {
+  if (isLoadingArchive) return;
+  isLoadingArchive = true;
+  
+  const archiveContainer = document.getElementById('archive-container');
+  const loadMoreBtn = document.getElementById('load-more-btn');
+  
+  if (archiveLoadedCount === 0) {
+    archiveContainer.innerHTML = '<div class="archive-loading">Loading past devotionals...</div>';
+  }
+  
+  try {
+    const today = new Date();
+    const datesToTry = [];
+    
+    for (let i = archiveLoadedCount + 1; i <= archiveLoadedCount + ARCHIVE_BATCH_SIZE; i++) {
+      const date = new Date(today);
+      date.setDate(today.getDate() - i);
+      const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+      datesToTry.push(dateStr);
+    }
+    
+    const fetchPromises = datesToTry.map(async (dateStr) => {
+      try {
+        const response = await fetch(`${DEVOTIONAL_BASE_URL}${dateStr}.json`);
+        if (response.ok) {
+          const data = await response.json();
+          const parsed = parseMarkdownContent(data.content_markdown);
+          return {
+            date: dateStr,
+            verseRef: parsed.verseRef || 'Scripture',
+            title: parsed.title || 'Daily Devotional',
+            verseText: parsed.verseText || ''
+          };
+        }
+      } catch (e) {
+        // Skip missing files
+      }
+      return null;
+    });
+    
+    const results = await Promise.all(fetchPromises);
+    const newDevotionals = results.filter(r => r !== null);
+    
+    archiveDevotionals.push(...newDevotionals);
+    archiveLoadedCount += datesToTry.length;
+    
+    if (newDevotionals.length === 0 && archiveLoadedCount > 30) {
+      hasMoreArchive = false;
+    }
+    
+    renderArchive();
+    
+    if (hasMoreArchive) {
+      loadMoreBtn.style.display = 'block';
+    } else {
+      loadMoreBtn.style.display = 'none';
+    }
+    
+  } catch (error) {
+    console.error('Error loading archive:', error);
+    if (archiveLoadedCount === 0) {
+      archiveContainer.innerHTML = '<div class="archive-error">Unable to load archive. Please try again later.</div>';
+    }
+  }
+  
+  isLoadingArchive = false;
+}
+
+function renderArchive() {
+  const archiveContainer = document.getElementById('archive-container');
+  
+  if (archiveDevotionals.length === 0 && archiveLoadedCount > 0) {
+    archiveContainer.innerHTML = '<div class="archive-loading">No past devotionals found.</div>';
+    return;
+  }
+  
+  const html = `
+    <div class="archive-grid">
+      ${archiveDevotionals.map(dev => `
+        <div class="archive-card" onclick="loadArchiveDevotional('${dev.date}')">
+          <div class="date">${formatArchiveDate(dev.date)}</div>
+          <div class="title">${escapeHtml(dev.title)}</div>
+          <div class="verse">${escapeHtml(dev.verseRef)}</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+  
+  archiveContainer.innerHTML = html;
+}
+
+function formatArchiveDate(dateStr) {
+  const date = new Date(dateStr);
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+async function loadArchiveDevotional(dateStr) {
+  const devotionalDiv = document.getElementById('devotional-content');
+  devotionalDiv.innerHTML = '<div class="devotional-loading"><span class="loading-dots">Loading devotional</span></div>';
+  
+  try {
+    const response = await fetch(`${DEVOTIONAL_BASE_URL}${dateStr}.json`);
+    if (!response.ok) throw new Error('Devotional not found');
+    
+    const data = await response.json();
+    const parsed = parseMarkdownContent(data.content_markdown);
+    
+    let reflection = 'How can you trust God more deeply today?';
+    let prayer = 'Lord, be my rock and my refuge. Amen.';
+    
+    const lines = data.content_markdown.split('\n');
+    let inReflection = false;
+    let inPrayer = false;
+    let reflectionText = '';
+    let prayerText = '';
+    
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (trimmed === '## Reflection' || trimmed.startsWith('## Reflection')) {
+        inReflection = true;
+        inPrayer = false;
+        continue;
+      }
+      if (trimmed === '## Prayer' || trimmed.startsWith('## Prayer')) {
+        inReflection = false;
+        inPrayer = true;
+        continue;
+      }
+      if (trimmed === '## One-Line Application' || trimmed.startsWith('## One-Line Application')) {
+        inReflection = false;
+        inPrayer = false;
+        continue;
+      }
+      if (inReflection && trimmed && !trimmed.startsWith('##')) {
+        reflectionText += `<p>${escapeHtml(trimmed)}</p>`;
+      }
+      if (inPrayer && trimmed && !trimmed.startsWith('##')) {
+        prayerText += trimmed + ' ';
+      }
+    }
+    
+    if (reflectionText) reflection = reflectionText;
+    if (prayerText) prayer = prayerText.trim();
+    
+    const devotional = {
+      date: dateStr,
+      verseRef: parsed.verseRef || 'Psalm 61:2',
+      verseText: parsed.verseText || 'Lead me to the rock that is higher than I.',
+      title: parsed.title,
+      body: parsed.html,
+      reflection: reflection,
+      prayer: prayer
+    };
+    
+    renderDevotion(devotional);
+    document.getElementById('devotional').scrollIntoView({ behavior: 'smooth' });
+  } catch (error) {
+    console.error('Error loading archived devotional:', error);
+    devotionalDiv.innerHTML = '<div class="devotional-loading">Unable to load this devotional. Please try again.</div>';
+  }
+}
+
+// ========== CALENDAR FUNCTIONS ==========
+let calDate = new Date(2026, 3, 1);
+
+function renderCalendar() {
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  document.getElementById('cal-month-label').textContent = months[calDate.getMonth()] + ' ' + calDate.getFullYear();
+  const grid = document.getElementById('cal-grid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  const year = calDate.getFullYear(), month = calDate.getMonth();
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month+1, 0).getDate();
+  const today = new Date();
+
+  const eventDays = new Set(
+    EVENTS
+      .filter(e => { const d = new Date(e.date + 'T00:00:00'); return d.getFullYear()===year && d.getMonth()===month; })
+      .map(e => new Date(e.date + 'T00:00:00').getDate())
+  );
+
+  const prevDays = new Date(year, month, 0).getDate();
+  for (let i = firstDay - 1; i >= 0; i--) {
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell other-month';
+    cell.innerHTML = `<span class="cal-num">${prevDays - i}</span>`;
+    grid.appendChild(cell);
+  }
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const cell = document.createElement('div');
+    let cls = 'cal-cell';
+    if (d === today.getDate() && month === today.getMonth() && year === today.getFullYear()) cls += ' today';
+    if (eventDays.has(d)) cls += ' has-event';
+    cell.className = cls;
+    cell.innerHTML = `<span class="cal-num">${d}</span>`;
+    if (eventDays.has(d)) {
+      cell.onclick = () => showDayEvents(year, month, d);
+    }
+    grid.appendChild(cell);
+  }
+
+  const totalCells = firstDay + daysInMonth;
+  const remaining = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
+  for (let i = 1; i <= remaining; i++) {
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell other-month';
+    cell.innerHTML = `<span class="cal-num">${i}</span>`;
+    grid.appendChild(cell);
+  }
+
+  renderEventsList();
+}
+
+function changeMonth(dir) {
+  calDate.setMonth(calDate.getMonth() + dir);
+  renderCalendar();
+}
+
+function renderEventsList() {
+  const year = calDate.getFullYear(), month = calDate.getMonth();
+  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+  const upcoming = EVENTS
+    .filter(e => {
+      const d = new Date(e.date + 'T00:00:00');
+      return d.getFullYear() === year && d.getMonth() === month;
+    })
+    .sort((a,b) => new Date(a.date) - new Date(b.date));
+
+  const list = document.getElementById('events-list');
+  if (!list) return;
+  
+  if (upcoming.length === 0) {
+    list.innerHTML = '<p style="color:var(--text-muted);font-size:0.88rem;">No events this month.</p>';
+    return;
+  }
+
+  list.innerHTML = upcoming.map(e => {
+    const d = new Date(e.date + 'T00:00:00');
+    const label = `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}`;
+    const displayTitle = e.speaker ? `${e.speaker} - ${e.topic || e.title}` : e.title;
+    return `
+      <div class="event-card ${e.featured ? 'featured' : ''}" onclick="openEventModal(${e.id})">
+        <div class="event-date-tag">${label} &bull; ${e.time}</div>
+        <div class="event-name">${escapeHtml(displayTitle)}</div>
+        <div class="event-detail">${e.location}</div>
+        <span class="event-badge">${e.badge}</span>
+      </div>`;
+  }).join('');
+}
+
+function showDayEvents(year, month, day) {
+  calDate = new Date(year, month, 1);
+  renderCalendar();
+  document.getElementById('calendar').scrollIntoView({ behavior:'smooth' });
+}
+
+function openEventModal(id) {
+  const e = EVENTS.find(ev => ev.id === id);
+  if (!e) return;
+  const d = new Date(e.date + 'T00:00:00');
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+  const displayTitle = e.speaker ? `${e.speaker} - ${e.topic || e.title}` : e.title;
+  const modalDesc = e.description || (e.speaker ? `Join us for a special evening with ${e.speaker}.` : "Monthly gathering of men for worship, a message, and fellowship.");
+
+  document.getElementById('modal-content').innerHTML = `
+    <div class="modal-event-date">${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}</div>
+    <div class="modal-event-title">${escapeHtml(displayTitle)}</div>
+    <p class="modal-event-desc">${escapeHtml(modalDesc)}</p>
+    <div class="modal-event-details">
+      <div class="modal-detail-row"><span class="modal-detail-label">Time</span><span class="modal-detail-val">${e.time}</span></div>
+      <div class="modal-detail-row"><span class="modal-detail-label">Location</span><span class="modal-detail-val">${e.location}</span></div>
+      <div class="modal-detail-row"><span class="modal-detail-label">Type</span><span class="modal-detail-val">${e.badge}</span></div>
+    </div>
+    <div style="margin-top:1.75rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
+      <a href="https://rocksolidman.org/events/" class="btn-primary" style="font-size:0.78rem; padding:0.55rem 1.4rem;">Details & RSVP</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" class="btn-ghost">Volunteer</a>
+    </div>
+  `;
+  document.getElementById('event-modal').classList.add('open');
+}
+
+function closeModal(e) {
+  if (e.target.id === 'event-modal') document.getElementById('event-modal').classList.remove('open');
+}
+
+// ========== INIT ==========
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadCalendarEvents();
+  loadDevotion();
+  loadArchive();
+  
+  const loadMoreBtn = document.getElementById('load-more-btn');
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', loadArchive);
+  }
+});
+</script>
+</body>
+</html>
