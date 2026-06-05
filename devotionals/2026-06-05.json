@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 262,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Matthew 14:22\n\n\"But Jesus insisted, 'Come!' So Peter got out of the boat, started walking on the water, and came toward Jesus. At this, Peter began to sink, and reached out for Jesus, crying out, 'Lord, save me!'\"\n\n(Matthew 14:28-30, NIV)\n\n## Reflection\n\nAs we navigate the turbulent waters of life, it's easy to lose our footing and feel overwhelmed. But Jesus' invitation to Peter to step out of the boat and walk with Him reminds us that He's always present, even in the midst of chaos. Peter's doubt and fear led him to sink, but Jesus was there to catch him, to rescue him. We too can experience this kind of rescue when we reach out to Jesus in our times of need. He's not just a distant savior, but a loving Father who wants to guide us, to support us, and to carry us through life's storms. Let's not be afraid to step out of our comfort zones and trust in His presence, knowing that He'll be there to catch us when we falter.\n\n## Prayer\n\nWe confess our tendency to doubt and fear in the face of uncertainty. We pray for the courage to trust in Jesus' presence and power, and for the faith to step out of our comfort zones and into the unknown. Help us to remember that You are always with us, Lord, and that You'll never let us sink.\n\n## One-Line Application\n\nStep out of your comfort zone and trust in Jesus' presence in times of uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
