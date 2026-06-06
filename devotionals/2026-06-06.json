@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 205,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\n\"For He will command His angels concerning you to guard you in all your ways.\" \n— Psalm 91:11 (ESV)\n\n## Reflection\n\nAs we navigate the complexities of life, it's easy to feel overwhelmed and unsure of what the future holds. The world around us can seem chaotic, and our minds can be filled with worry and anxiety. But in the midst of this chaos, we are not alone. God has promised to send His angels to guard and protect us in all our ways. These heavenly messengers are not just passive observers but actively involved in our lives, working to keep us safe and secure. We can trust that God's protection is not limited to physical safety but also extends to our emotional and spiritual well-being. Just as a shepherd watches over his flock, God tenderly cares for us and keeps us from harm.\n\n## Prayer\n\nWe thank you, Lord, for sending Your angels to guard and protect us in all our ways. Help us to trust in Your care and provision, and give us peace in the midst of chaos.\n\n## One-Line Application\n\nWe can trust God's protection and care in all aspects of life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
