@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 203,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Uncertain Times\n\n## Psalm 46:10\n\n\"Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" (Psalm 46:10, ESV)\n\n## Reflection\n\nIn the midst of chaos and uncertainty, it's easy to get caught up in worrying about the future or dwelling on past regrets. But the psalmist reminds us that God is above the turmoil, and we can find peace by resting in His presence. When the world seems to be spinning out of control, we can choose to be still, to quiet our minds and hearts, and to trust in God's sovereignty. This is not a passive inactivity, but rather an active surrender to God's will and purposes. As we learn to be still, we discover that God is exalted in the midst of our uncertainty, and we can find peace in His presence.\n\n## Prayer\n\nWe pray, Lord, that in the midst of uncertain times, we would be still and know that you are God. Help us to trust in your sovereignty and to find peace in your presence.\n\n## One-Line Application\n\nWe can find peace by resting in God's presence and trusting in His sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
