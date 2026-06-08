@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 242,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart for the Flock\n\n## Luke 15:4\n\n\"When he comes home, he calls together his friends and his family, saying, 'Come and join in the celebration, for my son, who was lost, is found.'\" (NIV)\n\n## Reflection\n\nAs followers of Jesus, we are called to be shepherds of God's flock. A true shepherd's heart beats with compassion and love for those who are lost or wandering away from the fold. The Good Shepherd went out of His way to find the one that was lost, and in the same way, we must be willing to seek out those who are struggling and bring them back to the safety of His love. It's not enough to simply know the truth; we must be willing to live it out in our relationships with others. As we pray for guidance and wisdom, let us remember that the Great Shepherd is calling us to be His ambassadors in the world. May we be faithful in our care for His flock, just as He is faithful to us.\n\n## Prayer\n\nWe ask that You give us the heart of a shepherd, Lord, to care for those who are lost and wandering. Guide us in our relationships and give us the courage to reach out to those who need Your love.\n\n## One-Line Application\n\nWe must be willing to seek out those who are struggling and bring them back to the safety of His love.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
