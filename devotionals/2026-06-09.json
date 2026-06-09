@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 212,
+  "theme": null,
+  "content_markdown": "# Rest in God's Sovereign Care\n\n## Scripture\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\" - Philippians 4:6 (NIV)\n\n## Reflection\n\nAs we navigate life's uncertainties, it's easy to get caught up in worry and anxiety. But the Bible reminds us that we don't have to be controlled by fear or doubt. Instead, we can bring our concerns to God in prayer, casting our anxieties on Him because He cares for us (1 Peter 5:7). When we take our worries to the Lord, we're not just asking for a solution but for His presence and guidance. He desires to give us peace that surpasses our understanding, and it's available to us whenever we approach Him with humble hearts and genuine thanksgiving. By surrendering our concerns to God, we're not diminishing our responsibilities, but we are trusting in His sovereignty and goodness.\n\n## Prayer\n\nWe come before You, Lord, with our worries and fears. Help us to trust in Your sovereign care and present our requests to You with thanksgiving. Grant us peace that surpasses our understanding and guide us through life's uncertainties.\n\n## One-Line Application\n\nWe can trust God's sovereignty and goodness in the midst of life's uncertainties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
