@@ -98,5 +98,17 @@
       "badge": "Monthly",
       "featured": false
     }
+        {
+      "id": 10,
+      "title": "Jacob Varnell",
+      "description": "Testimonial",
+      "date": "2026-08-10",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+      "speaker": "Jacob Varnell",
+      "topic": "Testimonial"
+    },
   ]
 }
