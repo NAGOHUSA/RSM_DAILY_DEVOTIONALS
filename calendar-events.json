@@ -37,6 +37,18 @@
       "topic": "Independent"
     },
     {
+      "id": 9,
+      "title": "Michael Mays",
+      "description": "Testimonial",
+      "date": "2026-07-13",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Guest Testimonal",
+      "featured": true,
+      "speaker": "Michael Mays",
+      "topic": "Testimonial"
+    },
+    {
       "id": 4,
       "title": "Jim Perdue",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
