@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 178,
+  "theme": null,
+  "content_markdown": "# Cultivating Peace in Life's Turbulent Storms\n\n## Scripture\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" \nMatthew 11:28 (NIV)\n\n## Reflection\nWe often view rest as a static state, something we achieve by ceasing all activity. However, Jesus' promise in Matthew 11:28 is not a call to inactivity, but an invitation to find rest in Him amidst life's chaos. This rest is not freedom from life's challenges, but peace that enables us to navigate them with confidence. It's a rest that acknowledges our limitations and finds strength in God's presence. As we learn to surrender our burdens to Him, we discover that rest is not a destination, but a journey with God in the midst of our struggles.\n\n## Prayer\nWe confess our weariness and burdens, Lord. We come to you, seeking rest in your presence. Help us to surrender our fears and doubts, trusting in your power to carry us through life's turbulent storms.\n\n## One-Line Application\nWe find rest in surrendering our burdens to God's loving presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
