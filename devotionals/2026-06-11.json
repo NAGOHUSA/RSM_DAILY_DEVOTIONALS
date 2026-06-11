@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-11",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 214,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Uncertainty\n\n## Scripture\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\nAs we navigate the complexities of life, it's easy to get caught up in worry and anxiety. But Jesus' words remind us that true peace comes from Him, not from the world. We must learn to trust in His sovereignty and goodness, even when circumstances seem uncertain. This trust is not a feeling, but a choice – a choice to believe that God is working all things for our good (Romans 8:28). As we choose to trust, we experience peace that guards our hearts and minds (Philippians 4:7). This peace is not a temporary escape from problems, but a deep sense of calm that enables us to face challenges with confidence and joy.\n\n## Prayer\nWe ask for the peace that only You can give, Lord. Give us the courage to trust in Your sovereignty and goodness, even in the midst of uncertainty. Help us to choose faith over fear, and peace over anxiety.\n\n## One-Line Application\nWe choose to trust God's goodness even in uncertain circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
