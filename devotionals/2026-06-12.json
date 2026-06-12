@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 294,
+  "theme": null,
+  "content_markdown": "# Living in the Season of Abundance\n\n## 2 Corinthians 9:8\n\n\"Now he who supplies seed to the sower and bread for food will also supply and multiply your store of seed and increase the harvest of your righteousness.\" - 2 Corinthians 9:8 (ESV)\n\n## Reflection\n\nIn these seasons of abundance, we are often called to respond with generosity. We have been blessed to be a blessing, not just for ourselves but for others. As we reflect on our blessings, let us remember that they are not just a reward for our hard work, but a means to further God's work in the world. We are stewards of what we have, entrusted with the responsibility to use it wisely.\n\nJust as God has supplied our needs, we too can supply the needs of others. Let us not hoard our blessings, but instead, look for opportunities to share with those around us. Whether it be time, resources, or love, let us be generous and use what we have to bring joy and hope to those in need.\n\nAs we cultivate a spirit of generosity, we not only bless others but also ourselves. We are reminded that our blessings are not just a result of our own efforts, but a gift from God's loving hand. Let us respond to this abundance with gratitude and generosity, trusting that God will continue to supply our needs.\n\n## Prayer\n\nWe thank you for the abundance you have given us. Help us to be generous with what we have, using it to bless others and bring glory to your name. May our hearts be filled with love and our hands be open to share with those in need. \n\n## One-Line Application\n\nMay our response to abundance be generosity, not greed.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
