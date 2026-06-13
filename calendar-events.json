@@ -97,8 +97,8 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
       "featured": false
-    }
-        {
+    },
+    {
       "id": 10,
       "title": "Jacob Varnell",
       "description": "Testimonial",
@@ -106,9 +106,9 @@
       "time": "6:45 PM",
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
-      "featured": false
+      "featured": false,
       "speaker": "Jacob Varnell",
       "topic": "Testimonial"
-    },
+    }
   ]
 }
