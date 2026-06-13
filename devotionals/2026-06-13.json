@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 236,
+  "theme": null,
+  "content_markdown": "# The Shepherd's Care\n\n## Psalm 23:4 - \"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\" (Psalm 23:4, NIV)\n\n## Reflection\n\nAs we traverse life's uncertain paths, it's easy to feel overwhelmed by the darkness that surrounds us. We may lose sight of the Shepherd's presence, and the comfort of His rod and staff seems distant. However, the Psalmist reminds us that even in the midst of chaos, God is with us. His presence is a constant reminder that we are not alone. We can trust in His goodness, even when our circumstances seem to scream otherwise. The Shepherd's care is not limited to sunny days, but it also encompasses the darkest nights. In those moments, we must choose to trust in His sovereignty, His love, and His presence. We must choose to surrender our fears and anxieties to Him, knowing that He is working all things for our good.\n\n## Prayer\n\nWe thank you, God, for being our Shepherd in the darkest valleys. We pray that you would give us the strength to trust in your presence and the comfort of your rod and staff. We submit our fears to you, Lord, and ask that you would guide us through the uncertain paths of life.\n\n## One-Line Application\nWe must choose to trust God's sovereignty in every circumstance.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
