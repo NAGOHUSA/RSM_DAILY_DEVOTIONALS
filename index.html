@@ -1492,7 +1492,7 @@ let EVENTS = [];
 
 async function loadCalendarEvents() {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/NAGOHUSA/NAGOH.US/main/RSM/calendar-events.json');
+    const response = await fetch('https://rocksolidman.org/calendar-events.json');
     if (!response.ok) throw new Error('Failed to load events');
     const data = await response.json();
     EVENTS = data.events;
