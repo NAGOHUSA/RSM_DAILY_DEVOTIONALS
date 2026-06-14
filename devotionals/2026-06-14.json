@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 198,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Guidance for the Flock\n\n## Psalm 23:4 (NIV) - Even Though I Walk Through the Darkest Valley\n\nEven though I walk through the darkest valley,\nI will fear no evil,\nfor you are with me;\nyour rod and your staff\ncomfort me.\n\n## Reflection\n\nAs we navigate life's uncertainties, it's easy to feel overwhelmed and lost. The psalmist reminds us that even in the darkest of times, God is always present. His rod and staff, symbols of guidance and provision, offer us comfort. We don't have to face our fears alone, nor do we have to walk through the valley of shadows without a shepherd. God's presence is our greatest comfort, our rock, and our shelter. In times of uncertainty, we can trust that God's guidance will lead us through.\n\nIn the face of adversity, let us not forget that God's presence is our greatest comfort. May we not be afraid to ask for guidance and provision in times of need. May we trust that God's rod and staff will comfort us, leading us through even the darkest valleys. May we remember that God's presence is always with us, even when we cannot see it.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
