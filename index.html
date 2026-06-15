@@ -1165,9 +1165,61 @@
     50% { opacity: 1; transform: scaleY(1.1); }
   }
 
+  /* HAMBURGER BUTTON */
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    z-index: 101;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--cream);
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+  .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
   @media (max-width: 768px) {
-    nav { padding: 1rem 1.25rem; }
-    .nav-links { display: none; }
+    nav { padding: 1rem 1.25rem; position: relative; flex-wrap: wrap; }
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 0;
+      background: rgba(26,26,26,0.97);
+      border-top: 1px solid rgba(58,122,74,0.3);
+      padding: 0.75rem 0 1rem;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 99;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links li { width: 100%; }
+    .nav-links a {
+      display: block;
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .nav-links .nav-cta {
+      margin: 0.75rem 1.5rem 0;
+      display: block;
+      text-align: center;
+      padding: 0.65rem 1rem;
+    }
     .calendar-grid { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; }
     .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
@@ -1188,9 +1240,12 @@
 </div>
 
 <!-- NAV -->
-<nav>
+<nav id="main-nav">
   <a class="nav-logo" href="#"><span>Rock</span> Solid Man</a>
-  <ul class="nav-links">
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
     <li><a href="#events-tiles">Upcoming Events</a></li>
     <li><a href="#devotional">Daily Word</a></li>
     <li><a href="#archive">Archive</a></li>
@@ -2023,34 +2078,63 @@ function openEventModal(id) {
   document.getElementById('modal-content').innerHTML = `
     <div class="modal-event-date">${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}</div>
     <div class="modal-event-title">${escapeHtml(displayTitle)}</div>
-    <p class="modal-event-desc">${escapeHtml(modalDesc)}</p>
+    <div class="modal-event-desc">${escapeHtml(modalDesc)}</div>
     <div class="modal-event-details">
-      <div class="modal-detail-row"><span class="modal-detail-label">Time</span><span class="modal-detail-val">${e.time}</span></div>
-      <div class="modal-detail-row"><span class="modal-detail-label">Location</span><span class="modal-detail-val">${e.location}</span></div>
-      <div class="modal-detail-row"><span class="modal-detail-label">Type</span><span class="modal-detail-val">${e.badge}</span></div>
-    </div>
-    <div style="margin-top:1.75rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
-      <a href="https://rocksolidman.org/events/" class="btn-primary" style="font-size:0.78rem; padding:0.55rem 1.4rem;">Details & RSVP</a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" class="btn-ghost">Volunteer</a>
+      <div class="modal-detail-row">
+        <span class="modal-detail-label">Time</span>
+        <span class="modal-detail-val">${e.time}</span>
+      </div>
+      <div class="modal-detail-row">
+        <span class="modal-detail-label">Location</span>
+        <span class="modal-detail-val">${e.location || 'Woodlands Coffee & Roasters'}</span>
+      </div>
+      ${e.speaker ? `<div class="modal-detail-row">
+        <span class="modal-detail-label">Speaker</span>
+        <span class="modal-detail-val">${escapeHtml(e.speaker)}</span>
+      </div>` : ''}
+      ${e.topic ? `<div class="modal-detail-row">
+        <span class="modal-detail-label">Topic</span>
+        <span class="modal-detail-val">${escapeHtml(e.topic)}</span>
+      </div>` : ''}
     </div>
   `;
   document.getElementById('event-modal').classList.add('open');
 }
 
-function closeModal(e) {
-  if (e.target.id === 'event-modal') document.getElementById('event-modal').classList.remove('open');
+function closeModal(evt) {
+  if (evt.target === evt.currentTarget) {
+    document.getElementById('event-modal').classList.remove('open');
+  }
 }
 
+// ========== HAMBURGER MENU ==========
+(function() {
+  const toggle = document.getElementById('nav-toggle');
+  const links  = document.getElementById('nav-links');
+  if (!toggle || !links) return;
+
+  toggle.addEventListener('click', function() {
+    const isOpen = links.classList.toggle('open');
+    toggle.classList.toggle('open', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+
+  // Close menu when a link is clicked
+  links.querySelectorAll('a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      links.classList.remove('open');
+      toggle.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+
 // ========== INIT ==========
-document.addEventListener('DOMContentLoaded', async () => {
-  await loadCalendarEvents();
+document.addEventListener('DOMContentLoaded', function() {
+  loadCalendarEvents();
   loadDevotion();
+  renderCalendar();
   loadArchive();
-  
-  const loadMoreBtn = document.getElementById('load-more-btn');
-  if (loadMoreBtn) {
-    loadMoreBtn.addEventListener('click', loadArchive);
-  }
 });
 </script>
 </body>
