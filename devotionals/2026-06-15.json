@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 224,
+  "theme": null,
+  "content_markdown": "# A Gentle Spirit in a Turbulent World\n\n## Psalm 119:165 (ESV)\n\n\"I do your will, my God, and your law delights me.\"\n\n## Reflection\n\nIn a world where chaos and uncertainty seem to be the norm, it's easy to get caught up in the noise and lose sight of what truly matters. But as followers of Christ, we are called to a different way. We are called to cultivate a gentle spirit that is rooted in love and trust in God's goodness. This means being still in the midst of storm, and finding peace in the midst of turmoil. It means being slow to anger and quick to listen, rather than quick to react and slow to listen. As we learn to rest in God's presence, we find that our hearts are renewed, our minds are clarified, and our spirits are strengthened. We are better equipped to face the challenges of life with hope and courage, knowing that God is always with us, guiding us and directing us.\n\n## Prayer\n\nWe pray for a gentle spirit, Lord, one that is rooted in love and trust in you. Help us to be still in the midst of storm and to find peace in the midst of turmoil.\n\n## One-Line Application\nMay we embody a gentle spirit, rooted in love and trust in God's goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
