@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# Walking in the Shadow of God's Sovereignty\n\n## Scripture\n\"And we know that for those who love God all things work together for good, for those who are called according to his purpose.\" - Romans 8:28\n\n## Reflection\nIn times of uncertainty, it's easy to question the Lord's plan and doubt His sovereignty. But as believers, we have the assurance that God is working everything out for our good, even when we can't see it. His purpose is always unfolding, and He is at work in our lives, guiding us toward our ultimate destination. We may face trials and hardships, but we can trust that these experiences are refining us, preparing us for the life He has designed for us. As we walk through the valley of the shadow of death, we can trust that God is with us, using every situation to shape us into the image of His Son.\n\n## Prayer\nWe confess that we sometimes struggle to trust You in uncertain times, Lord. Help us to see Your sovereignty at work in our lives, and give us the faith to trust that all things are working together for good.\n\n## One-Line Application\nWe can trust God's sovereignty, even when we don't understand His plan.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
