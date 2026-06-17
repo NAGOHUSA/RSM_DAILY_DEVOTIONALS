@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 245,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Guidance\n\n## John 10:4\n\n\"I will lead them out and gather them in, for they will be fruitful and increase in number; I will glory in all they have done and will yet do. I will plant them on their own land from which I cleared the rocks and got rid of the thorns and thistles. I will give them rest from troubles; I will surprise them with blessings. If anyone says, 'Why has this happened to the land?' they will answer, 'Because they forsook the true God who saves them and devoted themselves to the god Baal.'\" John 10:22-25; 10:4 (NIV)\n\n## Reflection\n\nAs sheep, we often forget that our Shepherd is always with us, guiding us through the wilderness of life. He knows the path ahead and will lead us to green pastures and still waters. But He also knows the dangers that lurk along the way, and He is ready to defend us from harm. Like the shepherd in the parable, our Shepherd is willing to lay down His life for us, to protect us and keep us safe. When we face challenges and uncertainties, we can trust in His guidance and care.\n\n## Prayer\n\nWe thank You, Shepherd, for Your guidance and care. Help us to trust in Your goodness and mercy, and to follow Your lead even when the path ahead seems uncertain.\n\n## One-Line Application\n\nWe must trust in the Shepherd's guidance to navigate life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
