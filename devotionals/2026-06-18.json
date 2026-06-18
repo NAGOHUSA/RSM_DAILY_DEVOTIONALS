@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 187,
+  "theme": null,
+  "content_markdown": "# A Refuge from Life's Storms\n\n## Psalm 91:2\n\n\"He will cover you with his pinions, and under his wings you may take refuge; his faithfulness is a shield and buckler.\"\n\n- Psalm 91:2 (ESV)\n\n## Reflection\n\nIn life's turbulent seasons, it's easy to feel exposed and vulnerable. But God offers us a refuge, a place of safety and protection. Just as birds spread their wings to shield their young, God's love and faithfulness envelop us, shielding us from harm. We don't have to face the storms alone, for we have a heavenly Father who desires to be our shelter. As we trust in Him, we can find peace in the midst of chaos. The world may rage and roar, but we can take refuge under God's wings, finding strength and comfort in His presence.\n\n## Prayer\n\nWe take refuge under Your wings, Lord, and ask that You shield us from life's storms. Help us to trust in Your faithfulness and find peace in Your presence.\n\n## One-Line Application\n\nWe can find peace in life's turbulent seasons by taking refuge under God's wings of love and faithfulness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
