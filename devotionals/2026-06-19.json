@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 192,
+  "theme": null,
+  "content_markdown": "# Fruitful Surrender to God's Will\n\n## Scripture\n\n\"But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.'\" - 2 Corinthians 12:9\n\n## Reflection\n\nIn our journey with God, we often strive to be in control and have a sense of accomplishment. However, the truth is that true strength and fruitfulness come from surrendering to God's will. When we acknowledge our weakness and limitations, we open ourselves up to receiving God's power and grace. This surrender is not a sign of defeat, but rather a declaration of our trust in God's goodness and sovereignty. As we let go of our need to control and be self-sufficient, we create space for God to work in us and through us, bearing fruit that would not have been possible on our own.\n\n## Prayer\n\nWe surrender to Your will, Lord, and ask for Your power to be made perfect in our weakness. Help us to trust in Your goodness and sovereignty, that we may be fruitful vessels for Your work.\n\n## One-Line Application\n\nSurrendering to God's will is the key to experiencing true strength and fruitfulness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
