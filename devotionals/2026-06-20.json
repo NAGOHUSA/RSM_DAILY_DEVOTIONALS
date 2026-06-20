@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 263,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Heart\n\n## Psalm 23:4 - \"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\" (Psalm 23:4, ESV)\n\n## Reflection\n\nAs we navigate the twists and turns of life, it's easy to become overwhelmed by the uncertainty that surrounds us. The world can be a dark and unpredictable place, but as followers of Christ, we have a promise that gives us hope. We don't have to face the challenges of life alone, because God is always with us, even in the darkest valleys. His presence is a reminder that we are not abandoned, but rather, we are being guided and protected by a loving Father.\n\nIn times of fear and uncertainty, it's essential to remember that God's rod and staff are not tools of punishment, but rather instruments of comfort. They remind us that God is in control and that He is working everything out for our good. As we walk through the dark valleys of life, we can trust that God's presence is what gives us the strength to carry on.\n\n## Prayer\n\nWe thank you, Lord, for being our constant companion on the journey of life. We acknowledge your presence in the darkest valleys and we ask for the comfort of your rod and staff. Help us to trust in your goodness and to walk by faith, even when the path ahead seems uncertain.\n\n## One-Line Application\nWe can face life's challenges with courage and confidence, knowing God's presence and guidance accompanies us.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
