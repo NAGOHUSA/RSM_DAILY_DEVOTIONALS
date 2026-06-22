@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 217,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Sovereign Love\n\n## Scripture\n\n\"For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.\" - Jeremiah 29:11 (NIV)\n\n## Reflection\n\nIn the midst of life's uncertainty, we often struggle to trust God's sovereignty. His plans may not align with our own, and the path ahead seems unclear. Yet, Jeremiah 29:11 reminds us that God's intentions are rooted in love and a desire for our prosperity. His plans are not designed to harm or destroy, but to give us hope and a future. As we navigate life's challenges, we must fix our eyes on God's character and trust that He is working all things for our good. This requires faith, patience, and a willingness to surrender our own desires to His loving plan. By doing so, we can experience the peace that comes from knowing we are in His hands, and that He is working all things together for our good.\n\n## Prayer\n\nWe trust in Your sovereign love, Father, and surrender our lives to Your plans. Give us the faith to see Your goodness in the midst of uncertainty.\n\n## One-Line Application\n\nWe trust God's sovereignty and loving plan in all aspects of life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
