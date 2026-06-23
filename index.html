@@ -696,99 +696,6 @@
   }
 
   /* CALENDAR */
-  .calendar-section { 
-    background: rgba(42,42,42,0.85);
-    backdrop-filter: blur(4px);
-  }
-
-  .calendar-grid { display: grid; grid-template-columns: 1fr 320px; gap: 2.5rem; align-items: start; }
-
-  .calendar-widget {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(58,122,74,0.25);
-    border-radius: 4px;
-    overflow: hidden;
-  }
-
-  .cal-header {
-    background: rgba(58,122,74,0.12);
-    padding: 1.25rem 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(58,122,74,0.25);
-  }
-
-  .cal-header h3 {
-    font-family: var(--ff-display);
-    font-size: 1.4rem;
-    letter-spacing: 0.08em;
-    color: var(--cream);
-  }
-
-  .cal-nav button {
-    background: none;
-    border: 1px solid rgba(58,122,74,0.35);
-    color: var(--green-light);
-    width: 32px; height: 32px;
-    border-radius: 2px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: all 0.15s;
-  }
-  .cal-nav button:hover { background: rgba(58,122,74,0.15); }
-  .cal-nav { display: flex; gap: 0.5rem; }
-
-  .cal-days-header {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    background: rgba(0,0,0,0.2);
-    border-bottom: 1px solid rgba(255,255,255,0.06);
-  }
-  .cal-day-label {
-    text-align: center;
-    padding: 0.6rem 0;
-    font-size: 0.65rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    font-weight: 500;
-  }
-
-  .cal-grid {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-  }
-
-  .cal-cell {
-    min-height: 60px;
-    padding: 0.4rem 0.5rem;
-    border-right: 1px solid rgba(255,255,255,0.04);
-    border-bottom: 1px solid rgba(255,255,255,0.04);
-    cursor: pointer;
-    transition: background 0.15s;
-    position: relative;
-  }
-  .cal-cell:hover { background: rgba(58,122,74,0.08); }
-  .cal-cell.other-month { opacity: 0.3; }
-  .cal-cell.today { background: rgba(58,122,74,0.12); }
-  .cal-cell.today .cal-num { color: var(--green-light); font-weight: 500; }
-  .cal-cell.has-event::after {
-    content: '';
-    display: block;
-    width: 5px; height: 5px;
-    background: var(--green-mid);
-    border-radius: 50%;
-    margin: 2px auto 0;
-  }
-  .cal-cell.selected { background: rgba(58,122,74,0.18); }
-
-  .cal-num {
-    font-size: 0.82rem;
-    color: var(--cream-dark);
-    font-weight: 400;
-  }
-
   /* EVENTS SIDEBAR */
   .events-sidebar h3 {
     font-family: var(--ff-display);
@@ -1220,7 +1127,6 @@
       text-align: center;
       padding: 0.65rem 1rem;
     }
-    .calendar-grid { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; }
     .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
     .about-pillars { grid-template-columns: 1fr; }
@@ -1250,10 +1156,9 @@
     <li><a href="#devotional">Daily Word</a></li>
     <li><a href="#archive">Archive</a></li>
     <li><a href="#gallery">Photos</a></li>
-    <li><a href="#calendar">Calendar</a></li>
     <li><a href="#faith">Statement of Faith</a></li>
     <li><a href="#about">About</a></li>
-    <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Links</a></li>
+    <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:5px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>Socials</a></li>
     <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" class="nav-cta">Volunteer</a></li>
   </ul>
 </nav>
@@ -1350,41 +1255,6 @@
 </section>
 
 <!-- CALENDAR SECTION -->
-<section class="calendar-section" id="calendar">
-  <div class="container">
-    <span class="section-label">Event Calendar View</span>
-    <h2>MONTHLY<br>OVERVIEW</h2>
-    <div class="calendar-grid">
-      <div>
-        <div class="calendar-widget">
-          <div class="cal-header">
-            <h3 id="cal-month-label">April 2026</h3>
-            <div class="cal-nav">
-              <button onclick="changeMonth(-1)">&#8592;</button>
-              <button onclick="changeMonth(1)">&#8594;</button>
-            </div>
-          </div>
-          <div class="cal-days-header">
-            <div class="cal-day-label">Sun</div>
-            <div class="cal-day-label">Mon</div>
-            <div class="cal-day-label">Tue</div>
-            <div class="cal-day-label">Wed</div>
-            <div class="cal-day-label">Thu</div>
-            <div class="cal-day-label">Fri</div>
-            <div class="cal-day-label">Sat</div>
-          </div>
-          <div class="cal-grid" id="cal-grid"></div>
-        </div>
-      </div>
-      <div class="events-sidebar">
-        <h3>THIS MONTH</h3>
-        <div id="events-list"></div>
-        <a href="https://rocksolidman.org/events" class="btn-outline" style="font-size:0.78rem; padding: 0.6rem 1.4rem; margin-top:1rem; display:inline-block;">View All Events</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- STATEMENT OF FAITH SECTION -->
 <section class="faith-section" id="faith">
   <div class="container">
@@ -1483,7 +1353,6 @@
         <li><a href="#devotional">Daily Devotional</a></li>
         <li><a href="#archive">Archive</a></li>
         <li><a href="#gallery">Photo Gallery</a></li>
-        <li><a href="#calendar">Calendar</a></li>
         <li><a href="#faith">Statement of Faith</a></li>
         <li><a href="#about">About Us</a></li>
       </ul>
@@ -1494,7 +1363,7 @@
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header">Volunteer Sign-Up</a></li>
         <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit">TXT Alerts</a></li>
         <li><a href="https://rock-solid-man.printify.me/category/all/1">Gear / Swag</a></li>
-        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Linktree</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Socials</a></li>
         <li><a href="mailto:rocksolidmaninc@gmail.com">Contact</a></li>
       </ul>
     </div>
@@ -1544,7 +1413,7 @@ document.addEventListener('keydown', function(e) {
 // ========== DEVOTIONAL FUNCTIONS ==========
 const DEVOTIONAL_BASE_URL = 'https://raw.githubusercontent.com/NAGOHUSA/RSM_DAILY_DEVOTIONALS/main/devotionals/';
 
-// ========== CALENDAR EVENTS - FETCH FROM JSON ==========
+// ========== EVENTS - FETCH FROM JSON ==========
 let EVENTS = [];
 
 async function loadCalendarEvents() {
@@ -1553,12 +1422,10 @@ async function loadCalendarEvents() {
     if (!response.ok) throw new Error('Failed to load events');
     const data = await response.json();
     EVENTS = data.events;
-    renderCalendar();
     renderTiledEvents();
   } catch (error) {
-    console.error('Error loading calendar events:', error);
+    console.error('Error loading events:', error);
     EVENTS = [];
-    renderCalendar();
     renderTiledEvents();
   }
 }
@@ -1968,105 +1835,6 @@ async function loadArchiveDevotional(dateStr) {
   }
 }
 
-// ========== CALENDAR FUNCTIONS ==========
-let calDate = new Date(2026, 3, 1);
-
-function renderCalendar() {
-  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-  document.getElementById('cal-month-label').textContent = months[calDate.getMonth()] + ' ' + calDate.getFullYear();
-  const grid = document.getElementById('cal-grid');
-  if (!grid) return;
-  grid.innerHTML = '';
-
-  const year = calDate.getFullYear(), month = calDate.getMonth();
-  const firstDay = new Date(year, month, 1).getDay();
-  const daysInMonth = new Date(year, month+1, 0).getDate();
-  const today = new Date();
-
-  const eventDays = new Set(
-    EVENTS
-      .filter(e => { const d = new Date(e.date + 'T00:00:00'); return d.getFullYear()===year && d.getMonth()===month; })
-      .map(e => new Date(e.date + 'T00:00:00').getDate())
-  );
-
-  const prevDays = new Date(year, month, 0).getDate();
-  for (let i = firstDay - 1; i >= 0; i--) {
-    const cell = document.createElement('div');
-    cell.className = 'cal-cell other-month';
-    cell.innerHTML = `<span class="cal-num">${prevDays - i}</span>`;
-    grid.appendChild(cell);
-  }
-
-  for (let d = 1; d <= daysInMonth; d++) {
-    const cell = document.createElement('div');
-    let cls = 'cal-cell';
-    if (d === today.getDate() && month === today.getMonth() && year === today.getFullYear()) cls += ' today';
-    if (eventDays.has(d)) cls += ' has-event';
-    cell.className = cls;
-    cell.innerHTML = `<span class="cal-num">${d}</span>`;
-    if (eventDays.has(d)) {
-      cell.onclick = () => showDayEvents(year, month, d);
-    }
-    grid.appendChild(cell);
-  }
-
-  const totalCells = firstDay + daysInMonth;
-  const remaining = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
-  for (let i = 1; i <= remaining; i++) {
-    const cell = document.createElement('div');
-    cell.className = 'cal-cell other-month';
-    cell.innerHTML = `<span class="cal-num">${i}</span>`;
-    grid.appendChild(cell);
-  }
-
-  renderEventsList();
-}
-
-function changeMonth(dir) {
-  calDate.setMonth(calDate.getMonth() + dir);
-  renderCalendar();
-}
-
-function renderEventsList() {
-  const year = calDate.getFullYear(), month = calDate.getMonth();
-  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-  const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-
-  const upcoming = EVENTS
-    .filter(e => {
-      const d = new Date(e.date + 'T00:00:00');
-      return d.getFullYear() === year && d.getMonth() === month;
-    })
-    .sort((a,b) => new Date(a.date) - new Date(b.date));
-
-  const list = document.getElementById('events-list');
-  if (!list) return;
-  
-  if (upcoming.length === 0) {
-    list.innerHTML = '<p style="color:var(--text-muted);font-size:0.88rem;">No events this month.</p>';
-    return;
-  }
-
-  list.innerHTML = upcoming.map(e => {
-    const d = new Date(e.date + 'T00:00:00');
-    const label = `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}`;
-    const displayTitle = e.speaker ? `${e.speaker} - ${e.topic || e.title}` : e.title;
-    return `
-      <div class="event-card ${e.featured ? 'featured' : ''}" onclick="openEventModal(${e.id})">
-        <div class="event-date-tag">${label} &bull; ${e.time}</div>
-        <div class="event-name">${escapeHtml(displayTitle)}</div>
-        <div class="event-detail">${e.location}</div>
-        <span class="event-badge">${e.badge}</span>
-      </div>`;
-  }).join('');
-}
-
-function showDayEvents(year, month, day) {
-  calDate = new Date(year, month, 1);
-  renderCalendar();
-  document.getElementById('calendar').scrollIntoView({ behavior:'smooth' });
-}
-
 function openEventModal(id) {
   const e = EVENTS.find(ev => ev.id === id);
   if (!e) return;
@@ -2135,7 +1903,6 @@ function closeModal(evt) {
 document.addEventListener('DOMContentLoaded', function() {
   loadCalendarEvents();
   loadDevotion();
-  renderCalendar();
   loadArchive();
 });
 </script>
