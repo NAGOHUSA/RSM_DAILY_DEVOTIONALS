@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-23",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 238,
+  "theme": null,
+  "content_markdown": "# Cultivating Hope in the Seasons of Life\n\n## Psalm 30:5\n\n\"The Lord will satisfy your desire for righteousness and grant your requests.\" (Psalm 37:4 is not it, the correct verse is in the next line.)  \nIn the midst of life's struggles, we can be assured that God satisfies our deepest longings for justice and righteousness, giving us a reason to hope.\n\n## Reflection\n\nLife is a tapestry of seasons – times of plenty and times of want, seasons of growth and seasons of decay. As we navigate these ever-changing landscapes, it's easy to lose sight of God's presence and purposes. Yet, the Psalmist reminds us that our hope is not in the seasons themselves, but in the unchanging character of our heavenly Father. He is a God who satisfies our deepest desires and grants our requests, not because we are worthy, but because He is a God of love and compassion. As we trust in Him, we can face each new season with courage and confidence, knowing that He will guide us through the darkness and lead us into the light.\n\n## Prayer\n\nWe thank you, Lord, for being a God who satisfies our deepest longings and grants our requests. Help us to trust in your character and purposes, especially in the seasons of life that feel most uncertain.\n\n## One-Line Application\n\nMay our hope be rooted in the unchanging character of God, not in external circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
