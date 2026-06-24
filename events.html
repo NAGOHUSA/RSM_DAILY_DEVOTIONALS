@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events — Rock Solid Man</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --stone: #1a1a1a;
+    --stone-mid: #2a2a2a;
+    --stone-light: #3a3a3a;
+    --green-deep: #2d5a3b;
+    --green-mid: #3a7a4a;
+    --green-bright: #4a9a5a;
+    --green-light: #6aba7a;
+    --cream: #f4efe6;
+    --cream-dark: #e8dfd0;
+    --white: #faf8f5;
+    --text-muted: #8a7f74;
+    --ff-display: 'Bebas Neue', sans-serif;
+    --ff-serif: 'Playfair Display', serif;
+    --ff-body: 'DM Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--stone);
+    color: var(--cream);
+    font-family: var(--ff-body);
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    animation: pageIn 0.4s ease both;
+  }
+
+  @keyframes pageIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .floating-bg {
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: -2; overflow: hidden;
+  }
+  .floating-bg img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    animation: slowZoom 30s ease-in-out infinite alternate;
+  }
+  @keyframes slowZoom {
+    0%   { transform: scale(1); }
+    100% { transform: scale(1.05); }
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; width: 100%;
+    z-index: 100; padding: 1rem 2.5rem;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(26,26,26,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+  .nav-logo { font-family: var(--ff-display); font-size: 1.6rem; letter-spacing: 0.08em; color: var(--green-light); text-decoration: none; }
+  .nav-logo span { color: var(--cream); }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { color: var(--cream-dark); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--green-light); }
+  .nav-links a.active { color: var(--green-light); }
+  .nav-cta { background: var(--green-deep); color: var(--white) !important; padding: 0.45rem 1.2rem; border-radius: 2px; font-size: 0.78rem !important; letter-spacing: 0.12em !important; }
+  .nav-cta:hover { background: var(--green-mid); color: var(--white) !important; }
+
+  .nav-toggle { display: none; flex-direction: column; justify-content: center; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; z-index: 101; }
+  .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--cream); border-radius: 2px; transition: transform 0.25s ease, opacity 0.25s ease; }
+  .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* PAGE HERO */
+  .page-hero {
+    min-height: 50vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    padding: 8rem 2rem 4rem;
+    position: relative;
+  }
+  .page-hero::before { content: ''; position: absolute; inset: 0; background: rgba(26,26,26,0.55); }
+  .page-hero > * { position: relative; z-index: 1; }
+  .hero-logo { max-width: 120px; margin-bottom: 1.5rem; filter: brightness(0) invert(1); opacity: 0.85; }
+  .page-eyebrow { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green-light); margin-bottom: 1rem; }
+  .page-title { font-family: var(--ff-display); font-size: clamp(4rem, 10vw, 8rem); line-height: 0.92; letter-spacing: 0.03em; color: var(--cream); margin-bottom: 1.25rem; }
+  .page-title em { font-style: normal; color: var(--green-light); }
+  .page-subtitle { font-family: var(--ff-serif); font-style: italic; font-size: 1.1rem; color: var(--text-muted); max-width: 480px; }
+
+  /* SECTIONS */
+  section { padding: 5rem 2rem; }
+  .container { max-width: 1100px; margin: 0 auto; }
+  .container-narrow { max-width: 720px; margin: 0 auto; }
+  .section-label { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green-light); margin-bottom: 1rem; display: block; }
+  h2 { font-family: var(--ff-display); font-size: clamp(2.8rem, 6vw, 4.5rem); line-height: 1; letter-spacing: 0.04em; color: var(--cream); margin-bottom: 1.5rem; }
+
+  /* EVENTS SECTION */
+  .events-section {
+    background: rgba(26,26,26,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .event-tile {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.3);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .event-tile:hover { transform: translateY(-4px); background: rgba(58,122,74,0.12); border-color: var(--green-mid); }
+  .event-tile.featured { border-left: 4px solid var(--green-bright); }
+  .event-tile-date { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--green-light); font-weight: 500; margin-bottom: 0.75rem; }
+  .event-tile-title { font-family: var(--ff-display); font-size: 1.4rem; letter-spacing: 0.03em; color: var(--cream); margin-bottom: 0.5rem; line-height: 1.2; }
+  .event-tile-speaker { font-size: 0.9rem; color: var(--green-light); margin-bottom: 0.75rem; font-weight: 500; }
+  .event-tile-details { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+  .event-tile-detail { font-size: 0.8rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.3rem; }
+  .event-tile-badge { display: inline-block; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; background: rgba(58,122,74,0.2); color: var(--green-light); padding: 0.25rem 0.75rem; border-radius: 2px; margin-top: 0.5rem; }
+  .event-tile-desc { font-size: 0.85rem; color: var(--cream-dark); line-height: 1.5; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.08); }
+
+  .events-empty { text-align: center; padding: 4rem 2rem; color: var(--text-muted); font-family: var(--ff-serif); font-style: italic; font-size: 1.1rem; }
+
+  /* INFO STRIP */
+  .info-section {
+    background: rgba(42,42,42,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
+  .info-item {
+    padding: 1.5rem;
+    border: 1px solid rgba(58,122,74,0.2);
+    border-radius: 6px;
+    background: rgba(255,255,255,0.03);
+  }
+  .info-item .info-label { font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--green-light); font-weight: 500; margin-bottom: 0.5rem; display: block; }
+  .info-item .info-value { font-family: var(--ff-display); font-size: 1.4rem; letter-spacing: 0.04em; color: var(--cream); line-height: 1.2; }
+
+  /* MODAL */
+  .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 200; display: flex; align-items: center; justify-content: center; padding: 2rem; opacity: 0; pointer-events: none; transition: opacity 0.25s; }
+  .modal-overlay.open { opacity: 1; pointer-events: all; }
+  .modal-box { background: #221e18; border: 1px solid rgba(58,122,74,0.35); border-radius: 4px; padding: 2rem 2.5rem; max-width: 520px; width: 100%; max-height: 80vh; overflow-y: auto; position: relative; }
+  .modal-close { position: absolute; top: 1rem; right: 1.25rem; background: none; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer; line-height: 1; }
+  .modal-close:hover { color: var(--cream); }
+  .modal-event-date { font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--green-light); font-weight: 500; margin-bottom: 0.5rem; }
+  .modal-event-title { font-family: var(--ff-display); font-size: 2rem; letter-spacing: 0.05em; color: var(--cream); margin-bottom: 0.5rem; }
+  .modal-event-desc { font-size: 0.95rem; color: var(--cream-dark); line-height: 1.75; }
+  .modal-event-details { margin-top: 1.5rem; display: grid; gap: 0.6rem; }
+  .modal-detail-row { display: flex; gap: 0.75rem; font-size: 0.87rem; }
+  .modal-detail-label { color: var(--text-muted); min-width: 70px; }
+  .modal-detail-val { color: var(--cream-dark); }
+
+  /* CTA STRIP */
+  .cta-section { background: var(--green-deep); padding: 4rem 2rem; text-align: center; }
+  .cta-section h2 { color: var(--white); font-size: clamp(2.5rem, 6vw, 4rem); margin-bottom: 1rem; }
+  .cta-section p { color: rgba(255,255,255,0.75); font-size: 1.05rem; max-width: 500px; margin: 0 auto 2rem; }
+  .btn-white { background: var(--white); color: var(--green-deep); padding: 0.9rem 2.5rem; border-radius: 2px; text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; display: inline-block; transition: all 0.2s; margin: 0.4rem; }
+  .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+  .btn-white-outline { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.5); padding: 0.9rem 2.5rem; border-radius: 2px; text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; display: inline-block; transition: all 0.2s; margin: 0.4rem; }
+  .btn-white-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.1); transform: translateY(-2px); }
+
+  /* FOOTER */
+  footer { background: #0e0c0a; padding: 3rem 2rem; border-top: 1px solid rgba(58,122,74,0.2); }
+  .footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; }
+  .footer-brand .logo { font-family: var(--ff-display); font-size: 1.5rem; letter-spacing: 0.08em; color: var(--green-light); display: block; margin-bottom: 0.75rem; text-decoration: none; }
+  .footer-brand p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.25rem; }
+  .footer-donate-btns { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .footer-donate-btns a { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; background: rgba(58,122,74,0.15); color: var(--green-light); padding: 0.4rem 0.9rem; border-radius: 2px; border: 1px solid rgba(58,122,74,0.35); text-decoration: none; font-weight: 500; transition: all 0.2s; }
+  .footer-donate-btns a:hover { background: rgba(58,122,74,0.28); }
+  .footer-col h4 { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--green-light); font-weight: 500; margin-bottom: 1rem; }
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 0.55rem; }
+  .footer-col a { font-size: 0.87rem; color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--cream); }
+  .footer-bottom { max-width: 1100px; margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; font-size: 0.78rem; color: var(--text-muted); }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.25rem; position: relative; flex-wrap: wrap; }
+    .nav-toggle { display: flex; }
+    .nav-links { display: none; flex-direction: column; width: 100%; gap: 0; background: rgba(26,26,26,0.97); border-top: 1px solid rgba(58,122,74,0.3); padding: 0.75rem 0 1rem; position: absolute; top: 100%; left: 0; right: 0; z-index: 99; }
+    .nav-links.open { display: flex; }
+    .nav-links li { width: 100%; }
+    .nav-links a { display: block; padding: 0.75rem 1.5rem; font-size: 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .nav-links .nav-cta { margin: 0.75rem 1.5rem 0; display: block; text-align: center; padding: 0.65rem 1rem; }
+    .events-grid { grid-template-columns: 1fr; }
+    .info-grid { grid-template-columns: 1fr; gap: 1rem; }
+    .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="floating-bg">
+  <img src="https://rsm.mypccdev.com/wp-content/uploads/2025/03/hero-1.jpg" alt="Rock Solid Man Background" loading="lazy">
+</div>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="index.html"><span>Rock</span> Solid Man</a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="events.html" class="active">Events</a></li>
+    <li><a href="index.html#devotional">Daily Word</a></li>
+    <li><a href="index.html#gallery">Photos</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Socials</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" class="nav-cta">Volunteer</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <img class="hero-logo" src="RSM_LOGO.png" alt="Rock Solid Man Logo">
+  <p class="page-eyebrow">Join Us</p>
+  <h1 class="page-title">UPCOMING<br><em>GATHERINGS</em></h1>
+  <p class="page-subtitle">Monthly meetings for worship, a message, and brotherhood. All men welcome.</p>
+</section>
+
+<!-- EVENTS -->
+<section class="events-section">
+  <div class="container">
+    <span class="section-label">Upcoming Events</span>
+    <h2>JOIN US<br>THIS MONTH</h2>
+    <div id="events-container" class="events-grid">
+      <div class="events-empty">Loading events...</div>
+    </div>
+  </div>
+</section>
+
+<!-- INFO STRIP -->
+<section class="info-section">
+  <div class="container">
+    <div class="info-grid">
+      <div class="info-item">
+        <span class="info-label">When</span>
+        <div class="info-value">Monthly Gatherings</div>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Location</span>
+        <div class="info-value">Woodlands Coffee & Roasters</div>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Who</span>
+        <div class="info-value">All Men Welcome</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container-narrow">
+    <h2>NEVER MISS<br>A GATHERING</h2>
+    <p>Sign up for text alerts and we'll remind you before every event.</p>
+    <a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" class="btn-white" target="_blank" rel="noopener">Sign Up for TXT Alerts</a>
+    <a href="contact.html" class="btn-white-outline">Contact Us</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="logo" href="index.html">Rock Solid Man</a>
+      <p>Helping men build unshakable strength — physically, mentally, and spiritually. Anchored in Christ. Rooted in community.</p>
+      <div class="footer-donate-btns">
+        <a href="https://www.paypal.com/donate/?hosted_button_id=T8NLD6Y9Z7AYG">Donate via PayPal</a>
+        <a href="https://www.paypal.com/qrcodes/venmocs/35583249-8548-40b0-a609-de92029468d0?created=1729007121">Venmo</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li><a href="index.html#devotional">Daily Devotional</a></li>
+        <li><a href="index.html#gallery">Photo Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header">Volunteer Sign-Up</a></li>
+        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit">TXT Alerts</a></li>
+        <li><a href="https://rock-solid-man.printify.me/category/all/1">Gear / Swag</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Socials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>Rock Solid Man INC &copy; 2026. All rights reserved.</span>
+    <span>Matthew 7:24</span>
+    <span>Designed by <a href="https://nagoh.us" target="_blank" rel="noopener" style="color:var(--text-muted);text-decoration:none;opacity:0.7;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">Nagoh Creative</a></span>
+  </div>
+</footer>
+
+<!-- EVENT MODAL -->
+<div class="modal-overlay" id="event-modal" onclick="closeModal(event)">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('event-modal').classList.remove('open')">&#215;</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script>
+// Page transitions
+document.querySelectorAll('a[href]').forEach(function(link) {
+  var href = link.getAttribute('href');
+  if (!href) return;
+  if (href.startsWith('#') || href.startsWith('http') || href.startsWith('mailto') || href.startsWith('tel') || link.target === '_blank') return;
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.body.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+    document.body.style.opacity = '0';
+    document.body.style.transform = 'translateY(-6px)';
+    setTimeout(function() { window.location.href = href; }, 240);
+  });
+});
+
+// Hamburger
+(function() {
+  var toggle = document.getElementById('nav-toggle');
+  var links  = document.getElementById('nav-links');
+  if (!toggle || !links) return;
+  toggle.addEventListener('click', function() {
+    var isOpen = links.classList.toggle('open');
+    toggle.classList.toggle('open', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen);
+  });
+  links.querySelectorAll('a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      links.classList.remove('open');
+      toggle.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+
+// Events
+var EVENTS = [];
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+async function loadEvents() {
+  try {
+    var response = await fetch('https://rocksolidman.org/calendar-events.json');
+    if (!response.ok) throw new Error('Failed to load events');
+    var data = await response.json();
+    EVENTS = data.events;
+    renderEvents();
+  } catch (e) {
+    EVENTS = [];
+    renderEvents();
+  }
+}
+
+function renderEvents() {
+  var container = document.getElementById('events-container');
+  if (!container) return;
+
+  if (!EVENTS || EVENTS.length === 0) {
+    container.innerHTML = '<div class="events-empty">No upcoming events scheduled. Check back soon or sign up for TXT alerts.</div>';
+    return;
+  }
+
+  var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var days   = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+  var sorted = [...EVENTS].sort(function(a,b){ return new Date(a.date) - new Date(b.date); });
+
+  container.innerHTML = sorted.map(function(event) {
+    var d = new Date(event.date + 'T00:00:00');
+    var dateStr = days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+    var displayTitle = event.speaker ? event.speaker : event.title;
+    var displaySub   = event.speaker ? (event.topic || event.description || '') : '';
+    var desc = event.description || (event.speaker ? 'Join us for a special evening with ' + event.speaker + '.' : 'Monthly gathering of men for worship, a message, and fellowship.');
+
+    return '<div class="event-tile ' + (event.featured ? 'featured' : '') + '" onclick="openModal(' + event.id + ')">' +
+      '<div class="event-tile-date">' + dateStr + ' &bull; ' + event.time + '</div>' +
+      '<div class="event-tile-title">' + escapeHtml(displayTitle) + '</div>' +
+      (displaySub ? '<div class="event-tile-speaker">' + escapeHtml(displaySub) + '</div>' : '') +
+      '<div class="event-tile-details"><div class="event-tile-detail">📍 ' + escapeHtml(event.location) + '</div></div>' +
+      '<span class="event-tile-badge">' + escapeHtml(event.badge) + '</span>' +
+      '<div class="event-tile-desc">' + escapeHtml(desc.substring(0,120)) + (desc.length > 120 ? '...' : '') + '</div>' +
+      '</div>';
+  }).join('');
+}
+
+function openModal(id) {
+  var e = EVENTS.find(function(ev){ return ev.id === id; });
+  if (!e) return;
+  var d = new Date(e.date + 'T00:00:00');
+  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var days   = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var title  = e.speaker ? e.speaker + ' — ' + (e.topic || e.title) : e.title;
+  var desc   = e.description || (e.speaker ? 'Join us for a special evening with ' + e.speaker + '.' : 'Monthly gathering of men for worship, a message, and fellowship.');
+
+  document.getElementById('modal-content').innerHTML =
+    '<div class="modal-event-date">' + days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear() + '</div>' +
+    '<div class="modal-event-title">' + escapeHtml(title) + '</div>' +
+    '<div class="modal-event-desc">' + escapeHtml(desc) + '</div>' +
+    '<div class="modal-event-details">' +
+      '<div class="modal-detail-row"><span class="modal-detail-label">Time</span><span class="modal-detail-val">' + e.time + '</span></div>' +
+      '<div class="modal-detail-row"><span class="modal-detail-label">Location</span><span class="modal-detail-val">' + (e.location || 'Woodlands Coffee & Roasters') + '</span></div>' +
+      (e.speaker ? '<div class="modal-detail-row"><span class="modal-detail-label">Speaker</span><span class="modal-detail-val">' + escapeHtml(e.speaker) + '</span></div>' : '') +
+      (e.topic   ? '<div class="modal-detail-row"><span class="modal-detail-label">Topic</span><span class="modal-detail-val">'   + escapeHtml(e.topic)   + '</span></div>' : '') +
+    '</div>';
+
+  document.getElementById('event-modal').classList.add('open');
+}
+
+function closeModal(evt) {
+  if (evt.target === evt.currentTarget) {
+    document.getElementById('event-modal').classList.remove('open');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', loadEvents);
+</script>
+</body>
+</html>
