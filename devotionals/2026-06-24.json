@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 197,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for the Flock\n\n## Psalm 23:4 (NIV)\n\n\"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\"\n\n## Reflection\n\nAs we navigate the challenges of life, we may find ourselves in dark valleys, where fear and uncertainty can seem overwhelming. However, as followers of Christ, we are not alone. God's presence is a constant comfort, even in the midst of chaos. The image of the shepherd's rod and staff reminds us that God's care is not just about protection but also about guidance. He leads us through the darkest of times, using His wisdom to direct our paths. As we trust in His loving care, we can face the unknown with confidence, knowing that He is with us.\n\n## Prayer\n\nWe ask that you would comfort us in times of uncertainty, reminding us of your presence and guidance in the darkness. Help us to trust in your care and leading, and to face the challenges of life with confidence and hope.\n\n## One-Line Application\n\nMay we trust in God's care and guidance, even in the darkest of times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
