@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 188,
+  "theme": null,
+  "content_markdown": "# Roots of Faithfulness in God's Presence\n\n## Scripture\n\"But as for me, I will behold your face in righteousness; I shall be satisfied when I awake in your likeness.\"  \nPsalm 17:15 (ESV)\n\n## Reflection\nAs we navigate life's unpredictable seasons, we're reminded that our roots of faithfulness are grounded in God's unwavering presence. In His light, we find stability and peace that surpasses our circumstances. David, in this psalm, expresses his longing to behold God's face and be satisfied in Him. This longing echoes the heart of the psalmist, a yearning to be transformed into the likeness of Christ. As we cultivate a deep relationship with God, we're empowered to endure the trials of life, confident in His goodness and sovereignty. May our roots of faithfulness grow deeper, anchoring us in His love and presence.\n\n## Prayer\nWe long to behold Your face, Lord, and be satisfied in Your presence. Help us to cultivate a deep relationship with You, that our roots of faithfulness may grow strong in Your love and light.\n\n## One-Line Application\nMay our faithfulness be rooted in God's presence, not in fleeting circumstances.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
