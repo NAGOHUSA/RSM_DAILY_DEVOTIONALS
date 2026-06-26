@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 198,
+  "theme": null,
+  "content_markdown": "# God's Presence in Every Situation\n\n## Scripture\n\n\"So we do not lose heart. Though outwardly we are wasting away, yet inwardly we are being renewed day by day.\"  \n— 2 Corinthians 4:16 (NIV)\n\n## Reflection\n\nAs we walk through life's challenges, it's easy to feel worn down and discouraged. But the truth is, God is at work in us, even when we can't see it. Our bodies may be weak and frail, but our spirits are being renewed and strengthened every day. This is a reminder that our identity and worth are not tied to our physical appearance or circumstances. We are not just fragile vessels, we are living temples of the Holy Spirit, being transformed from the inside out. As we face each new day, let's remember that we are not alone, and that God is working in us, making us more like Jesus.\n\n## Prayer\n\nWe ask for your presence in every situation, Lord. Help us to see your renewal and transformation happening within us, even when we feel worn down. Give us strength and hope in our weakness.\n\n## One-Line Application\n\nWe trust God to renew us daily, no matter what challenges we face.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
