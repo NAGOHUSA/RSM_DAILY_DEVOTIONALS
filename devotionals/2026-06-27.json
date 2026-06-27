@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# Peaceful Reflection in Turbulent Times\n\n## Scripture\n\n\"Be still before the Lord and say, 'Lord, what do you want me to do?'\" – Psalm 37:7 (NLT)\n\n## Reflection\n\nIn the midst of chaos, it's easy to become overwhelmed and lose sight of what truly matters. The world around us can dictate our pace and our priorities. However, as we seek to live a life of faithfulness to God, we must learn to slow down and listen for His voice. Psalm 37:7 encourages us to be still before the Lord, to quiet our minds and our hearts, and to ask Him what He wants us to do. This is not a call to inaction, but rather a call to action – action guided by God's wisdom and direction. As we practice stillness and seek God's guidance, we'll find peace in the midst of turbulent times.\n\n## Prayer\n\nWe thank you, Lord, for the invitation to be still and seek your guidance. Help us to quiet our hearts and listen for your voice in the midst of chaos. Give us wisdom to know what you want us to do and courage to take action. \n\n## One-Line Application\n\nAs you face turbulent times, pause to ask God what He wants you to do.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
