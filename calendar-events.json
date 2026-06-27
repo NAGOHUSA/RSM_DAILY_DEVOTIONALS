@@ -1,38 +1,51 @@
 {
   "events": [
-        {
-      "id": 3,
-      "title": "Colton Rowell",
-      "description": "Independent Speaker",
-      "date": "2026-07-13",
-      "time": "7:00 PM",
-      "location": "Woodlands Coffee & Roasters",
-      "badge": "Guest Speaker",
-      "featured": true,
-      "speaker": "Colton Rowell",
-      "topic": "Independent"
-    },
     {
-      "id": 9,
-      "title": "Michael Mays",
-      "description": "Testimonial",
+      "id": 3,
+      "title": "July Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
       "date": "2026-07-13",
       "time": "6:45 PM",
       "location": "Woodlands Coffee & Roasters",
-      "badge": "Guest Testimonal",
+      "badge": "Guest Speaker",
       "featured": true,
-      "speaker": "Michael Mays",
-      "topic": "Testimonial"
+      "speakers": [
+        {
+          "name": "Michael Mays",
+          "topic": "Testimonial",
+          "time": "6:45 PM",
+          "badge": "Guest Testimonial"
+        },
+        {
+          "name": "Colton Rowell",
+          "topic": "Independent Speaker",
+          "time": "7:00 PM",
+          "badge": "Guest Speaker"
+        }
+      ]
     },
     {
       "id": 4,
-      "title": "Jim Perdue",
+      "title": "August Gathering",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
       "date": "2026-08-10",
-      "time": "7:00 PM",
+      "time": "6:45 PM",
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
-      "featured": false
+      "featured": false,
+      "speakers": [
+        {
+          "name": "Jacob Varnell",
+          "topic": "Testimonial",
+          "time": "6:45 PM",
+          "badge": "Testimonial"
+        },
+        {
+          "name": "Jim Perdue",
+          "time": "7:00 PM",
+          "badge": "Speaker"
+        }
+      ]
     },
     {
       "id": 5,
@@ -73,18 +86,6 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
       "featured": false
-    },
-    {
-      "id": 10,
-      "title": "Jacob Varnell",
-      "description": "Testimonial",
-      "date": "2026-08-10",
-      "time": "6:45 PM",
-      "location": "Woodlands Coffee & Roasters",
-      "badge": "Monthly",
-      "featured": false,
-      "speaker": "Jacob Varnell",
-      "topic": "Testimonial"
     }
   ]
 }

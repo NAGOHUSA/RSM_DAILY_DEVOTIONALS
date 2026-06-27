@@ -405,14 +405,29 @@ function renderEvents() {
   container.innerHTML = sorted.map(function(event) {
     var d = new Date(event.date + 'T00:00:00');
     var dateStr = days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
-    var displayTitle = event.speaker ? event.speaker : event.title;
-    var displaySub   = event.speaker ? (event.topic || event.description || '') : '';
-    var desc = event.description || (event.speaker ? 'Join us for a special evening with ' + event.speaker + '.' : 'Monthly gathering of men for worship, a message, and fellowship.');
+    var desc = event.description || 'Monthly gathering of men for worship, a message, and fellowship.';
+
+    var speakersHtml = '';
+    if (event.speakers && event.speakers.length > 0) {
+      speakersHtml = event.speakers.map(function(s) {
+        return '<div class="event-tile-speaker-row">' +
+          '<span class="event-tile-speaker-time">' + escapeHtml(s.time) + '</span>' +
+          '<span class="event-tile-speaker-name">' + escapeHtml(s.name) + '</span>' +
+          (s.topic ? '<span class="event-tile-speaker-topic"> — ' + escapeHtml(s.topic) + '</span>' : '') +
+          '</div>';
+      }).join('');
+    }
+
+    var displayTitle = event.speakers && event.speakers.length > 0
+      ? event.speakers.map(function(s){ return s.name; }).join(' & ')
+      : (event.speaker ? event.speaker : event.title);
+    var displaySub = (!event.speakers && event.speaker) ? (event.topic || event.description || '') : '';
 
     return '<div class="event-tile ' + (event.featured ? 'featured' : '') + '" onclick="openModal(' + event.id + ')">' +
       '<div class="event-tile-date">' + dateStr + ' &bull; ' + event.time + '</div>' +
       '<div class="event-tile-title">' + escapeHtml(displayTitle) + '</div>' +
       (displaySub ? '<div class="event-tile-speaker">' + escapeHtml(displaySub) + '</div>' : '') +
+      (speakersHtml ? '<div class="event-tile-speakers">' + speakersHtml + '</div>' : '') +
       '<div class="event-tile-details"><div class="event-tile-detail">📍 ' + escapeHtml(event.location) + '</div></div>' +
       '<span class="event-tile-badge">' + escapeHtml(event.badge) + '</span>' +
       '<div class="event-tile-desc">' + escapeHtml(desc.substring(0,120)) + (desc.length > 120 ? '...' : '') + '</div>' +
@@ -426,18 +441,32 @@ function openModal(id) {
   var d = new Date(e.date + 'T00:00:00');
   var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   var days   = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-  var title  = e.speaker ? e.speaker + ' — ' + (e.topic || e.title) : e.title;
-  var desc   = e.description || (e.speaker ? 'Join us for a special evening with ' + e.speaker + '.' : 'Monthly gathering of men for worship, a message, and fellowship.');
+  var desc   = e.description || 'Monthly gathering of men for worship, a message, and fellowship.';
+
+  var speakersDetailHtml = '';
+  var title = e.title;
+
+  if (e.speakers && e.speakers.length > 0) {
+    title = e.speakers.map(function(s){ return s.name; }).join(' & ');
+    speakersDetailHtml = e.speakers.map(function(s) {
+      return '<div class="modal-detail-row">' +
+        '<span class="modal-detail-label">' + escapeHtml(s.time) + '</span>' +
+        '<span class="modal-detail-val">' + escapeHtml(s.name) + (s.topic ? ' — ' + escapeHtml(s.topic) : '') + '</span>' +
+        '</div>';
+    }).join('');
+  } else if (e.speaker) {
+    title = e.speaker + (e.topic ? ' — ' + e.topic : '');
+  }
 
   document.getElementById('modal-content').innerHTML =
     '<div class="modal-event-date">' + days[d.getDay()] + ', ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear() + '</div>' +
     '<div class="modal-event-title">' + escapeHtml(title) + '</div>' +
     '<div class="modal-event-desc">' + escapeHtml(desc) + '</div>' +
     '<div class="modal-event-details">' +
-      '<div class="modal-detail-row"><span class="modal-detail-label">Time</span><span class="modal-detail-val">' + e.time + '</span></div>' +
       '<div class="modal-detail-row"><span class="modal-detail-label">Location</span><span class="modal-detail-val">' + (e.location || 'Woodlands Coffee & Roasters') + '</span></div>' +
-      (e.speaker ? '<div class="modal-detail-row"><span class="modal-detail-label">Speaker</span><span class="modal-detail-val">' + escapeHtml(e.speaker) + '</span></div>' : '') +
-      (e.topic   ? '<div class="modal-detail-row"><span class="modal-detail-label">Topic</span><span class="modal-detail-val">'   + escapeHtml(e.topic)   + '</span></div>' : '') +
+      (speakersDetailHtml || '<div class="modal-detail-row"><span class="modal-detail-label">Time</span><span class="modal-detail-val">' + e.time + '</span></div>') +
+      (!e.speakers && e.speaker ? '<div class="modal-detail-row"><span class="modal-detail-label">Speaker</span><span class="modal-detail-val">' + escapeHtml(e.speaker) + '</span></div>' : '') +
+      (!e.speakers && e.topic   ? '<div class="modal-detail-row"><span class="modal-detail-label">Topic</span><span class="modal-detail-val">'   + escapeHtml(e.topic)   + '</span></div>' : '') +
     '</div>';
 
   document.getElementById('event-modal').classList.add('open');
