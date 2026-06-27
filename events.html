@@ -411,7 +411,7 @@ function renderEvents() {
     if (event.speakers && event.speakers.length > 0) {
       speakersHtml = event.speakers.map(function(s) {
         return '<div class="event-tile-speaker-row">' +
-          '<span class="event-tile-speaker-time">' + escapeHtml(s.time) + '</span>' +
+          '<span class="event-tile-speaker-time">' + escapeHtml(s.time) + ' &bull; </span>' +
           '<span class="event-tile-speaker-name">' + escapeHtml(s.name) + '</span>' +
           (s.topic ? '<span class="event-tile-speaker-topic"> — ' + escapeHtml(s.topic) + '</span>' : '') +
           '</div>';
