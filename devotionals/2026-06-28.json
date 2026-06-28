@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 203,
+  "theme": null,
+  "content_markdown": "# The Shepherd's Faithfulness in Uncertain Times\n\n## Matthew 14:31\n\nBut immediately Jesus reached out his hand and caught him, saying to him, \"O you of little faith, why did you doubt?\" (Matthew 14:31, ESV)\n\n## Reflection\n\nAs we navigate life's uncertainties, it's easy to lose sight of God's presence and promise. Peter, a seasoned follower of Jesus, experienced this firsthand when he began to sink in the midst of a chaotic storm. Jesus' words, \"O you of little faith,\" cut straight to the heart. We often doubt when we forget that our faith is not in our own abilities or circumstances, but in the unshakeable character of our Shepherd. He is faithful, even when we're not. When fears and doubts creep in, let's remember that Jesus is always near, ready to catch us and calm our storms. Our trust in Him is the anchor that holds firm, no matter the turmoil around us.\n\n## Prayer\n\nWe pray for the wisdom to trust in Your presence, Lord, even when the waves rise high. Help us to remember that Your faithfulness is our anchor, our rock, and our hope. \n\n## One-Line Application\n\nWe find peace in trusting the unshakeable character of our faithful Shepherd.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
