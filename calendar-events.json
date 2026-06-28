@@ -49,33 +49,62 @@
     },
     {
       "id": 5,
-      "title": "Chad Wood",
+      "title": "September Gathering",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
       "date": "2026-09-14",
-      "time": "7:00 PM",
+      "time": "6:45 PM",
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
-      "featured": false
+      "featured": false,
+      "speakers": [
+        {
+          "name": "Dylan Coursey",
+          "topic": "Testimonial",
+          "time": "6:45 PM",
+          "badge": "Testimonial"
+        },
+        {
+          "name": "Chad Wood",
+          "time": "7:00 PM",
+          "badge": "Speaker"
+        }
+      ]
     },
     {
       "id": 6,
-      "title": "Monthly Fellowship",
+      "title": "October Gathering",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
       "date": "2026-10-05",
-      "time": "7:00 PM",
+      "time": "6:45 PM",
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
-      "featured": false
+      "featured": false,
+      "speakers": [
+        {
+          "name": "Dusty Foskey",
+          "topic": "Testimonial",
+          "time": "6:45 PM",
+          "badge": "Testimonial"
+        }
+      ]
     },
     {
       "id": 7,
-      "title": "Monthly Fellowship",
+      "title": "November Gathering",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
       "date": "2026-11-09",
-      "time": "7:00 PM",
+      "time": "6:45 PM",
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
-      "featured": false
+      "featured": false,
+      "speakers": [
+        {
+          "name": "Bobby Ryals",
+          "topic": "Testimonial",
+          "time": "6:45 PM",
+          "badge": "Testimonial"
+        }
+      ]
     },
     {
       "id": 8,
