@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 202,
+  "theme": null,
+  "content_markdown": "# Rest in God's Sovereignty Amid Chaos\n\n## Scripture\n\n\"Are not two sparrows sold for a penny? Yet not one of them will fall to the ground outside your Father's care.\" Matthew 10:29\n\n## Reflection\n\nIn the midst of life's turmoil, it's easy to lose sight of God's sovereignty. We may feel like we're spinning out of control, like the sparrows in Jesus' parable. But Jesus reminds us that not a single sparrow falls without the Father's knowledge and care. This truth is not just about birds; it's about us. We, too, are under God's watchful eye. He knows every detail of our lives, every thought, every fear, and every struggle. And in His love, He works all things together for our good (Romans 8:28). So, we can rest in His sovereignty, even when the world around us is chaotic. We can trust that He's working out His plan, and that His plan is good.\n\n## Prayer\n\nWe trust in Your sovereignty, Father, and rest in Your care. Help us to see Your hand in every situation, and to trust Your goodness in the midst of chaos.\n\n## One-Line Application\n\nWe trust God's sovereignty, even when life's circumstances seem out of control.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
