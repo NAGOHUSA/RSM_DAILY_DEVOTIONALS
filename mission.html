@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Mission — Rock Solid Man</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --stone: #1a1a1a;
+    --stone-mid: #2a2a2a;
+    --stone-light: #3a3a3a;
+    --green-deep: #2d5a3b;
+    --green-mid: #3a7a4a;
+    --green-bright: #4a9a5a;
+    --green-light: #6aba7a;
+    --cream: #f4efe6;
+    --cream-dark: #e8dfd0;
+    --white: #faf8f5;
+    --text-muted: #8a7f74;
+    --ff-display: 'Bebas Neue', sans-serif;
+    --ff-serif: 'Playfair Display', serif;
+    --ff-body: 'DM Sans', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--stone);
+    color: var(--cream);
+    font-family: var(--ff-body);
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    animation: pageIn 0.4s ease both;
+  }
+
+  @keyframes pageIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* FLOATING BG */
+  .floating-bg {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: -2;
+    overflow: hidden;
+  }
+  .floating-bg img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    animation: slowZoom 30s ease-in-out infinite alternate;
+  }
+  @keyframes slowZoom {
+    0%   { transform: scale(1); }
+    100% { transform: scale(1.05); }
+  }
+  .floating-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(26,26,26,0.72);
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; width: 100%;
+    z-index: 100;
+    padding: 1rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(26,26,26,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+  .nav-logo {
+    font-family: var(--ff-display);
+    font-size: 1.6rem;
+    letter-spacing: 0.08em;
+    color: var(--green-light);
+    text-decoration: none;
+  }
+  .nav-logo span { color: var(--cream); }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    color: var(--cream-dark);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--green-light); }
+  .nav-links a.active { color: var(--green-light); }
+  .nav-cta {
+    background: var(--green-deep) !important;
+    color: var(--white) !important;
+    padding: 0.45rem 1.2rem;
+    border-radius: 2px;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.12em !important;
+  }
+  .nav-cta:hover { background: var(--green-mid) !important; }
+
+  /* HAMBURGER */
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    z-index: 101;
+  }
+  .nav-toggle span {
+    display: block; width: 24px; height: 2px;
+    background: var(--cream); border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+  .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* HERO */
+  .page-hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 9rem 2rem 5rem;
+    position: relative;
+  }
+  .page-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(26,26,26,0.4) 0%, rgba(26,26,26,0.65) 100%);
+  }
+  .page-hero > * { position: relative; z-index: 1; }
+  .hero-logo {
+    max-width: 110px;
+    margin-bottom: 1.75rem;
+    filter: brightness(0) invert(1);
+    opacity: 0.9;
+  }
+  .page-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 1rem;
+  }
+  .page-title {
+    font-family: var(--ff-display);
+    font-size: clamp(4rem, 10vw, 8rem);
+    line-height: 0.92;
+    letter-spacing: 0.03em;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+  }
+  .page-title em { font-style: normal; color: var(--green-light); }
+  .page-subtitle {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--cream-dark);
+    max-width: 560px;
+    opacity: 0.9;
+  }
+  .hero-divider {
+    width: 60px;
+    height: 2px;
+    background: var(--green-mid);
+    margin: 1.5rem auto;
+  }
+
+  /* SHARED */
+  section { padding: 5rem 2rem; }
+  .container { max-width: 1100px; margin: 0 auto; }
+  .container-narrow { max-width: 740px; margin: 0 auto; }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 1rem;
+    display: block;
+  }
+  h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(2.6rem, 5vw, 4rem);
+    line-height: 1;
+    letter-spacing: 0.04em;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+  }
+  h2 em { font-style: normal; color: var(--green-light); }
+
+  /* VISION & MISSION SPLIT */
+  .vm-section {
+    background: rgba(26,26,26,0.88);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid rgba(58,122,74,0.2);
+    border-bottom: 1px solid rgba(58,122,74,0.2);
+  }
+  .vm-grid {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 0;
+    align-items: start;
+  }
+  .vm-divider {
+    background: rgba(58,122,74,0.3);
+    align-self: stretch;
+    margin: 0 3rem;
+  }
+  .vm-block { padding: 1rem 0; }
+  .vm-icon {
+    width: 56px; height: 56px;
+    background: rgba(58,122,74,0.15);
+    border: 1px solid rgba(58,122,74,0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .vm-icon svg { width: 26px; height: 26px; stroke: var(--green-light); fill: none; stroke-width: 1.5; }
+  .vm-block h3 {
+    font-family: var(--ff-display);
+    font-size: 2.4rem;
+    letter-spacing: 0.06em;
+    color: var(--cream);
+    margin-bottom: 1rem;
+  }
+  .vm-block p {
+    color: var(--cream-dark);
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+
+  /* PURPOSE SECTION */
+  .purpose-section {
+    background: rgba(20,20,20,0.82);
+    backdrop-filter: blur(4px);
+  }
+  .purpose-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
+  }
+  .purpose-intro {
+    font-family: var(--ff-serif);
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--cream-dark);
+    line-height: 1.75;
+    margin-bottom: 2rem;
+    border-left: 3px solid var(--green-mid);
+    padding-left: 1.5rem;
+  }
+  .purpose-list { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+  .purpose-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+    color: var(--cream-dark);
+    line-height: 1.6;
+  }
+  .purpose-list li::before {
+    content: '';
+    flex-shrink: 0;
+    width: 20px; height: 20px;
+    margin-top: 2px;
+    background: var(--green-deep);
+    border: 1px solid var(--green-mid);
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%236aba7a' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 10l4 4 8-8'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 13px;
+  }
+  .purpose-verse-card {
+    background: rgba(45,90,59,0.12);
+    border: 1px solid rgba(58,122,74,0.35);
+    border-radius: 4px;
+    padding: 3rem 2.5rem;
+    text-align: center;
+    position: sticky;
+    top: 6rem;
+  }
+  .purpose-verse-card .ref {
+    font-size: 0.68rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    display: block;
+  }
+  .purpose-verse-card blockquote {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: var(--cream);
+    margin-bottom: 1rem;
+  }
+  .purpose-verse-card cite {
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-style: normal;
+  }
+  .purpose-verse-card .tagline {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(58,122,74,0.25);
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+  }
+
+  /* PILLARS SECTION */
+  .pillars-section {
+    background: rgba(26,26,26,0.90);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid rgba(58,122,74,0.2);
+    border-bottom: 1px solid rgba(58,122,74,0.2);
+  }
+  .pillars-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+  .pillars-header h2 { margin-bottom: 0.75rem; }
+  .pillars-header p {
+    font-size: 1rem;
+    color: var(--text-muted);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .pillar-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(58,122,74,0.25);
+    border-top: 3px solid var(--green-mid);
+    border-radius: 4px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  }
+  .pillar-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(106,186,122,0.5);
+    background: rgba(45,90,59,0.12);
+  }
+  .pillar-num {
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+  .pillar-icon {
+    width: 60px; height: 60px;
+    background: rgba(45,90,59,0.2);
+    border: 1px solid rgba(58,122,74,0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.25rem;
+  }
+  .pillar-icon svg {
+    width: 28px; height: 28px;
+    stroke: var(--green-light);
+    fill: none;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .pillar-card h3 {
+    font-family: var(--ff-display);
+    font-size: 1.6rem;
+    letter-spacing: 0.08em;
+    color: var(--cream);
+    margin-bottom: 0.75rem;
+  }
+  .pillar-card p {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  /* CULTURE SECTION */
+  .culture-section {
+    background: rgba(20,20,20,0.85);
+    backdrop-filter: blur(4px);
+  }
+  .culture-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+  .culture-text p {
+    color: var(--cream-dark);
+    font-size: 1.02rem;
+    line-height: 1.85;
+    margin-bottom: 1.5rem;
+  }
+  .culture-values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .culture-value {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--cream-dark);
+    letter-spacing: 0.03em;
+  }
+  .culture-value::before {
+    content: '';
+    flex-shrink: 0;
+    width: 6px; height: 6px;
+    background: var(--green-light);
+    border-radius: 50%;
+  }
+  .culture-highlight {
+    background: linear-gradient(135deg, rgba(45,90,59,0.2) 0%, rgba(26,26,26,0.4) 100%);
+    border: 1px solid rgba(58,122,74,0.35);
+    border-radius: 4px;
+    padding: 3rem;
+    text-align: center;
+  }
+  .culture-highlight .big-quote {
+    font-family: var(--ff-serif);
+    font-size: 3.5rem;
+    color: var(--green-mid);
+    line-height: 1;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+  }
+  .culture-highlight blockquote {
+    font-family: var(--ff-serif);
+    font-style: italic;
+    font-size: 1.35rem;
+    line-height: 1.75;
+    color: var(--cream);
+    margin-bottom: 1.25rem;
+  }
+  .culture-highlight cite {
+    font-size: 0.78rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-style: normal;
+  }
+
+  /* CTA BANNER */
+  .cta-section {
+    background: var(--green-deep);
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ccircle cx='30' cy='30' r='1' fill='rgba(255,255,255,0.04)'/%3E%3C/svg%3E");
+  }
+  .cta-section > * { position: relative; z-index: 1; }
+  .cta-section .section-label { justify-content: center; display: flex; }
+  .cta-section h2 { color: var(--white); font-size: clamp(2.4rem, 5vw, 3.5rem); margin-bottom: 1rem; }
+  .cta-section p {
+    font-size: 1.05rem;
+    color: rgba(244,239,230,0.75);
+    max-width: 520px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.75;
+  }
+  .cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--cream);
+    color: var(--green-deep);
+    font-family: var(--ff-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 0.9rem 2.2rem;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-block;
+  }
+  .btn-primary:hover { background: var(--white); transform: translateY(-1px); }
+  .btn-outline {
+    background: transparent;
+    color: var(--cream);
+    border: 1px solid rgba(244,239,230,0.4);
+    font-family: var(--ff-body);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 0.9rem 2.2rem;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-block;
+  }
+  .btn-outline:hover { border-color: var(--cream); background: rgba(244,239,230,0.08); }
+
+  /* FOOTER */
+  footer {
+    background: rgba(14,14,14,0.96);
+    backdrop-filter: blur(8px);
+    padding: 3.5rem 2rem 2rem;
+    border-top: 1px solid rgba(58,122,74,0.2);
+  }
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+  }
+  .footer-brand a {
+    font-family: var(--ff-display);
+    font-size: 1.5rem;
+    letter-spacing: 0.08em;
+    color: var(--green-light);
+    display: block;
+    margin-bottom: 0.75rem;
+    text-decoration: none;
+  }
+  .footer-brand a span { color: var(--cream); }
+  .footer-brand p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.25rem; }
+  .footer-col h4 { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--green-light); font-weight: 500; margin-bottom: 1rem; }
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 0.55rem; }
+  .footer-col a { font-size: 0.87rem; color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--cream); }
+  .footer-bottom {
+    max-width: 1100px;
+    margin: 2.5rem auto 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+  .footer-bottom a { color: var(--green-light); text-decoration: none; }
+  .footer-bottom a:hover { color: var(--cream); }
+
+  /* ANIMATIONS */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* MOBILE */
+  @media (max-width: 900px) {
+    .pillars-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.25rem; position: relative; flex-wrap: wrap; }
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 0;
+      background: rgba(26,26,26,0.97);
+      border-top: 1px solid rgba(58,122,74,0.3);
+      padding: 0.75rem 0 1rem;
+      position: absolute;
+      top: 100%; left: 0; right: 0;
+      z-index: 99;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links li { width: 100%; }
+    .nav-links a { display: block; padding: 0.75rem 1.5rem; font-size: 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .nav-links .nav-cta { margin: 0.75rem 1.5rem 0; display: block; text-align: center; padding: 0.65rem 1rem; }
+    .vm-grid { grid-template-columns: 1fr; }
+    .vm-divider { display: none; }
+    .vm-block { padding: 0; }
+    .vm-block + .vm-block { border-top: 1px solid rgba(58,122,74,0.2); padding-top: 2.5rem; }
+    .purpose-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .purpose-verse-card { position: static; }
+    .pillars-grid { grid-template-columns: 1fr; }
+    .culture-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .culture-values { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- FLOATING BACKGROUND -->
+<div class="floating-bg">
+  <img src="https://rsm.mypccdev.com/wp-content/uploads/2025/03/hero-1.jpg" alt="Mountain background" loading="lazy">
+</div>
+
+<!-- NAV -->
+<nav id="main-nav">
+  <a class="nav-logo" href="index.html"><span>Rock</span> Solid Man</a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="index.html#devotional">Daily Word</a></li>
+    <li><a href="index.html#gallery">Photos</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="mission.html" class="active">Mission</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Socials</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" class="nav-cta" target="_blank" rel="noopener">Volunteer</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <img class="hero-logo" src="RSM_LOGO.png" alt="Rock Solid Man Logo">
+  <p class="page-eyebrow">Built on the Rock · Matthew 7:24</p>
+  <h1 class="page-title">OUR<br><em>MISSION</em></h1>
+  <div class="hero-divider"></div>
+  <p class="page-subtitle">"Everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock." — Matthew 7:24</p>
+</section>
+
+<!-- VISION & MISSION -->
+<section class="vm-section">
+  <div class="container">
+    <div class="vm-grid">
+
+      <div class="vm-block fade-up">
+        <div class="vm-icon">
+          <!-- Binoculars / vision icon -->
+          <svg viewBox="0 0 24 24"><circle cx="5" cy="14" r="4"/><circle cx="19" cy="14" r="4"/><path d="M9 14h6M5 10V7l3-3h8l3 3v3"/></svg>
+        </div>
+        <span class="section-label">01</span>
+        <h3>OUR VISION</h3>
+        <p>To cultivate a multi-generational, multi-denominational, and multi-cultural community of men seeking to build their lives on the Rock of Jesus.</p>
+      </div>
+
+      <div class="vm-divider"></div>
+
+      <div class="vm-block fade-up" style="transition-delay: 0.15s;">
+        <div class="vm-icon">
+          <!-- Flag / mission icon -->
+          <svg viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+        </div>
+        <span class="section-label">02</span>
+        <h3>OUR MISSION</h3>
+        <p>To model our vision through the building of strong relationships where men sharpen each other as iron sharpens iron. This is accomplished by walking in bold leadership, rooted in sacrificial love.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PURPOSE -->
+<section class="purpose-section">
+  <div class="container">
+    <div class="purpose-grid">
+
+      <div class="fade-up">
+        <span class="section-label">03</span>
+        <h2>OUR <em>PURPOSE</em></h2>
+        <p class="purpose-intro">Rock Solid Man Inc. exists to disciple and build men up to be followers of Christ.</p>
+        <ul class="purpose-list">
+          <li>Preach God's Word</li>
+          <li>Spread the knowledge of the Gospel</li>
+          <li>Teach and encourage men to be sacrificial leaders</li>
+          <li>Grow in relational community with men who seek to follow Christ</li>
+          <li>Grow the community of Christian men by removing barriers to entry such as denomination, culture, and age</li>
+          <li>Teach men how to build their lives on the Solid Rock of Jesus</li>
+        </ul>
+      </div>
+
+      <div class="fade-up" style="transition-delay: 0.15s;">
+        <div class="purpose-verse-card">
+          <span class="ref">The Foundation</span>
+          <blockquote>"As iron sharpens iron, so one person sharpens another."</blockquote>
+          <cite>— Proverbs 27:17</cite>
+          <p class="tagline">A brotherhood of men anchored in Christ, rooted in community, and committed to building on the Rock.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- STRATEGIC PILLARS -->
+<section class="pillars-section">
+  <div class="container">
+    <div class="pillars-header fade-up">
+      <span class="section-label">04</span>
+      <h2>STRATEGIC <em>PILLARS</em></h2>
+      <p>Four pillars that shape everything we do as a brotherhood.</p>
+    </div>
+    <div class="pillars-grid">
+
+      <div class="pillar-card fade-up" style="transition-delay: 0.05s;">
+        <div class="pillar-num">Pillar 01</div>
+        <div class="pillar-icon">
+          <!-- Book icon -->
+          <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+        </div>
+        <h3>DISCIPLESHIP</h3>
+        <p>Building men up to follow Jesus, know His Word, and live it out.</p>
+      </div>
+
+      <div class="pillar-card fade-up" style="transition-delay: 0.1s;">
+        <div class="pillar-num">Pillar 02</div>
+        <div class="pillar-icon">
+          <!-- Cross icon -->
+          <svg viewBox="0 0 24 24"><line x1="12" y1="2" x2="12" y2="22"/><line x1="5" y1="8" x2="19" y2="8"/></svg>
+        </div>
+        <h3>WORSHIP</h3>
+        <p>Honoring God together through prayer, praise, and lives surrendered to Christ.</p>
+      </div>
+
+      <div class="pillar-card fade-up" style="transition-delay: 0.15s;">
+        <div class="pillar-num">Pillar 03</div>
+        <div class="pillar-icon">
+          <!-- People icon -->
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>FELLOWSHIP</h3>
+        <p>Forming strong relationships where men sharpen, support, and encourage one another.</p>
+      </div>
+
+      <div class="pillar-card fade-up" style="transition-delay: 0.2s;">
+        <div class="pillar-num">Pillar 04</div>
+        <div class="pillar-icon">
+          <!-- Handshake icon -->
+          <svg viewBox="0 0 24 24"><path d="M20.42 4.58a5.4 5.4 0 00-7.65 0l-.77.78-.77-.78a5.4 5.4 0 00-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/></svg>
+        </div>
+        <h3>SERVICE</h3>
+        <p>Putting faith into action by serving our families, churches, and communities with sacrificial love.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CULTURE -->
+<section class="culture-section">
+  <div class="container">
+    <div class="culture-grid">
+
+      <div class="culture-text fade-up">
+        <span class="section-label">05</span>
+        <h2>OUR <em>CULTURE</em></h2>
+        <p>We are a brotherhood of honest, accountable, encouraging men who reject passivity, pursue holiness, carry one another's burdens, and challenge each other to grow.</p>
+        <div class="culture-values">
+          <div class="culture-value">Honest</div>
+          <div class="culture-value">Accountable</div>
+          <div class="culture-value">Encouraging</div>
+          <div class="culture-value">Reject Passivity</div>
+          <div class="culture-value">Pursue Holiness</div>
+          <div class="culture-value">Sacrificial Love</div>
+          <div class="culture-value">Carry Burdens</div>
+          <div class="culture-value">Grow Together</div>
+        </div>
+      </div>
+
+      <div class="culture-highlight fade-up" style="transition-delay: 0.15s;">
+        <div class="big-quote">"</div>
+        <blockquote>Be watchful, stand firm in the faith, act like men, be strong. Let all that you do be done in love.</blockquote>
+        <cite>— 1 Corinthians 16:13–14</cite>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container-narrow">
+    <span class="section-label" style="color: rgba(244,239,230,0.6);">Join the Brotherhood</span>
+    <h2>READY TO BUILD<br>ON THE ROCK?</h2>
+    <p>Every man needs a community that will sharpen him. Come find yours at Rock Solid Man.</p>
+    <div class="cta-buttons">
+      <a href="events.html" class="btn-primary">See Upcoming Events</a>
+      <a href="index.html" class="btn-outline">Back to Home</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html"><span>Rock</span> Solid Man</a>
+      <p>A brotherhood of men anchored in Christ, rooted in community, and committed to building on the Rock.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="mission.html">Mission</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">Volunteer</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Socials</a></li>
+        <li><a href="index.html#devotional">Daily Word</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Foundation</h4>
+      <ul>
+        <li><a href="transparency.html">Transparency</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Rock Solid Man Inc. All rights reserved.</span>
+    <a href="index.html">rocksolidman.org</a>
+  </div>
+</footer>
+
+<script>
+  // Nav hamburger
+  const toggle = document.getElementById('nav-toggle');
+  const links = document.getElementById('nav-links');
+  toggle.addEventListener('click', () => {
+    const open = toggle.classList.toggle('open');
+    links.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      toggle.classList.remove('open');
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', false);
+    });
+  });
+
+  // Scroll fade-up
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
