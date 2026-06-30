@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 207,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\n\"Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.\" - John 14:27 (ESV)\n\n## Reflection\n\nIn the midst of chaos, it's easy to feel overwhelmed and lose our peace. But as Christians, we have a promise that God gives us His peace, not like the world gives it. This peace is not fleeting, nor is it dependent on circumstances. It's a gift that comes from knowing and trusting in God's presence and sovereignty. When we focus on His love and faithfulness, we can let go of our anxiety and fear, and instead, experience the peace that passes understanding. This peace is not just a feeling, but a reality that can sustain us through even the most turbulent times.\n\n## Prayer\n\nWe come to You, Lord, in the midst of chaos, seeking Your peace. Give us the gift of Your peace that passes understanding. Help us to trust in Your presence and sovereignty, and to let go of our anxiety and fear.\n\n## One-Line Application\n\nTrust in God's presence and sovereignty to find peace in chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
