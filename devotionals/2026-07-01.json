@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 217,
+  "theme": null,
+  "content_markdown": "# Finding Rest in God's Presence\n\n## Psalm 23:4 (NIV) - \"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\"\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to get caught up in worry and anxiety. But God's Word reminds us that He is our constant companion, always present with us. In the darkest of times, we can find comfort in His presence. The rod and staff symbolize God's guidance and protection, reassuring us that He will never leave us. When we feel overwhelmed, let's remember that God is with us, and His presence is a source of strength and peace. We can confidently trust in His sovereignty and goodness, even in the midst of uncertainty. By fixing our eyes on God, we can find rest in His presence, and our hearts can be filled with hope and joy.\n\n## Prayer\n\nWe thank You, Lord, for Your presence with us in the darkest valleys. May Your rod and staff comfort us, guiding us through life's challenges. Help us to trust in Your sovereignty and goodness, and may we find rest in Your presence.\n\n## One-Line Application\nWe can find peace and comfort in God's presence, even in the darkest times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
