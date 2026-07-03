@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-03",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 217,
+  "theme": null,
+  "content_markdown": "# Rest in the Peace that Passes Understanding\n\n## Scripture\n\n\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" - John 14:27 (NIV)\n\n## Reflection\n\nLife can be overwhelming, and our minds often struggle to make sense of it all. In the midst of uncertainty, Jesus offers us a precious gift – His peace. This peace is not a fleeting feeling, nor is it a product of our own efforts. It's a gift that originates from God Himself, and it's meant to soothe our troubled hearts. As we face life's challenges, we must choose to trust in Jesus' promise and rest in the peace that passes understanding. This peace is not something we earn or achieve, but it's something we receive by faith, and it's the foundation upon which we can stand, even in the midst of chaos.\n\n## Prayer\n\nWe ask for the peace that only comes from You, Lord. Help us to trust in Your promise and find rest in Your presence. Protect us from fear and anxiety, and fill us with Your peace that surpasses understanding.\n\n## One-Line Application\n\nWe rest in Jesus' peace, trusting it to calm our troubled hearts.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
