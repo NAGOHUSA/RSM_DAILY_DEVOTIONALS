@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 225,
+  "theme": null,
+  "content_markdown": "# Roots of Faithfulness in Adversity\n\n## Scripture\n\n\"And we know that for those who love God all things work together for good, for those who are called according to his purpose.\" - Romans 8:28\n\n## Reflection\n\nLife is unpredictable, and adversity can creep in at any moment. As followers of Christ, we're called to trust in His sovereignty despite life's uncertainties. We can learn from the Israelites, who wandered in the wilderness for years, facing numerous challenges, but ultimately, they emerged stronger because of their experiences. In the midst of turmoil, it's crucial to keep our eyes fixed on God and His promises. He is working everything out for our good, even when we can't see it. By faith, we can rest in His goodness and provision, knowing that He's not absent, but actively working on our behalf. As we navigate life's challenges, let's hold onto this truth, and trust that God's plans for us are good and will ultimately be revealed.\n\n## Prayer\n\nWe pray that You, God, would give us the strength to trust in Your sovereignty and goodness, even in the midst of adversity. Help us to see Your plans unfolding and to rest in Your provision, knowing that You are working everything out for our good.\n\n## One-Line Application\n\nWe can find strength in trusting God's sovereignty amidst life's uncertainties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
