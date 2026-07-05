@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 252,
+  "theme": null,
+  "content_markdown": "# Cultivating Inner Peace in Chaos\n\n## Scripture\n\"Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.\" - John 14:27 (ESV)\n\n## Reflection\nAs we navigate the complexities of life, it's easy to get caught up in anxiety and fear. The world offers fleeting solutions, but they only lead to greater unrest. Jesus, however, invites us to experience a different kind of peace – one that's rooted in His presence. This peace is not based on circumstances, but on the promise of His love and presence. When we choose to trust in Him, we can find calm in the midst of chaos. We can choose to not let our hearts be troubled, even when everything around us seems to be.\n\nIn still moments, take time to acknowledge God's presence and peace. Reflect on His words and reminders of His love. When anxiety arises, breathe in His peace and let it flood your heart. Cultivate a sense of trust in His goodness, even when the world around you is turbulent.\n\n## Prayer\nWe pray for peace to settle in our hearts, for the promise of Your presence to be our anchor. Help us to let go of fear and anxiety, and to trust in Your goodness. Fill us with Your peace, and calm our troubled hearts.\n\n## One-Line Application\nChoose to trust in God's peace, even when circumstances are chaotic.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
