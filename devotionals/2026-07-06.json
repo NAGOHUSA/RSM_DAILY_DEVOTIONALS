@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 221,
+  "theme": null,
+  "content_markdown": "# A Gentle Shepherd's Guidance\n\n## Psalm 23:4 - \"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\" (NIV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to get caught up in fear and anxiety. But Psalm 23 reminds us that we are not alone. God is our shepherd, guiding us through even the darkest of times. His presence is a source of comfort and strength, helping us to trust in His goodness and sovereignty. Just as a shepherd uses a rod to protect and guide his sheep, God uses His presence to keep us safe and on track. We can trust in His promise to be with us, no matter what we face. This trust is not based on our own abilities or strength, but on God's character and faithfulness. As we walk through life's valleys, we can find peace and comfort in the knowledge that God is with us.\n\n## Prayer\n\nWe thank you, Lord, for being our gentle shepherd. Help us to trust in your presence and guidance, especially in times of uncertainty. Keep us safe from fear and anxiety, and fill us with your peace and comfort.\n\n## One-Line Application\nTrust in God's presence guides us through life's darkest valleys.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
