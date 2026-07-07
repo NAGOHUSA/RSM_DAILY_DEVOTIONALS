@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T16:46:40.683Z",
+  "generated_at": "2026-07-07T16:46:57.362Z",
   "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
   "channel": {
     "title": "ROCK SOLID MAN Podcast",
@@ -19,9 +19,9 @@
       "link": "https://rocksolidman.substack.com/p/rock-solid-man-podcast-coming-soon",
       "guid": "substack:post:204538092",
       "pub_date": "2026-07-01T22:21:47.000Z",
-      "summary": "Welcome to the Rock Solid Man podcast – where men are called to be unshakable. In a culture that’s lost its definition of manhood, we’re going back to God’s blueprint. This is your weekly source of truth, encouragement, and practical wisdom for becoming the husband, father, and leader you were made to be.No more settling. No more coasting. Just real talk, real faith, and a brotherhood of men co…",
+      "summary": "Welcome to the Rock Solid Man podcast – where men are called to be unshakable. In a culture that’s lost its definition of manhood, we’re going back to God’s blueprint. This is your weekly source of truth, encouragement, and practical wisdom for becoming the husband, father, and leader you were made to be. No more settling. No more coasting. Just real talk, real faith, and a brotherhood of men c…",
       "audio_url": "https://api.substack.com/feed/podcast/204538092/0db8cf79022d1dd5d734da66d3dbb1f9.mp3",
-      "duration": "0:48",
+      "duration": "",
       "image": "https://substackcdn.com/feed/podcast/9723392/post/204538092/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
     }
   ]
