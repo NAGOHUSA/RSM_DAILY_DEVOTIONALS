@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-07-07T15:10:00.000Z",
+  "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
+  "channel": {
+    "title": "ROCK SOLID MAN Podcast",
+    "image": "https://substackcdn.com/feed/podcast/9723392/7c40bc3a5de3e83506246f7ea99f1f7f.jpg",
+    "link": "https://rocksolidman.substack.com/podcast"
+  },
+  "links": {
+    "apple": "https://podcasts.apple.com/us/podcast/rock-solid-man-podcast/id6785086184",
+    "spotify": "https://open.spotify.com/show/033Iv2uBi03xglK5YMEyZL",
+    "youtube": "https://www.youtube.com/@RSMMINISTRY",
+    "substack": "https://rocksolidman.substack.com/podcast"
+  },
+  "episode_count": 1,
+  "episodes": [
+    {
+      "title": "Rock Solid Man Podcast (Coming SOON)",
+      "link": "https://rocksolidman.substack.com/p/rock-solid-man-podcast-coming-soon",
+      "guid": "substack:post:204538092",
+      "pub_date": "2026-07-01T22:21:47.000Z",
+      "summary": "Welcome to the Rock Solid Man podcast – where men are called to be unshakable. In a culture that's lost its definition of manhood, we're going back to God's blueprint. This is your weekly source of truth, encouragement, and practical wisdom for becoming the husband, father, and leader you were made to be.",
+      "audio_url": "https://api.substack.com/feed/podcast/204538092/0db8cf79022d1dd5d734da66d3dbb1f9.mp3",
+      "duration": "0:48",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/204538092/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    }
+  ]
+}

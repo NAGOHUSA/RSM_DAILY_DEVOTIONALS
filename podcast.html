@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Rock Solid Man</title>
+<title>Podcast — Rock Solid Man</title>
+<meta name="description" content="Listen to the Rock Solid Man Podcast on Apple Podcasts, Spotify, YouTube, and Substack — biblical manhood, faith, and brotherhood.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -118,7 +119,8 @@
   }
   .nav-toggle span {
     display: block; width: 24px; height: 2px;
-    background: var(--cream); border-radius: 2px;
+    background: var(--cream);
+    border-radius: 2px;
     transition: transform 0.25s ease, opacity 0.25s ease;
   }
   .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
@@ -171,13 +173,11 @@
     font-style: italic;
     font-size: 1.1rem;
     color: var(--text-muted);
-    max-width: 520px;
+    max-width: 560px;
   }
 
-  /* SECTIONS */
   section { padding: 5rem 2rem; }
   .container { max-width: 1100px; margin: 0 auto; }
-  .container-narrow { max-width: 720px; margin: 0 auto; }
 
   .section-label {
     font-size: 0.7rem;
@@ -188,6 +188,7 @@
     margin-bottom: 1rem;
     display: block;
   }
+
   h2 {
     font-family: var(--ff-display);
     font-size: clamp(2.8rem, 6vw, 4.5rem);
@@ -197,158 +198,21 @@
     margin-bottom: 1.5rem;
   }
 
-  /* MISSION SECTION */
-  .mission-section {
-    background: rgba(26,26,26,0.85);
-    backdrop-filter: blur(4px);
-    border-bottom: 1px solid rgba(58,122,74,0.3);
-  }
-  .mission-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: start;
-  }
-  .mission-text p {
-    color: var(--cream-dark);
-    font-size: 1.02rem;
-    margin-bottom: 1.25rem;
-    line-height: 1.85;
-  }
-  .pillars-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-top: 2.5rem;
-  }
-  .pillar {
-    border-left: 2px solid var(--green-mid);
-    padding-left: 1rem;
-  }
-  .pillar h4 {
-    font-family: var(--ff-display);
-    font-size: 1.2rem;
-    letter-spacing: 0.06em;
-    color: var(--green-light);
-    margin-bottom: 0.3rem;
-  }
-  .pillar p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
-
-  .mission-quote {
-    background: rgba(58,122,74,0.08);
-    border: 1px solid rgba(58,122,74,0.3);
-    padding: 2.5rem;
-    border-radius: 4px;
-    text-align: center;
-    position: sticky;
-    top: 6rem;
-  }
-  .mission-quote blockquote {
-    font-family: var(--ff-serif);
-    font-style: italic;
-    font-size: 1.5rem;
-    line-height: 1.6;
-    color: var(--cream);
-    margin-bottom: 1rem;
-  }
-  .mission-quote cite {
-    font-size: 0.78rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--green-light);
-    font-style: normal;
-    font-weight: 500;
-  }
-
-  /* STATS / IDENTITY STRIP */
-  .identity-section {
-    background: rgba(42,42,42,0.85);
-    backdrop-filter: blur(4px);
-    border-bottom: 1px solid rgba(58,122,74,0.3);
-  }
-  .identity-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    text-align: center;
-  }
-  .identity-item h3 {
-    font-family: var(--ff-display);
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    letter-spacing: 0.04em;
-    color: var(--green-light);
-    line-height: 1;
-    margin-bottom: 0.5rem;
-  }
-  .identity-item p {
-    font-size: 0.82rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    font-weight: 500;
-  }
-
-  /* FAITH SECTION */
-  .faith-section {
-    background: rgba(26,26,26,0.85);
-    backdrop-filter: blur(4px);
-    border-bottom: 1px solid rgba(58,122,74,0.3);
-  }
-  .faith-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    margin-top: 2rem;
-  }
-  .faith-card {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(58,122,74,0.3);
-    border-radius: 8px;
-    padding: 1.75rem;
-  }
-  .faith-card h3 {
-    font-family: var(--ff-display);
-    font-size: 1.8rem;
-    letter-spacing: 0.04em;
-    color: var(--green-light);
-    margin-bottom: 1.25rem;
-    border-left: 3px solid var(--green-mid);
-    padding-left: 1rem;
-  }
-  .faith-card ul { list-style: none; padding: 0; }
-  .faith-card li {
-    font-size: 0.95rem;
-    color: var(--cream-dark);
-    margin-bottom: 1rem;
-    padding-left: 1.5rem;
-    position: relative;
-    line-height: 1.6;
-  }
-  .faith-card li::before {
-    content: "●";
-    color: var(--green-light);
-    font-size: 0.7rem;
-    position: absolute;
-    left: 0; top: 0;
-  }
-  .faith-card .scripture-ref {
-    font-family: var(--ff-serif);
-    font-style: italic;
-    color: var(--green-light);
-    font-size: 0.85rem;
-    margin-top: 1rem;
-    display: block;
-    text-align: right;
-  }
-
-  /* CTA STRIP */
-  .cta-section {
+  .btn-primary {
     background: var(--green-deep);
-    padding: 4rem 2rem;
-    text-align: center;
+    color: var(--white);
+    padding: 0.85rem 2.2rem;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    transition: background 0.2s, transform 0.15s;
+    display: inline-block;
   }
-  .cta-section h2 { color: var(--white); font-size: clamp(2.5rem, 6vw, 4rem); margin-bottom: 1rem; }
-  .cta-section p { color: rgba(255,255,255,0.75); font-size: 1.05rem; max-width: 500px; margin: 0 auto 2rem; }
+  .btn-primary:hover { background: var(--green-mid); transform: translateY(-1px); }
+
   .btn-white {
     background: var(--white);
     color: var(--green-deep);
@@ -361,53 +225,127 @@
     text-transform: uppercase;
     display: inline-block;
     transition: all 0.2s;
-    margin: 0.4rem;
   }
   .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
-  .btn-white-outline {
-    background: transparent;
-    color: var(--white);
-    border: 1px solid rgba(255,255,255,0.5);
-    padding: 0.9rem 2.5rem;
-    border-radius: 2px;
+
+  /* PLATFORMS SECTION */
+  .platforms-section {
+    background: rgba(42,42,42,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .platforms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .platform-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.3);
+    border-radius: 8px;
+    padding: 1.75rem 1.5rem;
     text-decoration: none;
-    font-size: 0.82rem;
-    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.85rem;
+    transition: all 0.25s ease;
+  }
+  .platform-card:hover {
+    transform: translateY(-4px);
+    background: rgba(58,122,74,0.12);
+    border-color: var(--green-mid);
+  }
+  .platform-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .platform-name {
+    font-family: var(--ff-display);
+    font-size: 1.3rem;
+    letter-spacing: 0.04em;
+    color: var(--cream);
+  }
+  .platform-cta {
+    font-size: 0.7rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    display: inline-block;
-    transition: all 0.2s;
-    margin: 0.4rem;
-  }
-  .btn-white-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.1); transform: translateY(-2px); }
-
-  /* FOOTER */
-  footer {
-    background: #0e0c0a;
-    padding: 3rem 2rem;
-    border-top: 1px solid rgba(58,122,74,0.2);
-  }
-  .footer-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 3rem;
-  }
-  .footer-brand .logo {
-    font-family: var(--ff-display);
-    font-size: 1.5rem;
-    letter-spacing: 0.08em;
     color: var(--green-light);
-    display: block;
-    margin-bottom: 0.75rem;
-    text-decoration: none;
+    font-weight: 500;
   }
-  .footer-brand p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.25rem; }
-  .footer-donate-btns { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-  .footer-donate-btns a {
-    font-size: 0.72rem;
-    letter-spacing: 0.12em;
+
+  /* EPISODES SECTION */
+  .episodes-section {
+    background: rgba(26,26,26,0.85);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid rgba(58,122,74,0.3);
+  }
+
+  .episodes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .episode-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(58,122,74,0.3);
+    border-left: 4px solid var(--green-bright);
+    border-radius: 4px;
+    padding: 1.75rem 2rem;
+  }
+
+  .episode-date {
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green-light);
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+  }
+  .episode-date .dot { margin: 0 0.5rem; opacity: 0.5; }
+
+  .episode-title {
+    font-family: var(--ff-display);
+    font-size: 1.7rem;
+    letter-spacing: 0.03em;
+    color: var(--cream);
+    margin-bottom: 0.6rem;
+    line-height: 1.15;
+  }
+
+  .episode-summary {
+    font-size: 0.92rem;
+    color: var(--cream-dark);
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+  }
+
+  .episode-player audio {
+    width: 100%;
+    height: 40px;
+    filter: invert(0.9) hue-rotate(90deg) opacity(0.85);
+    border-radius: 4px;
+  }
+
+  .episode-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1.1rem;
+  }
+  .episode-links a {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     background: rgba(58,122,74,0.15);
     color: var(--green-light);
@@ -418,6 +356,37 @@
     font-weight: 500;
     transition: all 0.2s;
   }
+  .episode-links a:hover { background: rgba(58,122,74,0.28); }
+
+  .episodes-loading, .episodes-empty, .episodes-error {
+    text-align: center;
+    padding: 2.5rem;
+    color: var(--text-muted);
+    font-family: var(--ff-serif);
+    font-style: italic;
+  }
+
+  /* CTA STRIP */
+  .cta-section {
+    background: var(--green-deep);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .cta-section h2 { color: var(--white); font-size: clamp(2.5rem, 6vw, 4rem); margin-bottom: 1rem; }
+  .cta-section p { color: rgba(255,255,255,0.75); font-size: 1.05rem; max-width: 520px; margin: 0 auto 2rem; }
+
+  /* FOOTER */
+  footer { background: #0e0c0a; padding: 3rem 2rem; border-top: 1px solid rgba(58,122,74,0.2); }
+  .footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; }
+  .footer-brand .logo { font-family: var(--ff-display); font-size: 1.5rem; letter-spacing: 0.08em; color: var(--green-light); display: block; margin-bottom: 0.75rem; text-decoration: none; }
+  .footer-brand p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1.25rem; }
+  .footer-donate-btns { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .footer-donate-btns a {
+    font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;
+    background: rgba(58,122,74,0.15); color: var(--green-light);
+    padding: 0.4rem 0.9rem; border-radius: 2px; border: 1px solid rgba(58,122,74,0.35);
+    text-decoration: none; font-weight: 500; transition: all 0.2s;
+  }
   .footer-donate-btns a:hover { background: rgba(58,122,74,0.28); }
   .footer-col h4 { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--green-light); font-weight: 500; margin-bottom: 1rem; }
   .footer-col ul { list-style: none; }
@@ -425,22 +394,10 @@
   .footer-col a { font-size: 0.87rem; color: var(--text-muted); text-decoration: none; transition: color 0.2s; }
   .footer-col a:hover { color: var(--cream); }
   .footer-bottom {
-    max-width: 1100px;
-    margin: 2.5rem auto 0;
-    padding-top: 1.5rem;
+    max-width: 1100px; margin: 2.5rem auto 0; padding-top: 1.5rem;
     border-top: 1px solid rgba(255,255,255,0.06);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    font-size: 0.78rem;
-    color: var(--text-muted);
-  }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(18px); }
-    to   { opacity: 1; transform: translateY(0); }
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 0.5rem; font-size: 0.78rem; color: var(--text-muted);
   }
 
   @media (max-width: 768px) {
@@ -448,21 +405,16 @@
     .nav-toggle { display: flex; }
     .nav-links {
       display: none; flex-direction: column; width: 100%; gap: 0;
-      background: rgba(26,26,26,0.97);
-      border-top: 1px solid rgba(58,122,74,0.3);
-      padding: 0.75rem 0 1rem;
-      position: absolute; top: 100%; left: 0; right: 0; z-index: 99;
+      background: rgba(26,26,26,0.97); border-top: 1px solid rgba(58,122,74,0.3);
+      padding: 0.75rem 0 1rem; position: absolute; top: 100%; left: 0; right: 0; z-index: 99;
     }
     .nav-links.open { display: flex; }
     .nav-links li { width: 100%; }
     .nav-links a { display: block; padding: 0.75rem 1.5rem; font-size: 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
     .nav-links .nav-cta { margin: 0.75rem 1.5rem 0; display: block; text-align: center; padding: 0.65rem 1rem; }
-    .mission-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-    .mission-quote { position: static; }
-    .pillars-grid { grid-template-columns: 1fr; }
-    .faith-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-    .identity-grid { grid-template-columns: 1fr; gap: 2rem; }
     .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .episode-card { padding: 1.5rem 1.25rem; }
+    .episode-title { font-size: 1.4rem; }
   }
 </style>
 </head>
@@ -481,9 +433,8 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="events.html">Events</a></li>
     <li><a href="index.html#devotional">Daily Word</a></li>
-    <li><a href="index.html#gallery">Photos</a></li>
-    <li><a href="podcast.html">Podcast</a></li>
-    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="podcast.html" class="active">Podcast</a></li>
+    <li><a href="about.html">About</a></li>
     <li><a href="mission.html">Mission</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">Socials</a></li>
@@ -494,99 +445,56 @@
 <!-- PAGE HERO -->
 <section class="page-hero">
   <img class="hero-logo" src="RSM_LOGO.png" alt="Rock Solid Man Logo">
-  <p class="page-eyebrow">Who We Are</p>
-  <h1 class="page-title">BUILT TO BE<br><em>UNBREAKABLE</em></h1>
-  <p class="page-subtitle">"As iron sharpens iron, so one person sharpens another." — Proverbs 27:17</p>
+  <p class="page-eyebrow">Rock Solid Man</p>
+  <h1 class="page-title">THE <em>PODCAST</em></h1>
+  <p class="page-subtitle">Honest conversations, biblical encouragement, and practical tools to strengthen your walk with Christ. Wherever you listen, we're there.</p>
 </section>
 
-<!-- MISSION -->
-<section class="mission-section">
+<!-- PLATFORMS -->
+<section class="platforms-section">
   <div class="container">
-    <div class="mission-grid">
-      <div class="mission-text">
-        <span class="section-label">Our Mission</span>
-        <h2>ANCHORED<br>IN CHRIST</h2>
-        <p>Rock Solid Man exists to call men back to the foundation — Jesus Christ. We gather monthly for worship, a message, and brotherhood, committed to building men who are solid in their faith, their families, and their communities.</p>
-        <p>We help men build unshakable strength — physically, mentally, and spiritually. Through proven strategies, expert guidance, and a community of iron-sharpening-iron brotherhood, we empower men to stand firm.</p>
-        <p>Whether it's battling addiction, growing in faith, or stepping into leadership, we believe every man has the potential to be Rock Solid — anchored in Christ and unmovable.</p>
-
-        <div class="pillars-grid">
-          <div class="pillar">
-            <h4>FAITH</h4>
-            <p>Grounded in the Word. Built on the Rock.</p>
-          </div>
-          <div class="pillar">
-            <h4>BROTHERHOOD</h4>
-            <p>Iron sharpens iron. No man stands alone.</p>
-          </div>
-          <div class="pillar">
-            <h4>DISCIPLINE</h4>
-            <p>Daily habits that forge unbreakable character.</p>
-          </div>
-          <div class="pillar">
-            <h4>SERVICE</h4>
-            <p>Pouring out what God has poured in.</p>
-          </div>
+    <span class="section-label">Subscribe & Listen</span>
+    <h2>PICK YOUR<br>PLATFORM</h2>
+    <div class="platforms-grid">
+      <a class="platform-card" href="https://podcasts.apple.com/us/podcast/rock-solid-man-podcast/id6785086184" target="_blank" rel="noopener">
+        <div class="platform-icon" style="background:linear-gradient(135deg,#a259ff,#833ab4);">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="10" r="3"/><path d="M8 20c0-2.5 1.8-4.5 4-4.5s4 2 4 4.5"/></svg>
         </div>
-      </div>
-
-      <div class="mission-quote">
-        <blockquote>"Everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock."</blockquote>
-        <cite>Matthew 7:24</cite>
-        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(58,122,74,0.25);">
-          <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1.25rem;">Rock Solid Man Inc is a registered 501(c) nonprofit ministry based in Kathleen, Georgia. EIN: 99-1099432</p>
-          <a href="contact.html" class="btn-white" style="background: var(--green-deep); color: var(--white);">Get in Touch</a>
+        <span class="platform-name">Apple Podcasts</span>
+        <span class="platform-cta">Listen Now →</span>
+      </a>
+      <a class="platform-card" href="https://open.spotify.com/show/033Iv2uBi03xglK5YMEyZL" target="_blank" rel="noopener">
+        <div class="platform-icon" style="background:#1DB954;">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0e0c0a" stroke-width="2" stroke-linecap="round"><path d="M6 9.5c4-1.2 8-1.2 12 0.5"/><path d="M6.5 13c3.2-1 6.8-1 10.5 0.5"/><path d="M7 16.5c2.5-0.8 5-0.8 7.5 0.3"/></svg>
         </div>
-      </div>
+        <span class="platform-name">Spotify</span>
+        <span class="platform-cta">Listen Now →</span>
+      </a>
+      <a class="platform-card" href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">
+        <div class="platform-icon" style="background:#FF0000;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l12-7z"/></svg>
+        </div>
+        <span class="platform-name">YouTube</span>
+        <span class="platform-cta">Watch Now →</span>
+      </a>
+      <a class="platform-card" href="https://rocksolidman.substack.com/podcast" target="_blank" rel="noopener">
+        <div class="platform-icon" style="background:#FF6719;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M4 3h16v3H4V3zm0 5h16v3H4V8zm0 5h16v8l-8-5-8 5v-8z"/></svg>
+        </div>
+        <span class="platform-name">Substack</span>
+        <span class="platform-cta">Read & Listen →</span>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- IDENTITY STRIP -->
-<section class="identity-section">
+<!-- EPISODES -->
+<section class="episodes-section" id="episodes">
   <div class="container">
-    <div class="identity-grid">
-      <div class="identity-item">
-        <h3>2023</h3>
-        <p>Founded</p>
-      </div>
-      <div class="identity-item">
-        <h3>MONTHLY</h3>
-        <p>Gatherings</p>
-      </div>
-      <div class="identity-item">
-        <h3>501(c)</h3>
-        <p>Nonprofit Ministry</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- STATEMENT OF FAITH -->
-<section class="faith-section">
-  <div class="container">
-    <span class="section-label">What We Believe</span>
-    <h2>OUR<br>FOUNDATION</h2>
-    <div class="faith-grid">
-      <div class="faith-card">
-        <h3>The Word & The Trinity</h3>
-        <ul>
-          <li><strong>THE BIBLE</strong> is the divinely inspired, inerrant, infallible, sufficient Word of God.</li>
-          <li><strong>ONE GOD</strong> eternally existent in three persons: Father, Son, and Holy Spirit.</li>
-          <li><strong>JESUS CHRIST</strong> is fully God and fully man. We believe in His virgin birth, sinless life, miracles, vicarious and atoning death through His shed blood, bodily resurrection, ascension to the right hand of the Father, and ultimate personal return in power and glory.</li>
-        </ul>
-        <span class="scripture-ref">2 Timothy 3:16-17 | Matthew 28:19 | 1 Corinthians 15:3-4</span>
-      </div>
-      <div class="faith-card">
-        <h3>Salvation & The Holy Spirit</h3>
-        <ul>
-          <li><strong>SALVATION</strong> and regeneration by the Holy Spirit is essential for all people. It comes through repentance of sin and belief in Jesus Christ's death on our behalf. This is the only way to a personal relationship with a Holy God.</li>
-          <li><strong>THE HOLY SPIRIT</strong> indwells every believer upon profession of faith, enabling the Christian to live a godly life.</li>
-          <li><strong>MARRIAGE</strong> is the uniting of one man and woman in covenant commitment for a lifetime.</li>
-          <li><strong>LEADERSHIP</strong> — a father must manage his household well. (1 Timothy 3:4a)</li>
-        </ul>
-        <span class="scripture-ref">John 14:6 | Romans 10:9 | Genesis 2:24</span>
-      </div>
+    <span class="section-label">Latest Episodes</span>
+    <h2>ALL<br>EPISODES</h2>
+    <div id="episodes-container" class="episodes-list">
+      <div class="episodes-loading">Loading episodes…</div>
     </div>
   </div>
 </section>
@@ -594,10 +502,9 @@
 <!-- CTA STRIP -->
 <section class="cta-section">
   <div class="container-narrow">
-    <h2>STAND WITH<br>THE BROTHERHOOD</h2>
-    <p>Don't walk this road alone. Connect with Rock Solid Man and find your place among men who are standing firm.</p>
-    <a href="contact.html" class="btn-white">Get in Touch</a>
-    <a href="events.html" class="btn-white-outline">View Events</a>
+    <h2>NEVER MISS<br>AN EPISODE</h2>
+    <p>Subscribe on your platform of choice and get every new episode the moment it drops.</p>
+    <a href="https://rocksolidman.substack.com/podcast" target="_blank" rel="noopener" class="btn-white">Subscribe on Substack</a>
   </div>
 </section>
 
@@ -618,7 +525,6 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="events.html">Upcoming Events</a></li>
         <li><a href="index.html#devotional">Daily Devotional</a></li>
-        <li><a href="index.html#gallery">Photo Gallery</a></li>
         <li><a href="podcast.html">Podcast</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="mission.html">Our Mission</a></li>
@@ -644,6 +550,62 @@
 </footer>
 
 <script>
+const PODCAST_JSON_URL = 'https://rocksolidman.org/podcast-episodes.json';
+const PLATFORM_LINKS = {
+  apple: 'https://podcasts.apple.com/us/podcast/rock-solid-man-podcast/id6785086184',
+  spotify: 'https://open.spotify.com/show/033Iv2uBi03xglK5YMEyZL',
+  youtube: 'https://www.youtube.com/@RSMMINISTRY',
+  substack: 'https://rocksolidman.substack.com/podcast'
+};
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+function formatEpisodeDate(iso) {
+  if (!iso) return '';
+  return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+async function loadEpisodes() {
+  const container = document.getElementById('episodes-container');
+  try {
+    const res = await fetch(PODCAST_JSON_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error('Failed to load podcast-episodes.json');
+    const data = await res.json();
+    renderEpisodes(data.episodes || [], data.links || PLATFORM_LINKS);
+  } catch (err) {
+    console.error('Error loading episodes:', err);
+    container.innerHTML = '<div class="episodes-error">Unable to load episodes right now. In the meantime, subscribe directly on <a href="' + PLATFORM_LINKS.substack + '" target="_blank" rel="noopener" style="color:var(--green-light);">Substack</a>.</div>';
+  }
+}
+
+function renderEpisodes(episodes, links) {
+  const container = document.getElementById('episodes-container');
+  if (!episodes || episodes.length === 0) {
+    container.innerHTML = '<div class="episodes-empty">New episodes are on the way — subscribe now so you don\'t miss the launch.</div>';
+    return;
+  }
+
+  container.innerHTML = episodes.map(ep => `
+    <div class="episode-card">
+      <div class="episode-date">${formatEpisodeDate(ep.pub_date)}${ep.duration ? `<span class="dot">•</span>${escapeHtml(ep.duration)}` : ''}</div>
+      <div class="episode-title">${escapeHtml(ep.title)}</div>
+      ${ep.summary ? `<div class="episode-summary">${escapeHtml(ep.summary)}</div>` : ''}
+      ${ep.audio_url ? `<div class="episode-player"><audio controls preload="none" src="${ep.audio_url}"></audio></div>` : ''}
+      <div class="episode-links">
+        ${ep.link ? `<a href="${ep.link}" target="_blank" rel="noopener">Substack</a>` : ''}
+        <a href="${links.apple || PLATFORM_LINKS.apple}" target="_blank" rel="noopener">Apple Podcasts</a>
+        <a href="${links.spotify || PLATFORM_LINKS.spotify}" target="_blank" rel="noopener">Spotify</a>
+        <a href="${links.youtube || PLATFORM_LINKS.youtube}" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  `).join('');
+}
+
+document.addEventListener('DOMContentLoaded', loadEpisodes);
+
 // Smooth page transitions (outgoing)
 document.querySelectorAll('a[href]').forEach(function(link) {
   var href = link.getAttribute('href');
