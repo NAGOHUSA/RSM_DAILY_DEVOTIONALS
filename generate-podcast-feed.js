@@ -100,64 +100,96 @@ function parseItems(xml) {
   return items.slice(0, MAX_EPISODES);
 }
 
-// Substack fronts its RSS with Cloudflare, which returns 403 to requests that
-// look like bots (custom User-Agents, missing Accept/Referer headers, etc).
-// Retry with realistic browser-like headers, and fall back to the publication's
-// alias feed URL if the primary api.substack.com URL is blocked.
-const FETCH_ATTEMPTS = [
-  {
-    url: RSS_URL,
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-      "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
-      "Accept-Language": "en-US,en;q=0.9",
-      "Referer": "https://rocksolidman.substack.com/podcast",
-    },
-  },
-  {
-    url: RSS_URL,
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
-      "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
-    },
-  },
-  {
-    // Fallback: Substack's publication-level feed alias.
-    url: "https://rocksolidman.substack.com/feed/podcast/9723392.rss",
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-      "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
-    },
-  },
+// Substack fronts its RSS with Cloudflare. GitHub-hosted runners live on
+// well-known Azure datacenter IP ranges, and Cloudflare's bot/IP-reputation
+// scoring blocks those ranges outright (403) regardless of headers — this is
+// a documented pain point for GitHub Actions hitting Substack, not something
+// fixable with a nicer User-Agent. The reliable workaround is to route the
+// request through a public proxy whose IP isn't flagged.
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+  "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
+  "Accept-Language": "en-US,en;q=0.9",
+};
+
+const XML_FETCH_ATTEMPTS = [
+  // Direct — cheap to try first in case the block lifts.
+  { url: RSS_URL, headers: { ...BROWSER_HEADERS, Referer: "https://rocksolidman.substack.com/podcast" } },
+  // Public read-only proxies that fetch server-side from their own (non-datacenter-flagged) IPs.
+  { url: `https://api.allorigins.win/raw?url=${encodeURIComponent(RSS_URL)}`, headers: {} },
+  { url: `https://corsproxy.io/?url=${encodeURIComponent(RSS_URL)}`, headers: {} },
 ];
 
-async function fetchFeed() {
+async function fetchRawXml() {
   const errors = [];
-  for (const attempt of FETCH_ATTEMPTS) {
+  for (const attempt of XML_FETCH_ATTEMPTS) {
     try {
       const res = await fetch(attempt.url, { headers: attempt.headers });
-      if (res.ok) return await res.text();
-      errors.push(`${attempt.url} -> ${res.status} ${res.statusText}`);
+      if (res.ok) {
+        const text = await res.text();
+        if (text.includes("<rss") || text.includes("<channel>")) return text;
+        errors.push(`${attempt.url} -> 200 but not RSS XML`);
+      } else {
+        errors.push(`${attempt.url} -> ${res.status} ${res.statusText}`);
+      }
     } catch (e) {
       errors.push(`${attempt.url} -> ${e.message}`);
     }
   }
-  throw new Error(`Failed to fetch RSS feed after ${FETCH_ATTEMPTS.length} attempts: ${errors.join(" | ")}`);
+  console.warn(`Direct/proxy XML fetch attempts failed:\n  ${errors.join("\n  ")}`);
+  return null;
+}
+
+// Last-resort fallback: rss2json.com fetches the feed server-side and hands
+// back JSON, sidestepping the Cloudflare block entirely.
+async function fetchViaRss2Json() {
+  const url = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`rss2json fallback failed: ${res.status} ${res.statusText}`);
+  const data = await res.json();
+  if (data.status !== "ok") throw new Error(`rss2json fallback returned status: ${data.status}`);
+
+  const channel = {
+    title: data.feed?.title || "Rock Solid Man Podcast",
+    image: data.feed?.image || null,
+    link: data.feed?.link || LINKS.substack,
+  };
+
+  const episodes = (data.items || []).map((item) => {
+    const summary = stripHtml(item.description || item.content || "");
+    return {
+      title: item.title || "Untitled Episode",
+      link: item.link || LINKS.substack,
+      guid: item.guid || item.link || item.title,
+      pub_date: item.pubDate ? new Date(item.pubDate).toISOString() : null,
+      summary: summary.length > 400 ? summary.slice(0, 397).trimEnd() + "…" : summary,
+      audio_url: item.enclosure?.link || null,
+      duration: "",
+      image: item.thumbnail || null,
+    };
+  });
+
+  episodes.sort((a, b) => new Date(b.pub_date || 0) - new Date(a.pub_date || 0));
+  return { channel, episodes: episodes.slice(0, MAX_EPISODES) };
 }
 
 async function main() {
-  const xml = await fetchFeed();
+  const xml = await fetchRawXml();
 
-  const channelBlockMatch = xml.match(/<channel>([\s\S]*?)<item>/);
-  const channelBlock = channelBlockMatch ? channelBlockMatch[1] : xml;
-
-  const channel = {
-    title: stripHtml(extractTag(channelBlock, "title")) || "Rock Solid Man Podcast",
-    image: extractAttr(channelBlock, "itunes:image", "href") || null,
-    link: extractTag(channelBlock, "link") || LINKS.substack,
-  };
-
-  const episodes = parseItems(xml);
+  let channel, episodes;
+  if (xml) {
+    const channelBlockMatch = xml.match(/<channel>([\s\S]*?)<item>/);
+    const channelBlock = channelBlockMatch ? channelBlockMatch[1] : xml;
+    channel = {
+      title: stripHtml(extractTag(channelBlock, "title")) || "Rock Solid Man Podcast",
+      image: extractAttr(channelBlock, "itunes:image", "href") || null,
+      link: extractTag(channelBlock, "link") || LINKS.substack,
+    };
+    episodes = parseItems(xml);
+  } else {
+    console.log("Falling back to rss2json.com…");
+    ({ channel, episodes } = await fetchViaRss2Json());
+  }
 
   const payload = {
     generated_at: new Date().toISOString(),
