@@ -1,8 +1,10 @@
-name: Update Rock Solid Man Podcast Feed
+name: Update Rock Solid Man Podcast Feed (Weekly)
 
 on:
   schedule:
-    - cron: '15 10 * * *'   # ~daily, shortly after the devotional job
+    # Episodes drop Mondays 7pm ET (~23:00 UTC in EDT, ~00:00 UTC Tue in EST).
+    # Run Tuesday 10:00 UTC (~5-6am ET) so it's comfortably after either case.
+    - cron: '0 10 * * 2'
   workflow_dispatch: {}
   push:
     paths:
