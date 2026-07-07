@@ -100,10 +100,53 @@ function parseItems(xml) {
   return items.slice(0, MAX_EPISODES);
 }
 
+// Substack fronts its RSS with Cloudflare, which returns 403 to requests that
+// look like bots (custom User-Agents, missing Accept/Referer headers, etc).
+// Retry with realistic browser-like headers, and fall back to the publication's
+// alias feed URL if the primary api.substack.com URL is blocked.
+const FETCH_ATTEMPTS = [
+  {
+    url: RSS_URL,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Referer": "https://rocksolidman.substack.com/podcast",
+    },
+  },
+  {
+    url: RSS_URL,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+      "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
+    },
+  },
+  {
+    // Fallback: Substack's publication-level feed alias.
+    url: "https://rocksolidman.substack.com/feed/podcast/9723392.rss",
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "Accept": "application/rss+xml, application/xml, text/xml, */*;q=0.8",
+    },
+  },
+];
+
+async function fetchFeed() {
+  const errors = [];
+  for (const attempt of FETCH_ATTEMPTS) {
+    try {
+      const res = await fetch(attempt.url, { headers: attempt.headers });
+      if (res.ok) return await res.text();
+      errors.push(`${attempt.url} -> ${res.status} ${res.statusText}`);
+    } catch (e) {
+      errors.push(`${attempt.url} -> ${e.message}`);
+    }
+  }
+  throw new Error(`Failed to fetch RSS feed after ${FETCH_ATTEMPTS.length} attempts: ${errors.join(" | ")}`);
+}
+
 async function main() {
-  const res = await fetch(RSS_URL, { headers: { "User-Agent": "RockSolidManPodcastBot/1.0" } });
-  if (!res.ok) throw new Error(`Failed to fetch RSS feed: ${res.status} ${res.statusText}`);
-  const xml = await res.text();
+  const xml = await fetchFeed();
 
   const channelBlockMatch = xml.match(/<channel>([\s\S]*?)<item>/);
   const channelBlock = channelBlockMatch ? channelBlockMatch[1] : xml;
