@@ -1,0 +1,33 @@
+name: Update Rock Solid Man Podcast Feed
+
+on:
+  schedule:
+    - cron: '15 10 * * *'   # ~daily, shortly after the devotional job
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'generate-podcast-feed.js'
+      - '.github/workflows/daily-podcast-feed.yml'
+
+jobs:
+  update-podcast-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧰 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # No npm install needed — script uses native fetch only.
+
+      - name: 🎙️ Pull episodes from Substack RSS
+        run: node generate-podcast-feed.js
+
+      - name: ✅ Commit results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(podcast): refresh podcast-episodes.json"
+          file_pattern: podcast-episodes.json
