@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Hope in Barren Land\n\n## Psalm 85:12\n\n\"I will listen to what God the Lord says; he promises peace to his people, his faithful servants—but let them not turn to folly.\" - Psalm 85:12 (NIV)\n\n## Reflection\n\nAs we navigate the dry seasons of life, it's easy to lose hope. The once-thriving garden of our souls seems to wither away, leaving us wondering if anything will ever bloom again. But in Psalm 85:12, we're reminded that God is the one who promises peace to his people. His faithfulness is not dependent on our circumstances, but on His character. It's in these moments of barrenness that we're forced to listen to what God is saying, to trust in His promises, and to not turn to our own wisdom or solutions. We must be still and know that He is God (Psalm 46:10). As we wait on Him, we can be confident that He is working beneath the surface, sowing seeds of hope that will one day bear fruit.\n\n## Prayer\n\nWe listen to Your voice, Lord, and trust in Your promises. Help us to not turn to our own wisdom, but to Your faithful guidance.\n\n## One-Line Application\n\nMay we listen to God's voice and trust in His promises during seasons of drought and barrenness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
