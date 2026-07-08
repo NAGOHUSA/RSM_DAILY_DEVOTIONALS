@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 216,
+  "theme": null,
+  "content_markdown": "# Peace in Every Storm\n\n## Psalm 46:10\n\n\"Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" - Psalm 46:10 (ESV)\n\n## Reflection\n\nIn the midst of life's turbulent storms, we often struggle to find peace. Our tendency is to try to control the situation, to grasp for safety, and to fight against the raging winds. But the Lord reminds us to be still. To be still doesn't mean to be passive or inactive; it means to trust in His sovereignty and to acknowledge His presence. When we choose to be still, we open ourselves up to the reality of His presence and power. We begin to see that He is the Rock, the Safe Haven, and the Anchor that holds us fast in the midst of the storm. As we learn to be still, we discover that peace is not something we have to manufacture or create; it's a gift that flows from knowing and trusting in our God.\n\n## Prayer\n\nWe choose to be still, Lord, and to trust in Your presence and power. Help us to acknowledge Your sovereignty over every storm in our lives.\n\n## One-Line Application\n\nTrust in God's presence and power to bring peace in every storm.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
