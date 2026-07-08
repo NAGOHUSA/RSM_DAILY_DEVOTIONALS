@@ -9,20 +9,8 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Guest Speaker",
       "featured": true,
-      "speakers": [
-        {
-          "name": "Michael Mays",
-          "topic": "Testimonial",
-          "time": "6:45 PM",
-          "badge": "Guest Testimonial"
-        },
-        {
-          "name": "Colton Rowell",
-          "topic": "Independent Speaker",
-          "time": "7:00 PM",
-          "badge": "Guest Speaker"
-        }
-      ]
+      "speaker": "Michael Mays & Colton Rowell",
+      "topic": "Testimonial & Independent Speaker"
     },
     {
       "id": 4,
@@ -33,19 +21,8 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
       "featured": false,
-      "speakers": [
-        {
-          "name": "Jacob Varnell",
-          "topic": "Testimonial",
-          "time": "6:45 PM",
-          "badge": "Testimonial"
-        },
-        {
-          "name": "Jim Perdue",
-          "time": "7:00 PM",
-          "badge": "Speaker"
-        }
-      ]
+      "speaker": "Jacob Varnell & Jim Perdue",
+      "topic": "Testimonial"
     },
     {
       "id": 5,
@@ -56,19 +33,8 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
       "featured": false,
-      "speakers": [
-        {
-          "name": "Dylan Coursey",
-          "topic": "Testimonial",
-          "time": "6:45 PM",
-          "badge": "Testimonial"
-        },
-        {
-          "name": "Chad Wood",
-          "time": "7:00 PM",
-          "badge": "Speaker"
-        }
-      ]
+      "speaker": "Dylan Coursey & Chad Wood",
+      "topic": "Testimonial"
     },
     {
       "id": 6,
@@ -79,14 +45,8 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
       "featured": false,
-      "speakers": [
-        {
-          "name": "Dusty Foskey",
-          "topic": "Testimonial",
-          "time": "6:45 PM",
-          "badge": "Testimonial"
-        }
-      ]
+      "speaker": "Dusty Foskey",
+      "topic": "Testimonial"
     },
     {
       "id": 7,
@@ -97,14 +57,8 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
       "featured": false,
-      "speakers": [
-        {
-          "name": "Bobby Ryals",
-          "topic": "Testimonial",
-          "time": "6:45 PM",
-          "badge": "Testimonial"
-        }
-      ]
+      "speaker": "Bobby Ryals",
+      "topic": "Testimonial"
     },
     {
       "id": 8,
