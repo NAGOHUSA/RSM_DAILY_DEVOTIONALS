@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 213,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Guidance Through Life's Storms\n\n## Matthew 14:22-33\n\nBut Jesus immediately said to them: \"Take courage! It is I. Don't be afraid.\" 'Do not be afraid,' he said. 'Take courage. I am here.'\" (Matthew 14:27, NIV)\n\n## Reflection\n\nLife's storms can be overwhelming, and it's easy to lose our footing. We may feel like we're walking on water, only to have the waves crash beneath us. But Jesus reminds us that He is always present, guiding us through the turbulent waters. We can be like the disciples, initially frightened by the wind and the waves, but ultimately finding courage in the voice of the Shepherd. When we hear His gentle whisper, \"Take courage, I am here,\" we can let go of our fears and trust in His sovereignty. He will navigate us through the choppy waters and bring us safely to shore.\n\n## Prayer\n\nWe thank You, Lord, for Your presence in our storms. Help us to trust in Your guidance and to find courage in Your voice. Remind us that You are always here, no matter what we may be facing. Give us the strength to let go of our fears and to follow Your lead.\n\n## One-Line Application\nWe find courage in Jesus' presence, especially during life's turbulent storms.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
