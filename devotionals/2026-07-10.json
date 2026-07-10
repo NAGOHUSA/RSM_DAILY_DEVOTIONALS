@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 251,
+  "theme": null,
+  "content_markdown": "# Calm in the Storm's Eye\n\n## Psalm 46:10\n\nGod is our refuge and strength,\nan ever-present help in trouble.\nTherefore we will not fear, though the earth give way\nand the mountains fall into the heart of the sea,\nthough its waters roar and foam\nand the mountains quake with their surging. \n— Psalm 46:1-3 (NIV)\n\n## Reflection\n\nIn the midst of turmoil, we often search for a sense of calm and security. We yearn for a haven where we can find peace. The psalm reminds us that God is our refuge, our strength, and our ever-present help in times of trouble. He is not a distant, uninvolved God, but an intimate and active presence in our lives. \n\nIn the midst of chaos, we are tempted to fear the unknown and to doubt God's sovereignty. But the psalm encourages us to stand firm, to trust in God's power and presence, and to find our security in Him. This requires us to look beyond the present circumstances and to focus on God's character and His promises. \n\nAs we navigate life's storms, let us remember that God is our anchor, our rock, and our shelter. Let us find our strength and our calm in Him, and not in our own abilities or resources.\n\n## Prayer\n\nWe pray to find our refuge in You, God, and to trust in Your presence, even in the midst of turmoil.\n\n## One-Line Application\nWe can face life's storms with confidence, knowing God is our ever-present help.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
