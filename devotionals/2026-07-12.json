@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 194,
+  "theme": null,
+  "content_markdown": "# Rest in God's Sovereignty\n\n## Psalm 46:10\n\n\"Be still and know that I am God; \nI will be exalted among the nations, \nI will be exalted in the earth!\" \n(Psalm 46:10, NIV)\n\n## Reflection\n\nWe often find ourselves caught up in the chaos of life, trying to control every situation and outcome. But in times of turmoil, God calls us to rest in His sovereignty. To \"be still\" means to let go of our need to be in charge and to trust that God is working all things for our good. This doesn't mean we're passive or inactive, but rather that we're operating from a place of faith and trust in God's plan. As we surrender to His sovereignty, we can experience a deep sense of peace and rest, even in the midst of turbulence. This is not a one-time decision, but a daily surrender, a choice to trust God with each new situation.\n\n## Prayer\n\nWe choose to rest in Your sovereignty, God. Help us to be still and trust that You are working all things for our good.\n\n## One-Line Application\nSurrender to God's sovereignty in the midst of life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
