@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Gentle Guidance\n\n## Scripture\n\"Cast all your anxiety on him because he cares for you.\" \n1 Peter 5:7 (NIV)\n\n## Reflection\nAs we navigate life's complexities, it's easy to become overwhelmed by anxiety and worry. But scripture reminds us that we don't have to carry the weight alone. In 1 Peter 5:7, we're encouraged to cast our anxiety on God, knowing He cares for us deeply. This isn't a call to ignore our problems or feelings, but rather to acknowledge His presence and power in the midst of them.\n\nImagine a shepherd gently guiding his sheep through a stormy night. He doesn't push them or force them forward, but rather leads them with a gentle touch, offering comfort and protection. In the same way, God wants to guide us through life's challenges, not with a heavy hand, but with a gentle, loving touch.\n\nAs we learn to cast our anxiety on God, we begin to experience His peace and presence in our lives. It's not a feeling we manufacture, but a reality we discover when we surrender to His care.\n\n## Prayer\nWe cast our anxiety on you, Lord, knowing you care for us deeply. Guide us through life's challenges with your gentle touch.\n\n## One-Line Application\nWe can surrender our anxiety to God's care.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
