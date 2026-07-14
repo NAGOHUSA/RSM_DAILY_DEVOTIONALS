@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T10:37:09.583Z",
+  "generated_at": "2026-07-14T23:03:57.617Z",
   "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
   "channel": {
     "title": "ROCK SOLID MAN Podcast",
@@ -12,8 +12,18 @@
     "youtube": "https://www.youtube.com/@RSMMINISTRY",
     "substack": "https://rocksolidman.substack.com/podcast"
   },
-  "episode_count": 1,
+  "episode_count": 2,
   "episodes": [
+    {
+      "title": "Rock Solid Man - Episode 001",
+      "link": "https://rocksolidman.substack.com/p/rock-solid-man-episode-001",
+      "guid": "substack:post:206879890",
+      "pub_date": "2026-07-14T23:00:00.000Z",
+      "summary": "Rock Solid Man exists to call men back to the foundation — Jesus Christ. We gather monthly for worship, a message, and brotherhood, committed to building men who are solid in their faith, their families, and their communities. We help men build unshakable strength — physically, mentally, and spiritually. Through proven strategies, expert guidance, and a community of iron-sharpening-iron brother…",
+      "audio_url": "https://api.substack.com/feed/podcast/206879890/3fa2c43fd864e5a840bbd02f05ad1f8d.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/206879890/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
     {
       "title": "Rock Solid Man Podcast (Coming SOON)",
       "link": "https://rocksolidman.substack.com/p/rock-solid-man-podcast-coming-soon",
