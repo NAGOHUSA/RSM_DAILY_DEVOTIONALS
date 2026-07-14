@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 202,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care\n\n## Matthew 9:36 (NIV)\n\n\"But when he saw the crowds, he had compassion on them, because they were harassed and helpless, like sheep without a shepherd.\"\n\n## Reflection\n\nAs we navigate the challenges of life, it's easy to feel overwhelmed and helpless. We may feel like sheep without a shepherd, lost and without direction. But today's scripture reminds us that Jesus has compassion on us, just as he had compassion on the crowds. He sees our struggles and desires to guide us through them. Just as a shepherd tends to his flock, Jesus tends to us, providing protection, guidance, and care. We don't have to face our challenges alone, for Jesus is always with us, ready to offer his guidance and support. As we trust in him, we can find peace and comfort in the midst of turmoil.\n\n## Prayer\n\nWe are harassed and helpless, Lord, but you have compassion on us. Guide us through our struggles and provide us with your protection and care. Help us to trust in your guidance and find peace in the midst of turmoil.\n\n## One-Line Application\n\nWe can trust Jesus to guide us through life's challenges with his compassion and care.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
