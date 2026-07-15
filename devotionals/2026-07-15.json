@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 229,
+  "theme": null,
+  "content_markdown": "# Seeking Refuge in God's Presence\n\n## Psalm 34:17-18\n\nThe righteous cry out, and the Lord hears them; he delivers them from all their troubles. The Lord is close to the brokenhearted and saves the crushed in spirit. (Psalm 34:17-18, NIV)\n\n## Reflection\n\nIn times of trouble, it's easy to feel overwhelmed and disconnected from God's presence. But the Bible reminds us that the righteous cry out, and God hears them. He delivers us from all our troubles, not just some of them. This isn't just a promise for the future; it's a reality for today. When we feel brokenhearted or crushed in spirit, we can know that God is close to us. He saves us, not just from external circumstances, but from the internal despair that can come with them. We can trust in His presence, even when we can't see a way out. We can trust that He is working, even when we can't feel it. And we can trust that He will deliver us, even when we can't deliver ourselves.\n\n## Prayer\n\nWe cry out to You, Lord, in our troubles. We know You hear us and will deliver us from all our troubles. Be close to us, Lord, in our brokenness. Save us from the crushed spirit that threatens to consume us.\n\n## One-Line Application\n\nTrust that God is close to you in your brokenness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
