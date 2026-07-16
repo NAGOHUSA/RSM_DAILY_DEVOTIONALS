@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 252,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Care for the Flock\n\n## Psalm 23:4 (ESV)\n\nEven though I walk through the valley of the shadow of death,\nI will fear no evil, for you are with me;\nyour rod and your staff comfort me.\n\n## Reflection\n\nAs we navigate life's challenges, we often find ourselves facing uncertainty and fear. Yet, the Psalmist reminds us that even in the darkest moments, God remains with us. His presence is a reminder that we are not alone, and His care is a comfort that exceeds our understanding. As we walk through the valley of the shadow of death, we can trust that God's rod and staff will guide us through the darkness, providing the strength and protection we need.\n\nIn this psalm, David's trust in God is not based on his own abilities or circumstances, but on the character and faithfulness of God. He knows that God is always with him, even in the midst of death and danger. This trust is not a denial of reality, but a confident acknowledgment of God's sovereignty and presence. As we face our own challenges, we can learn from David's example and trust in God's care for us, no matter what we may be facing.\n\n## Prayer\n\nWe thank you for your presence with us, even in the darkest moments. Help us to trust in your care and guidance, and to find comfort in your rod and staff.\n\n## One-Line Application\nTrust in God's presence, even in the darkest moments of life.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
