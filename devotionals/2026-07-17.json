@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-17",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 236,
+  "theme": null,
+  "content_markdown": "# A Gentle Summer Rain\n\n## John 15:5\n\n\"I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing.\" (John 15:5 NIV)\n\n## Reflection\n\nAs we walk through the warm summer days, let us not forget the nourishment that comes from being connected to our source. Just as a branch on a vine needs the life-giving sap to produce fruit, we need the life-giving presence of Christ to bear fruit in our lives. It's easy to get caught up in the idea that we can do everything on our own, but apart from Christ, we are fruitless and barren. But when we remain in Him, we are filled with life and purpose. We are empowered to love, serve, and bear fruit that brings glory to God. So let us take a step back and re-center ourselves in the life of Christ, that we might be the branches He uses to bear much fruit.\n\n## Prayer\n\nWe pray that we would remain in You, Lord Jesus, and that Your life would flow through us to produce fruit that brings joy to Your heart. Help us to stay connected to the vine and to rely on Your strength, rather than our own.\n\n## One-Line Application\nWe bear fruit by staying connected to Christ and relying on His life and strength.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
