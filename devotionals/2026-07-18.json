@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-18",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 239,
+  "theme": null,
+  "content_markdown": "# Cultivating Patience in a Hurried World\n\n## Psalm 27:14\n\n\"Wait for the Lord; be strong and take heart and wait for the Lord.\" - Psalm 27:14 (NIV)\n\n## Reflection\n\nIn a world that values speed and instant gratification, patience can be a rare commodity. We often find ourselves rushing through life, checking our watches, and tapping our feet in anticipation of the next thing. But as we read in Psalm 27:14, God calls us to wait for Him. Not to wait in a passive, idle sense, but to wait in active trust and faith. We are to be strong and take heart, even when the waiting feels like an eternity. This kind of patience is not easy, but it is essential for living a life that honors God. When we wait for Him, we learn to trust His timing, His plans, and His goodness. We learn to see the beauty in the stillness and the peace that comes from surrendering our desires to His will. As we cultivate patience, we become more like Him, and our lives become a reflection of His presence in the world.\n\n## Prayer\n\nWe ask that You would give us the patience to wait for You, to trust Your timing and Your plans. Help us to be strong and take heart, even in the midst of uncertainty.\n\n## One-Line Application\nWait for the Lord's timing in all things, trusting His goodness and sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
