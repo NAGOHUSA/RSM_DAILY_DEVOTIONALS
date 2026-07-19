@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-19",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 209,
+  "theme": null,
+  "content_markdown": "# A Peaceful Refuge from Life's Storms\n\n## Psalm 91:1-2\n\n\"He who dwells in the shelter of the Most High,  \nwill abide in the shadow of the Almighty.  \nI will say of the Lord, 'He is my refuge and my fortress,  \nmy God, in whom I trust.'\"  \n(Psalm 91:1-2, ESV)\n\n## Reflection\n\nIn the midst of life's turbulent storms, it's easy to become overwhelmed and lose sight of our anchor. But David reminds us that we have a refuge in the Lord. When we dwell in His presence, we find shelter from life's chaos. The Almighty becomes our guardian, protecting us from harm and guiding us through uncertain times. As we trust in God, we can rest in His sovereignty, knowing that He is always with us. This trust is not based on our emotions or circumstances but on God's unchanging character. In the midst of the storm, we can find peace in the stillness of His presence.\n\n## Prayer\n\nWe trust in You, Lord, as our refuge and fortress. Keep us safe from the storms of life and guide us through uncertain times. Help us to rest in Your presence and trust in Your sovereignty.\n\n## One-Line Application\nMay we find peace in the presence of the Almighty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
