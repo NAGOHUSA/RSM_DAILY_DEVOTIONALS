@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-20",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 221,
+  "theme": null,
+  "content_markdown": "# Sowing Seeds of Faith in Uncertain Times\n\n## Scripture\n\n\"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.\" - James 1:2-3 (NIV)\n\n## Reflection\n\nAs we navigate through life's challenges, it's easy to get caught up in fear and anxiety. But James reminds us that trials are not a cause for despair, but rather opportunities for spiritual growth. When we face difficulties, we have a choice: we can allow them to consume us, or we can see them as chances to deepen our faith. By choosing the latter, we can develop perseverance, a quality that will serve us well in the long run. Perseverance is not just about getting through difficult times, but about becoming stronger and more resilient in the process. It's about sowing seeds of faith, even in the midst of uncertainty, and trusting that God will bring about growth and fruitfulness in our lives.\n\n## Prayer\n\nWe pray for the strength to face trials with joy and perseverance, trusting that you will use them to deepen our faith. Give us the courage to see challenges as opportunities for growth, and to sow seeds of faith in uncertain times.\n\n## One-Line Application\n\nFaithful perseverance in trials produces spiritual growth and resilience.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
