@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-21",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 215,
+  "theme": null,
+  "content_markdown": "# Quiet Trust in Troubled Times\n\n## Scripture\n\"Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.\" - John 14:27 (ESV)\n\n## Reflection\nIn the midst of life's turmoil, we often seek peace in the world's solutions. However, true peace comes from a higher source. Jesus' words in John 14:27 remind us that His peace is different from the world's fleeting calm. This peace doesn't eliminate difficulties but gives us the ability to face them with confidence. As we trust in Jesus, we can let go of fear and anxiety, knowing that He is with us and will see us through. In a world that often offers temporary fixes, we can choose to anchor our trust in the unshakeable peace of Christ.\n\n## Prayer\nWe confess, Lord, that our hearts are often troubled by the uncertainties of life. We ask that you give us your peace, the kind that surpasses the world's understanding. Fill us with confidence in your presence and power, and help us to trust in your goodness, even when we don't see it.\n\n## One-Line Application\nWe find peace in life's storms by trusting in Jesus' presence and power.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
