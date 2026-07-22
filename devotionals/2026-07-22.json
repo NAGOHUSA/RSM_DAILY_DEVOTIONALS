@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-22",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 265,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Turbulence\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.\" - Matthew 11:28-29 (NIV)\n\n## Reflection\n\nIn a world filled with chaos and uncertainty, it's easy to become overwhelmed and lose sight of peace. We may try to find rest in temporary solutions or fleeting pleasures, but true peace can only be found in our relationship with God. Jesus invites us to come to him, to take his yoke upon us, and to learn from him. His yoke is not a burden, but a gentle reminder of his love and care for us. As we surrender our burdens to him, we find rest for our souls. We can trust that God is sovereign and in control, even when life is turbulent.\n\nIn this moment, we choose to rest in God's presence, to trust in his goodness and faithfulness. We remember that he is our rock, our refuge, and our peace. We surrender our worries and fears to him, and we find rest in his love.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened, and we ask for your rest. Help us to take your yoke upon us and to learn from your gentle and humble heart. Give us rest for our souls and peace in the midst of turbulence.\n\n## One-Line Application\n\nRest in God's presence, not in temporary solutions or fleeting pleasures.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
