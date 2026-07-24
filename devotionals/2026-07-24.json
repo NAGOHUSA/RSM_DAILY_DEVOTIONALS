@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-24",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 193,
+  "theme": null,
+  "content_markdown": "# Resting in God's Sovereignty\n\n## Psalm 37:5 - \"Commit your way to the Lord, trust also in Him, and He will do it.\" (NIV)\n\n## Reflection\n\nLife can be overwhelming at times. We're faced with uncertainty and unknowns that threaten to disrupt our carefully laid plans. In moments like these, we need to be reminded of God's sovereignty over all things. His wisdom and power are beyond our comprehension, and He is always working for our good, even when we can't see it. Committing our ways to Him means surrendering our need for control and trusting in His goodness, even when things don't make sense to us. This doesn't mean that we won't face challenges or difficulties, but it means that we can face them with confidence, knowing that God is in control. By trusting in Him, we can find peace and rest in the midst of chaos.\n\n## Prayer\n\nWe commit our ways to You, Lord, trusting in Your sovereignty and goodness. Help us to let go of our need for control and to find peace in Your presence.\n\n## One-Line Application\nWe can find peace and rest in God's sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
