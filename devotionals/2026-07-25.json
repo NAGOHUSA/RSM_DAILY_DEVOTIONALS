@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-25",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 197,
+  "theme": null,
+  "content_markdown": "# Rest in the Presence of God\n\n## Scripture\n\n\"Come to me, all you who are weary and burdened, and I will give you rest.\" – Matthew 11:28 (NIV)\n\n## Reflection\n\nIn the midst of life's chaos, it's easy to feel overwhelmed and weary. The world demands our attention, and our to-do lists seem endless. But Jesus invites us to come to Him, to lay down our burdens and find rest in His presence. This rest is not just a feeling, but a reality that transcends our emotions. It's a rest that comes from knowing that our Savior is in control, that He is working all things out for our good. As we abide in His presence, we find strength to face the challenges of each day. We learn to trust in His goodness, to rely on His power, and to wait patiently for His timing.\n\n## Prayer\n\nWe come to you, Lord, weary and burdened. We lay down our cares and our worries at your feet. Give us rest in your presence, and help us to trust in your goodness.\n\n## One-Line Application\n\nWe must surrender our burdens to God and find rest in His presence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
