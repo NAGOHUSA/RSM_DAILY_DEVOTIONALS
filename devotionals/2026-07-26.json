@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-26",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 222,
+  "theme": null,
+  "content_markdown": "# A Summer of Rest in the Lord\n\n## Psalm 37:7 (NIV)\n\n\"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\"\n\n## Reflection\n\nIn a world that constantly demands more, we can easily find ourselves exhausted and anxious. The psalmist reminds us that rest is not just a feeling, but a choice. We choose to be still before the Lord, to wait patiently for Him, and to trust in His goodness. This doesn't mean we avoid challenges or difficulties, but we face them with confidence in His sovereignty. As we learn to be still, we begin to see the world with new eyes - not as a place of chaos and uncertainty, but as a place where God is at work, even in the midst of turmoil. We can trust that He is our Rock, our Shelter, and our Strength.\n\n## Prayer\n\nWe come before You, Lord, and ask for the gift of rest. Help us to be still and wait patiently for You, trusting in Your goodness and sovereignty. Give us eyes to see Your hand at work in our lives, even in the midst of challenges.\n\n## One-Line Application\n\nWe can find rest in the Lord by trusting in His goodness and sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
