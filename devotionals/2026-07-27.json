@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-27",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 216,
+  "theme": null,
+  "content_markdown": "# Finding Peace in Uncertain Times\n\n## Psalm 27:3\n\nThe Lord is my rock, my salvation; whom should I fear? The Lord's presence is my stronghold, I will not be shaken. (Psalm 27:3, NIV)\n\n## Reflection\n\nAs we navigate life's uncertain and turbulent waters, we can find peace in knowing that our Lord is our rock and salvation. He is our stronghold, our place of refuge and security. When fears and doubts arise, we must remind ourselves of this truth and stand firm on the rock of God's presence. We can trust that He is our protector and defender, and that we are safe in His care. This knowledge gives us the courage to face challenges head-on and to remain steadfast in our faith. As we walk through life's trials, let us cling to the Lord and remember that He is our rock, our salvation, and our hope.\n\n## Prayer\n\nWe confess, Lord, that we often fear and doubt, but we remember that You are our rock and salvation. We cling to Your presence and trust in Your protection. Give us courage and strength to face life's challenges with faith and confidence in You.\n\n## One-Line Application\nWe can stand firm in the midst of uncertainty, trusting in the Lord's presence as our rock and salvation.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
