@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-28",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 207,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Sovereignty and Goodness\n\n## Psalm 107:1\n\n\"Give thanks to the Lord, for he is good; his love endures forever! Let the redeemed of the Lord tell their story—those he redeemed from the hand of the foe,\" (Psalm 107:1, NIV).\n\n## Reflection\n\nLife can be unpredictable and overwhelming, but we can find peace in the midst of chaos when we remember God's sovereignty and goodness. His love endures forever, and He redeems us from the hand of our enemies. When we face difficulties, we must remind ourselves of God's goodness and faithfulness in the past. We can trust that He is working everything out for our good, even when we don't understand what's happening. As we walk through trials, we can share our story of redemption with others, giving thanks to God for His goodness and love.\n\n## Prayer\n\nWe thank you, Lord, for your goodness and love that endures forever. Help us to trust in your sovereignty and redemption, even in the midst of chaos and uncertainty. Remind us of your faithfulness in the past, and give us the courage to share our story of redemption with others.\n\n## One-Line Application\nRemembering God's goodness can bring peace in the midst of life's chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
