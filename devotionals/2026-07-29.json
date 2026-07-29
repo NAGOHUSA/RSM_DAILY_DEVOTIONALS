@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-29",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 199,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Love\n\n## Psalm 139:5\n\nYou have scanned me inside and out and know me by heart;\nyou know exactly how I think, move, and breathe.\n\n## Reflection\n\nWhen we feel overwhelmed by life's challenges, we often wonder if God is near or if He cares about our struggles. But Psalm 139 reminds us that God is intimately aware of our thoughts, emotions, and circumstances. He knows the deepest desires of our hearts and the fears that hold us back. This knowledge is not limited to our past or present; it also includes our future, because God is not just a present help but also a future hope. He is the One who has a plan to prosper us, not to harm us (Jeremiah 29:11). As we navigate life's uncertainties, we can be confident that God's love is not only present but also all-knowing and all-powerful.\n\n## Prayer\n\nWe ask that you would remind us of your presence and love in times of uncertainty. Help us to trust your sovereignty and wisdom, even when we don't fully understand what's happening.\n\n## One-Line Application\nWe trust God's intimate knowledge of us to guide us through life's challenges.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
