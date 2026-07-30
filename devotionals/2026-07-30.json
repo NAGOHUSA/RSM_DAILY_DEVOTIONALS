@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-30",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Trusting in God's Sovereignty\n\n## Scripture\n\n\"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance. Let perseverance finish its work so that you may be mature and complete, not lacking anything.\" - James 1:2-4\n\n## Reflection\n\nAs we face various trials in life, it's easy to become overwhelmed and lose sight of God's sovereignty. However, James encourages us to see these trials as opportunities for growth and maturity in our faith. By persevering through difficulties, we develop a deeper understanding of God's character and His plan for our lives. This doesn't mean that trials are enjoyable or easy, but rather that we can trust in God's goodness and sovereignty even in the midst of hardship. We can choose to see trials as a chance to become more like Christ, to develop our trust in Him, and to become more mature and complete in our faith.\n\n## Prayer\n\nWe trust in Your sovereignty, Lord, and ask that You help us to see trials as opportunities for growth and maturity. Give us the strength and perseverance to finish the work You have started in us.\n\n## One-Line Application\n\nWe should trust God's sovereignty even in the midst of life's trials and difficulties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
