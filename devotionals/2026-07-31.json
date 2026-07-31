@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-31",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# Resting in God's Sovereignty\n\n## Matthew 10:29-30\n\nAre not two sparrows sold for a penny? Yet not one of them will fall in a trap apart from your Father's will. And as for you, even the hairs of your head are all numbered. (Matthew 10:29-30, NIV)\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to feel overwhelmed and uncertain about our future. We may struggle to understand God's plan or worry about the unknown. However, Scripture reminds us that God is sovereign over every detail, including the smallest aspects of our lives. The number of hairs on our head is not a coincidence; it's a reflection of God's meticulous care. This truth can calm our fears and grant us peace, even in the midst of turmoil. When we rest in God's sovereignty, we can trust that He is working all things together for our good (Romans 8:28). We can release our grip on control and instead, trust in His goodness and wisdom.\n\n## Prayer\n\nWe confess our tendency to worry and fear. We ask for the peace that comes from trusting in Your sovereignty, Lord. Help us to rest in Your goodness and wisdom.\n\n## One-Line Application\nTrust in God's sovereignty, releasing control to His goodness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
