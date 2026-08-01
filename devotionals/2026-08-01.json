@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-01",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 242,
+  "theme": null,
+  "content_markdown": "# Abiding in the Vine\n\n## Scripture\n\n\"I am the true vine, and my Father is the gardener. Every branch in me that does not bear fruit he takes away, and every branch that bears fruit he prunes, that it may bear more fruit.\" - John 15:1-2\n\n## Reflection\n\nAs we walk with Christ, we must continually recognize our dependence on Him. The image of the vine reminds us that we are not self-sustaining branches, but rather branches that draw life and nourishment from the vine. This means that we must surrender our desire for self-sufficiency and instead rely on the life-giving power of Christ. In our pursuit of spiritual growth, we must be willing to let go of the things that hinder our fruitfulness and allow God to prune us, so that we may bear more fruit. This is not a painful process, but rather a refining one that brings us closer to the heart of God. As we abide in Christ, we will find that our lives are transformed, and we will bear fruit that honors Him.\n\n## Prayer\n\nWe thank you, Lord, for being the true vine in our lives, and we ask that you would prune us, that we may bear more fruit. Help us to continually recognize our dependence on you and to surrender our desire for self-sufficiency.\n\n## One-Line Application\n\nAs branches connected to the vine, we must rely on Christ for spiritual growth and fruitfulness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
