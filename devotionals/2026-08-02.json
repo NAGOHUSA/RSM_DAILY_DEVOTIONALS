@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-02",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 183,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Gentle Guidance\n\n## Scripture\n\"For the Lord is our God, the Holy One of Israel, our Savior.\" - Isaiah 41:14 (ESV)\n\n## Reflection\nAs we navigate life's challenges and uncertainties, we often find ourselves in need of guidance and comfort. The Lord reminds us that He is our Shepherd, our Savior, and our Rock. His presence is a constant source of reassurance, empowering us to trust in His goodness and wisdom. Just as a shepherd gently guides his flock through unfamiliar territory, the Lord gently leads us through life's trials, protecting us from harm and directing us towards His best plans. We can rest in the knowledge that He is always with us, always working for our good. May we learn to listen for His gentle voice, to trust in His guidance, and to follow Him closely.\n\n## Prayer\nWe thank you, Lord, for being our Shepherd and Savior. Guide us gently through life's challenges, and help us to trust in Your goodness and wisdom.\n\n## One-Line Application\nTrust in the Lord's gentle guidance, and He will direct your path.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
