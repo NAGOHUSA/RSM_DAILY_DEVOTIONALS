@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-04",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 193,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\n\"Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.\" - Philippians 4:6 (NIV)\n\n## Reflection\n\nIn a world filled with uncertainty and chaos, it's easy to get caught up in anxiety and worry. But the Bible reminds us that we don't have to be controlled by fear. Instead, we can bring our concerns to God in prayer, with thanksgiving and trust. This doesn't mean our problems will disappear, but it means we can find peace in the midst of chaos. We can learn to trust God's sovereignty and goodness, even when we don't understand what's happening. As we pray and seek God's guidance, we can experience a deep sense of peace that surpasses our understanding.\n\n## Prayer\n\nWe confess that we often let anxiety and worry control us. Lord, help us to present our requests to you with thanksgiving and trust. Give us peace that surpasses our understanding as we bring our concerns to you.\n\n## One-Line Application\n\nPrayer is the key to finding peace in the midst of chaos and uncertainty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
