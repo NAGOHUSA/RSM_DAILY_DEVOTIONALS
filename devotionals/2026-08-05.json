@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-05",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# Finding Peace in a World of Chaos\n\n## Psalm 46:10\n\n\"Be still and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" - Psalm 46:10 (ESV)\n\n## Reflection\n\nLife can be overwhelming, and it's easy to get caught up in the chaos that surrounds us. But in the midst of it all, we're reminded to be still and know that God is in control. This isn't a call to be passive, but rather to be intentional about seeking Him in the midst of our busy lives. When we take time to quiet our minds and hearts, we're reminded that God is our rock, our refuge, and our strength. We're not alone, and we don't have to face our challenges on our own. As we learn to be still, we're given the opportunity to trust in God's sovereignty and to rest in His peace.\n\n## Prayer\n\nWe pray for the peace that only You can give, God. Help us to be still and know that You are in control. Give us the courage to trust in Your sovereignty and to rest in Your peace.\n\n## One-Line Application\nWe can find peace in a world of chaos by trusting in God's sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
