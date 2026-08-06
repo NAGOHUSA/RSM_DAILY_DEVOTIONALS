@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-06",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 205,
+  "theme": null,
+  "content_markdown": "# Peace in the Midst of Chaos\n\n## Scripture\n\"Come to me, all you who are weary and burdened, and I will give you rest.\"  \nMatthew 11:28 (NIV)\n\n## Reflection\nLife can be overwhelming at times, with its endless demands and responsibilities. We get caught up in trying to control everything, but in doing so, we forget that we're not alone. Jesus invites us to come to Him, to lay down our burdens and find rest in His presence. This isn't a call to escapism, but a reminder that our worth and value come from Him, not from our accomplishments. When we focus on Jesus, we can let go of our need to control and trust in His sovereignty. As we do, we'll find peace in the midst of chaos, peace that's not dependent on circumstances, but on our relationship with Him.\n\n## Prayer\nWe thank you, Lord, for inviting us to come to you for rest. Help us to lay down our burdens and trust in your sovereignty. Give us peace in the midst of chaos, and remind us that our worth and value come from you.\n\n## One-Line Application\nWe can find peace in the midst of chaos by trusting in Jesus' sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
