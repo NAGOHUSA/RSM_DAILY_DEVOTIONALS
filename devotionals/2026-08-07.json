@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-07",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 208,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Midst of Chaos\n\n## Psalm 46:10\n\n*Be still and know that I am God; I will be exalted among the nations, I will be exalted in the earth!* (Psalm 46:10 ESV)\n\n## Reflection\n\nIn the midst of chaos and uncertainty, it's easy to get caught up in worry and anxiety. But Psalm 46:10 reminds us that there is a higher authority at work. We can choose to be still and trust in God's sovereignty, knowing that He will ultimately be exalted. This doesn't mean that our problems will disappear, but it means that we can have peace in the midst of them. We can trust that God is working all things together for our good, even when we can't see the bigger picture. By choosing to be still and trust in God, we can experience the peace that surpasses human understanding.\n\n## Prayer\n\nWe ask that You would give us the strength to be still and trust in Your sovereignty, even when the world around us is chaotic. Help us to know that You are God and that You will be exalted. Give us Your peace that surpasses all understanding.\n\n## One-Line Application\n\nWe can trust God's sovereignty in the midst of chaos.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
