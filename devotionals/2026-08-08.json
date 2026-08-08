@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-08",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 258,
+  "theme": null,
+  "content_markdown": "# Trust in God's Sovereignty\n\n## Scripture\n\n\"But we have this treasure in jars of clay, to show that the surpassing power belongs to God and not to us. We are afflicted in every way, but not crushed; perplexed, but not driven to despair; persecuted, but not forsaken; struck down, but not destroyed; always carrying in the body the death of Jesus, so that the life of Jesus may also be manifested in our bodies.\" - 2 Corinthians 4:7-10 (ESV)\n\n## Reflection\n\nIn the midst of trials and afflictions, we often question God's sovereignty and plan. However, the apostle Paul reminds us that even in our jars of clay, we possess the treasure of God's power. This power is not limited by our weaknesses or circumstances. As we face hardships, we must remember that we are not alone. The same power that raised Jesus from the dead resides within us. We may be perplexed, persecuted, and struck down, but God's power is at work, even in our darkest moments. It is a reminder that our struggles are not a sign of God's absence, but rather a manifestation of His presence and power at work in our lives.\n\n## Prayer\n\nWe pray that you would remind us of your sovereignty in the midst of trials and afflictions. Help us to see your power at work in our weaknesses, and to trust in your goodness even when we don't understand your plan.\n\n## One-Line Application\n\nWe must trust in God's surpassing power, not our own strength, in times of affliction.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
