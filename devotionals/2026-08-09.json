@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-09",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 218,
+  "theme": null,
+  "content_markdown": "# Gentle Surrender to the Shepherd's Voice\n\n## Scripture\n\n\"For you know the way to Josef's tent, and you will see the oxen standing beside it, with their heads tied by the stake.\" - Exodus 32:13 (ESV)\n\n## Reflection\n\nIn a chaotic world, it's easy to get lost and uncertain about the path ahead. We may feel like we have to take charge and navigate our own way. But the Lord reminds us that He is our Shepherd, and we are His sheep. We are called to surrender to His voice and guidance. Just as the Israelites were instructed to follow Moses to the promised land, we are called to follow Jesus to our heavenly home. The Lord knows the way and has prepared the path for us. We don't have to try to figure it out on our own or rely on our own strength. Instead, we can trust in His goodness and sovereignty. As we surrender to the Shepherd's voice, we will find peace, guidance, and direction.\n\n## Prayer\n\nWe surrender to your voice, dear Shepherd, and ask for your guidance and direction. Help us to trust in your goodness and sovereignty, and to follow you confidently to our heavenly home.\n\n## One-Line Application\n\nSurrendering to the Shepherd's voice brings peace and clarity in uncertain times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
