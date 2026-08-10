@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-10",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 210,
+  "theme": null,
+  "content_markdown": "# Rest in the Shepherd's Care\n\n## Psalm 23:4 (NIV)\n\nEven though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff comfort me.\n\n## Reflection\n\nAs we navigate life's challenges, it's easy to become overwhelmed by fear and anxiety. But in Psalm 23:4, David reminds us that God is always present, even in the darkest moments. The image of a shepherd's rod and staff is particularly comforting, as it speaks to God's protection and guidance. Just as a shepherd uses his rod to gently guide his sheep and his staff to protect them from harm, God uses His presence to comfort and guard us. This promise is not just for a select few, but for all believers. We can rest in the knowledge that our Good Shepherd is always with us, working to bring us peace and reassurance in the midst of uncertainty.\n\n## Prayer\n\nWe praise you, God, for your presence in our lives. Help us to trust in your protection and guidance, especially when we walk through dark valleys. Comfort us with your rod and staff, and remind us of your unwavering love.\n\n## One-Line Application\nTrust God's presence in your life, especially in difficult times.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
