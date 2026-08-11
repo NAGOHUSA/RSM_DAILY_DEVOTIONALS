@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T10:56:20.292Z",
+  "generated_at": "2026-08-11T10:21:42.095Z",
   "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
   "channel": {
     "title": "ROCK SOLID MAN Podcast",
@@ -12,8 +12,18 @@
     "youtube": "https://www.youtube.com/@RSMMINISTRY",
     "substack": "https://rocksolidman.substack.com/podcast"
   },
-  "episode_count": 3,
+  "episode_count": 4,
   "episodes": [
+    {
+      "title": "Loving Our Wives Like Christ - Part 1 of 2",
+      "link": "https://rocksolidman.substack.com/p/loving-our-wives-part-1-of-2",
+      "guid": "substack:post:210692870",
+      "pub_date": "2026-08-11T01:54:53.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/210692870/c6c51b451461a58a45f177a3489f643e.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/210692870/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
     {
       "title": "What Is Biblical Masculinity",
       "link": "https://rocksolidman.substack.com/p/what-is-biblical-masculinity",
@@ -21,7 +31,7 @@
       "pub_date": "2026-08-04T00:37:53.000Z",
       "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
       "audio_url": "https://api.substack.com/feed/podcast/209717503/5c45cc4312552418882e5a2d8c3ec300.mp3",
-      "duration": "1:33:55",
+      "duration": "",
       "image": "https://substackcdn.com/feed/podcast/9723392/post/209717503/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
     },
     {
@@ -29,9 +39,9 @@
       "link": "https://rocksolidman.substack.com/p/rock-solid-man-episode-001",
       "guid": "substack:post:206879890",
       "pub_date": "2026-07-14T23:00:00.000Z",
-      "summary": "Rock Solid Man exists to call men back to the foundation — Jesus Christ. We gather monthly for worship, a message, and brotherhood, committed to building men who are solid in their faith, their families, and their communities.We help men build unshakable strength — physically, mentally, and spiritually. Through proven strategies, expert guidance, and a community of iron-sharpening-iron brotherh…",
+      "summary": "Rock Solid Man exists to call men back to the foundation — Jesus Christ. We gather monthly for worship, a message, and brotherhood, committed to building men who are solid in their faith, their families, and their communities. We help men build unshakable strength — physically, mentally, and spiritually. Through proven strategies, expert guidance, and a community of iron-sharpening-iron brother…",
       "audio_url": "https://api.substack.com/feed/podcast/206879890/3fa2c43fd864e5a840bbd02f05ad1f8d.mp3",
-      "duration": "1:37:49",
+      "duration": "",
       "image": "https://substackcdn.com/feed/podcast/9723392/post/206879890/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
     },
     {
@@ -39,9 +49,9 @@
       "link": "https://rocksolidman.substack.com/p/rock-solid-man-podcast-coming-soon",
       "guid": "substack:post:204538092",
       "pub_date": "2026-07-01T22:21:47.000Z",
-      "summary": "Welcome to the Rock Solid Man podcast – where men are called to be unshakable. In a culture that’s lost its definition of manhood, we’re going back to God’s blueprint. This is your weekly source of truth, encouragement, and practical wisdom for becoming the husband, father, and leader you were made to be.No more settling. No more coasting. Just real talk, real faith, and a brotherhood of men co…",
+      "summary": "Welcome to the Rock Solid Man podcast – where men are called to be unshakable. In a culture that’s lost its definition of manhood, we’re going back to God’s blueprint. This is your weekly source of truth, encouragement, and practical wisdom for becoming the husband, father, and leader you were made to be. No more settling. No more coasting. Just real talk, real faith, and a brotherhood of men c…",
       "audio_url": "https://api.substack.com/feed/podcast/204538092/0db8cf79022d1dd5d734da66d3dbb1f9.mp3",
-      "duration": "0:48",
+      "duration": "",
       "image": "https://substackcdn.com/feed/podcast/9723392/post/204538092/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
     }
   ]
