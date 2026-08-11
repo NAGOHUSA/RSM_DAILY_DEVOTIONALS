@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-11",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 219,
+  "theme": null,
+  "content_markdown": "# Abiding in the Vine\n\n## John 15:4 - \"Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me.\" (John 15:4, ESV)\n\n## Reflection\n\nIn a world that values productivity and achievement, it's easy to get caught up in the pressure to constantly produce and accomplish. We can find ourselves striving to bear fruit, to make a difference, and to leave a lasting impact. But what happens when we're not feeling productive? What happens when we're struggling to find our place or purpose in life? \n\nThe answer lies in our abiding relationship with Christ. When we focus on our relationship with the Vine, our fruitfulness will naturally follow. Abiding in Christ means surrendering our need to control and produce, and instead, simply resting in His presence and allowing Him to work through us. It's a posture of surrender, trust, and dependence on God's power and provision.\n\n## Prayer\n\nWe confess our tendency to try to produce fruit on our own, rather than abiding in Christ. Help us to rest in Your presence, Lord, and to trust in Your power to bear fruit through us.\n\n## One-Line Application\n\nWe must prioritize a deepening relationship with Christ for true fruitfulness to occur.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
