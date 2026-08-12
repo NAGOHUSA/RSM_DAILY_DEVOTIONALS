@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-12",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 217,
+  "theme": null,
+  "content_markdown": "# Finding Peace in the Middle of Chaos\n\n## Scripture\n\n\"Be still before the Lord and say, 'Lord, what do you want me to do?'\" - Psalm 37:7 (NLT)\n\n## Reflection\n\nLife can be overwhelming, and it's easy to get caught up in the chaos that surrounds us. We get anxious about our to-do lists, worried about what others think of us, and consumed by our own fears and doubts. But what if we took a step back, breathed deeply, and asked God what He wants us to do? It's not about avoiding problems or responsibilities, but about seeking His guidance and wisdom in the midst of chaos. We don't have to have all the answers or fix everything on our own. We can trust that God is sovereign and in control, and that He is working everything out for our good (Romans 8:28). When we slow down, quiet our minds, and seek God's direction, we can find peace even in the midst of chaos.\n\n## Prayer\n\nWe confess that we often try to control everything on our own. Lord, teach us to be still and seek Your guidance in all things. Help us to trust in Your sovereignty and wisdom.\n\n## One-Line Application\n\nSeek God's guidance in the midst of chaos and trust in His sovereignty.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
