@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-13",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 224,
+  "theme": null,
+  "content_markdown": "# A Shepherd's Guidance in Times of Need\n\n## Scripture\n\"But you, O Lord, are our Father. We are the clay, and you are our potter; we are all the work of your hand.\" - Isaiah 64:8 (ESV)\n\n## Reflection\nAs we navigate life's challenges, it's easy to feel overwhelmed and uncertain about the future. We may wonder if God is still in control or if He has lost sight of our struggles. However, the Bible reminds us that we are not orphans, but beloved children of the Almighty. As our Father, He is intimately involved in every aspect of our lives, shaping us into the people He desires us to be. We are His masterpieces, created with purpose and love. When we feel lost or helpless, we must remember that our Father is not distant or uninterested. He is actively working in our lives, guiding us through the trials and refining us for His glory.\n\n## Prayer\nWe thank You, Father, for your loving care and guidance in our lives. Help us to trust in Your goodness and sovereignty, even when we don't understand Your ways. Give us the strength to rest in Your loving hands and to trust that You are working all things together for our good.\n\n## One-Line Application\nTrust in God's loving care and sovereignty in times of need.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
