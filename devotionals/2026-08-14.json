@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-14",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 177,
+  "theme": null,
+  "content_markdown": "# Seeking Refuge in His Presence\n\n## Scripture\n\"The Lord will command his loving kindness in the daytime; and his song shall be with me in the night: a prayer to the God of my life.\" \n- Psalm 42:8 (KJV)\n\n## Reflection\nAs we navigate life's trials and uncertainties, it's essential to prioritize a consistent relationship with God. In the midst of chaos and darkness, we can find solace in His loving kindness. His presence is a constant reminder that we are not alone and that He is actively working on our behalf. By cultivating a deeper understanding of His character and nature, we can learn to trust in His unwavering love and care.\n\n## Prayer\nWe come before You, Lord, seeking refuge in Your presence. We ask that You would envelop us in Your loving kindness and fill our hearts with Your song. Help us to trust in Your goodness and sovereignty, even in the darkest of times.\n\n## One-Line Application\nWe can find peace and comfort in God's loving kindness, especially in times of darkness.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
