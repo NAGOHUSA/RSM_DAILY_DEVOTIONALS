@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-15",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 209,
+  "theme": null,
+  "content_markdown": "# Trusting in Providence\n\n## Scripture\n\"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.\" - James 1:2-3 (NIV)\n\n## Reflection\nIn the midst of trials, it can be challenging to find joy. However, as James reminds us, trials are not something to be feared but rather to be seen as opportunities for growth. When we face difficulties, we have the chance to develop perseverance, a crucial quality for our spiritual journeys. This perseverance stems from our trust in God's sovereignty and provision. By trusting in His providence, we can stand firm in the midst of turmoil, relying on His strength and guidance to see us through. This trust also gives us a deeper understanding of God's character and nature, allowing us to appreciate His goodness even in the midst of pain.\n\n## Prayer\nWe trust in Your sovereignty, Lord, and thank You for the opportunities to grow in perseverance. Help us to see trials as chances for spiritual growth, and give us the strength to stand firm in the midst of turmoil.\n\n## One-Line Application\nWe can find joy in the midst of trials by trusting in God's sovereignty and providence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
