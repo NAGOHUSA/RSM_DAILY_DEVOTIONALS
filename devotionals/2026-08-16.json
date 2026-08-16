@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-16",
+  "provider": "groq",
+  "model": "llama-3.1-8b-instant",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 211,
+  "theme": null,
+  "content_markdown": "# Rooted in God's Unchanging Love\n\n## Scripture\n\"For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.\" - Romans 8:38-39\n\n## Reflection\nWe often find ourselves swaying with the winds of change, uncertain about our standing with God. But Romans 8:38-39 reminds us of the unshakeable foundation of God's love. It's not dependent on our circumstances or actions, but rooted in the person of Jesus Christ. This love is not just a feeling, but a reality that holds us fast, even in the midst of uncertainty. As we navigate life's challenges, we can trust that this love remains unwavering, a constant presence that guides us through the storm.\n\n## Prayer\nWe pray for the assurance of God's love in our lives, that we may stand firm in its security. Help us to fix our eyes on Jesus, the author and perfecter of our faith, and to trust in the unchanging love that holds us.\n\n## One-Line Application\nWe are secure in God's unchanging love that holds us through life's uncertainties.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
