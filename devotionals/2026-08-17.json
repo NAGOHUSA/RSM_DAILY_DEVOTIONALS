@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-17",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 288,
+  "theme": null,
+  "content_markdown": "# The Quiet Strength of Waiting\n\n## Scripture\n\n\"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" — Psalm 37:7\n\n## Reflection\n\nWaiting feels passive, but Scripture reveals it as an active posture of trust. The psalmist doesn't say \"be idle\" but \"be still\"—a deliberate quieting of our anxious hearts before God. In a world that glorifies instant results and rapid responses, waiting can feel like failure. Yet God often works most powerfully in the spaces between our asking and His answering.\n\nConsider Abraham, who waited decades for Isaac. Joseph, who waited years in prison before Pharaoh's court. The disciples, who waited in the upper room for the Spirit. Each waiting season shaped them more than the fulfillment itself. Their stillness became the soil where faith grew deep roots.\n\nWhen we fret over others' success or our own stalled progress, we subtly accuse God of mismanagement. But His timing isn't delay—it's preparation. The waiting room is where He recalibrates our desires, purifies our motives, and teaches us that He, not the answer, is our ultimate portion.\n\nToday, if you find yourself in a waiting season, resist the urge to force doors open or manufacture outcomes. Instead, practice stillness. Let your unmet expectations become an altar of trust. The One who sees the end from the beginning is worthy of your patient hope.\n\n## Prayer\n\nLord, teach us to wait with open hands and quiet hearts. Quiet our restless striving and remind us that You are working even when we cannot see. Help us find our rest in You alone. Amen.\n\n## One-Line Application\n\nToday, choose stillness over striving; trust God's timing.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
