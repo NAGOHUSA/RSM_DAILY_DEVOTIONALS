@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-18",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 275,
+  "theme": null,
+  "content_markdown": "# The Quiet Power of Waiting\n\n## Scripture\n\n\"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" — Psalm 37:7 (NIV)\n\n## Reflection\n\nWaiting feels like wasted time in a world that rewards speed. Yet David writes this psalm as an older man, having learned that God’s timing is not our delay—it’s His precision. The Hebrew word for \"be still\" literally means to \"sink down\" or \"let go.\" It’s the posture of a child who stops struggling in a parent’s arms.\n\nFretting, David suggests, is a form of spiritual amnesia. We forget who holds the outcome. When we see injustice flourish or our own prayers seem unanswered, the temptation is to grab control. But patient waiting isn’t passive resignation—it’s active trust. It’s choosing to watch God work rather than demanding He follow our schedule.\n\nConsider what waiting produces: roots that grow deep before the tree rises tall. Joseph waited thirteen years. Moses waited forty. Jesus waited thirty. In each case, the wait wasn't preparation for the work—it *was* the work. Your current season of waiting may be God’s most formative assignment.\n\nToday, when impatience rises, name it honestly. Then release it. The One who sees the sparrow’s fall and numbers your hairs is not late. He’s right on time—His time.\n\n## Prayer\n\nLord, we confess our restless hearts. Teach us to sink into Your presence, releasing our timelines and trusting Your perfect rhythm. Quiet our fretting, deepen our faith, and help us wait with expectant hope. Amen.\n\n## One-Line Application\n\nRelease your timeline today; trust God’s perfect timing.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
