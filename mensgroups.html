@@ -87,6 +87,29 @@
   }
   .nav-links a:hover { color: var(--green-light); }
 
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 101;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--cream);
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+  }
+  .nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav-toggle.open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
   /* HERO */
   .hero {
     min-height: 62vh;
@@ -375,13 +398,52 @@
   footer a:hover { color: var(--cream); }
 
   @media (max-width: 768px) {
-    nav { padding: 1rem 1.25rem; }
-    .nav-links { gap: 1rem; }
-    .nav-links a { font-size: 0.7rem; }
-    .hero { padding: 7.5rem 1.5rem 3rem; }
+    nav { padding: 0.9rem 1.25rem; }
+    section { padding: 2.75rem 1.25rem; }
+    .hero { padding: 6.5rem 1.25rem 2.75rem; min-height: auto; }
+    .hero-title { font-size: clamp(2.6rem, 11vw, 4rem); }
+    .hero-verse { font-size: 1rem; }
+    .hero-sub { font-size: 0.88rem; }
+    .intro-card { padding: 1.35rem 1.5rem; font-size: 0.92rem; }
+    .filters { gap: 0.5rem; }
+    .filters .filters-label { width: 100%; margin-bottom: 0.25rem; }
+    .filter-btn { padding: 0.65rem 1.1rem; font-size: 0.72rem; min-height: 40px; flex: 1 1 auto; text-align: center; }
+    .group-links a { display: inline-block; padding: 0.25rem 0; }
+    .groups-grid { grid-template-columns: 1fr; gap: 1.1rem; }
+    .city-block h3 { font-size: 1.6rem; flex-wrap: wrap; gap: 0.5rem; }
+    .cta-section h2 { font-size: clamp(1.8rem, 8vw, 2.6rem); }
+    footer { padding: 2rem 1.25rem; }
   }
-  @media (max-width: 560px) {
-    .nav-links { display: none; }
+
+  @media (max-width: 640px) {
+    .nav-toggle { display: flex; }
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      gap: 0;
+      background: rgba(26,26,26,0.97);
+      border-top: 1px solid rgba(58,122,74,0.3);
+      padding: 0.5rem 0 1rem;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links li { width: 100%; }
+    .nav-links a {
+      display: block;
+      padding: 0.85rem 1.5rem;
+      font-size: 0.85rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    nav { position: fixed; flex-wrap: wrap; }
+  }
+
+  @media (max-width: 400px) {
+    .hero-logo { max-width: 88px; }
+    .hero-title { font-size: clamp(2.2rem, 12vw, 3.2rem); }
+    .group-card { padding: 1.25rem; }
   }
 </style>
 </head>
@@ -389,9 +451,12 @@
 
 <div class="texture-bg"></div>
 
-<nav>
+<nav id="main-nav">
   <a class="nav-logo" href="https://rocksolidman.org"><span>Rock</span> Solid Man</a>
-  <ul class="nav-links">
+  <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
     <li><a href="https://rocksolidman.org/events.html">Events</a></li>
     <li><a href="https://rocksolidman.org/about.html">About</a></li>
     <li><a href="https://rocksolidman.org/mission.html">Mission</a></li>
@@ -621,6 +686,23 @@ function render(filter) {
     block.innerHTML = `<h3>${city} <span class="count">${items.length} group${items.length === 1 ? '' : 's'}</span></h3>
       <div class="groups-grid">${items.map(cardHtml).join('')}</div>`;
     container.appendChild(block);
+  });
+}
+
+const navToggle = document.getElementById('nav-toggle');
+const navLinks = document.getElementById('nav-links');
+if (navToggle && navLinks) {
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open', isOpen);
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  navLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
   });
 }
 
