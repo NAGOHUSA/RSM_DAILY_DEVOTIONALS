@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-19",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 238,
+  "theme": null,
+  "content_markdown": "# The Quiet Strength of Waiting\n\n## Scripture\n\n\"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" — Psalm 37:7\n\n## Reflection\n\nWaiting feels passive, but Scripture frames it as an act of holy resistance. When we refuse to fret, we actively choose trust over anxiety. The psalmist knew the temptation: watching wrongdoers prosper while we struggle can ignite envy or outrage. Yet God calls us to stillness—not the stillness of resignation, but the stillness of a child resting in a parent’s arms.\n\nPractically, this means releasing the urge to control outcomes. It means praying instead of scrolling, breathing instead of rehearsing grievances. Waiting patiently doesn’t ignore injustice; it entrusts it to the Judge who sees all. Your quiet trust becomes a testimony louder than any protest.\n\nToday, notice where you’re tempted to rush God’s timing. Perhaps in a relationship, a career decision, or a healing process. Bring that tension to Him. Let stillness be your strength, not your weakness. The One who holds time itself is never late.\n\n## Prayer\n\nLord, teach us to wait without fretting. Quiet our restless hearts and remind us that Your timing is perfect. Help us trust Your justice and rest in Your love, even when we cannot see the end. Amen.\n\n## One-Line Application\n\nWait patiently today; let stillness be your act of faith.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
