@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-20",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 265,
+  "theme": null,
+  "content_markdown": "# The Shepherd Who Carries Us Home\n\n## Scripture\n\n“He tends his flock like a shepherd: He gathers the lambs in his arms and carries them close to his heart; he gently leads those that have young.” — Isaiah 40:11\n\n## Reflection\n\nWhen life feels heavy, it’s easy to believe we must be strong enough to carry our own burdens. But Isaiah paints a different picture: God doesn’t demand our strength—He offers His. The shepherd doesn’t scold the weary lamb for falling behind; He stoops down, gathers it up, and holds it close to His heart. There is no shame in needing to be carried.\n\nNotice the tenderness in the phrase “close to his heart.” This isn’t a distant, detached God. He draws near to the fragile, the tired, the ones who’ve lost their way. And for those “that have young”—the parents, the leaders, the caregivers—He leads gently, not with harsh urgency. He knows your pace, your limits, your sleepless nights.\n\nToday, you might feel like that lamb—wandering, exhausted, or overwhelmed. The good news is that you don’t need to have it all together. Your Shepherd sees you, and He’s already moving toward you. Let Him lift the weight you were never meant to carry alone. Rest in His arms; He knows the way home.\n\n## Prayer\n\nFather, thank You for gathering us when we are weak. Teach us to release our burdens into Your gentle hands, trusting that You lead us with love. Carry us close to Your heart today. Amen.\n\n## One-Line Application\n\nLet God carry what you cannot—today, rest in His arms.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
