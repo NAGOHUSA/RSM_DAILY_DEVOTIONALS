@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-21",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 257,
+  "theme": null,
+  "content_markdown": "# When the Way Is Hidden\n\n## Scripture\n\n\"Your word is a lamp for my feet, a light on my path.\" — Psalm 119:105\n\n## Reflection\n\nWe often want floodlights—clear, sweeping visibility of the next five years. God gives us lamps: enough light for the next step. The psalmist doesn't ask for a map; he asks for a lamp. There's a difference between knowing the destination and seeing the path.\n\nIn 2026, we face decisions that feel weighty: career moves, family shifts, financial choices. The temptation is to wait until everything is clear before moving. But lamps aren't meant for distant horizons—they're meant for dark, uneven ground right beneath you. The light is sufficient, not exhaustive.\n\nConsider how you've walked with God before. Looking back, you can trace His faithfulness even in seasons when the next step felt blind. That's the nature of walking by faith: obedience precedes understanding. The lamp doesn't show the whole mountain; it shows where to place your foot.\n\nWhat step is before you today? Not the whole staircase—just the next step. Open the Word, pray for wisdom, and move. The light will meet you there. God isn't hiding the path to test you; He's illuminating it one faithful step at a time.\n\n## Prayer\n\nLord, forgive us for demanding floodlights when You give lamps. Teach us to trust Your Word for today's step, not tomorrow's mountain. Walk with us, and make our feet steady in the dark. Amen.\n\n## One-Line Application\n\nTake one obedient step today, trusting the lamp you've been given.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
