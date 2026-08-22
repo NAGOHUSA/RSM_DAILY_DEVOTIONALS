@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-22",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 275,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of God in Waiting\n\n## Scripture\n\n\"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" — Psalm 37:7\n\n## Reflection\n\nWaiting feels like wasted time, especially when we watch others advance while we remain stuck. The psalmist knew this ache. He watched the wicked prosper and felt the injustice burn. Yet he doesn't tell us to fight or force our way forward—he tells us to be still.\n\nStillness before God is not passive resignation. It's active trust. When we stop fretting, we create space for God to work in ways we cannot see. The Hebrew word for \"wait\" here carries the sense of twisting a rope—becoming intertwined with God's timing rather than straining against it.\n\nConsider what waiting actually produces: patience, humility, and a deeper dependence on God's character rather than our circumstances. In the silence, we learn that God's delays are not denials. He is arranging what we cannot arrange, opening doors we cannot see, and building in us a faith that can withstand any outcome.\n\nToday, your waiting is not empty. It is filled with the quiet work of God. Resist the urge to compare your chapter to someone else's. Your story is being written by a faithful hand, and every pause has purpose.\n\n## Prayer\n\nLord, teach us to be still when our hearts race and our minds fret. Help us trust Your timing over our urgency, and find peace in Your presence while we wait. Amen.\n\n## One-Line Application\n\nRelease your grip on timing; God is working in the wait.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
