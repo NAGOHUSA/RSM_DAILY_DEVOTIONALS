@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-23",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 256,
+  "theme": null,
+  "content_markdown": "# The Quiet Strength of Steadfast Love\n\n## Scripture\n\"Let love be genuine. Abhor what is evil; hold fast to what is good. Love one another with brotherly affection. Outdo one another in showing honor.\" — Romans 12:9–10\n\n## Reflection\nThese verses arrive like a cool drink on a hot day—simple, direct, and deeply practical. Paul isn’t asking us to feel warm fuzzies toward everyone. He’s commanding a *genuine* love, the kind that abhors evil without becoming bitter, and clings to good without becoming naive.\n\nNotice the rhythm: we abhor, then we hold fast. We reject the rot, then we grip the good. This isn’t passive sentiment; it’s active, muscular love. And then comes the countercultural twist—outdo one another in showing honor. Not in winning arguments, not in gaining status, but in honoring others first.\n\nIn your daily grind, this looks like pausing before you speak, choosing generosity when you’d rather be right, and quietly serving someone who can’t repay you. It’s the small, unglamorous choices that build a life of steadfast love. When you feel your heart growing cold, return to this verse. Let it recalibrate your affections. Abhor what destroys. Hold fast to what heals. And let honor become your reflex, not your afterthought.\n\n## Prayer\nLord, teach us to love genuinely—not in word only, but in deed. Give us strength to reject evil, courage to embrace good, and humility to honor others above ourselves. Shape our hearts until this becomes our rhythm. Amen.\n\n## One-Line Application\nHonor someone today before they earn it.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
