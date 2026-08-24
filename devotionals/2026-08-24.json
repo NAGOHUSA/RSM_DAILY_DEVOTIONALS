@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-24",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 276,
+  "theme": null,
+  "content_markdown": "# The Quiet Faith of a Foreign Widow\n\n## Scripture\n\n\"But Ruth replied, 'Don't urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.'\" — Ruth 1:16\n\n## Reflection\n\nRuth had every reason to return to her homeland. She was a young widow in a foreign land, with no children, no security, and no future in Israel. Yet she chose loyalty over comfort, and faith over fear. Her words to Naomi weren't just sentimental—they were a declaration of conversion. She was trading her gods for the God of Israel, sight unseen.\n\nNotice what Ruth didn't do. She didn't ask for a map of the journey. She didn't negotiate terms. She simply committed. That kind of faith is rare, but it's the kind God honors. Ruth's quiet obedience placed her in the lineage of Christ—a Moabite outsider becoming part of the Messiah's story.\n\nWe often want certainty before we commit. We want to see the whole path before taking the first step. But faith means trusting the One who leads, not the road ahead. Ruth teaches us that faithfulness in small, unseen choices becomes the foundation for God's larger purposes. Her loyalty wasn't dramatic; it was daily. And that was enough.\n\n## Prayer\n\nLord, give us Ruth's courage to stay faithful when leaving feels easier. Help us trust Your presence over our plans, and follow You with whole hearts—even when we cannot see the next step. Amen.\n\n## One-Line Application\n\nCommit today to one relationship or calling God has placed before you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
