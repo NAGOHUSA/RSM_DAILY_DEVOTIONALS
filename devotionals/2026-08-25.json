@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-25",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 288,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of Roots\n\n## Scripture\n\"Therefore, as you received Christ Jesus the Lord, so walk in him, rooted and built up in him and established in the faith, just as you were taught, abounding in thanksgiving.\" — Colossians 2:6-7\n\n## Reflection\nA tree doesn't strain to grow taller by ignoring its roots. The visible branches depend on invisible anchors—fibers reaching through dark soil for water and stability. Paul uses this agrarian image to remind us that spiritual maturity isn't flashy. It's the unglamorous, daily choice to stay planted in Christ.\n\nWe often measure progress by what's visible: louder prayers, busier service, bigger influence. But God measures depth. Roots grow slowly, quietly, through seasons of drought and storm. When you feel stagnant—when no one applauds your faithfulness—that's often when your roots are sinking deepest. The \"walk\" Paul mentions isn't sprinting; it's the steady rhythm of obedience.\n\nBeing \"rooted\" means your identity isn't swayed by every theological trend or emotional wave. Being \"built up\" means your life is structurally sound, capable of bearing weight. And \"abounding in thanksgiving\" is the sap that runs through it all—gratitude that recognizes every good thing flows from the Vine.\n\nToday, resist the urge to compare your branches with another's. Instead, ask: Am I drinking deeply from the Word? Am I anchored in community? Am I grateful for the unseen work God is doing beneath the surface? The harvest comes later. The rooting happens now.\n\n## Prayer\nFather, forgive our impatience with the unseen. Anchor us deeper in Christ when we crave visible results. Let gratitude flourish in the quiet places, trusting that You are growing what matters most. Amen.\n\n## One-Line Application\nCheck your roots before you chase your branches today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
