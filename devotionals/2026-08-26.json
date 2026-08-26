@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-26",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 288,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of Trust\n\n## Scripture\n\"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.\" — Proverbs 3:5–6\n\n## Reflection\nTrust is rarely loud. It doesn't announce itself with certainty or demand visible results. It works quietly, like yeast in dough or roots in winter soil. We often want to see the whole path before we take the first step, but God asks us to walk in the light we have—just enough for today.\n\nLeaning on our own understanding feels safer because it's familiar. We analyze, predict, and control. Yet this proverb invites us to a different posture: releasing the need to have it all figured out. Submission isn't weakness; it's wisdom. It's saying, \"Lord, I don't see the full picture, but I trust the One who does.\"\n\nPractical trust looks like making decisions after prayer, not paralysis. It's asking, \"What would obedience look like today?\" and then doing that, even when the outcome is unclear. It's releasing the anxiety of tomorrow's unknowns by anchoring in today's known God.\n\nHe doesn't promise a smooth road, but He promises a straight one—one that leads toward His purposes. The path may wind through valleys, but it never wanders from His care. Trust is not the absence of questions; it's the presence of confidence in His character.\n\n## Prayer\nFather, forgive us for leaning on our own understanding. Teach us to trust You with open hands, submitting our plans to Your perfect will. Straighten our paths as we follow You one step at a time. Amen.\n\n## One-Line Application\nToday, release one worry you cannot control into God's hands.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
