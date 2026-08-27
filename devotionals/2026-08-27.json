@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-27",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 286,
+  "theme": null,
+  "content_markdown": "# When the Lord Hides His Face\n\n## Scripture\n\n“Truly you are a God who hides himself, O God and Savior of Israel.” — Isaiah 45:15\n\n## Reflection\n\nSome seasons feel like silence. You pray, and the heavens seem brass. You open your Bible, and the words sit flat on the page. You serve, yet sense no divine smile. Isaiah names this reality: God hides Himself. Not because He is absent, but because His ways exceed our seeing.\n\nWhy does He hide? Sometimes to deepen our hunger. A child who always sees the parent’s face never learns to listen for the voice. Sometimes to purify our motives—do we love God for His gifts or for Himself? And sometimes, simply because His glory is too bright for our current capacity. Like Moses in the cleft of the rock, we can only bear the afterglow.\n\nThe hiddenness is not rejection. It is invitation. The same verse calls Him “Savior.” The One who hides is the One who saves. His concealment is never cruel; it is pedagogical. He withdraws to draw us closer.\n\nWhat do you do when God seems far? Keep walking the last known path of obedience. Keep speaking to the silence. Faith is not the feeling of His presence—it is the choice to trust His promise when presence is veiled. The hiding is a test, not a termination. He is working in the dark what will bloom in the light.\n\n## Prayer\n\nLord, when You seem distant, help us trust Your nearness. Teach us to seek Your face even when it is hidden, and to rest in Your saving character. Amen.\n\n## One-Line Application\n\nObey what you know while you wait for what you cannot see.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
