@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-28",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 285,
+  "theme": null,
+  "content_markdown": "# The Shepherd's Constant Care\n\n## Scripture\n\n\"Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\" — Psalm 23:4\n\n## Reflection\n\nThe valley feels endless sometimes. Whether it's a health scare, a strained relationship, or a season of financial strain, the shadows stretch long and the path grows unclear. David wrote these words not from a quiet study, but from a life of real danger—fleeing enemies, facing betrayal, enduring loss. He knew what it meant to walk through darkness, not around it.\n\nNotice what David doesn't say. He doesn't claim the valley disappears. He doesn't pretend the threat is imaginary. Instead, he anchors his courage in a presence: \"you are with me.\" The shepherd doesn't remove every obstacle; he walks through it alongside us. The rod and staff aren't weapons of convenience—they're tools of guidance and protection, reminders that the shepherd is actively engaged, not passively observing.\n\nToday, you may feel the weight of your circumstances. Perhaps you've been praying for rescue, but what you've received is companionship. That's not a lesser gift. It's the very thing that transforms a valley from a place of terror into a place of trust. God's presence doesn't make the shadows vanish, but it makes them bearable—and even meaningful.\n\nYou don't need to summon courage from within. You need only to remember who walks beside you.\n\n## Prayer\n\nLord, when shadows close in, help us feel Your nearness. Teach us to trust Your rod and staff, and to find comfort not in changed circumstances, but in Your unchanging presence. Amen.\n\n## One-Line Application\n\nWalk through today knowing you are never walking alone.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
