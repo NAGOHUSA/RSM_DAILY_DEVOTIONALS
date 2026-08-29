@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-29",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 288,
+  "theme": null,
+  "content_markdown": "# The Quiet Strength of a Waiting Heart\n\n## Scripture\n\n\"Be still before the Lord and wait patiently for him; do not fret when people succeed in their ways, when they carry out their wicked schemes.\" — Psalm 37:7\n\n## Reflection\n\nWaiting feels like weakness in a world that prizes speed. We refresh our inboxes, tap our feet at red lights, and grow restless when answers lag. Yet Scripture frames waiting as a posture of strength—not passive resignation, but active trust. The psalmist commands us to \"be still,\" a word that means to cease striving, to let our anxious hands drop open.\n\nWhy is waiting so hard? Because it strips away our illusion of control. We cannot force God's timing, manipulate outcomes, or rush His purposes. But here's the liberating truth: we don't have to. Waiting is not wasted time; it is holy ground where faith is forged. When we wait patiently, we declare that God's wisdom exceeds our urgency, and His plans outlast our impatience.\n\nThe second half of the verse guards against comparison. When we see others prosper by questionable means, waiting feels unfair. Yet our call is not to fix the world's injustices in our own strength, but to trust the Judge who sees all. Today, resist the urge to force doors God hasn't opened. Instead, let stillness become your defiance against anxiety—a quiet, confident statement that you belong to a God who is never late.\n\n## Prayer\n\nLord, teach us to wait without fretting. Quiet our restless hearts and loosen our grip on control. Help us trust Your timing over our urgency, and find peace in Your presence while we wait. Amen.\n\n## One-Line Application\n\nRelease your timeline today; God's delay is not denial.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
