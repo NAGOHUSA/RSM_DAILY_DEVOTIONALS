@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-30",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 312,
+  "theme": null,
+  "content_markdown": "# The Weight of Words\n\n## Scripture\n\"Let no corrupting talk come out of your mouths, but only such as is good for building up, as fits the occasion, that it may give grace to those who hear.\" — Ephesians 4:29\n\n## Reflection\nWords are never neutral. They either build or break, heal or wound, bless or curse. Paul's instruction here isn't merely about avoiding profanity—it's about the intentional quality of our speech. \"Corrupting talk\" in the original Greek suggests something rotten, decaying, like fruit left too long on the vine. When we gossip, complain, or speak in anger, we're offering spoiled food to hungry souls.\n\nBut notice the alternative: speech that \"gives grace.\" This isn't just polite conversation. It's words chosen as carefully as a gift for someone you love. It means pausing before speaking to ask: Will this build up or tear down? Is this the right moment? Does this serve the hearer's good?\n\nThink of the people who have shaped your faith most deeply. Chances are, you remember specific words they spoke—encouragement in a dark season, truth delivered gently, a simple \"I believe in you.\" Those words became landmarks in your spiritual journey.\n\nToday, you'll speak hundreds of sentences. Some will be forgotten by dinner. But others may echo in someone's heart for years. The question isn't whether you'll speak, but what kind of legacy your words will leave. Paul calls us to be people whose speech is so seasoned with grace that others hear God's kindness in our voices.\n\n## Prayer\nLord, guard our tongues today. Make us quick to listen and wise in speaking. Let every word we offer be a vessel of Your grace, building up those who hear. Forgive us where we've spoken carelessly, and renew our speech for Your glory.\n\n## One-Line Application\nBefore speaking today, ask: Does this build up or break down?",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
