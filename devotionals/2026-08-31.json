@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-31",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 271,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of Building\n\n## Scripture\n\n“Unless the LORD builds the house, the builders labor in vain. Unless the LORD watches over the city, the watchmen stand guard in vain.” — Psalm 127:1\n\n## Reflection\n\nWe often measure our days by what we can see: completed tasks, answered emails, growing numbers. But Psalm 127 invites us into a humbling rhythm. The psalmist isn’t dismissing our labor—he’s reframing it. Builders still build; watchmen still watch. Yet their effort only gains meaning when God is the architect and the sentinel.\n\nThis is especially freeing for those seasons when our work feels invisible. You’re training a child, healing a marriage, restoring a habit, or simply showing up when no one applauds. That is building. God sees the foundation beneath the noise. He is not impressed by our frantic pace, but He is present in our faithful plodding.\n\nThe danger is not hard work—it’s self-reliance. When we assume the outcome depends on our effort alone, we carry a weight we were never meant to bear. But when we surrender the blueprint to God, our labor becomes an act of worship. We build with open hands, trusting that He finishes what we cannot.\n\nToday, ask yourself: am I building for my own glory or for His? The answer changes not just your motive, but your peace.\n\n## Prayer\n\nLord, we release our plans and efforts to You. Build what endures, guard what matters, and give us rest from striving. Teach us to work with open hands, trusting Your hand over ours. Amen.\n\n## One-Line Application\n\nBuild faithfully today, but leave the outcome to God.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
