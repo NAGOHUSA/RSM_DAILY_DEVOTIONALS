@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-01",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 290,
+  "theme": null,
+  "content_markdown": "# The Weaver's Steady Hand\n\n## Scripture\n\n\"For you created my inmost being; you knit me together in my mother's womb. I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.\" — Psalm 139:13-14\n\n## Reflection\n\nThere is a quiet rhythm in knitting—loop after loop, thread after thread, nothing wasted, nothing random. The psalmist invites us to see ourselves not as accidents of biology or products of chance, but as deliberate, loving craftsmanship. God didn't merely \"make\" you; He *knit* you, with patience and intention, strand by strand.\n\nBut here's the pastoral truth: the same hands that formed you are still at work. That difficult season you're walking through? It's not unraveling—it's part of the pattern. The loose threads of confusion, the tight knots of grief, the uneven stitches of failure—God sees them all, and He is not surprised. The Weaver never loses the thread.\n\nWhen we feel frayed, we often question the design. Yet the psalmist's confidence isn't in his own understanding—it's in the character of the Creator. \"I know that full well\" isn't a boast of knowledge; it's a declaration of trust. You don't need to see the whole tapestry to trust the hands holding the needles.\n\nToday, instead of inspecting your flaws like loose ends, pause to marvel: you are not a mistake. You are a masterpiece in progress, and the One who began this work is faithful to complete it.\n\n## Prayer\n\nFather, we rest in Your skillful hands. When we feel undone, remind us that You are still weaving. Help us trust Your pattern, even when we cannot see it. Amen.\n\n## One-Line Application\n\nTrust the Weaver today; your loose threads are part of His design.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
