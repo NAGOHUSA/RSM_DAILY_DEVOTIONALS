@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:21:42.095Z",
+  "generated_at": "2026-09-01T14:38:42.952Z",
   "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
   "channel": {
     "title": "ROCK SOLID MAN Podcast",
@@ -12,8 +12,38 @@
     "youtube": "https://www.youtube.com/@RSMMINISTRY",
     "substack": "https://rocksolidman.substack.com/podcast"
   },
-  "episode_count": 4,
+  "episode_count": 7,
   "episodes": [
+    {
+      "title": "Prepared For Prison; God’s Plan Was Different",
+      "link": "https://rocksolidman.substack.com/p/prepared-for-prison-gods-plan-was",
+      "guid": "substack:post:213638474",
+      "pub_date": "2026-09-01T02:08:14.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/213638474/7ba4a85b287df7bbbfb5588150291b68.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/213638474/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
+    {
+      "title": "Breaking The Cycle: From Cartel to Christ",
+      "link": "https://rocksolidman.substack.com/p/breaking-the-cycle-from-cartel-to",
+      "guid": "substack:post:212739636",
+      "pub_date": "2026-08-25T18:18:23.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/212739636/e3f9ea7f406ee285f290f7255eb907fe.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/212739636/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
+    {
+      "title": "Loving Our Wives Like Christ - Part 2 of 2",
+      "link": "https://rocksolidman.substack.com/p/loving-our-wives-like-christ-part",
+      "guid": "substack:post:211637341",
+      "pub_date": "2026-08-17T23:37:32.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/211637341/bbc98b07c8594a7d6369948c7345c9b3.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/211637341/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
     {
       "title": "Loving Our Wives Like Christ - Part 1 of 2",
       "link": "https://rocksolidman.substack.com/p/loving-our-wives-part-1-of-2",
