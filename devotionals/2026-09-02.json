@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-02",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 317,
+  "theme": null,
+  "content_markdown": "# The Quiet Work That God Sees\n\n## Scripture\n\n\"But when you give to the needy, do not let your left hand know what your right hand is doing, so that your giving may be in secret. Then your Father, who sees what is done in secret, will reward you.\" — Matthew 6:3–4\n\n## Reflection\n\nWe live in an age of performance. Every kindness can be photographed, every generosity tagged, every quiet sacrifice turned into a status update. But Jesus calls us to a different rhythm—one where our left hand doesn't keep tabs on the right. He invites us into the freedom of secret goodness.\n\nWhy does secrecy matter? Because public applause corrupts private virtue. When we give to be seen, we've already collected our payment in human approval. But when we serve in secret, we trust God alone to see, remember, and reward. That trust is the very substance of faith.\n\nThink of the meals you've cooked for a grieving neighbor, the money slipped into an envelope for a struggling family, the prayers whispered for someone who'll never know. None of it is wasted. God sees what others miss. He notices the unglamorous, unannounced acts of love that no one will ever post about.\n\nThis doesn't mean all giving must be anonymous—only that our motive must be pure. Ask yourself: Would I still do this if no one ever found out? If the answer is yes, you're practicing the kind of righteousness that pleases the Father. He isn't distant from your quiet work; He's intimately present in it, storing up rewards that no algorithm or audience can diminish.\n\n## Prayer\n\nFather, free us from the need to be noticed. Help us serve in secret, trusting that Your eyes see all and Your reward is enough. Shape our hearts to love without applause. Amen.\n\n## One-Line Application\n\nDo one kind act today that no one will discover.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
