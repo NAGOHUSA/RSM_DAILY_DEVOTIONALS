@@ -1,30 +1,6 @@
 {
   "events": [
     {
-      "id": 3,
-      "title": "July Gathering",
-      "description": "Monthly gathering of men for worship, a message, and fellowship.",
-      "date": "2026-07-13",
-      "time": "6:45 PM",
-      "location": "Woodlands Coffee & Roasters",
-      "badge": "Guest Speaker",
-      "featured": true,
-      "speaker": "Michael Mays & Colton Rowell",
-      "topic": "Testimonial & Independent Speaker"
-    },
-    {
-      "id": 4,
-      "title": "August Gathering",
-      "description": "Monthly gathering of men for worship, a message, and fellowship.",
-      "date": "2026-08-10",
-      "time": "6:45 PM",
-      "location": "Woodlands Coffee & Roasters",
-      "badge": "Monthly",
-      "featured": false,
-      "speaker": "Jacob Varnell & Jim Perdue",
-      "topic": "Testimonial"
-    },
-    {
       "id": 5,
       "title": "September Gathering",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
