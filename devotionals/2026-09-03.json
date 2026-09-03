@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-03",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 294,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of Remaining\n\n## Scripture\n\n\"Remain in me, as I also remain in you. No branch can bear fruit by itself; it must remain in the vine. Neither can you bear fruit unless you remain in me.\" — John 15:4\n\n## Reflection\n\nWe live in an age that worships movement. Productivity apps track our hours, social feeds reward constant output, and even our rest feels scheduled. But Jesus never commands us to strive harder—He commands us to remain.\n\nThe Greek word *menō* means \"to stay, to abide, to dwell.\" It's not passive; it's intentional presence. A branch doesn't strain to produce fruit. It simply stays connected, drawing life from the vine. The fruit comes as a byproduct of connection, not effort.\n\nToday, September 3rd, marks the midpoint of your week. Perhaps you're tired of trying to hold everything together—your career, your family, your faith. The pressure to perform can make us forget that spiritual fruitfulness isn't manufactured; it's received.\n\nConsider what it looks like to remain today. It might mean pausing before responding in frustration. It might mean releasing the need to fix every problem. It might mean sitting in silence long enough to hear His voice above the noise.\n\nJesus remains in you—not because you've earned it, but because He chose you. Your part is simply to stay. When you feel the urge to rush ahead or prove yourself, remember: the vine doesn't need your striving. It needs your abiding.\n\n## Prayer\n\nLord, forgive us for striving when You call us to rest. Teach us to remain in You today—trusting that Your life flows through us when we simply stay connected. Slow our hurried hearts. Amen.\n\n## One-Line Application\n\nPause three times today to simply breathe and remember you're connected.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
