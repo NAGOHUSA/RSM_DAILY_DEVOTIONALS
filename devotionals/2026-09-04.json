@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-04",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 273,
+  "theme": null,
+  "content_markdown": "# Title\n\nThe Steady Hand That Holds Us\n\n## Scripture\n\n\"Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!\" — Psalm 46:10 (NIV)\n\n## Reflection\n\nWe live in a noisy world—literal noise, yes, but also the inner clamor of deadlines, comparisons, and anxious what-ifs. On this ordinary September morning, the psalmist’s command lands like a gentle hand on our shoulder: *Be still.* Not \"be productive\" or \"be impressive.\" Still.\n\nBut stillness isn’t passive. It’s an active posture of trust, a deliberate turning from our frantic self-reliance to the One who has never once dropped the world. The verse doesn’t say \"be still and figure it out.\" It says \"be still and *know*.\" Know His character. Know His sovereignty. Know that He is already exalted—not waiting on our efforts to secure His throne.\n\nPractically, this means starting small. When you feel the pull toward anxiety today, pause for one breath and whisper, \"You are God.\" When a task feels overwhelming, remember that exalting Him isn’t your job; trusting Him is. He doesn’t need your striving to hold the universe together—He invites you to rest in the hands that already do.\n\nWhat would change if you traded ten minutes of worry for ten minutes of remembering who God is? Try it. The stillness isn’t empty; it’s filled with His presence.\n\n## Prayer\n\nLord, quiet our restless hearts. Teach us to release what we cannot control and to know You more deeply in the pause. Anchor us in Your steady love today. Amen.\n\n## One-Line Application\n\nPause before reacting; whisper, “You are God.”",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
