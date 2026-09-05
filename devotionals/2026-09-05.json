@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-05",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 301,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of Restoration\n\n## Scripture\n\n“And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpillar, and the palmerworm, my great army which I sent among you.” — Joel 2:25 (KJV)\n\n## Reflection\n\nThe prophet Joel speaks to a people who knew loss intimately—crops devoured, livelihoods shattered, hope withered. The locusts weren't abstract; they were a visible, creeping devastation. Perhaps you know that feeling: years eaten by illness, strained relationships, poor decisions, or seasons of waiting that stretched into decades.\n\nNotice what God doesn't say. He doesn't say, “I'll give you new years to replace the old.” He says, “I will restore the years.” That's a different promise entirely. Restoration means the wasted time itself becomes fruitful. The painful chapters aren't erased—they're redeemed. The skills learned in hardship, the compassion forged in grief, the wisdom bought with tears—these become the soil for new growth.\n\nThis isn't a blanket promise that every loss will be reversed in this lifetime. But it is a promise that God's redemptive work is not limited by our calendar. He is the God who makes all things new, and He specializes in bringing harvest from what seemed permanently barren.\n\nYour part? Don't camp in the ruins. Prepare the ground of your heart for what God wants to grow. Forgive the locusts—the people, circumstances, and even your own failures that contributed to the loss. Then watch expectantly. The same fields that once mourned can sing again.\n\n## Prayer\n\nLord, we bring You our eaten years and empty fields. Restore what we cannot reclaim. Give us faith to prepare for a harvest we cannot yet see, trusting Your power to redeem our deepest losses. Amen.\n\n## One-Line Application\n\nToday, name one “eaten year” and release it to God’s restoration.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
