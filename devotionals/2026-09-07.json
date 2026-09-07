@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-07",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 283,
+  "theme": null,
+  "content_markdown": "# Title\n\nThe Faith That Moves Unopened Doors\n\n## Scripture\n\n“By faith the people passed through the Red Sea as on dry land; but when the Egyptians tried to do so, they were drowned.” — Hebrews 11:29\n\n## Reflection\n\nIsrael stood at the water’s edge with no map and no bridge—only a promise. Faith didn’t remove the sea; it made walking through it possible. Notice the order: they stepped forward first, and the waters parted. God’s deliverance often waits for our first trembling step.\n\nToday, your “Red Sea” may be a closed door, a strained relationship, or a financial wall. You can’t see the way through, and that’s precisely the point. Faith isn’t the ability to foresee the path—it’s the confidence that God is already on the other side, clearing a route your eyes can’t yet perceive.\n\nThe Egyptians, by contrast, had confidence too—but in their own strength and strategy. They charged into the same path and drowned. The difference wasn’t the miracle; it was the object of trust. Self-reliance turns a deliverance into a disaster.\n\nWhat if today’s obstacle isn’t a barrier to your calling but the very corridor through it? God doesn’t always open doors; sometimes He asks you to walk through the wall of water. The dry ground appears beneath your foot, not before your eyes. Step, and watch the sea obey its Maker.\n\n## Prayer\n\nLord, forgive us for waiting to see the way before we walk. Give us holy courage to move when You call, trusting that the waters will part beneath our steps. We choose faith over fear, today and always. Amen.\n\n## One-Line Application\n\nTake one step toward your obstacle today; God will make the path.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
