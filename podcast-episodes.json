@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T14:38:42.952Z",
+  "generated_at": "2026-09-08T14:16:23.888Z",
   "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
   "channel": {
     "title": "ROCK SOLID MAN Podcast",
@@ -12,8 +12,18 @@
     "youtube": "https://www.youtube.com/@RSMMINISTRY",
     "substack": "https://rocksolidman.substack.com/podcast"
   },
-  "episode_count": 7,
+  "episode_count": 8,
   "episodes": [
+    {
+      "title": "Being The Dad Your Kid Needs",
+      "link": "https://rocksolidman.substack.com/p/being-the-dad-your-kid-needs",
+      "guid": "substack:post:214651429",
+      "pub_date": "2026-09-08T00:11:16.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/214651429/d1fbc04d340ae84041d86822e88dff55.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/214651429/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
     {
       "title": "Prepared For Prison; God’s Plan Was Different",
       "link": "https://rocksolidman.substack.com/p/prepared-for-prison-gods-plan-was",
