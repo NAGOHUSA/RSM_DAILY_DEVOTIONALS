@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-08",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 295,
+  "theme": null,
+  "content_markdown": "# The Shepherd Who Gathers Every Stray\n\n## Scripture\n“What man of you, having a hundred sheep, if he has lost one of them, does not leave the ninety-nine in the open country, and go after the one that is lost, until he finds it?” — Luke 15:4 (ESV)\n\n## Reflection\nWe often read this parable and picture a distant, wandering sheep—someone we know, perhaps. But today, consider this: you are the one sheep. Not because you’ve run far, but because you’ve quietly drifted—into busyness, into self-reliance, into the subtle lie that you’re fine on your own. The ninety-nine represent comfort, routine, and the illusion of safety. Yet Jesus doesn’t calculate risk or count cost. He leaves what’s secure to search for what’s broken.\n\nNotice the shepherd’s posture: he goes *until he finds it*. Not until it’s convenient. Not until the sheep apologizes or finds its way back. The seeking is relentless because the love is unconditional. And when he finds you—tired, scraped, ashamed—he doesn’t scold. He lifts you onto his shoulders and carries you home. That’s not a reward for good behavior; it’s grace for real need.\n\nToday, you may feel lost in a crowd, overlooked at work, or unseen at home. But the Shepherd’s eye is on the one. He sees your hidden struggle, your quiet ache. He’s already moving toward you—not to lecture, but to lift. Will you let yourself be found? Stop striving long enough to feel the strong arms beneath you.\n\n## Prayer\nLord, we confess how often we wander while pretending we’re anchored. Thank You for seeking us when we cannot find our way. Carry us close today, and make us aware of Your presence with every step. Amen.\n\n## One-Line Application\nLet yourself be found—stop running, start resting.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
