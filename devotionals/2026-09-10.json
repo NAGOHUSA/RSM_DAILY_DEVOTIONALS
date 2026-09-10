@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-10",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 295,
+  "theme": null,
+  "content_markdown": "# God's Steadfast Love Endures\n\n## Scripture\n\n\"Give thanks to the LORD, for he is good; his love endures forever.\" — Psalm 107:1 (NIV)\n\n## Reflection\n\nThe psalmist doesn't ask us to give thanks because our circumstances are pleasant. He anchors gratitude in two unchanging facts: God is good, and His love endures forever. That word \"endures\" carries the weight of covenant loyalty—a love that doesn't fluctuate with our performance or our feelings.\n\nWe often measure God's goodness by what He gives us in a given season. When the bank account is full, when the diagnosis is clear, when the relationships are peaceful, thanksgiving comes easily. But Psalm 107 was written for the redeemed who had wandered in deserts, sat in darkness, and cried out from the depths. Their testimony wasn't that life was easy—it was that God's love held them through every wilderness.\n\nPractically, this means we can practice gratitude as a discipline, not just a reaction. Start your day by naming one way God has shown steadfast love—not necessarily a blessing you received, but a moment His faithfulness carried you. Gratitude rewires our attention away from what's lacking toward the One who never lacks.\n\nThe cross is the ultimate proof that God's love endures. If He gave His Son for us while we were still sinners, He will not abandon us now. His goodness isn't a promise of comfort; it's a promise of His presence. And that presence is enough.\n\n## Prayer\n\nFather, thank You that Your love never fails. When our hearts waver, anchor us in Your steadfast goodness. Teach us to give thanks in every season, trusting that You are present and faithful. In Jesus' name, amen.\n\n## One-Line Application\n\nGive thanks today—not for ease, but for love that never ends.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
