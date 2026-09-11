@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-11",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 294,
+  "theme": null,
+  "content_markdown": "# Waiting With Purpose\n\n## Scripture\n\n\"Be still before the LORD and wait patiently for him.\" — Psalm 37:7\n\n## Reflection\n\nWaiting feels like wasted time. We live in an age of instant answers, and stillness can seem like failure. Yet Scripture repeatedly treats waiting as a place of formation, not punishment. David wrote Psalm 37 while evildoers seemed to prosper and the righteous seemed forgotten. His counsel was not passive resignation but active trust: be still *before the LORD*. The stillness has a direction. We are not waiting in a void; we are waiting on a Person.\n\nConsider how much of the Christian life is shaped in the waiting room rather than the mountaintop. Abraham waited decades for a son. Israel waited generations for deliverance. The disciples waited in Jerusalem for the promised Spirit. In each case, God was doing something in His people that He could not do through quick answers. Waiting exposes our idols of control and comfort. It teaches us that God's presence, not His explanations, is our true portion.\n\nPractically, waiting looks like continuing in ordinary faithfulness: praying when nothing changes, serving when no one notices, obeying when the outcome is unclear. It means refusing to force open doors God has closed and refusing to resent those whose paths seem easier. Patience is not the absence of desire; it is desire surrendered to God's timing. Today, if your answer tarries, let the waiting do its work. The God who delays is never late.\n\n## Prayer\n\nFather, teach us to wait on You without grumbling or grasping. Form in us the patience of Christ, and let our stillness before You become trust made visible. Amen.\n\n## One-Line Application\n\nWait on the Lord today; let stillness become your act of trust.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
