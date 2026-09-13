@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-13",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 279,
+  "theme": null,
+  "content_markdown": "# God's Steady Hand in Our Waiting\n\n## Scripture\n\n\"Wait for the LORD; be strong, and let your heart take courage; wait for the LORD!\" — Psalm 27:14 (ESV)\n\n## Reflection\n\nWaiting feels like wasted time. We want answers now, resolution now, clarity now. Yet Scripture repeatedly calls waiting an act of faith, not passivity. David wrote these words while hunted, not while comfortable. His counsel isn't \"do nothing\"—it's \"be strong\" while you wait. Waiting on the Lord is active trust: continuing to pray, obey, and serve even when the outcome is unseen.\n\nThe danger in seasons of delay is that we grab control. We manufacture solutions, force open doors, or grow bitter. But waiting exposes what we truly believe about God. Do we trust His timing, or only His speed? Do we believe He is good when He is slow?\n\nPractically, waiting looks like faithfulness in small things: showing up to work, keeping promises, praying without visible results. It means telling God the truth about our impatience while still choosing to trust Him. The psalmist doesn't promise a quick answer—he promises courage for the wait. God is not delaying because He has forgotten. He is forming something in us that haste cannot produce: endurance, humility, and a deeper knowledge of His character. The waiting itself becomes a place where we meet Him.\n\n## Prayer\n\nFather, teach us to wait on You without fear or resentment. Strengthen our hearts when answers tarry. Help us trust Your timing as much as Your goodness, and form in us what only waiting can. In Jesus' name, amen.\n\n## One-Line Application\n\nWait actively: keep praying, keep obeying, and let God shape your heart.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
