@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 290,
+  "theme": null,
+  "content_markdown": "# Resting in God's Daily Provision\n\n## Scripture\n\n“Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own.” — Matthew 6:34 (NIV)\n\n## Reflection\n\nJesus never promised a trouble-free life. He promised sufficient grace for today. Anxiety often pulls us out of the present moment and into a future we cannot control, multiplying burdens God never asked us to carry yet. Notice the honesty in Christ's words: each day has enough trouble of its own. He is not denying hardship; He is redirecting our focus. Worry imagines a hundred possible tomorrows and tries to solve them all at once, but grace is given for the day we are actually living.\n\nPractically, this means we steward today's responsibilities and release tomorrow's outcomes to God. When anxious thoughts about next week, next month, or next year rise, we can name them, place them in the Father's hands, and return to the task in front of us—the conversation, the meal, the work, the rest. This is not denial or passivity; it is trust expressed through faithful presence. The God who fed Israel with manna each morning did not store it up for the week. He provided daily, teaching His people to depend on Him daily. The same Father invites us into that rhythm. Today's mercies are new, and today's grace is enough. Tomorrow's grace will meet us tomorrow, but only when tomorrow comes.\n\n## Prayer\n\nFather, we confess our tendency to carry tomorrow's burdens today. Teach us to trust Your daily provision, to release what we cannot control, and to walk faithfully in the grace You give us now. Amen.\n\n## One-Line Application\n\nTrust God for today's grace; leave tomorrow in His hands.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
