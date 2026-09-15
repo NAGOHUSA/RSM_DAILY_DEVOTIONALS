@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:16:23.888Z",
+  "generated_at": "2026-09-15T14:44:37.206Z",
   "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
   "channel": {
     "title": "ROCK SOLID MAN Podcast",
@@ -12,8 +12,38 @@
     "youtube": "https://www.youtube.com/@RSMMINISTRY",
     "substack": "https://rocksolidman.substack.com/podcast"
   },
-  "episode_count": 8,
+  "episode_count": 10,
   "episodes": [
+    {
+      "title": "Found In The Wilderness (part 1 of 2)",
+      "link": "https://rocksolidman.substack.com/p/found-in-the-wilderness-part-1-of",
+      "guid": "substack:post:215753097",
+      "pub_date": "2026-09-15T01:32:08.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/215753097/8e75e876b4609422436c39aeafeff0a1.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/215753097/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
+    {
+      "title": "Rock Solid 6-When did being a good man become the same as being a nice man?",
+      "link": "https://rocksolidman.substack.com/p/rock-solid-9",
+      "guid": "substack:post:215699556",
+      "pub_date": "2026-09-14T17:48:14.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/215699556/886daa899209083168723265c28dc89e.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/215699556/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
+    {
+      "title": "Rock Solid 6",
+      "link": "https://rocksolidman.substack.com/p/rock-solid-6",
+      "guid": "substack:post:215377109",
+      "pub_date": "2026-09-12T15:11:33.000Z",
+      "summary": "Out of Control -But In Control This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/215377109/7066c9b748c640e86d33dab674fb2cf1.mp3",
+      "duration": "",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/215377109/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
     {
       "title": "Being The Dad Your Kid Needs",
       "link": "https://rocksolidman.substack.com/p/being-the-dad-your-kid-needs",
@@ -83,16 +113,6 @@
       "audio_url": "https://api.substack.com/feed/podcast/206879890/3fa2c43fd864e5a840bbd02f05ad1f8d.mp3",
       "duration": "",
       "image": "https://substackcdn.com/feed/podcast/9723392/post/206879890/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
-    },
-    {
-      "title": "Rock Solid Man Podcast (Coming SOON)",
-      "link": "https://rocksolidman.substack.com/p/rock-solid-man-podcast-coming-soon",
-      "guid": "substack:post:204538092",
-      "pub_date": "2026-07-01T22:21:47.000Z",
-      "summary": "Welcome to the Rock Solid Man podcast – where men are called to be unshakable. In a culture that’s lost its definition of manhood, we’re going back to God’s blueprint. This is your weekly source of truth, encouragement, and practical wisdom for becoming the husband, father, and leader you were made to be. No more settling. No more coasting. Just real talk, real faith, and a brotherhood of men c…",
-      "audio_url": "https://api.substack.com/feed/podcast/204538092/0db8cf79022d1dd5d734da66d3dbb1f9.mp3",
-      "duration": "",
-      "image": "https://substackcdn.com/feed/podcast/9723392/post/204538092/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
     }
   ]
 }
