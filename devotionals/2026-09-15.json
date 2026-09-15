@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-15",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 255,
+  "theme": null,
+  "content_markdown": "# God’s Mercy Meets Our Weakness\n\n## Scripture\n\n“My grace is sufficient for you, for my power is made perfect in weakness.” — 2 Corinthians 12:9 (ESV)\n\n## Reflection\n\nWe often assume God’s usefulness to us depends on our strength. When energy fades, when temptation presses, when prayers feel thin, we quietly conclude we have nothing left to offer Him. Paul learned the opposite. Burdened by a thorn he begged God to remove, he received not removal but grace—sufficient, present, enough. God’s power is not revealed in our competence but in our honest dependence. This does not excuse sin or passivity. It means weakness becomes the doorway through which Christ’s strength enters our day. Practically, that looks like praying honestly instead of pretending. It looks like asking for help rather than hiding. It looks like serving from a place of need, not performance. Today, bring God your tiredness, your fear, your unfinished work. He is not waiting for you to become impressive before He moves. He meets you in the very place you feel least capable, and there His grace proves sufficient. Your weakness is not a disqualification; it is an invitation.\n\n## Prayer\n\nFather, we come to You weak and weary, not pretending to be strong. Thank You that Your grace is sufficient for us and Your power is made perfect in our weakness. Teach us to depend on You today, and let Your strength be seen in our lives. Amen.\n\n## One-Line Application\n\nBring God your weakness today and trust His sufficient grace.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
