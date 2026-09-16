@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-16",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 308,
+  "theme": null,
+  "content_markdown": "# God's Faithfulness in Every Season\n\n## Scripture\n\n\"Because of the LORD's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.\" — Lamentations 3:22-23\n\n## Reflection\n\nJeremiah wrote these words while sitting amid the rubble of a destroyed Jerusalem. His circumstances screamed despair, yet he anchored his hope not in what he could see, but in who God is. This is the heartbeat of biblical faith: circumstances shift, but God's character does not.\n\nNotice the progression. Jeremiah speaks of God's \"great love\" that keeps us from being consumed—a love so vast it holds us together even when everything else falls apart. Then he names God's compassions, which never fail. The Hebrew word for \"compassions\" carries the imagery of a mother's tender care for her child. God does not merely tolerate us; He cherishes us with deep, visceral affection.\n\nThe phrase \"new every morning\" is striking. God's mercy is not a reserve that depletes. It is freshly supplied each day, sufficient for whatever that day brings. Yesterday's failures do not exhaust today's grace. Tomorrow's anxieties cannot exhaust it either.\n\nPractically, this means we can begin each morning with open hands rather than clenched fists. We do not need to manufacture hope; we receive it. When we wake to difficulty, we can preach this truth to our own hearts: His compassions are new today. Not recycled. Not rationed. New.\n\nFaithfulness, after all, is not a mood God feels. It is who He is.\n\n## Prayer\n\nFather, thank You that Your love never runs dry and Your mercy greets us each morning. When our circumstances overwhelm us, fix our eyes on Your unchanging character. Teach us to trust You afresh today, knowing You are faithful. Amen.\n\n## One-Line Application\n\nBegin today trusting that God's mercy is already waiting for you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
