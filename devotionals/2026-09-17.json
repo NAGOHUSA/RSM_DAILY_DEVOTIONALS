@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-17",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 287,
+  "theme": null,
+  "content_markdown": "# Chosen Before the World Began\n\n## Scripture\n\n\"For he chose us in him before the creation of the world to be holy and blameless in his sight.\" — Ephesians 1:4\n\n## Reflection\n\nBefore God spoke light into darkness, before the first star burned, He had already set His affection on you—not because of anything you would do, but because of who He is. Paul writes this to ordinary believers, reminding them that their standing rests not on performance but on divine purpose. This truth dismantles both pride and despair. Pride, because you contributed nothing to your election. Despair, because your failures cannot undo a decision made before time began.\n\nPractically, this means your identity is not up for negotiation today. When you sin, you grieve your Father—but you do not become an orphan. When you succeed, you receive a gift—but you do not become the author of your own salvation. The call to be \"holy and blameless\" flows from being chosen, not toward earning it. You are not striving to become loved; you are learning to live as one already loved.\n\nThis also reshapes how you see others. If God chooses the unlikely, the overlooked, the outsider, then no person you meet today is beyond His reach—including the one who irritates you most. Let this truth produce humility, gratitude, and a quiet confidence that anchors you when feelings shift.\n\n## Prayer\n\nFather, thank You for choosing us in Christ before the world began. Guard our hearts from pride and despair alike. Help us live today as those already loved, holy in Your sight, for Your glory. Amen.\n\n## One-Line Application\n\nYou are not striving to be chosen; you are learning to live as one already chosen.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
