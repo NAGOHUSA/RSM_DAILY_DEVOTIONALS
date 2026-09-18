@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-18",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 333,
+  "theme": null,
+  "content_markdown": "# Resting in God's Unfailing Faithfulness\n\n## Scripture\n\n\"Because of the Lord's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.\" — Lamentations 3:22-23\n\n## Reflection\n\nJeremiah wrote these words while sitting in the rubble of a burned city. Jerusalem had fallen. The temple was ash. His own people had been dragged into exile. Yet from that ruin, he dared to say God's mercies are new every morning. This is not denial of grief; it is grief held inside a larger trust. Notice that the prophet does not say his circumstances were new each morning. The siege, the hunger, the loss—those lingered. What was new was God's compassion, freshly supplied for that day's need.\n\nWe often want faithfulness to mean the absence of hardship. But biblical faithfulness is God's steady presence *within* hardship. The manna in the wilderness did not stockpile; it came daily, enough for one day, teaching Israel to depend on the Giver rather than the gift. So it is with us. Yesterday's grace, however sweet, will not carry today's weight. But neither will today's burden outrun today's mercy.\n\nPractically, this means we can stop rehearsing tomorrow's fears. When anxiety rises, we can name what is actually true right now: God has not abandoned us. His compassion has not run dry. The morning will bring what we need, not because we are strong, but because He is faithful. Our task is not to manufacture enough faith to survive the future. It is simply to receive what He gives today, and to trust that He will give again tomorrow.\n\n## Prayer\n\nFather, when our circumstances feel heavy and uncertain, remind us that Your compassion never fails. Teach us to depend on You daily, not on yesterday's strength. Renew our hope each morning, and let Your faithfulness be our steady ground. We trust You for today and for all our tomorrows. Amen.\n\n## One-Line Application\n\nReceive today's mercy; trust God for tomorrow's.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
