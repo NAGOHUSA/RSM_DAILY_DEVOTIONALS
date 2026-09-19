@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-19",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 291,
+  "theme": null,
+  "content_markdown": "# God's Steadfast Love Endures Forever\n\n## Scripture\n\n\"Give thanks to the LORD, for he is good; his love endures forever.\" — Psalm 118:1\n\n## Reflection\n\nGratitude is not a response to pleasant circumstances; it is a response to God's unchanging character. The psalmist does not say \"give thanks when life is easy.\" He grounds thanksgiving in two fixed realities: the Lord is good, and His love endures forever. Both remain true on our best days and our worst.\n\nWe often reverse this order. We wait to feel thankful before we give thanks, treating gratitude as an emotion that arrives on its own. But Scripture commands thanksgiving, which means it is a choice we make, not a mood we wait for. When we rehearse God's goodness, our feelings often follow.\n\nNotice the scope: \"forever.\" His love is not seasonal or conditional. It does not fluctuate with our performance. This is covenant love—steadfast, patient, unwavering. When we fail, it holds. When we doubt, it remains. When we grieve, it comforts.\n\nPractically, this means we can thank God before we see the outcome. We thank Him in the waiting, in the diagnosis, in the unanswered prayer. Not because the pain is good, but because He is. Thanksgiving reorients our gaze from the problem to the Provider. Today, name one specific way God has shown His goodness, and thank Him for it—regardless of what your circumstances are telling you.\n\n## Prayer\n\nFather, thank You that Your love never fails and Your goodness never changes. Teach us to give thanks in every season, trusting Your character more than our circumstances. Let gratitude shape our hearts today. In Jesus' name, amen.\n\n## One-Line Application\n\nThank God today not because life is good, but because He is.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
