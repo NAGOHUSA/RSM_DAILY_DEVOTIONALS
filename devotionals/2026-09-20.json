@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-20",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 300,
+  "theme": null,
+  "content_markdown": "# God’s Faithfulness in Every Season\n\n## Scripture\n\n“Because of the Lord’s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.” — Lamentations 3:22–23\n\n## Reflection\n\nJeremiah wrote these words amid the rubble of a destroyed city. Jerusalem had fallen; the temple was ashes; God’s people were exiles. Yet from the ruins, the prophet declared that God’s compassions never fail. Notice the setting. This is not a cheerful psalm written on a sunny day. It is a defiant act of trust spoken in the darkest moment of Israel’s history.\n\nThat matters for us. Faithfulness is not a promise that life will stay comfortable. It is the promise that God’s mercy will meet us every single morning, even when yesterday ended in grief. His compassions are not rationed or seasonal. They arrive fresh, like manna in the wilderness—enough for today, never stockpiled, never exhausted.\n\nPractically, this invites us to begin each day by looking for God’s mercy rather than bracing for the worst. When we wake anxious about what lies ahead, we can remind ourselves: His faithfulness is already there, waiting for us. It also frees us from carrying yesterday’s failures into today. The mercies are new. So is the opportunity to trust again.\n\nIf you find yourself in a season of loss or waiting, you are not outside God’s care. You are precisely where His faithfulness is most clearly seen—sustaining you when nothing else holds.\n\n## Prayer\n\nFather, thank You that Your love never runs out and Your mercy meets us each morning. When we are weary or afraid, help us to trust Your faithfulness. Carry us through this day and make us faithful in return. Amen.\n\n## One-Line Application\n\nBegin today expecting God’s fresh mercy, not yesterday’s leftovers.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
