@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-21",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 283,
+  "theme": null,
+  "content_markdown": "# When Waiting Feels Like Silence\n\n## Scripture\n\n\"Be still before the LORD and wait patiently for him.\" — Psalm 37:7\n\n## Reflection\n\nWaiting is rarely passive, though it often feels that way. David writes these words in a psalm about evildoers prospering and the righteous struggling—a world that looks nothing like God's promises. His counsel isn't denial; it's trust. \"Be still\" doesn't mean freeze. It means stop striving, stop grasping for control, stop demanding God explain Himself on our timeline. Waiting patiently is active faith: continuing to obey, serve, and love while the answer hasn't come.\n\nWe tend to treat waiting as wasted time, a gap between where we are and where we want to be. But Scripture reframes it. Waiting is where God forms character we couldn't manufacture in a hurry. Abraham waited twenty-five years for Isaac. Israel waited four hundred years in Egypt. Hannah waited through years of barrenness. In each case, God wasn't late—He was building something that required time. The waiting itself was part of the gift.\n\nPractically, this means we can stop measuring God's faithfulness by our circumstances. If today holds no answer, no breakthrough, no clarity, His character hasn't changed. We can bring Him our restlessness honestly, then choose to trust again. Waiting patiently isn't the absence of longing; it's longing held open before a God who is never indifferent and never off-schedule.\n\n## Prayer\n\nFather, when silence stretches long and answers seem delayed, steady our hearts. Teach us to wait with open hands, trusting Your timing over our urgency. Form in us the character only waiting can produce, and keep our eyes on You. Amen.\n\n## One-Line Application\n\nWait actively: keep obeying while God works.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
