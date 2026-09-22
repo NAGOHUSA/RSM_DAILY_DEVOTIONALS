@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-22",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 295,
+  "theme": null,
+  "content_markdown": "# Boasting Only in the Cross\n\n## Scripture\n\n“May I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world.” — Galatians 6:14\n\n## Reflection\n\nPaul’s world measured worth by pedigree, performance, and praise. Ours is no different. We boast in careers, platforms, even ministries, quietly curating an identity built on what we achieve. The cross dismantles every such resume. There, our best credentials were nailed alongside our worst sins, and both died.\n\nTo boast in the cross is not morbid self-hatred; it is freedom. If Christ’s finished work defines us, then today’s successes cannot inflate us and today’s failures cannot erase us. The world loses its grip—its applause no longer feeds us, its disapproval no longer rules us. We are crucified to it, and it to us. A dead person cannot be flattered or shamed.\n\nPractically, this reshapes ordinary moments. When you receive praise at work, quietly redirect it: “Grace, not greatness.” When you fail, return to the cross rather than spiraling. When comparison stings, remember that your standing was purchased, not performed. Preach the gospel to yourself before you check your notifications.\n\nThis does not make us passive. Crucified people still serve, create, and labor—but from acceptance, not for it. The cross empties boasting of self and fills it with Christ. Whatever this day holds, let the ground beneath your feet be Calvary, not your own record.\n\n## Prayer\n\nFather, crucify our pride and quiet our restless striving. Teach us to boast only in Christ and His cross. Free us from the world’s approval, and anchor our identity in Your finished work, today and always. Amen.\n\n## One-Line Application\n\nBoast in the cross today, not in your accomplishments.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
