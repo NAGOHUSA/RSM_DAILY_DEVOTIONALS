@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-23",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 318,
+  "theme": null,
+  "content_markdown": "# When Waiting Feels Like Wasting\n\n## Scripture\n\n\"Wait for the LORD; be strong, and let your heart take courage; wait for the LORD!\" — Psalm 27:14 (ESV)\n\n## Reflection\n\nWaiting rarely feels spiritual. It feels like delay, like the clock mocking our prayers while nothing moves. Yet Scripture repeatedly treats waiting not as passive idleness but as active trust—strength exercised, courage summoned. David wrote these words while hunted, anointed but not yet enthroned, living in the gap between promise and fulfillment. His instruction is not \"relax\" but \"be strong.\" Waiting on the Lord is a discipline, not a default.\n\nThe temptation in seasons of delay is to manufacture our own outcome—to force a door, manipulate a circumstance, or quietly conclude that God has forgotten. But waiting trains us to distinguish between what we can control and what only God can do. It exposes our impulse to be our own savior. In the waiting, God is not withholding good; He is forming character that hurried answers could never produce. The psalmist says \"let your heart take courage\"—courage is commanded because fear is expected. Waiting well does not mean waiting without trembling. It means trembling and still choosing to trust.\n\nPractically, waiting looks like faithfulness in small things today: showing up, praying honestly, serving others, refusing to let bitterness take root. It means reminding yourself of God's past faithfulness when the present feels silent. The waiting is not wasted. It is where trust becomes real rather than theoretical. The One you wait for is not distant—He is near, and He is working even when you cannot see it.\n\n## Prayer\n\nFather, in seasons of delay, steady our hearts. Forgive us for forcing what only You can open. Teach us to wait with courage, trusting Your timing over our urgency. Strengthen us to be faithful today. Amen.\n\n## One-Line Application\n\nWait actively: trust God's timing while faithfully doing today's good.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
