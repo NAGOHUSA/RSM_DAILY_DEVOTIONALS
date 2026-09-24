@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-24",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 315,
+  "theme": null,
+  "content_markdown": "# When God Waits to Be Gracious\n\n## Scripture\n\n“Therefore the LORD waits to be gracious to you, and therefore he exalts himself to show mercy to you. For the LORD is a God of justice; blessed are all those who wait for him.” — Isaiah 30:18\n\n## Reflection\n\nWe usually read waiting as delay, even punishment. But Isaiah says God himself waits—not from weakness, but from love. Israel had run to Egypt for protection, refusing to trust the Lord. Yet even in their rebellion, God stood ready, watching for the moment when mercy could do its deepest work. His waiting is not indifference; it is patience aimed at our good.\n\nConsider where you are tempted to run ahead of God—a decision, a relationship, a financial pressure. Our instinct is to force a solution. But the Lord who waits also strengthens those who wait for him. Waiting is not passive; it is active trust that says, “I will not manufacture my own rescue.”\n\nNotice the order: God waits *to be gracious*. His delay is not denial. He is not slow in keeping his promise; he is patient, not wanting anyone to perish (2 Peter 3:9). The same God who disciplines also longs to lift up. Justice and mercy meet at the cross, where he did not spare himself.\n\nSo if you are in a season of silence, do not mistake it for absence. The God who waits is working while you wait. Blessed are those who wait for him—not because waiting is easy, but because he is faithful.\n\n## Prayer\n\nFather, teach us to wait on you without striving or fear. When answers delay, anchor our hearts in your character. Thank you that your patience is mercy, not neglect. Give us grace to trust your timing in every season. Amen.\n\n## One-Line Application\n\nWait on the Lord—he is already waiting to be gracious to you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
