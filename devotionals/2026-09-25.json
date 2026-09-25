@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-25",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 306,
+  "theme": null,
+  "content_markdown": "# Present in the Waiting\n\n## Scripture\n\n“Wait for the Lord; be strong, and let your heart take courage; wait for the Lord!” — Psalm 27:14 (ESV)\n\n## Reflection\n\nWaiting feels like wasted time. We want answers, resolution, the next step made clear. Yet Scripture repeatedly treats waiting not as empty space but as holy ground where God forms us. David wrote these words while hunted, anointed but not yet crowned. His waiting was not passive resignation; it was active trust. He preached to his own heart: be strong, take courage, wait.\n\nWe often confuse waiting with doing nothing. Biblical waiting is attentive—praying, obeying what we already know, serving where we are, refusing to force open doors God has kept shut. It is the farmer who plants and then sleeps, trusting growth to God (Mark 4:26–27). The danger is not delay itself but what we do with it: grasping, grumbling, or growing bitter.\n\nNotice the repetition—“wait for the Lord” bookends the verse. The command is not to wait for circumstances to change but for the Lord Himself. He is the reward of waiting, not merely the one who ends it. If your season feels stalled, ask: What is God teaching me here that I could not learn elsewhere? Patience, dependence, humility, a deeper prayer life—these are not consolation prizes. They are treasures.\n\nCourage is not the absence of waiting but faithfulness within it. The Lord who promised is faithful. He has not forgotten you. He is not late. Wait for Him—and while you wait, let Him shape you.\n\n## Prayer\n\nFather, teach us to wait on You with courage and hope. Guard our hearts from grasping and grumbling. Form in us patience, dependence, and deeper trust, knowing You are faithful and never late. Amen.\n\n## One-Line Application\n\nWait actively: pray, obey, and trust God’s timing today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
