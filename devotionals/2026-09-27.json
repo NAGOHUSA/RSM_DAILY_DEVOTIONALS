@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-27",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 283,
+  "theme": null,
+  "content_markdown": "# When God Feels Silent\n\n## Scripture\n\n“But Zion said, ‘The LORD has forsaken me; my Lord has forgotten me.’ Can a mother forget the baby at her breast? Though she may forget, I will not forget you!” — Isaiah 49:14–15\n\n## Reflection\n\nZion's complaint is painfully honest: God feels absent, and the silence feels like abandonment. Notice that God does not scold the feeling. He answers it with a picture of a nursing mother—the most tender image of faithful care the prophets could conjure—and then says His love exceeds even that. Feelings of forsakenness are not evidence of forsakenness. The cross itself proves how far God will go to stay near: Jesus cried “My God, my God, why have you forsaken me?” so that our own cry would never be the final word.\n\nPractically, this means we can bring our silence and doubt into prayer instead of hiding them. Name the ache honestly. Then preach the promise to your own heart: God has engraved you on the palms of His hands (Isaiah 49:16). Waiting is not wasted. In seasons when God seems quiet, He is often doing His deepest work—forming patience, dependence, and a faith that rests on His character rather than on our feelings. The silence is not the absence of His love. It may be the very room where that love becomes real to you.\n\n## Prayer\n\nFather, when Your silence feels like distance, hold us close. Remind us that You have engraved us on Your palms and will never forget Your children. Give us faith to wait, and peace to trust Your unseen care. Amen.\n\n## One-Line Application\n\nWhen God seems silent, trust His promise more than your feelings.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
