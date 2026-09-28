@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 244,
+  "theme": null,
+  "content_markdown": "# God’s Mercy Meets Our Repentance\n\n## Scripture\n\n“If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.” — 1 John 1:9 (NIV)\n\n## Reflection\n\nGod’s forgiveness is not earned by our sorrow, but sorrow is the doorway through which we receive it. Confession is not informing God of something He doesn’t know; it is agreeing with Him about what He already sees. When we name our sin honestly—without excuse, without minimizing—we stop hiding and start healing. The promise here rests on God’s character, not our performance. He is “faithful and just”: faithful to His covenant love, and just because Christ already bore the penalty at the cross. His forgiveness is not a reluctant pardon but a cleansing—He doesn’t merely cancel the debt, He purifies the stain. Practically, this means we can bring our worst to God today without fear. Unconfessed sin grows in the dark; confessed sin meets the light of grace. And notice the scope: “all unrighteousness.” No sin is beyond His cleansing. If you have been carrying guilt, stop rehearsing it and start confessing it. The God who sees everything still loves completely.\n\n## Prayer\n\nFather, we come honestly, hiding nothing. Thank You that confession meets mercy, not condemnation. Cleanse us, restore us, and teach us to walk in the freedom Your forgiveness gives. In Jesus’ name, amen.\n\n## One-Line Application\n\nConfess quickly, receive freely, and walk clean today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
