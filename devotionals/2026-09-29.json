@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-29",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 285,
+  "theme": null,
+  "content_markdown": "# When God Seems Silent\n\n## Scripture\n\n“Be still before the LORD and wait patiently for him.” — Psalm 37:7\n\n## Reflection\n\nWaiting on God can feel like standing in a dark hallway. The promises we cling to seem distant, and heaven appears quiet. Yet Scripture never equates silence with absence. Between the last verse of Malachi and the first of Matthew, God spoke nothing for four hundred years—and then sent His Son exactly on time. Silence is not abandonment; it is often preparation.\n\nNotice what David does not say. He does not say “figure it out,” “force a door open,” or “take matters into your own hands.” He says, *be still*. The Hebrew carries the sense of resting, of ceasing to strive. Our instinct in delay is to manufacture movement, to fill the quiet with our own noise. But stillness is an act of trust. It declares that God is working even when we cannot see the work.\n\nPractically, waiting looks like faithfulness in small things: showing up for prayer when nothing seems to happen, obeying what you already know, refusing to resent those who seem to receive answers sooner. Waiting is not passive resignation; it is active obedience under an unhurried God. His timing is never late, and His silence is never careless. What feels like a delay to us is often a deepening in us—roots growing in the dark before the fruit appears.\n\n## Prayer\n\nFather, when Your voice seems distant, keep our hearts steady. Teach us to wait without wavering, to obey without demanding explanation, and to trust that Your silence is never absence. Grow our roots deep in You. Amen.\n\n## One-Line Application\n\nTrust the silence; God is still working.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
