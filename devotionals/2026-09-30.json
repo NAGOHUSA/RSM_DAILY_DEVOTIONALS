@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-30",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 270,
+  "theme": null,
+  "content_markdown": "# When Love Speaks Plainly\n\n## Scripture\n\n\"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.\" — John 3:16\n\n## Reflection\n\nThe world's most familiar verse is familiar for a reason: it says everything. God's love is not a vague warmth but a definite act—He gave. Love that stays abstract costs nothing; love that gives a Son costs everything. Notice the scope: \"the world,\" not the worthy, the tidy, or the already-devoted. His love moves toward us while we are still far off, which means you did not qualify for it and cannot disqualify yourself from it.\n\nNotice too the outcome: not merely rescue from perishing, but eternal life—communion with God that begins now. This is grace from first to last. Believing is not a heroic work; it is open hands receiving a gift already purchased. So today, let this verse do its plain work. When you fail, return to the love that gave before you were good. When you doubt your worth, measure it by the cross, not your mood. When you meet someone far off, remember you were met the same way. Love like this cannot stay contained; it spills outward in patience, generosity, and quiet faithfulness.\n\n## Prayer\n\nFather, thank You for loving us first and giving Your Son. Help us receive this gift with open hands and live as those who will not perish but have eternal life. Teach us to love others as we have been loved. Amen.\n\n## One-Line Application\n\nRest today in love that gave everything for you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
