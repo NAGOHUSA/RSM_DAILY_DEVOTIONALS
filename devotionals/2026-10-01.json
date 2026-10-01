@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-01",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 276,
+  "theme": null,
+  "content_markdown": "# Resting in God's Unfailing Faithfulness\n\n## Scripture\n\n\"Because of the LORD's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.\" — Lamentations 3:22-23\n\n## Reflection\n\nJeremiah wrote these words amid the rubble of Jerusalem, not from a place of comfort. That matters. God's faithfulness is not a truth we affirm only when life cooperates; it is a lifeline thrown to us in the ruins. Notice the logic: we are not consumed *because* of his great love. Our survival, our next breath, our capacity to keep going—all of it rests on mercy we did not earn and cannot exhaust.\n\nHis compassions are \"new every morning.\" Yesterday's grace was sufficient for yesterday. Today brings fresh supply, not recycled leftovers. This frees us from two errors: hoarding grace as if God might run out, and despairing as if our failures have drained the account. Neither is true. The steadfast love of the Lord never ceases because it never depended on us to begin with.\n\nPractically, this means we can begin again today. Confess what needs confessing. Release what you've been carrying. Step into this ordinary Thursday trusting that the God who sustained you through every prior morning is already present in this one. Faithfulness is not a mood God sometimes feels toward you; it is who he is.\n\n## Prayer\n\nFather, thank you that your mercies meet us fresh each morning. When we are weary or ashamed, remind us that your love never fails. Teach us to trust your faithfulness today, not our own strength. Amen.\n\n## One-Line Application\n\nBegin today trusting fresh mercy, not yesterday's reserves.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
