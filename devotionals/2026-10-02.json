@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-02",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 264,
+  "theme": null,
+  "content_markdown": "# Slow Obedience in a Rushed World\n\n## Scripture\n\n“But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles.” — Isaiah 40:31 (ESV)\n\n## Reflection\n\nWe live in a culture that treats waiting as failure. Every delayed answer feels like a denied one, so we rush ahead of God, mistaking motion for obedience. Yet Isaiah speaks to exiles—people whose wait was measured in decades, not days. Their strength was not renewed by hustling harder but by hoping in the Lord.\n\nWaiting is not passivity. It is active trust, the discipline of refusing to manufacture what only God can give. When we wait, we confess that we are not sovereign and that our timing is not the measure of God's faithfulness. The promise is not that waiting feels good but that it produces endurance: we rise, we run, we walk without fainting.\n\nPractically, this means pausing before the impulsive reply, the premature decision, the anxious fix. It means praying, “Lord, not yet” as readily as “Lord, now.” Waiting trains us to receive strength rather than generate it, so that when the answer comes, we know whom to thank. Today, let your unresolved thing remain unresolved before God—and let Him renew you in the middle of it.\n\n## Prayer\n\nFather, teach us to wait on You without fretting or forcing. Renew our strength when we are weary, and let our hope rest in Your faithful timing, through Christ our Lord. Amen.\n\n## One-Line Application\n\nWait on the Lord today; let Him renew the strength you cannot manufacture.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
