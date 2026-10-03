@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-03",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 274,
+  "theme": null,
+  "content_markdown": "# Resting in God's Unfailing Presence\n\n## Scripture\n\n\"Be still, and know that I am God.\" — Psalm 46:10\n\n## Reflection\n\nStillness feels impossible in a world that rewards hurry. Our phones buzz, deadlines press, and even our prayers can become frantic attempts to secure what God has already promised. Yet Psalm 46 speaks these words into chaos—nations raging, kingdoms falling—and calls God's people to stop striving. \"Be still\" is not a call to passivity but to trust. It is the posture of a child who knows their Father is near.\n\nNotice the order: stillness precedes knowledge. We do not calm ourselves in order to earn God's presence; we quiet our hearts because He is already present. The Hebrew word for \"know\" carries the weight of deep, experiential intimacy—not merely information about God, but confidence in who He is. When we stop rehearsing our fears and start resting in His character, anxiety loses its grip.\n\nPractically, this looks like small, deliberate choices. Pausing before you react. Sitting in silence for five minutes before the day begins. Naming your worries to God and then leaving them with Him. Stillness is not the absence of trouble; it is the presence of trust. The God who commands the storms also holds your life. You can release your grip today—He has not released His.\n\n## Prayer\n\nFather, quiet our restless hearts. Teach us to stop striving and to rest in who You are. When fear rises, anchor us in Your faithfulness. We trust You with what we cannot control. In Jesus' name, amen.\n\n## One-Line Application\n\nPause today, release your grip, and trust the God who holds you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
