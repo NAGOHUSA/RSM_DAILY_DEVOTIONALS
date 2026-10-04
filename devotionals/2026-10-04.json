@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-04",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 285,
+  "theme": null,
+  "content_markdown": "# The God Who Waits\n\n## Scripture\n\n“The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.” — 2 Peter 3:9\n\n## Reflection\n\nWe often measure God’s faithfulness by our calendars. When prayers go unanswered and promises seem delayed, we quietly conclude that God has forgotten us. Peter corrects this instinct. What looks like slowness is actually patience — and patience is not weakness but mercy. God is not late; He is long-suffering, holding open the door a little longer so that none should perish.\n\nThis reframes our waiting. Our delays are not evidence of God’s absence but of His kindness toward someone — perhaps toward us. The season you find frustrating may be the very space God is using to soften a heart, restore a relationship, or deepen your dependence on Him. His timing is never careless; it is calibrated to redemption.\n\nPractically, this means we can stop treating waiting as wasted time. Instead of demanding answers, we can ask, “Lord, what are You forming in me while I wait?” We can pray for the people God is still pursuing, trusting that His patience is active, not passive. And we can rest: the God who has never broken a promise is not about to start with yours. Delay is not denial. He is not slow — He is saving.\n\n## Prayer\n\nFather, thank You for Your patience with us. Teach us to wait without doubting Your goodness, and to trust that Your timing is always for our good and Your glory. Amen.\n\n## One-Line Application\n\nTrust God’s delay as His mercy, not His absence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
