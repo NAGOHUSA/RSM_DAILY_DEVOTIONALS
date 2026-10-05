@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-05",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 301,
+  "theme": null,
+  "content_markdown": "# When God Seems Silent\n\n## Scripture\n\n“But I cry to you for help, LORD; in the morning my prayer comes before you. Why, LORD, do you reject me and hide your face from me?” — Psalm 88:13–14\n\n## Reflection\n\nPsalm 88 is the only lament in the Psalter that ends in darkness. The writer, Heman, never resolves his pain. He cries out, and heaven stays quiet. Yet he keeps praying. That is the quiet miracle of this psalm: faithfulness without consolation.\n\nMost of us assume God's silence means God's absence. Heman teaches otherwise. He addresses God as “LORD”—covenant name, covenant God—even while feeling rejected. He does not pretend. He does not perform. He brings his raw, unanswered grief into the presence of the One who seems not to answer.\n\nPractically, this gives us permission. Permission to pray when we feel nothing. Permission to say, “I don't understand,” without abandoning the throne. Permission to keep showing up at church, at the table, at the bedside, even when the heavens feel like brass.\n\nThe gospel does not promise constant emotional assurance. It promises a Father who hears, a Son who cried “My God, my God, why have you forsaken me?” so that our forsaken moments are held inside his. When God is silent, he is not absent. He is often closest to the cross-shaped places in our lives. Keep praying. Silence is not rejection; it is invitation to trust what we cannot feel.\n\n## Prayer\n\nFather, when your voice seems far and our hearts grow weary, hold us fast. Teach us to pray in the dark as Heman did—honestly, persistently, and in hope. Remind us that Jesus knows our silence, and in him we are never forsaken. Amen.\n\n## One-Line Application\n\nKeep praying in the silence; God has not left the room.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
