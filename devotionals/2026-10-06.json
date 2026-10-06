@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-06",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 266,
+  "theme": null,
+  "content_markdown": "# Waiting With Purpose\n\n## Scripture\n\n\"Wait for the LORD; be strong and take heart and wait for the LORD.\" — Psalm 27:14 (NIV)\n\n## Reflection\n\nWaiting feels like wasted time, yet Scripture treats it as holy ground. David wrote these words while hunted, anointed but not yet crowned. His waiting was not passive resignation but active trust—strengthening his heart while God worked behind the scenes. We often treat waiting as an interruption to our real lives. But God uses seasons of delay to shape what He cannot shape in seasons of abundance: our dependence, our patience, our character.\n\nConsider what waiting produces. It exposes where we grasp for control. It teaches us to pray instead of panic. It reframes our timeline against God's eternal purposes. The Israelites waited forty years; Abraham waited twenty-five. In each case, the waiting was not punishment but preparation.\n\nPractically, waiting well means showing up faithfully today. Do the small, unseen work. Keep praying. Serve where you are. Resist the urge to force open doors God has closed. When the wait feels endless, remember: God is never late, and He is never idle. He is forming something in you that could not be formed in a hurry. Take heart—the same God who called you is faithful to complete what He started.\n\n## Prayer\n\nFather, teach us to wait with open hands and steady hearts. Strengthen us when delays discourage us, and remind us that You are always working. We trust Your timing over our own. In Jesus' name, amen.\n\n## One-Line Application\n\nWait actively: trust God's timing, do today's faithful work.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
