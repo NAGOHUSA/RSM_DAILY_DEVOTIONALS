@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-07",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 280,
+  "theme": null,
+  "content_markdown": "# Waiting Well in the Silence\n\n## Scripture\n\n\"Be still before the LORD and wait patiently for him; do not fret when people succeed in their ways.\" — Psalm 37:7\n\n## Reflection\n\nWaiting is not passive. The Hebrew behind \"be still\" carries the sense of deliberate silence—a chosen quieting of the soul before God. David writes this to people tempted to fret over the prosperity of the wicked, which means the waiting he commends is not empty time but trust under pressure. Our culture treats waiting as wasted space to be filled with worry or comparison. Scripture treats it as holy ground where faith grows roots.\n\nConsider what waiting produces that haste cannot. It trains us to rest in God's character rather than our circumstances. It exposes the idols of control and instant results. It teaches us that God's timing is not delay but formation—He is shaping us, not merely postponing us.\n\nPractically, waiting well looks like honesty in prayer (\"Lord, this is hard\") paired with continued obedience in small things. It means refusing to scroll for reassurance or manufacture our own outcomes. When the psalmist says \"do not fret,\" he is not scolding emotion but redirecting it: bring your anxiety to God instead of feeding it. Waiting patiently does not mean pretending you are not waiting. It means waiting with your eyes on the One who is already at work.\n\n## Prayer\n\nFather, teach us to be still before You. When waiting feels endless, guard our hearts from fretting and comparison. Grow our trust in Your timing, and let us rest in Your faithful character. Amen.\n\n## One-Line Application\n\nWait on the Lord today instead of working around Him.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
