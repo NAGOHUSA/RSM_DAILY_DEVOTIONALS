@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-08",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 314,
+  "theme": null,
+  "content_markdown": "# When God Feels Silent\n\n## Scripture\n\n“But I cry to you for help, LORD; in the morning my prayer comes before you. Why, LORD, do you reject me and hide your face from me?” — Psalm 88:13–14\n\n## Reflection\n\nPsalm 88 ends in darkness—no resolution, no lifted spirit. Yet it remains in the canon of Scripture, teaching us that honest lament is itself an act of faith. The psalmist does not stop praying when God seems absent; he keeps crying out, morning after morning. His complaint is addressed *to God*, not whispered in bitterness away from Him. That is the difference between despair and lament: lament still speaks to the One who seems silent.\n\nMany of us carry a quiet fear that if we admit God feels distant, we are failing spiritually. But faith is not the absence of doubt; it is continuing to pray through the silence. Notice that the psalmist rehearses God’s character and covenant even while feeling rejected. He clings to what he knows of God, not merely what he feels. Feelings are real but not final. The silence of God is not the absence of God—Jesus Himself cried from the cross, quoting a psalm of abandonment, and the Father had not left Him.\n\nPractically, keep praying plainly. Bring your unedited grief to God rather than performing a cheerfulness you don’t feel. Sit with the psalms of lament. Let others pray for you when your own words run dry. And remember: the story does not end at Psalm 88. Resurrection follows the silence, and the One who seemed hidden was there all along.\n\n## Prayer\n\nFather, when we cannot sense Your nearness, keep us praying. Hold us in the dark, remind us of Your unchanging character, and carry us until morning comes. We trust You even in the silence. Amen.\n\n## One-Line Application\n\nKeep praying honestly; silence is not absence.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
