@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-09",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 270,
+  "theme": null,
+  "content_markdown": "# Resting in God's Enough\n\n## Scripture\n\n“But godliness with contentment is great gain.” — 1 Timothy 6:6\n\n## Reflection\n\nPaul writes to Timothy in a culture of endless acquisition, yet his words reach ours just as directly. Contentment is not the absence of desire or ambition; it is the settled trust that God has already given us what we need for today. The world tells us gain comes from more—more money, more recognition, more comfort. Paul flips the equation: gain comes from godliness paired with contentment. This is not passive resignation. It is active faith that says, “Father, You are enough.”\n\nPractically, contentment begins with gratitude. When we name what God has provided—breath, daily bread, a community of faith—our eyes shift from what is missing to what is present. Second, contentment grows through limits. Saying no to one more purchase, one more commitment, one more comparison frees us to enjoy what we already have. Third, contentment is learned, not inherited. Paul says he “learned” it (Philippians 4:11). It takes practice, repentance, and returning to the cross where God gave His greatest gift.\n\nThe danger of discontentment is that it quietly accuses God of withholding good. But the gospel declares He did not spare His own Son—how will He not also graciously give us all things? Contentment is the fruit of believing that promise.\n\n## Prayer\n\nFather, teach us to be content with what You provide. Forgive our restless striving for more. Open our eyes to Your daily gifts, and satisfy our hearts in Christ alone. Amen.\n\n## One-Line Application\n\nChoose gratitude over grasping; God's provision is enough for today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
