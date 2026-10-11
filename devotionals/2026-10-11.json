@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-11",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 247,
+  "theme": null,
+  "content_markdown": "# Resting in God's Sufficient Grace\n\n## Scripture\n\n“My grace is sufficient for you, for my power is made perfect in weakness.” — 2 Corinthians 12:9\n\n## Reflection\n\nWe spend much of our lives hiding weakness. We curate strength, mask exhaustion, and present competence to a watching world. Yet Paul’s words overturn our instinct. God did not promise to remove Paul’s thorn—He promised something better: grace sufficient for it. Power perfected not in our polished performance but in our honest frailty.\n\nThis is deeply practical. When you face a chronic illness, a strained marriage, a job you cannot fix, or a temptation that will not lift, the gospel does not demand you manufacture strength. It invites you to stop pretending. Confess your weakness to God and to trusted believers. Let others pray for you. Rest, rather than perform.\n\nTheologically, this is grace alone. We are not justified by our competence, nor sanctified by our willpower. The same grace that saved us sustains us. Our weakness is not a disqualifier—it is the very place where God’s power rests. So do not despise your limits. Bring them to the throne. There, grace is not merely enough; it is abundant.\n\n## Prayer\n\nFather, we confess our weariness and our fear of being seen as weak. Teach us to rest in Your sufficient grace. Let Your power be perfected in our frailty, for Your glory and our good. Amen.\n\n## One-Line Application\n\nStop hiding your weakness; let God's grace carry you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
