@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-12",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 262,
+  "theme": null,
+  "content_markdown": "# Resting in God's Unfailing Presence\n\n## Scripture\n\n\"Be still, and know that I am God.\" — Psalm 46:10\n\n## Reflection\n\nStillness feels impossible in a world that rewards constant motion. Our phones buzz, deadlines press, and worries multiply before sunrise. Yet God's invitation is not to try harder but to stop striving and remember who holds all things together. The Hebrew word for \"be still\" carries the sense of letting your hands drop—releasing the grip on what you cannot control. This is not passivity; it is trust made visible.\n\nNotice the command is paired with knowledge: \"know that I am God.\" Stillness is not empty quietism but a deliberate turning of attention toward the One who is already present. When we cease our frantic rehearsing of outcomes, we create space to remember His character—sovereign, faithful, near. The psalm's context is chaos: nations rage, kingdoms totter. Yet even there, God speaks peace.\n\nPractically, this may look like ten unhurried minutes before the day begins, a walk without headphones, or naming your anxieties aloud and handing each one to Him. The goal is not a cleared mind but a redirected heart. As we practice stillness, we discover that God has not moved. We have simply stopped long enough to notice He was there all along.\n\n## Prayer\n\nFather, quiet our restless hearts. Teach us to release what we cannot control and rest in who You are. In the stillness, remind us that You are God, and we are held. Amen.\n\n## One-Line Application\n\nPause today, release your grip, and remember who God is.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
