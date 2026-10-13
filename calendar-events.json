@@ -1,34 +1,10 @@
 {
   "events": [
-    {
-      "id": 5,
-      "title": "September Gathering",
-      "description": "Monthly gathering of men for worship, a message, and fellowship.",
-      "date": "2026-09-14",
-      "time": "6:45 PM",
-      "location": "Woodlands Coffee & Roasters",
-      "badge": "Monthly",
-      "featured": false,
-      "speaker": "Dylan Coursey & Chad Wood",
-      "topic": "Testimonial"
-    },
-    {
-      "id": 6,
-      "title": "October Gathering",
-      "description": "Monthly gathering of men for worship, a message, and fellowship.",
-      "date": "2026-10-05",
-      "time": "6:45 PM",
-      "location": "Woodlands Coffee & Roasters",
-      "badge": "Monthly",
-      "featured": false,
-      "speaker": "Dusty Foskey",
-      "topic": "Testimonial"
-    },
-    {
+        {
       "id": 7,
       "title": "November Gathering",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
-      "date": "2026-11-09",
+      "date": "2026-11-02",
       "time": "6:45 PM",
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
@@ -40,10 +16,11 @@
       "id": 8,
       "title": "Monthly Fellowship",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
-      "date": "2026-12-14",
+      "date": "2026-12-07",
       "time": "7:00 PM",
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
+      "speaker": "Jim Hall",
       "featured": false
     }
   ]
