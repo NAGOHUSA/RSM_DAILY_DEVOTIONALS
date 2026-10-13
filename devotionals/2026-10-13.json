@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-13",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 296,
+  "theme": null,
+  "content_markdown": "# Quiet Faithfulness in Hidden Places\n\n## Scripture\n\n“Whatever you do, work heartily, as for the Lord and not for men, knowing that from the Lord you will receive the inheritance as your reward.” — Colossians 3:23–24\n\n## Reflection\n\nMost of our days are unremarkable. The same commute, the same inbox, the same dishes, the same quiet duties no one notices. We are tempted to believe that significance belongs to the visible, the applauded, the platform. But Scripture reframes ordinary work entirely: it is done “for the Lord,” not for an audience. This is not a call to strive harder so God will love us more; His love is already settled in Christ. It is a call to let that settled love shape how we handle the unseen hour.\n\nConsider the mother folding laundry, the employee finishing a spreadsheet no one will praise, the volunteer stacking chairs after everyone has gone home. Heaven sees. The Lord is not a distant supervisor but a Father who receives even the smallest offering of faithfulness. When we work heartily for Him, our hidden obedience becomes worship, and our reward is not applause but Himself.\n\nThis frees us from two traps: performing for people, and resenting that no one notices. Both are healed when we remember who we are actually serving. Today, do the next small thing well—not to be seen, but because you are seen by the One who sees in secret.\n\n## Prayer\n\nFather, thank You that no act of faithfulness is hidden from Your sight. Teach us to work heartily for You, not for the praise of people. Free us from striving and resentment, and let our ordinary tasks become quiet worship. Amen.\n\n## One-Line Application\n\nDo the unseen task today as if Christ Himself were watching.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
