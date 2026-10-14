@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 294,
+  "theme": null,
+  "content_markdown": "# God’s Faithfulness in Every Season\n\n## Scripture\n\n“Because of the LORD’s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.” — Lamentations 3:22–23\n\n## Reflection\n\nLamentations is a book of grief. Jeremiah writes from the rubble of a destroyed city, surrounded by loss and unanswered questions. Yet right in the middle of the weeping, he stops and remembers something: God’s mercy is not exhausted. His compassions are not used up. They arrive fresh each morning, like manna in the wilderness.\n\nWe often assume faithfulness means everything goes smoothly. But biblical faithfulness is God’s steady character when life is anything but steady. The verse does not say our circumstances are renewed each morning; it says His mercy is. That means today’s grace is sufficient for today’s need—not yesterday’s, not tomorrow’s. When we wake anxious or weary, we are not starting from zero. We are starting from a fresh supply of mercy that was already waiting for us.\n\nPractically, this invites us to begin each day by naming one specific way God has been faithful, however small. Gratitude retrains our eyes to see mercy we might otherwise overlook. And when we fail, we return to the same promise: we are not consumed. His love holds us, not our performance. The cross proves that mercy is not a mood God happens to be in—it is who He is.\n\n## Prayer\n\nFather, thank You that Your mercy meets us fresh each morning. When we are weary or afraid, remind us that Your love never runs out. Teach us to trust Your faithfulness today, not just in hindsight. We rest in You. Amen.\n\n## One-Line Application\n\nStart today by naming one way God has already been faithful.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
