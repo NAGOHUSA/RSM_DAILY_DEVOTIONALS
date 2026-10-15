@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-15",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 249,
+  "theme": null,
+  "content_markdown": "# When God Feels Silent\n\n## Scripture\n\n“But Zion said, ‘The LORD has forsaken me; my Lord has forgotten me.’ Can a mother forget the baby at her breast? Though she may forget, I will not forget you!” — Isaiah 49:14–15\n\n## Reflection\n\nIsrael's complaint was honest: God felt absent. Yet God did not scold the feeling—He answered it with a promise deeper than the strongest human love. A nursing mother's bond is among the most instinctive affections we know, and God says even that can fail. His covenant love cannot.\n\nOur feelings are real but not reliable narrators. Seasons of silence—unanswered prayer, prolonged waiting, grief that lingers—can convince us we've been set aside. But God's faithfulness rests on His character, not our perception. He does not forget His children; He engraves them on His palms (Isaiah 49:16).\n\nPractically, this means we can bring our lament to God rather than away from Him. The psalmists did this constantly. Name the silence honestly, then preach the promise back to your own heart. Recall past faithfulness. Stay in community, where others can carry hope when yours runs thin. Silence is not absence. The mother may momentarily forget; the Father never will.\n\n## Prayer\n\nFather, when Your silence feels like abandonment, anchor us in Your unchanging promise. Remind us that You have engraved us on Your palms and will never forget Your children. Strengthen our faith in the waiting. Amen.\n\n## One-Line Application\n\nBring your lament to God, not away from Him.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
