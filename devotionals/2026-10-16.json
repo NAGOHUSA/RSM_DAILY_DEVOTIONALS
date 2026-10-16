@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-16",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 328,
+  "theme": null,
+  "content_markdown": "# When God Feels Silent\n\n## Scripture\n\n“But Zion said, ‘The LORD has forsaken me; my Lord has forgotten me.’ Can a mother forget the baby at her breast? Though she may forget, I will not forget you!” — Isaiah 49:14–15\n\n## Reflection\n\nIsrael's complaint was not abstract doubt; it was the raw ache of a people who had waited long and seen little. Exile had stretched on, prayers seemed to hit the ceiling, and the gap between God's promises and their circumstances felt unbearable. God does not scold them for saying it out loud. Instead, He answers with the most tender image available: a nursing mother. And then He says something startling — even that fierce love can fail, but His will not.\n\nMost of us know seasons where God seems absent. The job doesn't come through. The diagnosis doesn't change. The prodigal doesn't return. In those stretches, silence can feel like abandonment. But feelings are real without being final. God's covenant faithfulness does not rise and fall with our perception of it. He is not distant because we cannot sense Him; He is holding us even when we cannot feel the arms.\n\nNotice that God's answer is not an explanation. He doesn't tell Israel how long the exile will last or why it began. He gives them Himself — His character, His memory, His unshakable commitment. That is often the only answer He offers, and it is enough. When you cannot trace His hand, you can still trust His heart. The One who carved your name on His palms has not forgotten you.\n\n## Prayer\n\nFather, when Your silence feels like absence, anchor us in what You have said rather than what we feel. Remind us that You do not forget Your children. Hold us close in the waiting, and teach us to trust Your heart when we cannot trace Your hand. Amen.\n\n## One-Line Application\n\nWhen God seems silent, trust His heart, not your feelings.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
