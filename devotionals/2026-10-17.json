@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-17",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 286,
+  "theme": null,
+  "content_markdown": "# Speak Truth in Love\n\n## Scripture\n\n“Instead, speaking the truth in love, we will grow to become in every respect the mature body of him who is the head, that is, Christ.” — Ephesians 4:15\n\n## Reflection\n\nPaul writes to a church learning how to live together as one body. Some spoke truth without love, wounding others. Some loved without truth, leaving people unchanged. The gospel calls us to hold both together. Truth without love becomes harsh criticism. Love without truth becomes empty flattery. Neither helps anyone grow.\n\nConsider a conversation you have been avoiding. Perhaps a friend is drifting, or a family member needs honest words. Ask yourself: am I staying silent to keep the peace, or speaking to win an argument? Both miss the mark. Truth spoken in love aims at the other person's good, not our own vindication. It is patient, humble, and willing to listen first.\n\nNotice Paul's goal: maturity in Christ. Our words are not the point—growth is. That means we can ask, \"Will this help this person become more like Jesus?\" Sometimes the loving thing is a gentle question rather than a verdict. Sometimes it is honest confrontation, spoken with tears rather than triumph. Either way, we speak as fellow travelers who need grace ourselves, not as judges standing above others. Ask God for courage to speak and tenderness to listen, trusting that He uses both truth and love to shape His people.\n\n## Prayer\n\nFather, give us courage to speak truth and tenderness to speak it in love. Guard our words from harshness and our silence from fear, that we may grow together into Christ. Amen.\n\n## One-Line Application\n\nSpeak honestly, gently, and for the other person's growth.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
