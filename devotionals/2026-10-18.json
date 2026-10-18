@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-18",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 294,
+  "theme": null,
+  "content_markdown": "# When God Waits to Be Gracious\n\n## Scripture\n\n“Therefore the LORD waits to be gracious to you… blessed are all who wait for him.” — Isaiah 30:18\n\n## Reflection\n\nWe tend to read delay as denial. When God seems slow, we assume He has forgotten or refused. But Isaiah gives us a different picture: the Lord *waits*—not out of weakness, but out of wisdom. He is not late; He is deliberate. His timing is calibrated to our need and His glory, not to our impatience.\n\nNotice the context. Israel was running to Egypt for help, trusting horses and chariots instead of the Holy One. God waited because He longed for them to stop grasping and start trusting. His delay was mercy in disguise—space to turn back before they settled for lesser saviors. The same is often true of us. When we are tempted to force a door open or manufacture our own rescue, God's apparent silence invites us to examine what we are leaning on.\n\nWaiting is not passive resignation; it is active obedience. It means praying honestly, doing the next right thing, and refusing to run ahead of God to build our own cisterns. Waiting trains us to want the Giver more than the gift. The promise stands: those who wait for Him are blessed—not because waiting earns anything, but because it positions us to receive what only He can give. His grace is worth the pause.\n\n## Prayer\n\nFather, teach us to wait on You without grumbling or scheming. Forgive our rush to lesser helpers. Give us patience that trusts Your timing and hearts that long for You more than Your gifts, through Christ our Lord. Amen.\n\n## One-Line Application\n\nWait actively today—pray, obey, and trust God's timing over your own.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
