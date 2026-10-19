@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-19",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 285,
+  "theme": null,
+  "content_markdown": "# Rest in God’s Quiet Faithfulness\n\n## Scripture\n\n“Be still, and know that I am God.” — Psalm 46:10\n\n## Reflection\n\nStillness is not passivity; it is a deliberate act of trust. Psalm 46 speaks of upheaval—mountains shaking, waters roaring, nations raging—yet God’s people are told to be still. The command is not given in a quiet moment but in the middle of chaos. Stillness here means ceasing our frantic striving long enough to remember who holds the world together. We often confuse busyness with faithfulness, believing that if we stop working, everything will collapse. But God does not ask us to be the engine of our own lives. He asks us to know Him.\n\nPractically, this looks like small, intentional pauses: beginning the day with a few minutes of silence before God, resisting the urge to fill every gap with noise, or ending the evening by naming one way God was faithful. These are not techniques for spiritual performance but habits that reorient the heart. When we practice stillness, we are not abandoning responsibility; we are placing our responsibility under God’s authority. We remember that He is God and we are not. That remembrance frees us from the anxiety of trying to control outcomes and frees us to obey faithfully in the ordinary tasks before us. Stillness is not the absence of action but the presence of trust.\n\n## Prayer\n\nFather, quiet our restless hearts. Teach us to cease striving and to know that You are God. In the noise of this day, help us to trust Your presence and Your rule, and to rest in Your faithfulness. Amen.\n\n## One-Line Application\n\nPause today to be still and remember that God is in control.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
