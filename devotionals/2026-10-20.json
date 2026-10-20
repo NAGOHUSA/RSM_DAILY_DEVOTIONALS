@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 297,
+  "theme": null,
+  "content_markdown": "# Slow Down and See\n\n## Scripture\n\n“Be still, and know that I am God.” — Psalm 46:10 (ESV)\n\n## Reflection\n\nStillness feels like a luxury we cannot afford. Our calendars fill, notifications interrupt, and even our prayers race toward the closing amen. Yet the psalmist does not say “be busy, and know that I am God.” The command is to stop—to loosen our grip on the illusion of control—and to remember who actually holds the world together. Stillness is not passivity; it is the deliberate act of placing our attention where it belongs. When we pause, we begin to see what hurry hides: God’s faithfulness in ordinary moments, the gift of a quiet morning, the people right in front of us.\n\nPractically, this means building small stops into our day. Before you check your phone in the morning, sit for two unhurried minutes with a single verse. Before you respond to a difficult message, breathe and ask God for wisdom. Before sleep, name one thing you noticed God doing. These are not techniques for earning God’s favor—grace is already yours in Christ. They are simply ways of making room for the God who is already present. The stillness does not create God’s nearness; it clears our vision to receive it. Today, choose one pause and keep it. Let your soul catch up with your body, and let your heart remember that the God who calms the nations is also calming you.\n\n## Prayer\n\nFather, quiet our racing hearts. Teach us to be still before You, to release our grip and trust Your steady hand. In the pause, open our eyes to Your presence and Your faithfulness. We ask this in Jesus’ name. Amen.\n\n## One-Line Application\n\nPause today, and let stillness remind you who holds everything.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
