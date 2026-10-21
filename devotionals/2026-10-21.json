@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 325,
+  "theme": null,
+  "content_markdown": "# When Waiting Feels Like Wandering\n\n## Scripture\n\n“Wait for the LORD; be strong, and let your heart take courage; wait for the LORD!” — Psalm 27:14 (ESV)\n\n## Reflection\n\nWaiting is one of God’s quietest classrooms. We tend to treat it as dead space—the hallway between the door we wanted and the room we hoped for. But Scripture rarely describes waiting as passive. Here the psalmist couples it with strength and courage, as though waiting itself were an act of holy resolve. David wrote these words while hunted, not while comfortable. His counsel was not “relax until circumstances improve” but “steady your heart in the character of God.”\n\nThat distinction matters practically. Waiting on the Lord is not the same as waiting for the Lord to do what we scripted. One anchors us to His faithfulness; the other anchors us to an outcome. When we wait on His character, we can be honest about disappointment without being consumed by it. We keep praying, keep showing up, keep loving the people in front of us—not because we have a timeline, but because we have a Father.\n\nConsider where you are tempted to demand resolution this week. Bring that desire to God plainly, then release the timetable to Him. Waiting well looks like faithfulness in small, unremarkable obedience: the email answered kindly, the prayer prayed again, the hope rekindled rather than abandoned. Courage in waiting is not pretending the delay doesn’t hurt. It is choosing to trust that the One who holds the timeline is good—and that He has never once been late in the way that matters most.\n\n## Prayer\n\nFather, teach us to wait on You rather than on our own plans. Strengthen our hearts, guard us from bitterness, and help us walk faithfully in the small obediences of today. We trust Your timing and Your goodness. In Jesus’ name, amen.\n\n## One-Line Application\n\nWait on God’s character today, not on your preferred outcome.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
