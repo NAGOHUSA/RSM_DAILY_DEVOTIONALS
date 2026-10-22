@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-22",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 300,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of Daily Faithfulness\n\n## Scripture\n\n“And let us not grow weary of doing good, for in due season we will reap, if we do not give up.” — Galatians 6:9\n\n## Reflection\n\nPaul writes these words to a church tempted to quit. The doing of good—patiently, unnoticed, without immediate reward—wears on us. We serve in the nursery, pray for the same prodigal, keep showing up at the same job, and the harvest seems far off. Paul names the weariness honestly, then calls us to keep sowing.\n\nNotice the theology beneath the command. Fruitfulness is not our burden to manufacture; it belongs to God’s timing—“in due season.” We are sowers, not harvesters. Our part is faithfulness; the growth belongs to another. This frees us from frantic striving and from despair when results lag. The farmer does not dig up the seed each morning to check its progress. He waters, waits, and trusts the soil and the season to the Lord who gives the increase.\n\nPractically, this means we measure our days by obedience rather than outcomes. Ask: What small good is mine to do today—the email of encouragement, the honest work, the quiet prayer? Do that, and leave the harvest with God. When weariness comes—and it will—do not isolate. Name it to a brother or sister, rest, and return to the field. The promise is sure: no faithful sowing in Christ is ever wasted. The harvest is coming, and the One who promised is faithful.\n\n## Prayer\n\nFather, keep us steady in doing good when no one sees and nothing seems to change. Guard us from weariness and isolation. Help us trust your timing and your harvest, through Jesus Christ our Lord. Amen.\n\n## One-Line Application\n\nSow today’s small good faithfully and leave the harvest to God.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
