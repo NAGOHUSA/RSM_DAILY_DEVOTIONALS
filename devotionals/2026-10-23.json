@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 338,
+  "theme": null,
+  "content_markdown": "# The God Who Hears Our Groaning\n\n## Scripture\n\n“During that long period, the king of Egypt died. The Israelites groaned in their slavery and cried out, and their cry for help because of their slavery went up to God. So God heard their groaning and remembered his covenant.” — Exodus 2:23–24\n\n## Reflection\n\nNotice the order in this text: the people groan, their cry goes up, and God hears. Nothing in the passage suggests their suffering was wasted or unnoticed. The years were long—generations passed—yet the groaning reached the throne of God. He was not distant or indifferent. He heard, and He remembered His covenant.\n\nThere is deep comfort here for anyone in a season that feels endless. We often assume God’s silence means God’s absence. But Scripture shows us that groaning is itself a form of prayer. When words fail and strength runs out, the cry of the heart still ascends. God is not deaf to the sighs we cannot articulate.\n\nThis passage also reminds us that God’s timing is not ours. The Israelites waited centuries. Yet God was working—preparing Moses, arranging circumstances, keeping His promise. His delay was not denial. He remembered His covenant, and His faithfulness did not depend on their strength, but on His character.\n\nPractically, this invites us to bring our unpolished grief to God. We don’t need to clean up our pain before prayer. We can groan honestly, trusting that He hears. And when we feel forgotten, we can look back at His covenant promises and remind ourselves: the God who heard Israel still hears us. He is not silent forever. He is faithful.\n\n## Prayer\n\nFather, we thank You that You hear our groaning even when we cannot find words. Teach us to trust Your timing and rest in Your covenant faithfulness. When we feel forgotten, remind us that You remember us and are working all things for our good. In Jesus’ name, amen.\n\n## One-Line Application\n\nBring your unspoken groans to God today, trusting that He hears and remembers.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
