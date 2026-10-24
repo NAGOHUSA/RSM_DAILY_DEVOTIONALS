@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-24",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 269,
+  "theme": null,
+  "content_markdown": "# God’s Steadfast Kindness in Weakness\n\n## Scripture\n“My grace is sufficient for you, for my power is made perfect in weakness.” — 2 Corinthians 12:9\n\n## Reflection\nPaul asked three times for the thorn to be removed. God’s answer was not removal but sufficiency. This is the quiet shape of discipleship: we bring our limits honestly, and God meets us not with a lecture but with grace. Grace is not a vague sentiment; it is God’s active favor in Christ, strong enough to sustain what we cannot fix. Notice that the Lord does not call weakness a virtue in itself—weakness is simply the honest place where dependence begins. Pride insists on self-sufficiency and misses the supply. Faith names the thorn, stops pretending, and receives what God gives.\n\nPractically, this means we can stop measuring our spiritual maturity by how little we need help. Instead, we can build small habits of dependence: praying before the meeting rather than after the failure, asking a trusted friend to intercede, naming one limitation to God each morning and asking for grace for that hour. Boasting in weakness is not self-pity; it is testimony—pointing away from ourselves to the power that rests upon us. Christ’s strength is not a boost to our resume but a gift to our need. Today, let your insufficiency become a doorway to his sufficiency.\n\n## Prayer\nFather, we confess our pride and our weariness. Teach us to bring our weakness to you and to rest in Christ’s sufficient grace, that your power may be seen in us. Amen.\n\n## One-Line Application\nTrade self-sufficiency for Christ’s sufficient grace today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
