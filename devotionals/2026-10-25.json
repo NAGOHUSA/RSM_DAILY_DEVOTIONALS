@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 350,
+  "theme": null,
+  "content_markdown": "# God’s Comfort in Every Trial\n\n## Scripture\n\n“Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort, who comforts us in all our affliction.” — 2 Corinthians 1:3–4a\n\n## Reflection\n\nPaul writes these words not from a place of ease but from the trenches of hardship. He had known affliction—the kind that pressed him beyond his strength. Yet his first instinct is not to complain but to bless God. That is a striking posture. It reveals something about how Paul understood suffering: trials are not evidence of God’s absence but occasions for His comfort to become concrete and personal.\n\nNotice the scope of Paul’s language. God is the “God of all comfort”—not some comfort, not occasional comfort, but all of it. Whatever shape your affliction takes today, the comfort God offers is matched to it. He does not stand at a distance offering generic sympathy; He draws near as the Father of mercies, tender toward His children.\n\nAnd here is the mystery Paul unfolds: the comfort we receive is not meant to terminate on us. We are comforted so that we can comfort others. Your trial, endured with God’s help, becomes a gift to someone else walking a similar road. This reframes suffering. It is no longer pointless pain but preparation for ministry. The comfort you have received becomes a well you can draw from for others.\n\nPractically, this invites two movements today. First, receive—honestly name your affliction before the God of all comfort, and ask Him to meet you in it. Second, look—ask who around you might need the comfort you have already been given. You do not need to have arrived to be useful; you only need to have received.\n\n## Prayer\n\nFather of mercies, we come to You in our affliction, asking for the comfort only You can give. Open our eyes to those who need the comfort we have received, and make us willing channels of Your mercy. Amen.\n\n## One-Line Application\n\nReceive God’s comfort today, then pass it on to someone who needs it.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
