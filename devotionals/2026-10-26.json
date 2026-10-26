@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 309,
+  "theme": null,
+  "content_markdown": "# Peace Beyond Our Understanding\n\n## Scripture\n\n“Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.” — Philippians 4:6–7\n\n## Reflection\n\nAnxiety is a familiar companion for many of us. It whispers that we must carry every burden alone, that worry is the only responsible response to uncertainty. Yet Paul writes these words from a prison cell—hardly a place of comfort—and still commands us not to be anxious. His instruction is not a dismissal of real fear but an invitation to a different posture.\n\nNotice the pattern: prayer, petition, thanksgiving. We bring our requests honestly, naming our fears before God rather than pretending they don't exist. Thanksgiving is not denial either; it is remembering God's faithfulness in past seasons, which anchors us when the present feels shaky. The promised peace is not the absence of problems but a guard over our hearts—a settled trust that holds even when circumstances haven't changed.\n\nThis peace \"transcends all understanding\" because it doesn't depend on our ability to figure things out. It is God's gift, not our achievement. Practically, this means we can stop rehearsing worst-case scenarios and instead rehearse God's character. When anxiety rises, we can pause and turn each worry into a specific prayer, trusting that the One who hears is already at work. Peace grows not by avoiding trouble but by repeatedly handing it over.\n\n## Prayer\n\nFather, we confess our tendency to carry worry we were never meant to hold. Teach us to bring every fear to You with thankful hearts, and guard our minds with Your peace. In Jesus' name, amen.\n\n## One-Line Application\n\nTrade today's worry for specific prayer, and let God's peace guard your heart.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
