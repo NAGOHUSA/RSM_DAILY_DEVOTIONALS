@@ -191,7 +191,7 @@ html { scroll-padding-top: calc(var(--header-h) + 16px); }
 .rsm-menu-btn[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
 .rsm-menu-btn[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-@media (max-width: 1180px) {
+@media (max-width: 1279px) {
   .rsm-menu-btn { display: inline-flex; }
   .rsm-header__actions { margin-left: auto; }
   .rsm-header .rsm-nav {
