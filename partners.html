@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partners &amp; Men's Groups — Rock Solid Man</title>
+<meta name="description" content="Ministries and churches standing alongside Rock Solid Man, plus every men's group, Bible study and fellowship we know of across Houston County, GA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--stone); color: var(--cream); font-family: var(--ff-body); font-size: 16px; line-height: 1.7; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+
+  .jump { display: flex; justify-content: center; gap: .6rem; flex-wrap: wrap; margin-top: 1.6rem; }
+
+  /* ---------- Partner feature ---------- */
+  .partners { padding: 4.5rem 0 5rem; }
+  .sec-head { display: flex; align-items: end; justify-content: space-between; gap: 1rem 2rem; flex-wrap: wrap; margin-bottom: 2.2rem; }
+  .sec-head p { color: var(--text-muted); max-width: 46ch; }
+
+  .partner {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.3fr);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.015));
+  }
+  .partner + .partner { margin-top: 1.5rem; }
+  .partner__brand {
+    position: relative;
+    padding: 2.4rem 2.2rem;
+    display: flex; flex-direction: column; justify-content: space-between; gap: 2rem;
+    background:
+      radial-gradient(ellipse 80% 70% at 20% 0%, var(--accent-soft, rgba(212,167,122,.22)), transparent 70%),
+      #201c18;
+    border-right: 1px solid var(--line);
+  }
+  .partner__mark {
+    width: 64px; height: 64px; border-radius: 16px;
+    display: grid; place-items: center;
+    background: var(--accent, #d4a77a); color: #1a1714;
+    font-family: var(--ff-display); font-size: 1.7rem; letter-spacing: .04em; line-height: 1; padding-top: 4px;
+  }
+  .partner__kind { font-size: .66rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--accent, #d4a77a); margin: 1.4rem 0 .5rem; }
+  .partner__name { font-family: var(--ff-display); font-weight: 400; font-size: clamp(2.2rem, 4vw, 3rem); line-height: .95; letter-spacing: .03em; color: var(--cream); }
+  .partner__tagline { font-family: var(--ff-serif); font-style: italic; font-size: 1.08rem; color: var(--cream-dark); margin-top: .8rem; line-height: 1.55; }
+  .partner__links { display: flex; flex-direction: column; gap: .6rem; }
+  .partner__links .rsm-btn { justify-content: center; }
+  .partner__social { display: flex; gap: .5rem; flex-wrap: wrap; font-size: .8rem; }
+  .partner__social a { color: var(--text-muted); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: .35rem .8rem; }
+  .partner__social a:hover { color: var(--cream); border-color: var(--accent, #d4a77a); }
+
+  .partner__body { padding: 2.4rem 2.4rem 2.2rem; }
+  .partner__body h4 { font-size: .68rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--green-light); margin-bottom: .6rem; }
+  .partner__mission { font-size: 1.08rem; line-height: 1.75; color: var(--cream); margin-bottom: 1.8rem; }
+  .pillars { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin-bottom: 1.8rem; }
+  .pillar { border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1rem .9rem; background: rgba(255,255,255,.025); }
+  .pillar b { display: block; font-family: var(--ff-display); font-weight: 400; font-size: 1.35rem; letter-spacing: .04em; color: var(--cream); line-height: 1.05; }
+  .pillar span { display: block; font-size: .8rem; color: var(--text-muted); line-height: 1.45; margin-top: .3rem; }
+  .offers { list-style: none; display: grid; gap: .9rem; margin-bottom: 1.6rem; }
+  .offers li { display: grid; grid-template-columns: 22px 1fr; gap: .75rem; font-size: .94rem; color: var(--cream-dark); line-height: 1.55; }
+  .offers li::before { content: ''; width: 8px; height: 8px; margin: .55em 0 0 6px; border-radius: 50%; background: var(--green-light); }
+  .offers strong { color: var(--cream); font-weight: 500; }
+  .partner__why {
+    border-left: 3px solid var(--green-mid);
+    background: rgba(58,122,74,.1);
+    border-radius: 0 10px 10px 0;
+    padding: .9rem 1.1rem;
+    font-size: .92rem; color: var(--cream-dark);
+  }
+  .partner__why a { color: var(--green-light); }
+
+  .become {
+    margin-top: 1.5rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; flex-wrap: wrap;
+    padding: 1.7rem 2rem;
+    border: 1px dashed rgba(106,186,122,.4);
+    border-radius: 16px;
+  }
+  .become h3 { font-family: var(--ff-display); font-weight: 400; font-size: 1.8rem; letter-spacing: .04em; line-height: 1; }
+  .become p { color: var(--text-muted); font-size: .92rem; margin-top: .35rem; max-width: 56ch; }
+
+  /* ---------- Men's groups ---------- */
+  .groups { padding: 5rem 0 6rem; border-top: 1px solid var(--line); background: linear-gradient(180deg, #1d1d1d, var(--stone)); }
+  .groups__verse { font-family: var(--ff-serif); font-style: italic; color: var(--cream-dark); margin: -.2rem 0 1.4rem; }
+  .intro-card {
+    border: 1px solid var(--line-green); background: rgba(58,122,74,.1);
+    border-radius: 12px; padding: 1.1rem 1.3rem; color: var(--cream-dark); font-size: .95rem; margin-bottom: 1.8rem;
+  }
+  .intro-card strong { color: var(--green-light); font-weight: 600; }
+  .filters { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: 2rem; }
+  .filters-label { font-size: .66rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--text-muted); margin-right: .4rem; }
+  .filter-btn {
+    background: transparent; border: 1px solid var(--line); color: var(--cream-dark);
+    border-radius: 999px; padding: .5rem 1rem; cursor: pointer;
+    font: 500 .78rem var(--ff-body); letter-spacing: .08em;
+    transition: border-color .2s, color .2s, background .2s;
+  }
+  .filter-btn:hover { border-color: var(--green-mid); color: var(--green-light); }
+  .filter-btn[aria-pressed="true"] { background: var(--green-deep); border-color: var(--green-mid); color: var(--white); }
+  .filter-btn small { opacity: .65; margin-left: .25rem; }
+
+  .city + .city { margin-top: 2.6rem; }
+  .city h3 { font-family: var(--ff-display); font-weight: 400; font-size: 1.9rem; letter-spacing: .04em; margin-bottom: 1rem; display: flex; align-items: baseline; gap: .7rem; }
+  .city h3 span { font-family: var(--ff-body); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--text-muted); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1rem; }
+  .gcard {
+    position: relative;
+    display: flex; flex-direction: column; gap: .5rem;
+    padding: 1.3rem 1.3rem 1.2rem;
+    border: 1px solid var(--line); border-radius: 12px;
+    background: rgba(255,255,255,.03);
+    transition: border-color .2s, transform .2s;
+  }
+  .gcard:hover { border-color: var(--green-mid); transform: translateY(-2px); }
+  .gcard--us { border-color: var(--green-light); background: rgba(58,122,74,.12); }
+  .gcard__badge { position: absolute; top: -.6rem; right: 1rem; background: var(--green-light); color: var(--stone-deep); font-size: .6rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; padding: .25rem .55rem; border-radius: 5px; }
+  .gcard__title { font-weight: 600; font-size: 1.02rem; color: var(--cream); line-height: 1.35; }
+  .gcard__meta { display: grid; grid-template-columns: 16px 1fr; gap: .5rem; font-size: .84rem; color: var(--cream-dark); line-height: 1.45; }
+  .gcard__meta svg { width: 15px; height: 15px; margin-top: .15em; color: var(--green-light); }
+  .gcard__focus { font-size: .84rem; color: var(--text-muted); line-height: 1.5; padding-top: .55rem; border-top: 1px solid var(--line); margin-top: .2rem; }
+  .gcard__links { display: flex; flex-wrap: wrap; gap: .4rem 1rem; margin-top: auto; padding-top: .4rem; font-size: .82rem; }
+  .gcard__links a { color: var(--green-light); text-decoration: none; word-break: break-all; }
+  .gcard__links a:hover { color: var(--cream); }
+  .groups__note { margin-top: 2.4rem; font-size: .88rem; color: var(--text-muted); }
+  .groups__note a { color: var(--green-light); }
+
+  @media (max-width: 900px) {
+    .partner { grid-template-columns: 1fr; }
+    .partner__brand { border-right: 0; border-bottom: 1px solid var(--line); }
+  }
+  @media (max-width: 560px) {
+    .rsm-wrap { padding: 0 1rem; }
+    .partner__brand, .partner__body { padding: 1.7rem 1.35rem; }
+    .pillars { grid-template-columns: 1fr; }
+    .become { padding: 1.4rem 1.3rem; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<a class="rsm-skip" href="#main">Skip to content</a>
+<header class="rsm-header">
+  <div class="rsm-header__inner">
+    <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+      <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+      <span><b>Rock</b> Solid Man</span>
+    </a>
+    <nav class="rsm-nav" id="rsm-nav" aria-label="Main">
+      <ul class="rsm-nav__list">
+      <li><a href="events.html">Events</a></li>
+      <li><a href="devotional.html">Daily Word</a></li>
+      <li><a href="videos.html">Watch</a></li>
+      <li><a href="podcast.html">Podcast</a></li>
+      <li><a href="gallery/index.html">Photos</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="partners.html" aria-current="page">Partners</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="rsm-header__actions">
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give</a>
+      <button type="button" class="rsm-menu-btn" aria-controls="rsm-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <header class="rsm-page-hero">
+    <span class="rsm-eyebrow">Partners &amp; Men&rsquo;s Groups</span>
+    <h1>Stronger <em>together</em></h1>
+    <p>No ministry builds alone. These are the ministries standing alongside Rock Solid Man, and the men&rsquo;s groups meeting across Houston County.</p>
+    <div class="jump">
+      <a class="rsm-btn rsm-btn--ghost" href="#ministry-partners">Ministry partners</a>
+      <a class="rsm-btn rsm-btn--ghost" href="#mens-groups">Find a men&rsquo;s group</a>
+    </div>
+  </header>
+
+  <!-- ============ MINISTRY PARTNERS ============ -->
+  <section class="partners" id="ministry-partners" aria-labelledby="partners-title">
+    <div class="rsm-wrap">
+      <div class="sec-head">
+        <div>
+          <span class="rsm-eyebrow">Ministry partners</span>
+          <h2 class="rsm-h2" id="partners-title">Who we <em>stand with</em></h2>
+        </div>
+        <p>Organizations we trust and gladly point people toward. Know a ministry that should be here? Let us know.</p>
+      </div>
+
+      <div id="partner-list">
+        <!-- Partners are listed in the PARTNERS array at the bottom of this page. -->
+      </div>
+
+      <div class="become">
+        <div>
+          <h3>Partner with Rock Solid Man</h3>
+          <p>Churches, ministries and businesses that want to help men find faith, brotherhood and purpose &mdash; we&rsquo;d love to talk.</p>
+        </div>
+        <a class="rsm-btn rsm-btn--green" href="contact.html">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MEN'S GROUPS ============ -->
+  <section class="groups" id="mens-groups" aria-labelledby="groups-title">
+    <div class="rsm-wrap">
+      <span class="rsm-eyebrow">Houston County &middot; Georgia</span>
+      <h2 class="rsm-h2" id="groups-title">Men&rsquo;s groups <em>worth joining</em></h2>
+      <p class="groups__verse">&ldquo;As iron sharpens iron, so one person sharpens another.&rdquo; &mdash; Proverbs 27:17</p>
+      <div class="intro-card">
+        <strong id="group-count">Men&rsquo;s groups across Houston County.</strong>
+        If Rock Solid Man&rsquo;s schedule at Woodlands Coffee Roasters in Kathleen doesn&rsquo;t work for you, we genuinely encourage you to connect with one of the churches and ministries below. Consistent brotherhood matters more than which room you sit in.
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filter by city"><span class="filters-label">Filter</span></div>
+      <div id="groups"><p class="rsm-empty">Loading groups&hellip;</p></div>
+      <p class="groups__note">Know a group we missed, or see something out of date? <a href="contact.html">Tell us</a> and we&rsquo;ll update the list.</p>
+    </div>
+  </section>
+</main>
+<footer class="rsm-footer">
+  <div class="rsm-footer__inner">
+    <div class="rsm-footer__brand">
+      <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+        <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+        <span><b>Rock</b> Solid Man</span>
+      </a>
+      <p>Helping men build unshakable strength — physically, mentally, and spiritually. Anchored in Christ. Rooted in community.</p>
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give to the mission</a>
+      <div class="rsm-footer__alt"><a href="https://www.paypal.com/donate/?hosted_button_id=T8NLD6Y9Z7AYG" target="_blank" rel="noopener">PayPal</a><a href="https://www.paypal.com/qrcodes/venmocs/35583249-8548-40b0-a609-de92029468d0?created=1729007121" target="_blank" rel="noopener">Venmo</a></div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li><a href="devotional.html">Daily Word</a></li>
+        <li><a href="videos.html">Videos &amp; Shorts</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="gallery/index.html">Photo Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Ministry</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="mission.html">Our Mission</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="mensgroups.html">Men&rsquo;s Groups</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">Volunteer</a></li>
+        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" target="_blank" rel="noopener">TXT Alerts</a></li>
+        <li><a href="https://rock-solid-man.printify.me/category/all/1" target="_blank" rel="noopener">Gear / Swag</a></li>
+        <li><a href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">All Socials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rsm-footer__bottom">
+    <span>Rock Solid Man Inc &copy; 2026. All rights reserved.</span>
+    <span>Matthew 7:24</span>
+    <span>Designed by <a href="https://nagoh.us" target="_blank" rel="noopener">Nagoh Creative</a> &nbsp;|&nbsp; Support: <a href="mailto:support@nagohcreative.com">support@nagohcreative.com</a></span>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+<script>
+/* ---------------------------------------------------------------
+   PARTNERS — add a new partner by copying an entry below.
+   accent: the partner's highlight color (any CSS color).
+   --------------------------------------------------------------- */
+var PARTNERS = [
+  {
+    name: 'Living Truth Collective',
+    initials: 'LTC',
+    kind: "Women's ministry partner",
+    tagline: 'Women living collectively in God’s truth.',
+    accent: '#d4a77a',
+    accentSoft: 'rgba(212,167,122,.22)',
+    url: 'https://livingtruthco.com',
+    mission: 'Living Truth Collective equips women to thrive in Biblical community — learning, sharing and experiencing God’s truth together.',
+    pillars: [
+      ['Know Truth', 'Grounded in God’s Word.'],
+      ['Experience Truth', 'Living it out in community.'],
+      ['Share Truth', 'Carrying it to others.']
+    ],
+    offers: [
+      ['At the Table', 'women’s Biblical community groups built on Acts 2:42, with monthly resources for leaders and members.'],
+      ['Scripture jewelry', 'hand-stamped pieces that each come with a verse memorization card; 10% of profits fund mission projects worldwide.'],
+      ['Stories & events', 'women’s testimonies on the Y(OUR) Story blog, plus events like ABIDE 2026.']
+    ],
+    why: 'Rock Solid Man calls men to stand on the Rock; Living Truth Collective does the same for women. Know a wife, mother or daughter looking for Biblical community? Point her to <a href="https://livingtruthco.com/pages/atthetable" target="_blank" rel="noopener">At the Table</a>.',
+    links: [
+      ['Visit livingtruthco.com', 'https://livingtruthco.com', 'green'],
+      ['Join At the Table', 'https://livingtruthco.com/pages/atthetable', 'ghost'],
+      ['Shop scripture jewelry', 'https://livingtruthco.com/collections/shop-all', 'ghost']
+    ],
+    social: [
+      ['Facebook', 'https://m.facebook.com/Livingtruthjewelry/'],
+      ['Instagram', 'https://www.instagram.com/livingtruthcollective/']
+    ]
+  }
+];
+
+document.addEventListener('DOMContentLoaded', function () {
+  var R = window.RSM, esc = R.esc;
+
+  // ---------- Partners ----------
+  document.getElementById('partner-list').innerHTML = PARTNERS.map(function (p) {
+    var style = '--accent:' + esc(p.accent || '#d4a77a') + ';--accent-soft:' + esc(p.accentSoft || 'rgba(212,167,122,.22)');
+    return '<article class="partner" style="' + style + '">' +
+      '<div class="partner__brand"><div>' +
+        '<div class="partner__mark" aria-hidden="true">' + esc(p.initials) + '</div>' +
+        '<div class="partner__kind">' + esc(p.kind) + '</div>' +
+        '<h3 class="partner__name">' + esc(p.name) + '</h3>' +
+        '<p class="partner__tagline">' + esc(p.tagline) + '</p></div>' +
+        '<div class="partner__links">' + p.links.map(function (l) {
+          return '<a class="rsm-btn rsm-btn--' + l[2] + '" href="' + esc(l[1]) + '" target="_blank" rel="noopener">' + esc(l[0]) + '</a>';
+        }).join('') + '</div>' +
+        (p.social && p.social.length ? '<div class="partner__social">' + p.social.map(function (s) {
+          return '<a href="' + esc(s[1]) + '" target="_blank" rel="noopener">' + esc(s[0]) + '</a>';
+        }).join('') + '</div>' : '') +
+      '</div>' +
+      '<div class="partner__body">' +
+        '<h4>Their mission</h4><p class="partner__mission">' + esc(p.mission) + '</p>' +
+        (p.pillars ? '<div class="pillars">' + p.pillars.map(function (x) { return '<div class="pillar"><b>' + esc(x[0]) + '</b><span>' + esc(x[1]) + '</span></div>'; }).join('') + '</div>' : '') +
+        (p.offers ? '<h4>What they offer</h4><ul class="offers">' + p.offers.map(function (x) { return '<li><span><strong>' + esc(x[0]) + '</strong> &mdash; ' + esc(x[1]) + '</span></li>'; }).join('') + '</ul>' : '') +
+        (p.why ? '<div class="partner__why">' + p.why + '</div>' : '') +
+      '</div></article>';
+  }).join('');
+
+  // ---------- Men's groups (from RSM_HOCOGA_MENSGROUPS.json) ----------
+  var PIN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>';
+  var CLOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>';
+  var groups = [], current = 'all';
+
+  function isUs(g) { return /rocksolidman\.org/i.test(g.website || '') || g.organization_name === 'Rock Solid Man'; }
+  function card(g) {
+    var links = [];
+    if (g.website && !isUs(g)) links.push('<a href="' + esc(g.website) + '" target="_blank" rel="noopener">Visit website &rarr;</a>');
+    if (isUs(g)) links.push('<a href="events.html">See our gatherings &rarr;</a>');
+    if (g.contact_email) links.push('<a href="mailto:' + esc(g.contact_email) + '">' + esc(g.contact_email) + '</a>');
+    return '<div class="gcard' + (isUs(g) ? ' gcard--us' : '') + '">' +
+      (isUs(g) ? '<span class="gcard__badge">That&rsquo;s us</span>' : '') +
+      '<div class="gcard__title">' + esc(g.organization_name) + '</div>' +
+      (g.address ? '<div class="gcard__meta">' + PIN + '<span>' + esc(g.address) + '</span></div>' : '') +
+      (g.meeting_schedule ? '<div class="gcard__meta">' + CLOCK + '<span>' + esc(g.meeting_schedule) + '</span></div>' : '') +
+      (g.primary_focus ? '<div class="gcard__focus">' + esc(g.primary_focus) + '</div>' : '') +
+      (links.length ? '<div class="gcard__links">' + links.join('') + '</div>' : '') +
+    '</div>';
+  }
+  function cities() {
+    var seen = {}, out = [];
+    groups.forEach(function (g) { if (!seen[g.city]) { seen[g.city] = 0; out.push(g.city); } seen[g.city]++; });
+    return out.map(function (c) { return [c, seen[c]]; });
+  }
+  function render() {
+    var list = cities().filter(function (c) { return current === 'all' || c[0] === current; });
+    document.getElementById('groups').innerHTML = list.map(function (c) {
+      var items = groups.filter(function (g) { return g.city === c[0]; })
+        .sort(function (a, b) { return isUs(b) - isUs(a); });
+      return '<div class="city"><h3>' + esc(c[0]) + ' <span>' + items.length + ' group' + (items.length === 1 ? '' : 's') + '</span></h3>' +
+        '<div class="grid">' + items.map(card).join('') + '</div></div>';
+    }).join('');
+    document.querySelectorAll('.filter-btn').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.city === current ? 'true' : 'false'); });
+  }
+
+  R.getJSON('RSM_HOCOGA_MENSGROUPS.json').then(function (data) {
+    groups = Array.isArray(data) ? data : (data.groups || []);
+    var cs = cities();
+    document.getElementById('group-count').textContent = groups.length + ' groups across ' + cs.length + ' cities.';
+    var f = document.getElementById('filters');
+    f.insertAdjacentHTML('beforeend',
+      '<button type="button" class="filter-btn" data-city="all">All cities <small>' + groups.length + '</small></button>' +
+      cs.map(function (c) { return '<button type="button" class="filter-btn" data-city="' + esc(c[0]) + '">' + esc(c[0]) + ' <small>' + c[1] + '</small></button>'; }).join(''));
+    f.addEventListener('click', function (e) {
+      var b = e.target.closest('.filter-btn'); if (!b) return;
+      current = b.dataset.city; render();
+    });
+    render();
+  }).catch(function () {
+    document.getElementById('groups').innerHTML = '<p class="rsm-empty">The group list couldn&rsquo;t load right now. <a href="mensgroups.html">See the full directory</a>.</p>';
+  });
+});
+</script>
+</body>
+</html>

@@ -48,7 +48,7 @@
     });
     nav.addEventListener('click', function (e) { if (e.target.closest('a')) close(); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
-    window.addEventListener('resize', function () { if (window.innerWidth > 1180) close(); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1279) close(); });
   }
 
   /* ---------- Give modal ---------- */
