@@ -648,6 +648,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ---- Latest: devotional, videos, podcast, social posts — newest first ----
     var items = [];
+    // De-duplicate across sources: the same episode or video can come from
+    // podcast-episodes.json, videos.json AND the social feed (Substack/YouTube).
+    var seen = {};
+    function normUrl(u) { return String(u || '').toLowerCase().replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, ''); }
+    function normTitle(t) { return String(t || '').toLowerCase().replace(/#\w+/g, '').replace(/[^a-z0-9]+/g, ''); }
+    function isDup(url, title) {
+      var u = url && normUrl(url), t = normTitle(title);
+      if ((u && seen['u:' + u]) || (t && seen['t:' + t])) return true;
+      if (u) seen['u:' + u] = 1;
+      if (t) seen['t:' + t] = 1;
+      return false;
+    }
     if (devo) items.push({ date: R.parseDay(devo.date), pin: 1, html: a('devotional.html', 'fi',
       '<span class="fi__icon fi__icon--devo">' + ICONS.devo + '</span>' +
       '<span><span class="fi__kicker">Daily Word <span>&middot; ' + R.ago(R.parseDay(devo.date)) + '</span></span>' +
@@ -655,6 +667,7 @@ document.addEventListener('DOMContentLoaded', function () {
       '<span class="fi__meta">' + esc(devo.ref) + '</span></span>') });
 
     if (vids) vids.videos.slice(0, 2).forEach(function (v) {
+      if (isDup(null, v.title)) return;
       items.push({ date: R.parseDay(v.date), html: a('videos.html#' + v.id, 'fi',
         '<span class="fi__thumb">' + (v.poster ? '<img src="' + esc(v.poster) + '" alt="" loading="lazy" decoding="async">' : '') + '</span>' +
         '<span><span class="fi__kicker">' + (v.format === 'vertical' ? 'New short' : 'New video') + ' <span>&middot; ' + R.ago(R.parseDay(v.date)) + '</span></span>' +
@@ -664,6 +677,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (pod && pod.episodes && pod.episodes[0]) {
       var ep = pod.episodes[0], epDate = new Date(ep.pub_date);
+      isDup(ep.link, ep.title);
       items.push({ date: epDate, html: a('podcast.html', 'fi',
         '<span class="fi__icon fi__icon--podcast">' + ICONS.podcast + '</span>' +
         '<span><span class="fi__kicker">Podcast <span>&middot; ' + R.ago(epDate) + '</span></span>' +
@@ -672,10 +686,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (social) {
-      var seen = {};
       (social.posts || []).concat(social.auto || []).forEach(function (p) {
         if (!p || !p.date) return;
-        var key = p.url || p.text; if (seen[key]) return; seen[key] = 1;
+        if (isDup(p.url, p.title || p.text)) return;
         var d = R.parseDay(String(p.date).slice(0, 10)) || new Date(p.date);
         var plat = ICONS[p.platform] ? p.platform : 'site';
         var thumb = p.image
