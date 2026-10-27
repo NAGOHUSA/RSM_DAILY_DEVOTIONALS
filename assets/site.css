@@ -39,6 +39,10 @@
 body { transform: none !important; animation: rsmPageIn .35s ease both !important; }
 @keyframes rsmPageIn { from { opacity: 0; } to { opacity: 1; } }
 
+/* Background photo on the older pages: no slow zoom. Scaling a photo
+   continuously makes it shimmer on many screens. */
+.floating-bg img { animation: none !important; transform: none !important; }
+
 /* Leave room for the fixed header on every page. */
 html { scroll-padding-top: calc(var(--header-h) + 16px); }
 
