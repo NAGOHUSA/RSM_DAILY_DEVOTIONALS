@@ -1,6 +1,6 @@
 {
   "_howto": "The homepage feed mixes upcoming events, the Daily Word, videos, the podcast and these posts. Add your own posts (Facebook, Instagram, announcements) to \"posts\" — newest date shows first. platform can be: facebook, instagram, youtube, substack, site. url and image are optional. The \"auto\" list is filled every day by generate-social-feed.js (YouTube uploads + Substack posts) — don't edit it by hand.",
-  "generated_at": null,
+  "generated_at": "2026-10-27T16:36:30.698Z",
   "posts": [
     {
       "platform": "site",
@@ -9,5 +9,114 @@
       "url": "videos.html"
     }
   ],
-  "auto": []
+  "auto": [
+    {
+      "platform": "substack",
+      "date": "2026-10-20T02:18:04.000Z",
+      "title": "Emotionalism In The Church (part 2 of 2)",
+      "text": "episode 013",
+      "url": "https://rocksolidman.substack.com/p/emotionalism-in-the-church-part-2",
+      "image": null,
+      "kind": "podcast"
+    },
+    {
+      "platform": "substack",
+      "date": "2026-10-13T00:57:12.000Z",
+      "title": "Emotionalism In The Church (part 1 of 2)",
+      "text": "episode 012",
+      "url": "https://rocksolidman.substack.com/p/emotionalism-in-the-church-part-1",
+      "image": null,
+      "kind": "podcast"
+    },
+    {
+      "platform": "substack",
+      "date": "2026-10-07T02:01:48.000Z",
+      "title": "No One Is Too Far Gone (part 2 of 2)",
+      "text": "episode 011",
+      "url": "https://rocksolidman.substack.com/p/no-one-is-too-far-gone-part-2-of",
+      "image": null,
+      "kind": "podcast"
+    },
+    {
+      "platform": "substack",
+      "date": "2026-10-05T11:28:17.000Z",
+      "title": "Rock Solid 6",
+      "text": "Let God Judge the Judgers",
+      "url": "https://rocksolidman.substack.com/p/rock-solid-6-38a",
+      "image": null,
+      "kind": "podcast"
+    },
+    {
+      "platform": "substack",
+      "date": "2026-09-29T01:09:08.000Z",
+      "title": "No One Is Too Far Gone (part 1 of 2)",
+      "text": "episode 010",
+      "url": "https://rocksolidman.substack.com/p/no-one-is-too-far-gone-part-1-of",
+      "image": null,
+      "kind": "podcast"
+    },
+    {
+      "platform": "substack",
+      "date": "2026-09-22T01:56:48.000Z",
+      "title": "Found In The Wilderness (part 2 of 2)",
+      "text": "episode 009",
+      "url": "https://rocksolidman.substack.com/p/found-in-the-wilderness-part-2-of",
+      "image": null,
+      "kind": "podcast"
+    },
+    {
+      "platform": "youtube",
+      "date": "2026-09-12T16:09:15+00:00",
+      "title": "unknown",
+      "text": "https://rocksolidman.substack.com/p/rock-solid-6?utm_source=youtube",
+      "url": "https://www.youtube.com/watch?v=ZXz83wG_EZI",
+      "image": "https://i3.ytimg.com/vi/ZXz83wG_EZI/hqdefault.jpg",
+      "kind": "video"
+    },
+    {
+      "platform": "youtube",
+      "date": "2026-09-08T17:34:58+00:00",
+      "title": "Fatherhood is discipleship #substack #shorts",
+      "text": "This is a clip from https://rocksolidman.substack.com/p/being-the-dad-your-kid-needs?utm_source=youtube_shorts See the full video: https://www.youtube.com/watch?v=glYaXPELOk0 #shorts #substack",
+      "url": "https://www.youtube.com/shorts/OlVKwJGWako",
+      "image": "https://i4.ytimg.com/vi/OlVKwJGWako/hqdefault.jpg",
+      "kind": "short"
+    },
+    {
+      "platform": "youtube",
+      "date": "2026-09-08T17:34:48+00:00",
+      "title": "Teaching Risk the Right Way #substack #shorts",
+      "text": "This is a clip from https://rocksolidman.substack.com/p/being-the-dad-your-kid-needs?utm_source=youtube_shorts See the full video: https://www.youtube.com/watch?v=glYaXPELOk0 #shorts #substack",
+      "url": "https://www.youtube.com/shorts/bljhpAwiGak",
+      "image": "https://i3.ytimg.com/vi/bljhpAwiGak/hqdefault.jpg",
+      "kind": "short"
+    },
+    {
+      "platform": "youtube",
+      "date": "2026-09-08T17:34:44+00:00",
+      "title": "They'll mimic what you do #substack #shorts",
+      "text": "This is a clip from https://rocksolidman.substack.com/p/being-the-dad-your-kid-needs?utm_source=youtube_shorts See the full video: https://www.youtube.com/watch?v=glYaXPELOk0 #shorts #substack",
+      "url": "https://www.youtube.com/shorts/rQLDTtC-SHU",
+      "image": "https://i3.ytimg.com/vi/rQLDTtC-SHU/hqdefault.jpg",
+      "kind": "short"
+    },
+    {
+      "platform": "youtube",
+      "date": "2026-09-08T17:34:40+00:00",
+      "title": "28 Days to a Strong Bond #substack #shorts",
+      "text": "This is a clip from https://rocksolidman.substack.com/p/being-the-dad-your-kid-needs?utm_source=youtube_shorts See the full video: https://www.youtube.com/watch?v=glYaXPELOk0 #shorts #substack",
+      "url": "https://www.youtube.com/shorts/8uBVQGLrpJA",
+      "image": "https://i1.ytimg.com/vi/8uBVQGLrpJA/hqdefault.jpg",
+      "kind": "short"
+    },
+    {
+      "platform": "youtube",
+      "date": "2026-09-08T17:25:35+00:00",
+      "title": "Being The Dad Your Kid Needs",
+      "text": "Being The Dad Your Kid Needs",
+      "url": "https://www.youtube.com/watch?v=glYaXPELOk0",
+      "image": "https://i4.ytimg.com/vi/glYaXPELOk0/hqdefault.jpg",
+      "kind": "video"
+    }
+  ]
 }
