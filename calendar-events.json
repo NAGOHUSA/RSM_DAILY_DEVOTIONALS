@@ -1,6 +1,6 @@
 {
   "events": [
-        {
+    {
       "id": 7,
       "title": "November Gathering",
       "description": "Monthly gathering of men for worship, a message, and fellowship.",
@@ -10,7 +10,8 @@
       "badge": "Monthly",
       "featured": false,
       "speaker": "Jim Hall",
-      "topic": "Testimonial"
+      "topic": "Testimonial",
+      "host": "rsm"
     },
     {
       "id": 8,
@@ -21,7 +22,284 @@
       "location": "Woodlands Coffee & Roasters",
       "badge": "Monthly",
       "speaker": "Bobby Ryals",
+      "featured": false,
+      "host": "rsm"
+    },
+    {
+      "id": 9,
+      "host": "rsm",
+      "title": "January Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-01-11",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
       "featured": false
+    },
+    {
+      "id": 10,
+      "host": "ltc",
+      "title": "Living Truth Collective — January",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-01-25",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 11,
+      "host": "rsm",
+      "title": "February Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-02-08",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "host": "ltc",
+      "title": "Living Truth Collective — February",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-02-22",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 13,
+      "host": "rsm",
+      "title": "March Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-03-08",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "host": "ltc",
+      "title": "Living Truth Collective — March",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-03-22",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 15,
+      "host": "rsm",
+      "title": "April Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-04-12",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 16,
+      "host": "ltc",
+      "title": "Living Truth Collective — April",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-04-26",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 17,
+      "host": "rsm",
+      "title": "May Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-05-10",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 18,
+      "host": "ltc",
+      "title": "Living Truth Collective — May",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-05-24",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 19,
+      "host": "rsm",
+      "title": "June Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-06-14",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 20,
+      "host": "ltc",
+      "title": "Living Truth Collective — June",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-06-28",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 21,
+      "host": "rsm",
+      "title": "July Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-07-12",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 22,
+      "host": "ltc",
+      "title": "Living Truth Collective — July",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-07-26",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 23,
+      "host": "rsm",
+      "title": "August Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-08-09",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 24,
+      "host": "ltc",
+      "title": "Living Truth Collective — August",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-08-23",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 25,
+      "host": "rsm",
+      "title": "September Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-09-13",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 26,
+      "host": "ltc",
+      "title": "Living Truth Collective — September",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-09-27",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 27,
+      "host": "rsm",
+      "title": "October Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-10-11",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 28,
+      "host": "ltc",
+      "title": "Living Truth Collective — October",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-10-25",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 29,
+      "host": "rsm",
+      "title": "November Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-11-08",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 30,
+      "host": "ltc",
+      "title": "Living Truth Collective — November",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-11-22",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
+    },
+    {
+      "id": 31,
+      "host": "rsm",
+      "title": "December Gathering",
+      "description": "Monthly gathering of men for worship, a message, and fellowship.",
+      "date": "2027-12-13",
+      "time": "6:45 PM",
+      "location": "Woodlands Coffee & Roasters",
+      "badge": "Monthly",
+      "featured": false
+    },
+    {
+      "id": 32,
+      "host": "ltc",
+      "title": "Living Truth Collective — December",
+      "description": "Women's gathering hosted by our ministry partner Living Truth Collective: Biblical community for women to learn, share and experience God's truth together.",
+      "date": "2027-12-27",
+      "time": "Time TBA",
+      "location": "Location TBA",
+      "badge": "Living Truth Collective",
+      "featured": false,
+      "link": "https://livingtruthco.com"
     }
   ]
 }
