@@ -23,6 +23,22 @@
   var HEART = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>';
   var LOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
 
+  /* ---------- Rotating backdrop photo ----------
+     Each page load shows one of these (never the same one twice in a row).
+     To add a photo: put it in /assets and add its file name here. */
+  var HERO_PHOTOS = ['hero.jpg', 'hero-2.jpg', 'hero-3.jpg', 'hero-4.jpg'];
+  function rotateHero() {
+    var imgs = document.querySelectorAll('img[data-hero]');
+    if (!imgs.length) return;
+    var last = -1;
+    try { last = parseInt(sessionStorage.getItem('rsm_hero') || '-1', 10); } catch (e) {}
+    var i = Math.floor(Math.random() * HERO_PHOTOS.length);
+    if (HERO_PHOTOS.length > 1 && i === last) i = (i + 1) % HERO_PHOTOS.length;
+    try { sessionStorage.setItem('rsm_hero', String(i)); } catch (e) {}
+    imgs.forEach(function (img) { img.src = ROOT + 'assets/' + HERO_PHOTOS[i]; });
+  }
+  rotateHero();
+
   /* ---------- Header ---------- */
   function initHeader() {
     var header = document.querySelector('.rsm-header');
