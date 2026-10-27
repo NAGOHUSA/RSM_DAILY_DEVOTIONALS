@@ -1,0 +1,34 @@
+name: Update Rock Solid Man Social Feed (Daily)
+
+on:
+  schedule:
+    # Daily at 11:00 UTC (~6-7am ET), after the devotional run.
+    - cron: '0 11 * * *'
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'generate-social-feed.js'
+      - '.github/workflows/daily-social-feed.yml'
+
+jobs:
+  update-social-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧰 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # No npm install needed — script uses native fetch only.
+
+      - name: 📣 Pull latest YouTube uploads + Substack posts
+        run: node generate-social-feed.js
+
+      - name: ✅ Commit results
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(social): refresh social-feed.json"
+          file_pattern: social-feed.json

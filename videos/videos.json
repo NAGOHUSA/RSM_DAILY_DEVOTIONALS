@@ -1,0 +1,57 @@
+{
+  "_howto": "To add a video: drop the .mp4 into /videos, add a poster image to /videos/posters (optional), then add an entry below. format: \"wide\" (16:9, shows under Full-Length) or \"vertical\" (9:16, shows under Shorts). Newest date shows first. Set featured: true on the one video you want at the top of the Watch page and on the homepage.",
+  "youtube": "https://www.youtube.com/@RSMMINISTRY",
+  "videos": [
+    {
+      "id": "theres-a-seat-for-you",
+      "title": "There's a Seat for You",
+      "description": "Life hits hard. Your foundation matters. One minute on the brotherhood — multi-generational, multi-denominational, anchored in Christ.",
+      "file": "videos/RSM_Promo_16x9.mp4",
+      "poster": "videos/posters/RSM_Promo_16x9.jpg",
+      "format": "wide",
+      "duration": "1:00",
+      "date": "2026-10-27",
+      "featured": true
+    },
+    {
+      "id": "family-night-of-worship",
+      "title": "Family Night of Worship",
+      "description": "Mon, Nov 2 · 6 PM at Woodlands Coffee & Roasters. Worship, fellowship and encouragement — all are welcome.",
+      "file": "videos/RSM_Family_Night_Hype_v2.mp4",
+      "poster": "videos/posters/RSM_Family_Night_Hype_v2.jpg",
+      "format": "vertical",
+      "duration": "0:57",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "no-man-stands-alone",
+      "title": "No Man Stands Alone",
+      "description": "Men weren't made to stand alone.",
+      "file": "videos/RSM_Short_1_No_Man_Stands_Alone.mp4",
+      "poster": "videos/posters/RSM_Short_1_No_Man_Stands_Alone.jpg",
+      "format": "vertical",
+      "duration": "0:16",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "four-pillars",
+      "title": "The Four Pillars",
+      "description": "What makes a man rock solid?",
+      "file": "videos/RSM_Short_2_Four_Pillars.mp4",
+      "poster": "videos/posters/RSM_Short_2_Four_Pillars.jpg",
+      "format": "vertical",
+      "duration": "0:16",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "are-you-on-the-rock",
+      "title": "Are You on the Rock?",
+      "description": "Everyone who hears these words and puts them into practice is like a wise man who built his house on the rock. — Matthew 7:24",
+      "file": "videos/RSM_Short_3_Are_You_On_The_Rock.mp4",
+      "poster": "videos/posters/RSM_Short_3_Are_You_On_The_Rock.jpg",
+      "format": "vertical",
+      "duration": "0:16",
+      "date": "2026-10-27"
+    }
+  ]
+}

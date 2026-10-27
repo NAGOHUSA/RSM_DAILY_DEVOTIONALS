@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Word — Rock Solid Man</title>
+<meta name="description" content="Today's Rock Solid Man devotional: a scripture, a short reflection and a prayer for men — new every morning, with a full archive.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--stone); color: var(--cream); font-family: var(--ff-body); font-size: 16px; line-height: 1.7; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+
+  .devo-wrap { max-width: 780px; margin: 0 auto; padding: 0 1.5rem; }
+
+  .devo {
+    position: relative;
+    margin-top: -2rem;
+    background: linear-gradient(180deg, #232323, #1e1e1e);
+    border: 1px solid var(--line-green);
+    border-radius: 18px;
+    padding: 3rem 3.25rem 2.75rem;
+    box-shadow: 0 30px 70px -35px rgba(0,0,0,.8);
+    overflow: hidden;
+  }
+  .devo::before {
+    content: '\201C'; position: absolute; top: -2.5rem; right: 1.5rem;
+    font-family: var(--ff-serif); font-size: 13rem; line-height: 1;
+    color: rgba(106,186,122,.07); pointer-events: none;
+  }
+  .devo__date { font-size: .72rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--green-light); }
+  .devo__date span { color: var(--text-muted); font-weight: 500; }
+  .devo__title { font-family: var(--ff-display); font-weight: 400; font-size: clamp(2.4rem, 6vw, 3.6rem); line-height: .95; letter-spacing: .03em; margin: .7rem 0 1.8rem; color: var(--cream); }
+  .devo__verse {
+    font-family: var(--ff-serif); font-style: italic;
+    font-size: 1.22rem; line-height: 1.75; color: var(--cream);
+    border-left: 3px solid var(--green-mid);
+    padding: .2rem 0 .2rem 1.4rem;
+    margin-bottom: 2.2rem;
+  }
+  .devo__verse cite { display: block; margin-top: .7rem; font-family: var(--ff-body); font-style: normal; font-weight: 600; font-size: .74rem; letter-spacing: .2em; text-transform: uppercase; color: var(--green-light); }
+  .devo__body p { font-size: 1.04rem; line-height: 1.9; color: var(--cream-dark); margin-bottom: 1.15rem; }
+  .devo__apply {
+    margin: 2rem 0 0;
+    display: flex; gap: 1rem; align-items: flex-start;
+    background: rgba(58,122,74,.12); border: 1px solid var(--line-green);
+    border-radius: 12px; padding: 1.1rem 1.25rem;
+  }
+  .devo__apply b { flex-shrink: 0; font-size: .66rem; letter-spacing: .2em; text-transform: uppercase; color: var(--green-light); padding-top: .3rem; font-weight: 600; }
+  .devo__apply p { margin: 0; font-size: 1rem; color: var(--cream); font-weight: 500; line-height: 1.6; }
+  .devo__prayer { margin-top: 2rem; padding-top: 1.6rem; border-top: 1px solid var(--line); }
+  .devo__prayer h3 { font-size: .68rem; letter-spacing: .22em; text-transform: uppercase; color: var(--text-muted); font-weight: 600; margin-bottom: .5rem; }
+  .devo__prayer p { font-family: var(--ff-serif); font-style: italic; font-size: 1.05rem; line-height: 1.8; color: var(--cream-dark); }
+  .devo__loading { text-align: center; padding: 3rem 0; font-family: var(--ff-serif); font-style: italic; color: var(--text-muted); }
+
+  .devo-actions { display: flex; gap: .7rem; flex-wrap: wrap; align-items: center; margin: 1.4rem 0 0; }
+  .chip {
+    display: inline-flex; align-items: center; gap: .45rem;
+    background: transparent; border: 1px solid var(--line-green);
+    color: var(--green-light); border-radius: 999px;
+    padding: .6rem 1.1rem; cursor: pointer; text-decoration: none;
+    font: 500 .74rem var(--ff-body); letter-spacing: .14em; text-transform: uppercase;
+    transition: background .2s, border-color .2s, color .2s;
+  }
+  .chip:hover { background: rgba(58,122,74,.15); border-color: var(--green-mid); }
+  .chip[aria-disabled="true"] { opacity: .35; pointer-events: none; }
+  .chip svg { width: 14px; height: 14px; }
+  .devo-actions .spacer { flex: 1; }
+  .toast { font-size: .8rem; color: var(--green-light); opacity: 0; transition: opacity .3s; }
+  .toast.show { opacity: 1; }
+
+  /* Archive */
+  .archive { padding: 5rem 0 6rem; }
+  .archive__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; }
+  .acard {
+    display: block; text-decoration: none; color: inherit;
+    padding: 1.2rem 1.25rem 1.25rem;
+    border-radius: 12px; border: 1px solid var(--line);
+    background: rgba(255,255,255,.03);
+    transition: transform .2s, border-color .2s, background .2s;
+  }
+  .acard:hover { transform: translateY(-3px); border-color: var(--green-mid); background: rgba(58,122,74,.08); }
+  .acard[aria-current="true"] { border-color: var(--green-light); background: rgba(58,122,74,.12); }
+  .acard__date { font-size: .66rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--green-light); }
+  .acard__title { font-family: var(--ff-display); font-size: 1.35rem; letter-spacing: .03em; line-height: 1.1; color: var(--cream); margin: .45rem 0 .35rem; }
+  .acard__ref { font-family: var(--ff-serif); font-style: italic; font-size: .88rem; color: var(--text-muted); }
+  .archive__more { display: flex; justify-content: center; margin-top: 2.2rem; }
+
+  @media (max-width: 640px) {
+    .devo-wrap { padding: 0 1rem; }
+    .devo { padding: 2.1rem 1.4rem 1.8rem; border-radius: 14px; }
+    .devo__apply { flex-direction: column; gap: .35rem; }
+    .devo-actions .spacer { display: none; }
+  }
+</style>
+</head>
+<body>
+<a class="rsm-skip" href="#main">Skip to content</a>
+<header class="rsm-header">
+  <div class="rsm-header__inner">
+    <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+      <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+      <span><b>Rock</b> Solid Man</span>
+    </a>
+    <nav class="rsm-nav" id="rsm-nav" aria-label="Main">
+      <ul class="rsm-nav__list">
+      <li><a href="events.html">Events</a></li>
+      <li><a href="devotional.html" aria-current="page">Daily Word</a></li>
+      <li><a href="videos.html">Watch</a></li>
+      <li><a href="podcast.html">Podcast</a></li>
+      <li><a href="gallery/index.html">Photos</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="rsm-header__actions">
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give</a>
+      <button type="button" class="rsm-menu-btn" aria-controls="rsm-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <header class="rsm-page-hero">
+    <span class="rsm-eyebrow">Daily Devotional</span>
+    <h1>Today&rsquo;s <em>Word</em></h1>
+    <p>A scripture, a short reflection and a prayer &mdash; new every morning. Start your day on the Rock.</p>
+  </header>
+
+  <div class="devo-wrap">
+    <article class="devo" id="devo" aria-live="polite">
+      <div class="devo__loading">Loading today&rsquo;s word&hellip;</div>
+    </article>
+    <div class="devo-actions">
+      <a class="chip" id="prev-day" href="#" aria-disabled="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>Previous</a>
+      <a class="chip" id="next-day" href="#" aria-disabled="true">Next<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></a>
+      <span class="spacer"></span>
+      <span class="toast" id="toast" role="status"></span>
+      <button class="chip" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8M16 6l-4-4-4 4M12 2v13"/></svg>Share</button>
+    </div>
+  </div>
+
+  <section class="archive" aria-labelledby="archive-title">
+    <div class="rsm-wrap">
+      <span class="rsm-eyebrow">Past devotionals</span>
+      <h2 class="rsm-h2" id="archive-title">The <em>archive</em></h2>
+      <div class="archive__grid" id="archive"></div>
+      <div class="archive__more"><button class="chip" id="more" type="button" hidden>Load more</button></div>
+    </div>
+  </section>
+</main>
+<footer class="rsm-footer">
+  <div class="rsm-footer__inner">
+    <div class="rsm-footer__brand">
+      <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+        <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+        <span><b>Rock</b> Solid Man</span>
+      </a>
+      <p>Helping men build unshakable strength — physically, mentally, and spiritually. Anchored in Christ. Rooted in community.</p>
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give to the mission</a>
+      <div class="rsm-footer__alt"><a href="https://www.paypal.com/donate/?hosted_button_id=T8NLD6Y9Z7AYG" target="_blank" rel="noopener">PayPal</a><a href="https://www.paypal.com/qrcodes/venmocs/35583249-8548-40b0-a609-de92029468d0?created=1729007121" target="_blank" rel="noopener">Venmo</a></div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li><a href="devotional.html">Daily Word</a></li>
+        <li><a href="videos.html">Videos &amp; Shorts</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="gallery/index.html">Photo Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Ministry</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="mission.html">Our Mission</a></li>
+        <li><a href="mensgroups.html">Men&rsquo;s Groups</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">Volunteer</a></li>
+        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" target="_blank" rel="noopener">TXT Alerts</a></li>
+        <li><a href="https://rock-solid-man.printify.me/category/all/1" target="_blank" rel="noopener">Gear / Swag</a></li>
+        <li><a href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">All Socials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rsm-footer__bottom">
+    <span>Rock Solid Man Inc &copy; 2026. All rights reserved.</span>
+    <span>Matthew 7:24</span>
+    <span>Designed by <a href="https://nagoh.us" target="_blank" rel="noopener">Nagoh Creative</a> &nbsp;|&nbsp; Support: <a href="mailto:support@nagohcreative.com">support@nagohcreative.com</a></span>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var R = window.RSM, esc = R.esc;
+  var devoEl = document.getElementById('devo');
+  var current = null;
+
+  function dateFromParam() {
+    var d = new URLSearchParams(location.search).get('d');
+    return d && /^\d{4}-\d{2}-\d{2}$/.test(d) ? d : null;
+  }
+  function shift(dateStr, n) { var d = R.parseDay(dateStr); d.setDate(d.getDate() + n); return R.ymd(d); }
+
+  function render(dv) {
+    current = dv;
+    var d = R.parseDay(dv.date);
+    var isToday = dv.date === R.ymd(R.today());
+    document.title = dv.title + ' — Daily Word — Rock Solid Man';
+    devoEl.innerHTML =
+      '<div class="devo__date">' + esc(R.fmtDate(d, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })) +
+        (isToday ? ' <span>&middot; Today</span>' : '') + '</div>' +
+      '<h2 class="devo__title">' + esc(dv.title) + '</h2>' +
+      (dv.quote ? '<blockquote class="devo__verse">&ldquo;' + R.inline(dv.quote) + '&rdquo;' + (dv.ref ? '<cite>' + esc(dv.ref) + '</cite>' : '') + '</blockquote>' : '') +
+      '<div class="devo__body">' + dv.reflection.map(function (p) { return '<p>' + R.inline(p) + '</p>'; }).join('') + '</div>' +
+      (dv.application ? '<div class="devo__apply"><b>Apply it</b><p>' + R.inline(dv.application) + '</p></div>' : '') +
+      (dv.prayer ? '<div class="devo__prayer"><h3>Prayer</h3><p>' + R.inline(dv.prayer) + '</p></div>' : '');
+
+    var prev = document.getElementById('prev-day'), next = document.getElementById('next-day');
+    prev.href = '?d=' + shift(dv.date, -1); prev.setAttribute('aria-disabled', 'false');
+    var nextDate = shift(dv.date, 1);
+    var hasNext = !!want && R.parseDay(nextDate) <= R.today();
+    next.href = hasNext ? '?d=' + nextDate : '#';
+    next.setAttribute('aria-disabled', hasNext ? 'false' : 'true');
+    document.querySelectorAll('.acard').forEach(function (c) { c.setAttribute('aria-current', c.dataset.date === dv.date ? 'true' : 'false'); });
+  }
+
+  function fail(dateStr) {
+    devoEl.innerHTML = '<div class="devo__loading">' +
+      (dateStr ? 'There&rsquo;s no devotional for ' + esc(R.fmtDate(R.parseDay(dateStr), { month: 'long', day: 'numeric', year: 'numeric' })) + '. ' : 'We couldn&rsquo;t load the devotional right now. ') +
+      '<br><br><a class="chip" href="devotional.html">Go to the latest</a></div>';
+    if (dateStr) {
+      var prev = document.getElementById('prev-day');
+      prev.href = '?d=' + shift(dateStr, -1); prev.setAttribute('aria-disabled', 'false');
+    }
+  }
+
+  var want = dateFromParam();
+  (want ? R.loadDevotional(want) : R.loadLatestDevotional(10)).then(render, function () { fail(want); });
+
+  // Share
+  document.getElementById('share').addEventListener('click', function () {
+    if (!current) return;
+    var url = location.origin + location.pathname + '?d=' + current.date;
+    var text = current.title + (current.ref ? ' — ' + current.ref : '') + '\nToday’s Rock Solid Man devotional';
+    var toast = document.getElementById('toast');
+    if (navigator.share) { navigator.share({ title: current.title, text: text, url: url }).catch(function () {}); return; }
+    if (navigator.clipboard) navigator.clipboard.writeText(text + '\n' + url).then(function () {
+      toast.textContent = 'Link copied'; toast.classList.add('show');
+      setTimeout(function () { toast.classList.remove('show'); }, 2200);
+    });
+  });
+
+  // Archive — walk back day by day in batches, skipping missing days.
+  var archiveEl = document.getElementById('archive'), moreBtn = document.getElementById('more');
+  var cursor = 1, BATCH = 12, empties = 0;
+  function loadBatch() {
+    moreBtn.hidden = true;
+    var dates = [];
+    for (var i = 0; i < BATCH; i++) { var d = R.today(); d.setDate(d.getDate() - cursor - i); dates.push(R.ymd(d)); }
+    cursor += BATCH;
+    Promise.all(dates.map(function (ds) { return R.loadDevotional(ds).catch(function () { return null; }); })).then(function (list) {
+      var found = list.filter(Boolean);
+      empties = found.length ? 0 : empties + 1;
+      archiveEl.insertAdjacentHTML('beforeend', found.map(function (dv) {
+        return '<a class="acard" data-date="' + dv.date + '" href="?d=' + dv.date + '"' + (current && current.date === dv.date ? ' aria-current="true"' : '') + '>' +
+          '<div class="acard__date">' + esc(R.fmtDate(R.parseDay(dv.date), { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })) + '</div>' +
+          '<div class="acard__title">' + esc(dv.title) + '</div>' +
+          '<div class="acard__ref">' + esc(dv.ref) + '</div></a>';
+      }).join(''));
+      if (!archiveEl.children.length && empties >= 3) archiveEl.innerHTML = '<p class="rsm-empty">No past devotionals found.</p>';
+      moreBtn.hidden = empties >= 3;
+    });
+  }
+  moreBtn.addEventListener('click', loadBatch);
+  loadBatch();
+});
+</script>
+</body>
+</html>

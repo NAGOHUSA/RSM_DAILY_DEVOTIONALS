@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch — Videos &amp; Shorts — Rock Solid Man</title>
+<meta name="description" content="Videos and shorts from Rock Solid Man — moments from our gatherings and the heart behind the ministry.">
+<meta property="og:image" content="https://rocksolidman.org/videos/posters/RSM_Promo_16x9.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--stone); color: var(--cream); font-family: var(--ff-body); font-size: 16px; line-height: 1.7; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+
+  .featured { padding: 0 0 5rem; margin-top: -1.5rem; }
+  .featured__grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 3rem; align-items: center; }
+  .featured__copy .tag { display: inline-block; font-size: .64rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--stone-deep); background: var(--green-light); padding: .3rem .6rem; border-radius: 6px; margin-bottom: 1rem; }
+  .featured__copy h2 { font-family: var(--ff-display); font-weight: 400; font-size: clamp(2.4rem, 4.5vw, 3.6rem); line-height: .95; letter-spacing: .03em; margin-bottom: 1rem; }
+  .featured__copy p { color: var(--cream-dark); margin-bottom: 1.4rem; max-width: 46ch; }
+  .meta { font-size: .78rem; color: var(--text-muted); letter-spacing: .06em; }
+
+  .vsec { padding: 4.5rem 0; border-top: 1px solid var(--line); }
+  .vsec__head { display: flex; align-items: end; justify-content: space-between; gap: 1rem 2rem; flex-wrap: wrap; margin-bottom: 2rem; }
+  .vsec__head p { color: var(--text-muted); max-width: 44ch; }
+
+  .wide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.6rem; }
+  .shorts-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.25rem; }
+
+  .vcard { scroll-margin-top: calc(var(--header-h) + 24px); }
+  .vcard h3 { font-family: var(--ff-display); font-weight: 400; font-size: 1.5rem; letter-spacing: .04em; line-height: 1.05; margin: 1rem 0 .3rem; color: var(--cream); }
+  .vcard p { font-size: .88rem; color: var(--text-muted); line-height: 1.55; }
+  .vcard.is-target .rsm-player { box-shadow: 0 0 0 3px var(--green-light), 0 20px 50px -20px rgba(0,0,0,.7); }
+
+  .yt {
+    margin: 0 0 6rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 1.5rem 2rem; flex-wrap: wrap;
+    padding: 2rem 2.2rem;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    background: linear-gradient(110deg, rgba(255,90,90,.08), rgba(255,255,255,.02) 55%);
+  }
+  .yt h2 { font-family: var(--ff-display); font-weight: 400; font-size: 2rem; letter-spacing: .04em; line-height: 1; }
+  .yt p { color: var(--text-muted); font-size: .92rem; margin-top: .3rem; }
+
+  @media (max-width: 960px) {
+    .featured__grid { grid-template-columns: 1fr; gap: 1.6rem; }
+    .shorts-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .rsm-wrap { padding: 0 1rem; }
+    .shorts-grid { gap: .9rem; }
+    .vcard h3 { font-size: 1.25rem; }
+    .vcard p { font-size: .82rem; }
+    .yt { padding: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+<a class="rsm-skip" href="#main">Skip to content</a>
+<header class="rsm-header">
+  <div class="rsm-header__inner">
+    <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+      <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+      <span><b>Rock</b> Solid Man</span>
+    </a>
+    <nav class="rsm-nav" id="rsm-nav" aria-label="Main">
+      <ul class="rsm-nav__list">
+      <li><a href="events.html">Events</a></li>
+      <li><a href="devotional.html">Daily Word</a></li>
+      <li><a href="videos.html" aria-current="page">Watch</a></li>
+      <li><a href="podcast.html">Podcast</a></li>
+      <li><a href="gallery/index.html">Photos</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="rsm-header__actions">
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give</a>
+      <button type="button" class="rsm-menu-btn" aria-controls="rsm-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <header class="rsm-page-hero">
+    <span class="rsm-eyebrow">Videos &amp; Shorts</span>
+    <h1>Watch the <em>brotherhood</em></h1>
+    <p>Moments from our gatherings and the heart behind Rock Solid Man. Tap any video to play.</p>
+  </header>
+
+  <section class="featured" aria-label="Featured video">
+    <div class="rsm-wrap featured__grid" id="featured"></div>
+  </section>
+
+  <section class="vsec" id="full-length" aria-labelledby="full-title" hidden>
+    <div class="rsm-wrap">
+      <div class="vsec__head">
+        <div><span class="rsm-eyebrow">Full-length</span><h2 class="rsm-h2" id="full-title">Videos</h2></div>
+      </div>
+      <div class="wide-grid" id="wide"></div>
+    </div>
+  </section>
+
+  <section class="vsec" id="shorts" aria-labelledby="shorts-title" hidden>
+    <div class="rsm-wrap">
+      <div class="vsec__head">
+        <div><span class="rsm-eyebrow">Quick hits</span><h2 class="rsm-h2" id="shorts-title">Shorts</h2></div>
+        <p>Under a minute. Made to share &mdash; send one to a man who needs to hear it.</p>
+      </div>
+      <div class="shorts-grid" id="shorts-grid"></div>
+    </div>
+  </section>
+
+  <div class="rsm-wrap">
+    <div class="yt">
+      <div>
+        <h2>More on YouTube</h2>
+        <p>Subscribe for gathering recaps, shorts and podcast episodes.</p>
+      </div>
+      <a class="rsm-btn rsm-btn--ghost" id="yt-link" href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">Visit the channel</a>
+    </div>
+  </div>
+</main>
+<footer class="rsm-footer">
+  <div class="rsm-footer__inner">
+    <div class="rsm-footer__brand">
+      <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+        <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+        <span><b>Rock</b> Solid Man</span>
+      </a>
+      <p>Helping men build unshakable strength — physically, mentally, and spiritually. Anchored in Christ. Rooted in community.</p>
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give to the mission</a>
+      <div class="rsm-footer__alt"><a href="https://www.paypal.com/donate/?hosted_button_id=T8NLD6Y9Z7AYG" target="_blank" rel="noopener">PayPal</a><a href="https://www.paypal.com/qrcodes/venmocs/35583249-8548-40b0-a609-de92029468d0?created=1729007121" target="_blank" rel="noopener">Venmo</a></div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li><a href="devotional.html">Daily Word</a></li>
+        <li><a href="videos.html">Videos &amp; Shorts</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="gallery/index.html">Photo Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Ministry</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="mission.html">Our Mission</a></li>
+        <li><a href="mensgroups.html">Men&rsquo;s Groups</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">Volunteer</a></li>
+        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" target="_blank" rel="noopener">TXT Alerts</a></li>
+        <li><a href="https://rock-solid-man.printify.me/category/all/1" target="_blank" rel="noopener">Gear / Swag</a></li>
+        <li><a href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">All Socials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rsm-footer__bottom">
+    <span>Rock Solid Man Inc &copy; 2026. All rights reserved.</span>
+    <span>Matthew 7:24</span>
+    <span>Designed by <a href="https://nagoh.us" target="_blank" rel="noopener">Nagoh Creative</a> &nbsp;|&nbsp; Support: <a href="mailto:support@nagohcreative.com">support@nagohcreative.com</a></span>
+  </div>
+</footer>
+
+<script src="assets/site.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var R = window.RSM, esc = R.esc;
+
+  function card(v) {
+    return '<article class="vcard" id="' + esc(v.id) + '">' + R.player(v) +
+      '<h3>' + esc(v.title) + '</h3>' + (v.description ? '<p>' + esc(v.description) + '</p>' : '') + '</article>';
+  }
+
+  R.loadVideos().then(function (data) {
+    var list = data.videos;
+    if (data.youtube) document.getElementById('yt-link').href = data.youtube;
+
+    var featured = list.filter(function (v) { return v.featured; })[0] || list.filter(function (v) { return v.format !== 'vertical'; })[0] || list[0];
+    if (featured) {
+      document.getElementById('featured').innerHTML =
+        '<div class="vcard" id="' + esc(featured.id) + '">' + R.player(featured) + '</div>' +
+        '<div class="featured__copy"><span class="tag">Featured</span><h2>' + esc(featured.title) + '</h2>' +
+        (featured.description ? '<p>' + esc(featured.description) + '</p>' : '') +
+        '<div class="meta">' + esc([featured.duration, R.fmtDate(R.parseDay(featured.date), { month: 'long', day: 'numeric', year: 'numeric' })].filter(Boolean).join(' · ')) + '</div></div>';
+    }
+
+    var rest = list.filter(function (v) { return v !== featured; });
+    var wide = rest.filter(function (v) { return v.format !== 'vertical'; });
+    var shorts = rest.filter(function (v) { return v.format === 'vertical'; });
+
+    if (wide.length) {
+      document.getElementById('wide').innerHTML = wide.map(card).join('');
+      document.getElementById('full-length').hidden = false;
+    }
+    if (shorts.length) {
+      document.getElementById('shorts-grid').innerHTML = shorts.map(card).join('');
+      document.getElementById('shorts').hidden = false;
+    }
+
+    // Arriving from the homepage feed (videos.html#some-id): scroll to it and highlight.
+    if (location.hash.length > 1) {
+      var t = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (t && t.classList.contains('vcard')) {
+        t.classList.add('is-target');
+        setTimeout(function () { t.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 100);
+      }
+    }
+  }).catch(function () {
+    document.getElementById('featured').innerHTML = '<p class="rsm-empty">Videos couldn&rsquo;t load right now. Please try again in a moment.</p>';
+  });
+});
+</script>
+</body>
+</html>
