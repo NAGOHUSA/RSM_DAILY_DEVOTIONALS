@@ -177,6 +177,8 @@
   .fi__date small { font-size: .6rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--green-light); }
   .fi__date strong { font-family: var(--ff-display); font-weight: 400; font-size: 1.75rem; color: var(--cream); margin-top: 3px; }
   .fi--featured .fi__date { background: var(--green-deep); border-color: var(--green-light); }
+  .fi--ltc .fi__date { background: rgba(212,167,122,.12); border-color: rgba(212,167,122,.5); }
+  .fi--ltc .fi__date small, .fi--ltc .fi__kicker { color: #d4a77a; }
   .fi__icon {
     width: 44px; height: 44px; margin: 0 4px; border-radius: 50%;
     display: grid; place-items: center;
@@ -601,7 +603,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function renderNext(events) {
     var el = document.getElementById('next-gathering');
-    var e = events[0];
+    var e = events.filter(function (x) { return x.host !== 'ltc'; })[0];
     if (!e) return;
     el.innerHTML = '<span class="hero__next-tag">Next gathering</span>' +
       '<span><b>' + esc(R.fmtDate(e._date, { weekday: 'short', month: 'short', day: 'numeric' })) + ' &middot; ' + esc(e.time) + '</b> &nbsp;' + esc(e.title) + '</span>' +
@@ -610,7 +612,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function renderHub(events, devo, vids, pod) {
-    if (events[0]) document.getElementById('hub-event').textContent = 'Next: ' + R.fmtDate(events[0]._date, { weekday: 'short', month: 'short', day: 'numeric' });
+    var nextRsm = events.filter(function (x) { return x.host !== 'ltc'; })[0];
+    if (nextRsm) document.getElementById('hub-event').textContent = 'Next: ' + R.fmtDate(nextRsm._date, { weekday: 'short', month: 'short', day: 'numeric' });
     if (devo) document.getElementById('hub-devo').textContent = devo.title;
     if (vids && vids.videos.length) {
       var shorts = vids.videos.filter(function (v) { return v.format === 'vertical' && v.poster; }).slice(0, 4);
@@ -639,7 +642,7 @@ document.addEventListener('DOMContentLoaded', function () {
       html += '<div class="feed__label">Coming up</div>';
       html += up.map(function (e) {
         var meta = [e.time, e.location].filter(Boolean).join(' · ');
-        return a('events.html', 'fi' + (e.featured ? ' fi--featured' : ''),
+        return a('events.html', 'fi' + (e.featured ? ' fi--featured' : '') + (e.host === 'ltc' ? ' fi--ltc' : ''),
           '<span class="fi__date"><small>' + R.MONTHS[e._date.getMonth()] + '</small><strong>' + e._date.getDate() + '</strong></span>' +
           '<span><span class="fi__kicker">' + esc(e.badge || 'Gathering') + ' <span>&middot; ' + R.DAYS[e._date.getDay()] + '</span></span>' +
           '<span class="fi__title">' + esc(evTitle(e)) + '</span>' +
