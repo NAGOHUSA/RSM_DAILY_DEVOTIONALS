@@ -227,22 +227,36 @@
     .page-hero { padding: 120px 1.2rem 50px; }
   }
 </style>
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
-<nav>
-  <a class="nav-logo" href="index.html"><span>Rock</span> Solid Man</a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="events.html">Events</a></li>
-    <li><a href="index.html#devotional">Daily Word</a></li>
-    <li><a href="index.html#gallery">Photos</a></li>
-    <li><a href="podcast.html">Podcast</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="mission.html">Mission</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+<a class="rsm-skip" href="#main">Skip to content</a>
+<header class="rsm-header">
+  <div class="rsm-header__inner">
+    <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+      <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+      <span><b>Rock</b> Solid Man</span>
+    </a>
+    <nav class="rsm-nav" id="rsm-nav" aria-label="Main">
+      <ul class="rsm-nav__list">
+      <li><a href="events.html">Events</a></li>
+      <li><a href="devotional.html">Daily Word</a></li>
+      <li><a href="videos.html">Watch</a></li>
+      <li><a href="podcast.html">Podcast</a></li>
+      <li><a href="gallery/index.html">Photos</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="mission.html">Mission</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="rsm-header__actions">
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give</a>
+      <button type="button" class="rsm-menu-btn" aria-controls="rsm-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main id="main">
 
 <div class="page-hero">
   <span class="section-label">Organization Details</span>
@@ -312,9 +326,57 @@
 
 </div>
 
-<footer>
-  <p>&copy; 2024 Rock Solid Man Inc &nbsp;|&nbsp; EIN: 99-1099432 &nbsp;|&nbsp; 216 White Columns Dr, Kathleen, GA 31047 &nbsp;|&nbsp; <a href="index.html">Home</a></p>
+</main>
+
+<footer class="rsm-footer">
+  <div class="rsm-footer__inner">
+    <div class="rsm-footer__brand">
+      <a class="rsm-brand" href="index.html" aria-label="Rock Solid Man — home">
+        <img src="assets/rsm-mark.svg" alt="" width="57" height="26">
+        <span><b>Rock</b> Solid Man</span>
+      </a>
+      <p>Helping men build unshakable strength — physically, mentally, and spiritually. Anchored in Christ. Rooted in community.</p>
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give to the mission</a>
+      <div class="rsm-footer__alt"><a href="https://www.paypal.com/donate/?hosted_button_id=T8NLD6Y9Z7AYG" target="_blank" rel="noopener">PayPal</a><a href="https://www.paypal.com/qrcodes/venmocs/35583249-8548-40b0-a609-de92029468d0?created=1729007121" target="_blank" rel="noopener">Venmo</a></div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li><a href="devotional.html">Daily Word</a></li>
+        <li><a href="videos.html">Videos &amp; Shorts</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="gallery/index.html">Photo Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Ministry</h4>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="mission.html">Our Mission</a></li>
+        <li><a href="mensgroups.html">Men&rsquo;s Groups</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">Volunteer</a></li>
+        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" target="_blank" rel="noopener">TXT Alerts</a></li>
+        <li><a href="https://rock-solid-man.printify.me/category/all/1" target="_blank" rel="noopener">Gear / Swag</a></li>
+        <li><a href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">All Socials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rsm-footer__bottom">
+    <span>Rock Solid Man Inc &copy; 2026. All rights reserved.</span>
+    <span>Matthew 7:24</span>
+    <span>Designed by <a href="https://nagoh.us" target="_blank" rel="noopener">Nagoh Creative</a> &nbsp;|&nbsp; Support: <a href="mailto:support@nagohcreative.com">support@nagohcreative.com</a></span>
+  </div>
 </footer>
 
+<script src="assets/site.js" defer></script>
 </body>
 </html>

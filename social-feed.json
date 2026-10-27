@@ -1,0 +1,13 @@
+{
+  "_howto": "The homepage feed mixes upcoming events, the Daily Word, videos, the podcast and these posts. Add your own posts (Facebook, Instagram, announcements) to \"posts\" — newest date shows first. platform can be: facebook, instagram, youtube, substack, site. url and image are optional. The \"auto\" list is filled every day by generate-social-feed.js (YouTube uploads + Substack posts) — don't edit it by hand.",
+  "generated_at": null,
+  "posts": [
+    {
+      "platform": "site",
+      "date": "2026-10-27",
+      "text": "New on the site: videos & shorts. Watch \"There's a Seat for You\" and three new shorts.",
+      "url": "videos.html"
+    }
+  ],
+  "auto": []
+}
