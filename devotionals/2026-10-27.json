@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 286,
+  "theme": null,
+  "content_markdown": "# The God Who Hears\n\n## Scripture\n\n“Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God.” — Philippians 4:6\n\n## Reflection\n\nAnxiety is a bully. It demands our attention, pushes us toward worst-case scenarios, and convinces us that peace is impossible until our circumstances change. Paul writes these words from prison — hardly a place of comfort — yet he commands us to bring our worries to God rather than carry them ourselves. Notice that the command is not “stop feeling anxious” but “start praying.” The remedy for anxiety is not willpower but relationship.\n\nPaul gives us a pattern: prayer and petition, with thanksgiving. Petition names our specific needs before God; thanksgiving reminds us who God is and what He has already done. Together they reorient our hearts from the size of our problems to the size of our Father. This is not a formula that guarantees instant calm, but a habit that slowly rewires us. When we practice bringing everything to God — the small worries and the crushing ones — we train ourselves to trust Him rather than our own spinning thoughts.\n\nThe promise that follows is striking: God’s peace guards our hearts and minds in Christ Jesus. It is not the absence of trouble but a Person standing watch over us. Today, before anxiety sets the agenda, let prayer set it first.\n\n## Prayer\n\nFather, we confess that we often carry our worries instead of bringing them to You. Teach us to pray with thanksgiving, trusting Your care. Guard our hearts and minds with Your peace today. Amen.\n\n## One-Line Application\n\nBefore anxiety sets the agenda, let prayer set it first.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
