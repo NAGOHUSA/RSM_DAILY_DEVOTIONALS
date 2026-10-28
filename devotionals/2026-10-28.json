@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 306,
+  "theme": null,
+  "content_markdown": "# Abide in Me Today\n\n## Scripture\n\n“I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.” — John 15:5\n\n## Reflection\n\nJesus speaks these words on the night before His death, not as a distant metaphor but as a tender invitation. The branch does not strain to produce fruit; it simply stays connected to the vine. Life flows from union, not effort. We are prone to invert this—striving for fruit while neglecting the root, treating prayer and Scripture as tasks to complete rather than a Person to enjoy. But Jesus says the fruit comes *from* abiding, not *for* abiding.\n\nPractically, abiding is unhurried and ordinary. It is waking and turning your first thoughts toward God. It is carrying a verse into your commute, confessing sin quickly rather than hiding it, and asking for grace in the small moments no one sees. It is refusing to measure your day by output and instead asking, “Did I stay near Him?” Some seasons bear visible fruit; others are quiet root-growth underground. Both are faithfulness.\n\nNotice the honesty of Jesus’ warning: apart from Him we can do *nothing*—nothing that lasts, nothing that nourishes the soul. This is not a threat but a relief. You are not the vine. You are not responsible for manufacturing your own life. Your calling today is simply to remain—and to trust that the One who is the vine will be faithful to bear His fruit through you.\n\n## Prayer\n\nFather, keep us close to Jesus today. Prune what distracts us, deepen our roots in Your Word, and let Your life flow through us to others. We abide in You. Amen.\n\n## One-Line Application\n\nStay connected to Jesus today; let Him bear the fruit.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
