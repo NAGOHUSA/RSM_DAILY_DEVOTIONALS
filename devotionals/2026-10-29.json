@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 275,
+  "theme": null,
+  "content_markdown": "# Grace for the Unseen Hour\n\n## Scripture\n\n“Your Father, who sees what is done in secret, will reward you.” — Matthew 6:6\n\n## Reflection\n\nJesus assumes His followers pray, give, and fast—but He is far more concerned with *why* than with *how much*. In Matthew 6, He contrasts two audiences: the crowd and the Father. The hypocrite performs for the crowd; the disciple lives before the Father “who sees what is done in secret.” This is not a call to hide our faith, but to reorient its center of gravity. Most of our obedience happens in unremarkable moments—a quiet confession before sleep, a generous gift no one traces back to us, a patience that goes unthanked. Heaven keeps a different ledger than social media.\n\nPractically, this frees us from two traps. First, it frees us from performing: we can stop curating our devotion for an audience that cannot reward us. Second, it frees us from despairing: when no one notices our faithfulness, the Father does. The reward He promises is not merely future—it is the present intimacy of being known by Him. Ask yourself today: whose approval am I actually working for? If the answer is anyone but the Father, repent gently and redirect. The unseen hour is not wasted; it is the very place where God forms character that outlasts applause.\n\n## Prayer\n\nFather, we confess our longing for human praise. Teach us to live before You alone, trusting that what is hidden from others is fully seen by You. Shape our secret lives into quiet, faithful worship. Amen.\n\n## One-Line Application\n\nLive today for the audience of One who sees in secret.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
