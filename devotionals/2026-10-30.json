@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 292,
+  "theme": null,
+  "content_markdown": "# The Quiet Work of Waiting\n\n## Scripture\n\n“Wait for the LORD; be strong, and let your heart take courage; wait for the LORD!” — Psalm 27:14\n\n## Reflection\n\nWaiting feels like wasted time, yet Scripture treats it as a discipline of the soul. David wrote these words while pursued, not while resting; his waiting was active, not passive. To wait for the Lord is to keep trusting His timing when our own plans stall. It is to refuse the panic that demands immediate answers and instead steady our hearts on the character of God. This kind of waiting is not idleness—it is courage exercised in the dark. The command is repeated twice, as if we need to hear it again: wait, and let your heart take courage.\n\nPractically, waiting looks like faithfulness in small things today. It means praying when the answer is delayed, serving when no one notices, and obeying when the outcome is unclear. It means naming our impatience honestly before God rather than pretending we are at peace. The heart grows strong not by escaping the wait but by meeting God within it. His delays are never His denials; He is forming endurance, humility, and a trust that does not depend on circumstances. Today, you may not see the resolution you long for, but you can see the One who holds it. Let your waiting be worship, not worry.\n\n## Prayer\n\nFather, teach us to wait on You with courage and quiet trust. When answers delay, steady our hearts in Your faithful character. Form in us endurance and humility, and let our waiting become worship rather than worry. In Jesus’ name, amen.\n\n## One-Line Application\n\nWait actively today: trust God’s timing and obey Him in the small things.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
