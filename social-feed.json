@@ -1,6 +1,6 @@
 {
   "_howto": "The homepage feed mixes upcoming events, the Daily Word, videos, the podcast and these posts. Add your own posts (Facebook, Instagram, announcements) to \"posts\" — newest date shows first. platform can be: facebook, instagram, youtube, substack, site. url and image are optional. The \"auto\" list is filled every day by generate-social-feed.js (YouTube uploads + Substack posts) — don't edit it by hand.",
-  "generated_at": "2026-10-30T16:58:06.646Z",
+  "generated_at": "2026-10-31T15:58:25.924Z",
   "posts": [
     {
       "platform": "site",
