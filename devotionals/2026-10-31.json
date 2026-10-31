@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 308,
+  "theme": null,
+  "content_markdown": "# The Gift of Enough\n\n## Scripture\n\n“But godliness with contentment is great gain, for we brought nothing into the world, and we cannot take anything out of the world.” — 1 Timothy 6:6–7\n\n## Reflection\n\nPaul writes to Timothy about a quiet but radical economy: godliness paired with contentment. Contentment is not the absence of desire but the right ordering of it—learning to rest in God's provision rather than measuring life by what we accumulate. The world tells us that gain means more: more money, more recognition, more margin. Scripture flips the ledger. We arrived empty-handed and will leave the same way, so the heart that clings to possessions is grasping at vapor.\n\nThis is deeply practical. Contentment shows up in how we respond when a coworker is promoted and we are not. It appears when the budget is tight and we choose gratitude over grumbling. It surfaces when we scroll past someone else's highlight reel and feel the sting of comparison. In each moment, contentment invites us to look up rather than around, remembering that our Father knows what we need before we ask.\n\nYet contentment is not passive resignation. It is active trust—a daily decision to believe that God's provision is sufficient and his timing is good. The gain Paul describes is not a bigger bank account but a quieter soul. When we stop measuring our lives by what we own, we are freed to enjoy what we have been given and to give generously. The heart at rest in God has room for others.\n\n## Prayer\n\nFather, teach us to hold your gifts with open hands. Guard us from envy and greed, and satisfy our hearts in you alone. Make us grateful, generous, and content, trusting your provision each day. Amen.\n\n## One-Line Application\n\nChoose gratitude over comparison today, trusting God's provision is enough.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
