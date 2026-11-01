@@ -194,14 +194,32 @@
       <div class="sec-num">01</div>
       <h2>Worship <em>Songs</em></h2>
 
-      <article class="card song">
+      <!-- Each song loads its lyrics from the .txt file named in data-lyrics (same folder). -->
+      <article class="card song" data-lyrics="the-lord-will-provide.txt">
         <div class="song__title">The Lord Will Provide</div>
         <div class="song__artist">Passion · Live from Passion 2024</div>
+        <div class="lyrics" hidden></div>
+        <a class="btn btn--green lyrics-link" href="https://genius.com/Passion-the-lord-will-provide-live-from-passion-2024-lyrics" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
+          View lyrics
+        </a>
+      </article>
 
-        <!-- Lyrics load automatically from lyrics.txt in this folder (see script at bottom). -->
-        <div class="lyrics" id="lyrics" hidden></div>
+      <article class="card song" data-lyrics="washed.txt">
+        <div class="song__title">Washed</div>
+        <div class="song__artist"></div>
+        <div class="lyrics" hidden></div>
+        <a class="btn btn--green lyrics-link" href="https://genius.com/search?q=Washed" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
+          View lyrics
+        </a>
+      </article>
 
-        <a class="btn btn--green" id="lyrics-link" href="https://genius.com/Passion-the-lord-will-provide-live-from-passion-2024-lyrics" target="_blank" rel="noopener">
+      <article class="card song" data-lyrics="what-a-god.txt">
+        <div class="song__title">What A God</div>
+        <div class="song__artist">SEU Worship · One House (Live)</div>
+        <div class="lyrics" hidden></div>
+        <a class="btn btn--green lyrics-link" href="https://genius.com/Seu-worship-one-house-kenzie-walker-chelsea-plank-and-roosevelt-stewart-what-a-god-live-lyrics" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
           View lyrics
         </a>
@@ -257,10 +275,10 @@
 </footer>
 
 <script>
-  // Load lyrics from lyrics.txt (same folder). Lines like [Verse 1] or [Chorus] become section labels.
-  (function () {
-    var box = document.getElementById('lyrics');
-    fetch('lyrics.txt', { cache: 'no-cache' })
+  // Load each song's lyrics from its .txt file. Lines like [Verse 1] or [Chorus] become section labels.
+  document.querySelectorAll('.song[data-lyrics]').forEach(function (card) {
+    var box = card.querySelector('.lyrics');
+    fetch(card.getAttribute('data-lyrics'), { cache: 'no-cache' })
       .then(function (r) { if (!r.ok) throw 0; return r.text(); })
       .then(function (txt) {
         txt = txt.trim();
@@ -278,10 +296,10 @@
           }
         });
         box.hidden = false;
-        document.getElementById('lyrics-link').hidden = true;
+        card.querySelector('.lyrics-link').hidden = true;
       })
       .catch(function () {});
-  })();
+  });
 
   // Highlight the current section in the sticky nav
   (function () {
