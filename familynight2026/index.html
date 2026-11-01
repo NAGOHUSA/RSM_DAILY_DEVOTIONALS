@@ -47,6 +47,7 @@
     overflow-x: hidden;
   }
   a { color: var(--green-light); }
+  [hidden] { display: none !important; }
   .wrap { width: 100%; max-width: 720px; margin: 0 auto; padding: 0 16px; }
 
   /* Hero */
@@ -197,16 +198,10 @@
         <div class="song__title">The Lord Will Provide</div>
         <div class="song__artist">Passion · Live from Passion 2024</div>
 
-        <!--
-          PASTE LYRICS HERE from your CCLI SongSelect account (or your projection software).
-          Use <span class="part">Verse 1</span> / <span class="part">Chorus</span> etc. for section labels.
-          Example:
-          <div class="lyrics"><span class="part">Verse 1</span>First line
-          Second line
-          <span class="part">Chorus</span>First line…</div>
-        -->
+        <!-- Lyrics load automatically from lyrics.txt in this folder (see script at bottom). -->
+        <div class="lyrics" id="lyrics" hidden></div>
 
-        <a class="btn btn--green" href="https://genius.com/Passion-the-lord-will-provide-live-from-passion-2024-lyrics" target="_blank" rel="noopener">
+        <a class="btn btn--green" id="lyrics-link" href="https://genius.com/Passion-the-lord-will-provide-live-from-passion-2024-lyrics" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
           View lyrics
         </a>
@@ -262,6 +257,32 @@
 </footer>
 
 <script>
+  // Load lyrics from lyrics.txt (same folder). Lines like [Verse 1] or [Chorus] become section labels.
+  (function () {
+    var box = document.getElementById('lyrics');
+    fetch('lyrics.txt', { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw 0; return r.text(); })
+      .then(function (txt) {
+        txt = txt.trim();
+        if (!txt) return;
+        box.textContent = '';
+        txt.split(/\r?\n/).forEach(function (line) {
+          var m = line.trim().match(/^\[(.+)\]$/);
+          if (m) {
+            var s = document.createElement('span');
+            s.className = 'part';
+            s.textContent = m[1];
+            box.appendChild(s);
+          } else {
+            box.appendChild(document.createTextNode(line + '\n'));
+          }
+        });
+        box.hidden = false;
+        document.getElementById('lyrics-link').hidden = true;
+      })
+      .catch(function () {});
+  })();
+
   // Highlight the current section in the sticky nav
   (function () {
     var links = document.querySelectorAll('.nav a');
