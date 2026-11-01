@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Family Night 2026 — Rock Solid Man</title>
+<meta name="description" content="Rock Solid Man Family Night 2026 — worship songs, the Lord's Prayer and our submission form.">
+<meta property="og:title" content="Family Night 2026 — Rock Solid Man">
+<meta property="og:description" content="Worship songs, the Lord's Prayer and our submission form.">
+<meta property="og:image" content="https://rocksolidman.org/videos/posters/RSM_Promo_16x9.jpg">
+<meta name="theme-color" content="#121212">
+<link rel="icon" href="../assets/rsm-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --stone: #1a1a1a;
+    --stone-deep: #121212;
+    --stone-mid: #2a2a2a;
+    --stone-light: #3a3a3a;
+    --green-deep: #2d5a3b;
+    --green-mid: #3a7a4a;
+    --green-bright: #4a9a5a;
+    --green-light: #6aba7a;
+    --copper: #ba8a5c;
+    --copper-light: #d4a77a;
+    --cream: #f4efe6;
+    --cream-dark: #e8dfd0;
+    --text-muted: #9a8f84;
+    --line: rgba(244, 239, 230, 0.09);
+    --line-green: rgba(58, 122, 74, 0.32);
+    --ff-display: 'Bebas Neue', sans-serif;
+    --ff-serif: 'Playfair Display', serif;
+    --ff-body: 'DM Sans', sans-serif;
+    --radius: 6px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body {
+    background: var(--stone);
+    color: var(--cream);
+    font-family: var(--ff-body);
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  a { color: var(--green-light); }
+  .wrap { width: 100%; max-width: 720px; margin: 0 auto; padding: 0 16px; }
+
+  /* Hero */
+  .hero {
+    position: relative;
+    text-align: center;
+    padding: 2.75rem 0 2.25rem;
+    background:
+      linear-gradient(180deg, rgba(18,18,18,.55) 0%, var(--stone) 100%),
+      url("../assets/hero.jpg") center 40% / cover no-repeat,
+      var(--stone-deep);
+    border-bottom: 1px solid var(--line);
+  }
+  .hero__logo { width: 96px; height: auto; display: block; margin: 0 auto 1rem; }
+  .eyebrow {
+    font-size: .78rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--copper-light);
+  }
+  .hero h1 {
+    font-family: var(--ff-display); font-weight: 400;
+    font-size: clamp(3.2rem, 15vw, 5.5rem);
+    line-height: .9; letter-spacing: .02em;
+    margin: .4rem 0 .9rem;
+  }
+  .hero h1 em { font-style: normal; color: var(--green-light); }
+  .hero__verse {
+    font-family: var(--ff-serif); font-style: italic;
+    color: var(--cream-dark); font-size: 1.02rem;
+    max-width: 34ch; margin: 0 auto;
+  }
+
+  /* Sticky section nav */
+  .nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(18,18,18,.94);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav ul {
+    list-style: none; display: grid; grid-template-columns: repeat(3, 1fr);
+    max-width: 720px; margin: 0 auto;
+  }
+  .nav a {
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+    padding: .7rem .25rem .6rem;
+    font-size: .74rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--cream-dark); text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+  .nav a svg { width: 20px; height: 20px; stroke: currentColor; }
+  .nav a.active, .nav a:hover { color: var(--green-light); border-bottom-color: var(--green-mid); }
+
+  /* Sections */
+  section { padding: 2.75rem 0; border-bottom: 1px solid var(--line); }
+  .sec-num {
+    font-family: var(--ff-display); font-size: 1rem; letter-spacing: .14em; color: var(--copper);
+  }
+  h2 {
+    font-family: var(--ff-display); font-weight: 400;
+    font-size: clamp(2.3rem, 10vw, 3.2rem); line-height: 1; letter-spacing: .02em;
+    margin: .15rem 0 1.25rem;
+  }
+  h2 em { font-style: normal; color: var(--green-light); }
+
+  .card {
+    background: var(--stone-mid);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.4rem 1.25rem;
+  }
+  .card + .card { margin-top: 1rem; }
+
+  /* Songs */
+  .song__title { font-family: var(--ff-serif); font-weight: 700; font-size: 1.35rem; line-height: 1.25; }
+  .song__artist { color: var(--text-muted); font-size: .92rem; margin: .2rem 0 1rem; }
+  .lyrics { white-space: pre-line; font-size: 1.08rem; line-height: 1.85; color: var(--cream); }
+  .lyrics .part {
+    display: block; margin: 1.2rem 0 .2rem;
+    font-size: .74rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--green-light);
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+    width: 100%; min-height: 52px; padding: .85rem 1.25rem;
+    font-family: var(--ff-body); font-size: 1rem; font-weight: 600; letter-spacing: .04em;
+    text-decoration: none; border-radius: var(--radius);
+    transition: background .2s, border-color .2s;
+  }
+  .btn--green { background: var(--green-deep); color: var(--cream); border: 1px solid var(--green-mid); }
+  .btn--green:hover { background: var(--green-mid); }
+  .btn--ghost { background: transparent; color: var(--cream); border: 1px solid var(--stone-light); }
+  .btn--ghost:hover { border-color: var(--green-light); }
+  .btn svg { width: 18px; height: 18px; stroke: currentColor; }
+  .muted { color: var(--text-muted); font-size: .92rem; }
+
+  /* Prayer */
+  .prayer {
+    font-family: var(--ff-serif); font-size: 1.22rem; line-height: 1.75;
+    border-left: 2px solid var(--green-mid); padding-left: 1.1rem;
+  }
+  .prayer p + p { margin-top: .9rem; }
+  .prayer .intro { font-style: italic; color: var(--cream-dark); font-size: 1.05rem; }
+  .prayer .amen { color: var(--green-light); font-weight: 700; }
+  .ref { margin-top: 1rem; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; color: var(--copper-light); }
+
+  /* Form */
+  .form-frame {
+    width: 100%; height: 900px; border: 0; border-radius: var(--radius);
+    background: var(--cream); margin-top: 1rem;
+  }
+
+  footer { padding: 2.25rem 0 3rem; text-align: center; }
+  footer img { width: 40px; opacity: .85; }
+  footer p { font-size: .85rem; color: var(--text-muted); margin-top: .6rem; }
+  footer a { color: var(--cream-dark); text-decoration: none; }
+  .to-top { display: inline-block; margin-top: 1rem; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="hero__logo" src="../RSM_LOGO.png" alt="Rock Solid Man">
+    <div class="eyebrow">Faith · Family · Brotherhood</div>
+    <h1>Family <em>Night</em> 2026</h1>
+    <p class="hero__verse">“As for me and my house, we will serve the Lord.” — Joshua 24:15</p>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Sections">
+  <ul>
+    <li><a href="#songs"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>Songs</a></li>
+    <li><a href="#prayer"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M5 8h14"/></svg>Prayer</a></li>
+    <li><a href="#submit"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>Submit</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ========== 1. SONGS ========== -->
+  <section id="songs">
+    <div class="wrap">
+      <div class="sec-num">01</div>
+      <h2>Worship <em>Songs</em></h2>
+
+      <article class="card song">
+        <div class="song__title">The Lord Will Provide</div>
+        <div class="song__artist">Passion · Live from Passion 2024</div>
+
+        <!--
+          PASTE LYRICS HERE from your CCLI SongSelect account (or your projection software).
+          Use <span class="part">Verse 1</span> / <span class="part">Chorus</span> etc. for section labels.
+          Example:
+          <div class="lyrics"><span class="part">Verse 1</span>First line
+          Second line
+          <span class="part">Chorus</span>First line…</div>
+        -->
+
+        <a class="btn btn--green" href="https://genius.com/Passion-the-lord-will-provide-live-from-passion-2024-lyrics" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
+          View lyrics
+        </a>
+      </article>
+
+      <!-- Add more songs by copying the <article class="card song"> block above. -->
+    </div>
+  </section>
+
+  <!-- ========== 2. LORD'S PRAYER ========== -->
+  <section id="prayer">
+    <div class="wrap">
+      <div class="sec-num">02</div>
+      <h2>The Lord’s <em>Prayer</em></h2>
+      <div class="card">
+        <div class="prayer">
+          <p class="intro">In this manner, therefore, pray:</p>
+          <p>Our Father in heaven,<br>Hallowed be Your name.<br>Your kingdom come.<br>Your will be done<br>On earth as it is in heaven.</p>
+          <p>Give us this day our daily bread.<br>And forgive us our debts,<br>As we forgive our debtors.</p>
+          <p>And do not lead us into temptation,<br>But deliver us from the evil one.</p>
+          <p>For Yours is the kingdom and the power and the glory forever.<br><span class="amen">Amen.</span></p>
+        </div>
+        <div class="ref">Matthew 6:9–13 · NKJV</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 3. SUBMISSION FORM ========== -->
+  <section id="submit">
+    <div class="wrap">
+      <div class="sec-num">03</div>
+      <h2>Share <em>With Us</em></h2>
+      <div class="card">
+        <p style="margin-bottom:1rem">Take a moment to fill out our quick form.</p>
+        <a class="btn btn--green" href="https://docs.google.com/forms/d/e/1FAIpQLSfSO6SeStOMh6H6cfHegPeEBHUJcg_UCd0FKz3YqgwVSbmbCQ/viewform?usp=header" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
+          Open the form
+        </a>
+        <iframe class="form-frame" loading="lazy" title="Family Night submission form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfSO6SeStOMh6H6cfHegPeEBHUJcg_UCd0FKz3YqgwVSbmbCQ/viewform?embedded=true">Loading…</iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="https://rocksolidman.org/"><img src="../assets/rsm-mark.svg" alt=""></a>
+    <p><a href="https://rocksolidman.org/">RockSolidMan.org</a> · Matthew 7:24</p>
+    <a class="to-top" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+  // Highlight the current section in the sticky nav
+  (function () {
+    var links = document.querySelectorAll('.nav a');
+    if (!('IntersectionObserver' in window)) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          links.forEach(function (l) {
+            l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id);
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    document.querySelectorAll('main section').forEach(function (s) { io.observe(s); });
+  })();
+</script>
+</body>
+</html>
