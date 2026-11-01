@@ -107,6 +107,9 @@
   .hero__next b { color: var(--cream); font-weight: 500; }
   .hero__next-arrow { color: var(--green-light); transition: transform .2s; }
   .hero__next:hover .hero__next-arrow { transform: translateX(3px); }
+  .hero__family { display: flex; width: fit-content; max-width: 100%; }
+  .hero__family .hero__next-tag { background: var(--copper-light); }
+  .hero__family + .hero__next { margin-top: .75rem; }
 
   /* ---------- Live feed (right column) ---------- */
   .feed {
@@ -390,6 +393,11 @@
         <a class="rsm-btn rsm-btn--green" href="contact.html#get-involved">Get Involved</a>
         <a class="rsm-give-btn rsm-give-btn--lg" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give Now</a>
       </div>
+      <a class="hero__next hero__family" href="https://rocksolidman.org/familynight2026/">
+        <span class="hero__next-tag">Family Night 2026</span>
+        <span><b>Songs, prayer &amp; submission form</b></span>
+        <span class="hero__next-arrow" aria-hidden="true">&rarr;</span>
+      </a>
       <a class="hero__next" id="next-gathering" href="events.html" hidden></a>
     </div>
 
