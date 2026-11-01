@@ -129,6 +129,27 @@
     font-size: .74rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--green-light);
   }
 
+  /* Expandable song boxes */
+  details.song { padding: 0; overflow: hidden; }
+  details.song summary {
+    list-style: none; cursor: pointer;
+    display: flex; align-items: center; gap: .9rem;
+    padding: 1.15rem 1.25rem; min-height: 64px;
+  }
+  details.song summary::-webkit-details-marker { display: none; }
+  .song__num { font-family: var(--ff-display); font-size: 1.5rem; color: var(--copper); min-width: 1.6rem; }
+  .song__head { flex: 1; }
+  .song__head .song__title { font-size: 1.25rem; }
+  .song__chev {
+    width: 22px; height: 22px; stroke: var(--green-light); flex: none;
+    transition: transform .25s ease;
+  }
+  details.song[open] .song__chev { transform: rotate(180deg); }
+  details.song[open] summary { border-bottom: 1px solid var(--line); }
+  details.song .lyrics { padding: .4rem 1.25rem 1.5rem; }
+  .lyrics:empty::before { content: 'Lyrics coming soon.'; color: var(--text-muted); font-style: italic; }
+  .lyrics .part:first-child { margin-top: .6rem; }
+
   /* Buttons */
   .btn {
     display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
@@ -194,38 +215,71 @@
       <div class="sec-num">01</div>
       <h2>Worship <em>Songs</em></h2>
 
-      <!-- Each song loads its lyrics from the .txt file named in data-lyrics (same folder). -->
-      <article class="card song" data-lyrics="the-lord-will-provide.txt">
-        <div class="song__title">The Lord Will Provide</div>
-        <div class="song__artist">Passion · Live from Passion 2024</div>
-        <div class="lyrics" hidden></div>
-        <a class="btn btn--green lyrics-link" href="https://genius.com/Passion-the-lord-will-provide-live-from-passion-2024-lyrics" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
-          View lyrics
-        </a>
-      </article>
+      <!--
+        HOW TO ADD LYRICS
+        Paste each song's lyrics between its "PASTE ... BELOW" and "END ..." lines.
+        Plain text is fine: line breaks are kept, and lines in brackets like
+        [Verse 1], [Chorus] or [Bridge] automatically become green section labels.
+        Leave a box empty and it shows "Lyrics coming soon."
+      -->
 
-      <article class="card song" data-lyrics="washed.txt">
-        <div class="song__title">Washed</div>
-        <div class="song__artist"></div>
-        <div class="lyrics" hidden></div>
-        <a class="btn btn--green lyrics-link" href="https://genius.com/search?q=Washed" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
-          View lyrics
-        </a>
-      </article>
+      <!-- ================= SONG 1: WASHED ================= -->
+      <details class="card song">
+        <summary>
+          <span class="song__num">01</span>
+          <span class="song__head"><span class="song__title">Washed</span></span>
+          <svg class="song__chev" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </summary>
+        <div class="lyrics">
+<!-- ▼▼▼ PASTE "WASHED" LYRICS BELOW THIS LINE ▼▼▼ -->
 
-      <article class="card song" data-lyrics="what-a-god.txt">
-        <div class="song__title">What A God</div>
-        <div class="song__artist">SEU Worship · One House (Live)</div>
-        <div class="lyrics" hidden></div>
-        <a class="btn btn--green lyrics-link" href="https://genius.com/Seu-worship-one-house-kenzie-walker-chelsea-plank-and-roosevelt-stewart-what-a-god-live-lyrics" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7M10 14 21 3M21 14v7H3V3h7"/></svg>
-          View lyrics
-        </a>
-      </article>
+<!-- ▲▲▲ END "WASHED" LYRICS ▲▲▲ -->
+        </div>
+      </details>
 
-      <!-- Add more songs by copying the <article class="card song"> block above. -->
+      <!-- ================= SONG 2: WHAT I SEE ================= -->
+      <details class="card song">
+        <summary>
+          <span class="song__num">02</span>
+          <span class="song__head"><span class="song__title">What I See</span></span>
+          <svg class="song__chev" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </summary>
+        <div class="lyrics">
+<!-- ▼▼▼ PASTE "WHAT I SEE" LYRICS BELOW THIS LINE ▼▼▼ -->
+
+<!-- ▲▲▲ END "WHAT I SEE" LYRICS ▲▲▲ -->
+        </div>
+      </details>
+
+      <!-- ================= SONG 3: THE LORD WILL PROVIDE ================= -->
+      <details class="card song">
+        <summary>
+          <span class="song__num">03</span>
+          <span class="song__head"><span class="song__title">The Lord Will Provide</span></span>
+          <svg class="song__chev" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </summary>
+        <div class="lyrics">
+<!-- ▼▼▼ PASTE "THE LORD WILL PROVIDE" LYRICS BELOW THIS LINE ▼▼▼ -->
+
+<!-- ▲▲▲ END "THE LORD WILL PROVIDE" LYRICS ▲▲▲ -->
+        </div>
+      </details>
+
+      <!-- ================= SONG 4: WHAT A GOD ================= -->
+      <details class="card song">
+        <summary>
+          <span class="song__num">04</span>
+          <span class="song__head"><span class="song__title">What A God</span></span>
+          <svg class="song__chev" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </summary>
+        <div class="lyrics">
+<!-- ▼▼▼ PASTE "WHAT A GOD" LYRICS BELOW THIS LINE ▼▼▼ -->
+
+<!-- ▲▲▲ END "WHAT A GOD" LYRICS ▲▲▲ -->
+        </div>
+      </details>
+
+      <!-- To add a song, copy one SONG block above (from its ==== SONG line to </details>). -->
     </div>
   </section>
 
@@ -275,30 +329,24 @@
 </footer>
 
 <script>
-  // Load each song's lyrics from its .txt file. Lines like [Verse 1] or [Chorus] become section labels.
-  document.querySelectorAll('.song[data-lyrics]').forEach(function (card) {
-    var box = card.querySelector('.lyrics');
-    fetch(card.getAttribute('data-lyrics'), { cache: 'no-cache' })
-      .then(function (r) { if (!r.ok) throw 0; return r.text(); })
-      .then(function (txt) {
-        txt = txt.trim();
-        if (!txt) return;
-        box.textContent = '';
-        txt.split(/\r?\n/).forEach(function (line) {
-          var m = line.trim().match(/^\[(.+)\]$/);
-          if (m) {
-            var s = document.createElement('span');
-            s.className = 'part';
-            s.textContent = m[1];
-            box.appendChild(s);
-          } else {
-            box.appendChild(document.createTextNode(line + '\n'));
-          }
-        });
-        box.hidden = false;
-        card.querySelector('.lyrics-link').hidden = true;
-      })
-      .catch(function () {});
+  // Format pasted lyrics: keep line breaks, turn [Verse 1] / [Chorus] lines into labels.
+  document.querySelectorAll('details.song .lyrics').forEach(function (box) {
+    var lines = box.textContent.replace(/\r/g, '').split('\n');
+    while (lines.length && !lines[0].trim()) lines.shift();
+    while (lines.length && !lines[lines.length - 1].trim()) lines.pop();
+    box.textContent = '';
+    lines.forEach(function (line) {
+      var t = line.trim();
+      var m = t.match(/^\[(.+)\]$/);
+      if (m) {
+        var sp = document.createElement('span');
+        sp.className = 'part';
+        sp.textContent = m[1];
+        box.appendChild(sp);
+      } else {
+        box.appendChild(document.createTextNode(t + '\n'));
+      }
+    });
   });
 
   // Highlight the current section in the sticky nav
