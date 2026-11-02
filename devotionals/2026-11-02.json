@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-02",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 286,
+  "theme": null,
+  "content_markdown": "# Waiting with Open Hands\n\n## Scripture\n\n“Wait for the LORD; be strong, and let your heart take courage; wait for the LORD!” — Psalm 27:14\n\n## Reflection\n\nWaiting feels like wasted time, yet Scripture repeatedly treats it as a discipline of faith. David wrote these words while hunted, not while comfortable. His counsel is not passive resignation but active trust: be strong, take courage, and wait. Waiting is where God reshapes our desires. We arrive wanting a timeline; He gives us Himself.\n\nPractically, waiting exposes what we are gripping. When a diagnosis lingers, a job search drags, or a prayer seems unanswered, our clenched hands reveal where we have quietly decided we know best. The psalm invites us to open them. Courage in waiting is not certainty about the outcome; it is confidence in the character of the One who holds it. God is not delayed. He is at work in the delay, forming patience, humility, and a hope that does not depend on circumstances.\n\nThis does not mean idleness. We pray, obey, serve, and take the next faithful step. But we release the demand that God explain Himself on our schedule. The Lord who made us wait is the same Lord who meets us in it. Today, name what you are waiting for, then name who God is. Let His character steady you while His timing unfolds.\n\n## Prayer\n\nFather, teach us to wait with open hands and courageous hearts. When answers tarry, anchor us in who You are, not in what we cannot see. Form patience and hope in us, and keep us faithful in the waiting. Amen.\n\n## One-Line Application\n\nName what you're waiting for, then trust the God who holds it.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
