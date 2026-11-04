@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Night 2026 Photos — Rock Solid Man &times; Living Truth Collective</title>
+<meta name="description" content="Photos from Family Night 2026 at Woodlands Coffee &amp; Roasters — a night of worship, prayer and fellowship hosted by Rock Solid Man and Living Truth Collective.">
+<meta property="og:title" content="Family Night 2026 — Rock Solid Man × Living Truth Collective">
+<meta property="og:description" content="Two ministries. One family. Photos from a night of worship, prayer and fellowship at Woodlands Coffee & Roasters.">
+<meta property="og:image" content="https://rocksolidman.org/gallery/familynight2026/web/fn26-og.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="web/fn26-01.jpg">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--stone, #1a1a1a);
+    color: var(--cream, #f4efe6);
+    font-family: var(--ff-body, 'DM Sans', sans-serif);
+    font-size: 16px; line-height: 1.7;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+  :root { --ltc: #d4a77a; --ltc-soft: rgba(212,167,122,.16); }
+
+  /* ================= HERO ================= */
+  .fn-hero {
+    position: relative; isolation: isolate;
+    min-height: 92svh;
+    display: flex; align-items: flex-end;
+    padding: calc(var(--header-h, 72px) + 3rem) 0 4.5rem;
+    overflow: hidden;
+  }
+  .fn-hero__bg { position: absolute; inset: 0; z-index: -2; }
+  .fn-hero__bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 45%; }
+  .fn-hero::before {
+    content: ''; position: absolute; inset: 0; z-index: -1;
+    background:
+      linear-gradient(180deg, rgba(18,18,18,.55) 0%, rgba(18,18,18,.08) 30%, rgba(18,18,18,.35) 60%, var(--stone) 100%),
+      linear-gradient(90deg, rgba(18,18,18,.7) 0%, rgba(18,18,18,.15) 60%);
+  }
+  .fn-hero__inner { width: 100%; animation: up .8s ease both; text-shadow: 0 2px 20px rgba(0,0,0,.6); }
+
+  .lockup {
+    display: inline-flex; align-items: center; gap: .9rem; flex-wrap: wrap;
+    padding: .55rem 1rem .55rem .6rem;
+    border-radius: 999px;
+    background: rgba(18,18,18,.55);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border: 1px solid rgba(244,239,230,.14);
+    text-shadow: none;
+    margin-bottom: 1.5rem;
+  }
+  .lockup__side { display: inline-flex; align-items: center; gap: .55rem; font-size: .78rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+  .lockup__badge {
+    width: 34px; height: 34px; border-radius: 50%;
+    display: grid; place-items: center; flex-shrink: 0;
+  }
+  .lockup__badge--rsm { background: var(--green-deep); border: 1px solid var(--green-light); }
+  .lockup__badge--rsm img { width: 22px; height: auto; }
+  .lockup__badge--ltc { background: var(--ltc-soft); border: 1px solid var(--ltc); color: var(--ltc); font-family: var(--ff-display); font-size: .95rem; letter-spacing: .06em; padding-top: 2px; }
+  .lockup__rsm { color: var(--green-light); }
+  .lockup__ltc { color: var(--ltc); }
+  .lockup__x { color: var(--cream-dark); font-family: var(--ff-serif); font-style: italic; font-size: 1.1rem; opacity: .8; }
+
+  .fn-hero__title {
+    font-family: var(--ff-display); font-weight: 400;
+    font-size: clamp(4rem, 11vw, 9.5rem);
+    line-height: .84; letter-spacing: .02em;
+    margin-bottom: 1.3rem;
+  }
+  .fn-hero__title em { font-style: normal; color: var(--green-light); }
+  .fn-hero__title span { color: var(--ltc); }
+  .fn-hero__sub {
+    font-family: var(--ff-serif); font-style: italic;
+    font-size: clamp(1.1rem, 1.8vw, 1.35rem); line-height: 1.6;
+    color: var(--cream-dark); max-width: 46ch;
+  }
+  .fn-hero__meta {
+    display: flex; flex-wrap: wrap; gap: .5rem 1.6rem; margin-top: 1.6rem;
+    font-size: .74rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--cream-dark);
+  }
+  .fn-hero__meta span::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--green-light); margin-right: .6rem; vertical-align: middle; transform: translateY(-1px); }
+  .fn-hero__meta span:nth-child(2)::before { background: var(--ltc); }
+  .fn-hero__ctas { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; text-shadow: none; }
+
+  /* ================= PARTNERSHIP ================= */
+  .partner { padding: 5rem 0 4rem; }
+  .partner__head { text-align: center; max-width: 720px; margin: 0 auto 3rem; }
+  .partner__head .rsm-h2 span { color: var(--ltc); }
+  .partner__head p { color: var(--cream-dark); font-size: 1.05rem; }
+  .partner__grid {
+    display: grid; grid-template-columns: 1fr auto 1fr; gap: 1.5rem; align-items: stretch;
+  }
+  .pcard {
+    position: relative; padding: 2rem 1.8rem; border-radius: 16px;
+    border: 1px solid var(--line);
+    background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.012));
+    display: flex; flex-direction: column;
+  }
+  .pcard--rsm { border-color: var(--line-green); }
+  .pcard--ltc { border-color: rgba(212,167,122,.35); }
+  .pcard__kicker { font-size: .66rem; font-weight: 600; letter-spacing: .24em; text-transform: uppercase; margin-bottom: .6rem; }
+  .pcard--rsm .pcard__kicker { color: var(--green-light); }
+  .pcard--ltc .pcard__kicker { color: var(--ltc); }
+  .pcard h3 { font-family: var(--ff-display); font-weight: 400; font-size: 2.1rem; letter-spacing: .04em; line-height: 1; margin-bottom: .8rem; }
+  .pcard p { color: var(--cream-dark); font-size: .96rem; }
+  .pcard a { margin-top: auto; padding-top: 1.2rem; font-size: .82rem; font-weight: 500; text-decoration: none; display: inline-flex; gap: .4rem; align-items: center; }
+  .pcard--rsm a { color: var(--green-light); }
+  .pcard--ltc a { color: var(--ltc); }
+  .pcard a:hover { color: var(--cream); }
+  .partner__join {
+    display: grid; place-items: center; align-self: center;
+    width: 64px; height: 64px; border-radius: 50%;
+    border: 1px solid var(--line);
+    background: radial-gradient(circle at 30% 30%, rgba(58,122,74,.35), rgba(212,167,122,.25));
+    font-family: var(--ff-serif); font-style: italic; font-size: 1.6rem; color: var(--cream);
+  }
+  .partner__verse {
+    text-align: center; margin: 2.6rem auto 0; max-width: 56ch;
+    font-family: var(--ff-serif); font-style: italic; color: var(--cream-dark); font-size: 1.08rem;
+  }
+  .partner__verse cite { display: block; margin-top: .4rem; font-family: var(--ff-body); font-style: normal; font-size: .7rem; letter-spacing: .22em; text-transform: uppercase; color: var(--text-muted); }
+
+  /* ================= GALLERY ================= */
+  .shots { padding: 2rem 0 5rem; }
+  .shots__head { display: flex; align-items: end; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem; }
+  .shots__head p { color: var(--text-muted); max-width: 40ch; }
+  .masonry { columns: 3 300px; column-gap: 1rem; }
+  .shot {
+    break-inside: avoid; margin: 0 0 1rem;
+    position: relative; display: block; width: 100%;
+    border: 0; padding: 0; background: #0d0d0d; cursor: zoom-in;
+    border-radius: 10px; overflow: hidden;
+    color: inherit; font: inherit; text-align: left;
+  }
+  .shot img { width: 100%; height: auto; transition: transform .6s ease, filter .3s; }
+  .shot:hover img { transform: scale(1.035); }
+  .shot figcaption {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    padding: 2.2rem 1rem .85rem;
+    background: linear-gradient(180deg, transparent, rgba(0,0,0,.78));
+    font-size: .84rem; color: var(--cream);
+    opacity: 0; transform: translateY(6px); transition: opacity .25s, transform .25s;
+  }
+  .shot:hover figcaption, .shot:focus-visible figcaption { opacity: 1; transform: none; }
+  @media (hover: none) { .shot figcaption { display: none; } }
+
+  /* ================= NEXT ================= */
+  .next { padding: 0 0 6rem; }
+  .next__card {
+    position: relative; overflow: hidden;
+    display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 2.5rem; align-items: center;
+    padding: 3rem; border-radius: 18px;
+    border: 1px solid rgba(212,167,122,.3);
+    background:
+      radial-gradient(ellipse 55% 90% at 100% 50%, rgba(212,167,122,.18), transparent 70%),
+      radial-gradient(ellipse 55% 90% at 0% 50%, rgba(58,122,74,.18), transparent 70%),
+      #171513;
+  }
+  .next__card .rsm-eyebrow { color: var(--ltc); }
+  .next__card p { color: var(--cream-dark); }
+  .next__date { display: flex; gap: 1.2rem; align-items: center; justify-self: end; }
+  .next__cal {
+    width: 110px; border-radius: 14px; overflow: hidden; text-align: center;
+    border: 1px solid rgba(212,167,122,.5); background: rgba(0,0,0,.3);
+  }
+  .next__cal small { display: block; background: var(--ltc); color: var(--stone-deep); font-weight: 600; letter-spacing: .2em; font-size: .72rem; padding: .35rem 0; }
+  .next__cal strong { display: block; font-family: var(--ff-display); font-weight: 400; font-size: 3.6rem; line-height: 1.1; padding-top: .3rem; }
+  .next__cal span { display: block; font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; color: var(--text-muted); padding-bottom: .6rem; }
+  .next__btns { display: flex; gap: .8rem; flex-wrap: wrap; margin-top: 1.6rem; }
+  .share-msg { font-size: .8rem; color: var(--green-light); align-self: center; min-height: 1em; }
+
+  /* ================= LIGHTBOX ================= */
+  .lb {
+    position: fixed; inset: 0; z-index: 2000;
+    background: rgba(8,8,8,.96);
+    display: grid; grid-template-rows: auto 1fr auto;
+    opacity: 0; visibility: hidden; transition: opacity .25s, visibility .25s;
+  }
+  .lb.open { opacity: 1; visibility: visible; }
+  .lb__bar { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: var(--text-muted); }
+  .lb__stage { position: relative; display: grid; place-items: center; min-height: 0; padding: 0 4.5rem; }
+  .lb__stage img { max-width: 100%; max-height: calc(100svh - 150px); width: auto; height: auto; object-fit: contain; border-radius: 6px; box-shadow: 0 30px 80px -20px rgba(0,0,0,.9); }
+  .lb__cap { text-align: center; padding: 1rem 1.25rem 1.4rem; color: var(--cream-dark); font-family: var(--ff-serif); font-style: italic; }
+  .lb button {
+    background: rgba(255,255,255,.06); border: 1px solid var(--line); color: var(--cream);
+    width: 48px; height: 48px; border-radius: 50%; cursor: pointer;
+    display: grid; place-items: center; transition: background .2s, border-color .2s;
+  }
+  .lb button:hover { background: rgba(58,122,74,.25); border-color: var(--green-mid); }
+  .lb button svg { width: 20px; height: 20px; }
+  .lb__prev, .lb__next { position: absolute; top: 50%; transform: translateY(-50%); }
+  .lb__prev { left: 1rem; } .lb__next { right: 1rem; }
+
+  @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+
+  @media (max-width: 860px) {
+    .partner__grid { grid-template-columns: 1fr; }
+    .partner__join { justify-self: center; margin: -.5rem 0; }
+    .next__card { grid-template-columns: 1fr; padding: 2rem 1.5rem; }
+    .next__date { justify-self: start; order: -1; }
+  }
+  @media (max-width: 560px) {
+    .rsm-wrap { padding: 0 1rem; }
+    .fn-hero { min-height: 86svh; padding-bottom: 3rem; }
+    .lockup { flex-direction: column; align-items: flex-start; gap: .45rem; padding: .6rem .9rem .6rem .6rem; border-radius: 16px; }
+    .lockup__x { display: none; }
+    .lockup__side { font-size: .66rem; letter-spacing: .1em; }
+    .fn-hero__ctas > * { flex: 1 1 100%; }
+    .partner { padding: 3.5rem 0 3rem; }
+    .masonry { columns: 2 140px; column-gap: .6rem; }
+    .shot { margin-bottom: .6rem; border-radius: 8px; }
+    .lb__stage { padding: 0 .5rem; }
+    .lb__prev, .lb__next { top: auto; bottom: -3.7rem; transform: none; }
+    .lb__prev { left: 1rem; } .lb__next { right: 1rem; }
+    .lb__cap { padding: 1rem 4.5rem 1.4rem; font-size: .9rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fn-hero__inner { animation: none; }
+    .shot img { transition: none; }
+  }
+</style>
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="rsm-skip" href="#main">Skip to content</a>
+<header class="rsm-header">
+  <div class="rsm-header__inner">
+    <a class="rsm-brand" href="../../index.html" aria-label="Rock Solid Man — home">
+      <img src="../../assets/rsm-mark.svg" alt="" width="57" height="26">
+      <span><b>Rock</b> Solid Man</span>
+    </a>
+    <nav class="rsm-nav" id="rsm-nav" aria-label="Main">
+      <ul class="rsm-nav__list">
+      <li><a href="../../events.html">Events</a></li>
+      <li><a href="../../devotional.html">Daily Word</a></li>
+      <li><a href="../../videos.html">Watch</a></li>
+      <li><a href="../../podcast.html">Podcast</a></li>
+      <li><a href="../index.html" aria-current="page">Photos</a></li>
+      <li><a href="../../about.html">About</a></li>
+      <li><a href="../../mission.html">Mission</a></li>
+      <li><a href="../../partners.html">Partners</a></li>
+      <li><a href="../../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="rsm-header__actions">
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give</a>
+      <button type="button" class="rsm-menu-btn" aria-controls="rsm-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="fn-hero" aria-labelledby="fn-title">
+  <div class="fn-hero__bg" aria-hidden="true">
+    <img src="web/fn26-01.jpg" alt="" fetchpriority="high" decoding="async" width="1672" height="941">
+  </div>
+  <div class="rsm-wrap fn-hero__inner">
+    <div class="lockup" aria-label="Rock Solid Man and Living Truth Collective">
+      <span class="lockup__side lockup__rsm"><span class="lockup__badge lockup__badge--rsm"><img src="../../assets/rsm-mark.svg" alt=""></span>Rock Solid Man</span>
+      <span class="lockup__x" aria-hidden="true">&times;</span>
+      <span class="lockup__side lockup__ltc"><span class="lockup__badge lockup__badge--ltc" aria-hidden="true">LTC</span>Living Truth Collective</span>
+    </div>
+    <h1 class="fn-hero__title" id="fn-title">Family <em>Night</em><br><span>2026</span></h1>
+    <p class="fn-hero__sub">Two ministries. One family. A night of worship, prayer and fellowship under the lights.</p>
+    <div class="fn-hero__meta">
+      <span>Woodlands Coffee &amp; Roasters</span>
+      <span>Kathleen, GA</span>
+    </div>
+    <div class="fn-hero__ctas">
+      <a class="rsm-btn rsm-btn--green" href="#photos">View the photos</a>
+      <a class="rsm-btn rsm-btn--ghost" href="#next">Next Family Night</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARTNERSHIP ============ -->
+<section class="partner" aria-labelledby="partner-title">
+  <div class="rsm-wrap">
+    <div class="partner__head">
+      <span class="rsm-eyebrow">A shared mission</span>
+      <h2 class="rsm-h2" id="partner-title">Standing on the <em>Rock</em>,<br>living in the <span>Truth</span></h2>
+      <p>Family Night brought the men of Rock Solid Man and the women of Living Truth Collective together &mdash; with their kids, friends and neighbors &mdash; for one night of worship and fellowship.</p>
+    </div>
+    <div class="partner__grid">
+      <article class="pcard pcard--rsm">
+        <span class="pcard__kicker">Men&rsquo;s ministry</span>
+        <h3>Rock Solid Man</h3>
+        <p>Helping men find faith, brotherhood and purpose &mdash; calling every man to build his life on the Rock.</p>
+        <a href="../../about.html">Who we are <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <div class="partner__join" aria-hidden="true">&amp;</div>
+      <article class="pcard pcard--ltc">
+        <span class="pcard__kicker">Women&rsquo;s ministry partner</span>
+        <h3>Living Truth Collective</h3>
+        <p>Equipping women to thrive in Biblical community &mdash; learning, sharing and experiencing God&rsquo;s truth together.</p>
+        <a href="https://livingtruthco.com" target="_blank" rel="noopener">Visit livingtruthco.com <span aria-hidden="true">&rarr;</span></a>
+      </article>
+    </div>
+    <blockquote class="partner__verse">
+      &ldquo;But as for me and my household, we will serve the Lord.&rdquo;
+      <cite>Joshua 24:15</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ============ PHOTOS ============ -->
+<section class="shots" id="photos" aria-labelledby="photos-title">
+  <div class="rsm-wrap">
+    <div class="shots__head">
+      <div>
+        <span class="rsm-eyebrow">Captured moments</span>
+        <h2 class="rsm-h2" id="photos-title">The <em>night</em> in pictures</h2>
+      </div>
+      <p>Tap any photo to see it full size. Swipe or use the arrow keys to move through the night.</p>
+    </div>
+    <div class="masonry" id="masonry"></div>
+    <noscript><p class="rsm-lede">Turn on JavaScript to view the photo gallery.</p></noscript>
+  </div>
+</section>
+
+<!-- ============ NEXT FAMILY NIGHT ============ -->
+<section class="next" id="next" aria-labelledby="next-title">
+  <div class="rsm-wrap">
+    <div class="next__card">
+      <div>
+        <span class="rsm-eyebrow">Save the date</span>
+        <h2 class="rsm-h2" id="next-title">Christmas <em>Family Night</em></h2>
+        <p>Rock Solid Man and Living Truth Collective are doing it again &mdash; worship, fellowship and celebrating the birth of Christ together. Open to all. Bring the whole family and anyone you know.</p>
+        <div class="next__btns">
+          <a class="rsm-btn rsm-btn--green" href="../../events.html">See event details</a>
+          <button type="button" class="rsm-btn rsm-btn--ghost" id="share-btn">Share these photos</button>
+          <span class="share-msg" id="share-msg" role="status"></span>
+        </div>
+      </div>
+      <div class="next__date">
+        <div class="next__cal"><small>DEC</small><strong>7</strong><span>Monday</span></div>
+        <div>
+          <b>7:00 PM</b><br>
+          <span style="color:var(--text-muted)">Woodlands Coffee &amp; Roasters</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+  <div class="lb__bar">
+    <span id="lb-count">1 / 24</span>
+    <button type="button" class="lb__close" id="lb-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <div class="lb__stage">
+    <img id="lb-img" alt="">
+    <button type="button" class="lb__prev" id="lb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button type="button" class="lb__next" id="lb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+  </div>
+  <p class="lb__cap" id="lb-cap"></p>
+</div>
+
+<footer class="rsm-footer">
+  <div class="rsm-footer__inner">
+    <div class="rsm-footer__brand">
+      <a class="rsm-brand" href="../../index.html" aria-label="Rock Solid Man — home">
+        <img src="../../assets/rsm-mark.svg" alt="" width="57" height="26">
+        <span><b>Rock</b> Solid Man</span>
+      </a>
+      <p>Helping men build unshakable strength — physically, mentally, and spiritually. Anchored in Christ. Rooted in community.</p>
+      <a class="rsm-give-btn" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give to the mission</a>
+      <div class="rsm-footer__alt"><a href="https://www.paypal.com/donate/?hosted_button_id=T8NLD6Y9Z7AYG" target="_blank" rel="noopener">PayPal</a><a href="https://www.paypal.com/qrcodes/venmocs/35583249-8548-40b0-a609-de92029468d0?created=1729007121" target="_blank" rel="noopener">Venmo</a></div>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="../../events.html">Upcoming Events</a></li>
+        <li><a href="../../devotional.html">Daily Word</a></li>
+        <li><a href="../../videos.html">Videos &amp; Shorts</a></li>
+        <li><a href="../../podcast.html">Podcast</a></li>
+        <li><a href="../index.html">Photo Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Ministry</h4>
+      <ul>
+        <li><a href="../../about.html">About Us</a></li>
+        <li><a href="../../mission.html">Our Mission</a></li>
+        <li><a href="../../partners.html">Partners</a></li>
+        <li><a href="../../mensgroups.html">Men&rsquo;s Groups</a></li>
+        <li><a href="../../transparency.html">Transparency</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">Volunteer</a></li>
+        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" target="_blank" rel="noopener">TXT Alerts</a></li>
+        <li><a href="https://rock-solid-man.printify.me/category/all/1" target="_blank" rel="noopener">Gear / Swag</a></li>
+        <li><a href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">All Socials</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rsm-footer__bottom">
+    <span>Rock Solid Man Inc &copy; 2026. All rights reserved.</span>
+    <span>Matthew 7:24</span>
+    <span>Designed by <a href="https://nagoh.us" target="_blank" rel="noopener">Nagoh Creative</a> &nbsp;|&nbsp; Support: <a href="mailto:support@nagohcreative.com">support@nagohcreative.com</a></span>
+  </div>
+</footer>
+
+<script>
+/* ---------------------------------------------------------------
+   FAMILY NIGHT 2026 PHOTOS
+   To add a photo: put fn26-XX.jpg (full, ~1920px) and fn26-XX-sm.jpg
+   (~900px) in web/, then add a line below: [file, width, height, caption].
+   --------------------------------------------------------------- */
+var PHOTOS = [
+  ['fn26-01', 1672, 941,  'The whole family on its feet in worship'],
+  ['fn26-04', 1672, 941,  'Brothers and sisters gathered in prayer'],
+  ['fn26-03', 1672, 941,  'Rock Solid Man and Living Truth Collective together on stage'],
+  ['fn26-07', 1280, 1920, 'A hand raised in praise'],
+  ['fn26-02', 1672, 941,  'Hands lifted across the lawn'],
+  ['fn26-05', 1672, 941,  'Leading worship under the pines'],
+  ['fn26-08', 1672, 941,  'A big welcome for every family that pulled in'],
+  ['fn26-15', 1280, 1920, 'Singing out together'],
+  ['fn26-09', 1672, 941,  'Welcome signs out front of Woodlands Coffee & Roasters'],
+  ['fn26-10', 1672, 941,  'Gathered around the fire'],
+  ['fn26-11', 1672, 941,  'The message from the stage'],
+  ['fn26-19', 1280, 1920, 'Worship from the crowd'],
+  ['fn26-06', 1672, 941,  'All in'],
+  ['fn26-12', 1672, 941,  'Fellowship that feels like family'],
+  ['fn26-14', 1672, 941,  'The next generation'],
+  ['fn26-13', 1672, 941,  'A packed lawn for Family Night'],
+  ['fn26-22', 1280, 1920, 'A quiet moment of prayer'],
+  ['fn26-16', 1672, 941,  'The band in full voice'],
+  ['fn26-17', 1672, 941,  'Kids running the lawn'],
+  ['fn26-20', 1672, 941,  'Old friends, warm welcomes'],
+  ['fn26-21', 1672, 941,  'Families around the fire pit'],
+  ['fn26-23', 1672, 941,  'The worship team'],
+  ['fn26-18', 1672, 941,  'Getting the tables ready before doors opened'],
+  ['fn26-24', 1672, 941,  'Keeping the beat']
+];
+
+(function () {
+  var grid = document.getElementById('masonry');
+  grid.innerHTML = PHOTOS.map(function (p, i) {
+    return '<figure style="margin:0"><button type="button" class="shot" data-i="' + i + '" aria-label="Open photo: ' + p[3].replace(/"/g, '&quot;') + '">' +
+      '<img src="web/' + p[0] + '-sm.jpg" srcset="web/' + p[0] + '-sm.jpg 900w, web/' + p[0] + '.jpg ' + Math.max(p[1], p[2]) + 'w" ' +
+      'sizes="(max-width: 560px) 50vw, (max-width: 1000px) 50vw, 400px" width="' + p[1] + '" height="' + p[2] + '" alt="' + p[3].replace(/"/g, '&quot;') + '" loading="' + (i < 6 ? 'eager' : 'lazy') + '" decoding="async">' +
+      '<figcaption>' + p[3] + '</figcaption></button></figure>';
+  }).join('');
+
+  var lb = document.getElementById('lb'), img = document.getElementById('lb-img'),
+      cap = document.getElementById('lb-cap'), count = document.getElementById('lb-count');
+  var cur = 0, lastFocus = null;
+
+  function show(i) {
+    cur = (i + PHOTOS.length) % PHOTOS.length;
+    var p = PHOTOS[cur];
+    img.src = 'web/' + p[0] + '.jpg';
+    img.alt = p[3];
+    cap.textContent = p[3];
+    count.textContent = (cur + 1) + ' / ' + PHOTOS.length;
+    // warm the next one
+    var n = new Image(); n.src = 'web/' + PHOTOS[(cur + 1) % PHOTOS.length][0] + '.jpg';
+  }
+  function open(i) {
+    lastFocus = document.activeElement;
+    show(i);
+    lb.classList.add('open'); lb.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    document.getElementById('lb-close').focus();
+  }
+  function close() {
+    lb.classList.remove('open'); lb.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+
+  grid.addEventListener('click', function (e) {
+    var b = e.target.closest('.shot'); if (b) open(+b.dataset.i);
+  });
+  document.getElementById('lb-close').onclick = close;
+  document.getElementById('lb-prev').onclick = function () { show(cur - 1); };
+  document.getElementById('lb-next').onclick = function () { show(cur + 1); };
+  lb.addEventListener('click', function (e) { if (e.target === lb || e.target.classList.contains('lb__stage')) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(cur - 1);
+    else if (e.key === 'ArrowRight') show(cur + 1);
+    else if (e.key === 'Tab') { // keep focus inside the viewer
+      var f = lb.querySelectorAll('button'), first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+  var sx = null;
+  lb.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener('touchend', function (e) {
+    if (sx === null) return;
+    var dx = e.changedTouches[0].clientX - sx; sx = null;
+    if (Math.abs(dx) > 45) show(cur + (dx < 0 ? 1 : -1));
+  });
+
+  // Share
+  var btn = document.getElementById('share-btn'), msg = document.getElementById('share-msg');
+  btn.addEventListener('click', function () {
+    var url = 'https://rocksolidman.org/gallery/familynight2026/';
+    var data = { title: 'Family Night 2026 — Rock Solid Man × Living Truth Collective', text: 'Photos from Family Night 2026', url: url };
+    if (navigator.share) { navigator.share(data).catch(function () {}); return; }
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(function () { msg.textContent = 'Link copied!'; setTimeout(function () { msg.textContent = ''; }, 2500); },
+        function () { msg.textContent = url; });
+    } else { msg.textContent = url; }
+  });
+})();
+</script>
+<script src="../../assets/site.js" defer></script>
+</body>
+</html>

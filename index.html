@@ -314,6 +314,57 @@
   .watch__copy p { color: var(--cream-dark); margin-bottom: 1.8rem; max-width: 46ch; }
   .watch__btns { display: flex; gap: .8rem; flex-wrap: wrap; }
 
+  /* ================= FAMILY NIGHT 2026 SPOTLIGHT ================= */
+  .fn26 { position: relative; padding: 1rem 0 5.5rem; }
+  .fn26__card {
+    position: relative; overflow: hidden;
+    display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.25fr); gap: clamp(2rem, 4vw, 3.5rem); align-items: center;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    border-radius: 20px;
+    border: 1px solid rgba(212,167,122,.28);
+    background:
+      radial-gradient(ellipse 50% 80% at 0% 0%, rgba(58,122,74,.22), transparent 70%),
+      radial-gradient(ellipse 50% 80% at 100% 100%, rgba(212,167,122,.16), transparent 70%),
+      #171615;
+    box-shadow: 0 40px 80px -40px rgba(0,0,0,.8);
+  }
+  .fn26__lockup { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; margin-bottom: 1.1rem;
+    font-size: .68rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
+  .fn26__lockup b { font-weight: 600; color: var(--green-light); }
+  .fn26__lockup i { font-style: italic; font-family: var(--ff-serif); font-size: 1rem; letter-spacing: 0; color: var(--cream-dark); text-transform: none; }
+  .fn26__lockup span { color: var(--copper-light); }
+  .fn26 .rsm-h2 { font-size: clamp(2.8rem, 5.2vw, 4.4rem); }
+  .fn26 .rsm-h2 span { color: var(--copper-light); }
+  .fn26__copy p { color: var(--cream-dark); max-width: 44ch; }
+  .fn26__btns { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.8rem; }
+  .fn26__mosaic {
+    display: grid; grid-template-columns: 1.7fr 1fr; grid-template-rows: 1fr 1fr; gap: .7rem;
+    aspect-ratio: 16 / 10; text-decoration: none; color: inherit; position: relative;
+  }
+  .fn26__mosaic img { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; display: block; transition: transform .5s ease, filter .3s; }
+  .fn26__mosaic span { overflow: hidden; border-radius: 12px; display: block; min-height: 0; }
+  .fn26__mosaic span:first-child { grid-row: span 2; }
+  .fn26__mosaic:hover img { transform: scale(1.04); }
+  .fn26__count {
+    position: absolute; right: .8rem; bottom: .8rem;
+    display: inline-flex; align-items: center; gap: .45rem;
+    padding: .45rem .8rem; border-radius: 999px;
+    background: rgba(18,18,18,.78); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+    border: 1px solid var(--line); font-size: .74rem; font-weight: 500; color: var(--cream);
+  }
+  .fn26__count svg { width: 15px; height: 15px; color: var(--copper-light); }
+  @media (max-width: 960px) {
+    .fn26__card { grid-template-columns: 1fr; }
+    .fn26__mosaic { order: -1; }
+  }
+  @media (max-width: 560px) {
+    .fn26 { padding: 0 0 3.5rem; }
+    .fn26__card { padding: 1rem 1rem 1.6rem; border-radius: 16px; }
+    .fn26__copy { padding: 0 .25rem; }
+    .fn26__btns > * { flex: 1 1 100%; }
+    .fn26__mosaic { gap: .45rem; }
+  }
+
   @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
   @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
@@ -393,6 +444,11 @@
         <a class="rsm-btn rsm-btn--green" href="contact.html#get-involved">Get Involved</a>
         <a class="rsm-give-btn rsm-give-btn--lg" href="https://my.cheddarup.com/c/help-men-find-faith-brotherhood-and-purpose/items" target="_blank" rel="noopener" data-give><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.6 2.3 4.5 6.2 4.5c2.2 0 3.6 1.2 4.4 2.4h2.8c.8-1.2 2.2-2.4 4.4-2.4 3.9 0 5.8 4.1 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Give Now</a>
       </div>
+      <a class="hero__next hero__family" href="gallery/familynight2026/">
+        <span class="hero__next-tag">New photos</span>
+        <span><b>Family Night 2026</b> &nbsp;Rock Solid Man &times; Living Truth Collective</span>
+        <span class="hero__next-arrow" aria-hidden="true">&rarr;</span>
+      </a>
       <a class="hero__next" id="next-gathering" href="events.html" hidden></a>
     </div>
 
@@ -416,6 +472,30 @@
         <a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>Facebook &amp; more</a>
       </div>
     </aside>
+  </div>
+</section>
+
+<!-- ============ FAMILY NIGHT 2026 SPOTLIGHT ============ -->
+<section class="fn26" aria-labelledby="fn26-title">
+  <div class="rsm-wrap">
+    <div class="fn26__card">
+      <div class="fn26__copy">
+        <span class="rsm-eyebrow">Family Night 2026 &middot; New photos</span>
+        <div class="fn26__lockup"><b>Rock Solid Man</b><i>&times;</i><span>Living Truth Collective</span></div>
+        <h2 class="rsm-h2" id="fn26-title">Two ministries.<br><em>One</em> <span>family.</span></h2>
+        <p>Men, women, kids and neighbors filled the lawn at Woodlands Coffee &amp; Roasters for a night of worship, prayer and fellowship with our partners at Living Truth Collective. The photos are in.</p>
+        <div class="fn26__btns">
+          <a class="rsm-btn rsm-btn--green" href="gallery/familynight2026/">See the photos</a>
+          <a class="rsm-btn rsm-btn--ghost" href="events.html">Christmas Family Night &middot; Dec 7</a>
+        </div>
+      </div>
+      <a class="fn26__mosaic" href="gallery/familynight2026/" aria-label="Open the Family Night 2026 photo gallery">
+        <span><img src="gallery/familynight2026/web/fn26-01-sm.jpg" alt="" loading="lazy" decoding="async" width="900" height="506"></span>
+        <span><img src="gallery/familynight2026/web/fn26-04-sm.jpg" alt="" loading="lazy" decoding="async" width="900" height="506"></span>
+        <span><img src="gallery/familynight2026/web/fn26-03-sm.jpg" alt="" loading="lazy" decoding="async" width="900" height="506"></span>
+        <em class="fn26__count" style="font-style:normal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M21 17l-5-5-8 7"/></svg>24 photos</em>
+      </a>
+    </div>
   </div>
 </section>
 
