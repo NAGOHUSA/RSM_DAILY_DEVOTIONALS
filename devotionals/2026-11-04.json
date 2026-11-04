@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 296,
+  "theme": null,
+  "content_markdown": "# Waiting with Patient Hope\n\n## Scripture\n\n“But if we hope for what we do not see, we wait for it with patience.” — Romans 8:25 (ESV)\n\n## Reflection\n\nPaul writes these words at the end of a chapter saturated with groaning—creation groans, we ourselves groan, and the Spirit intercedes with groanings too deep for words. Yet hope threads through every groan. Biblical hope is not wishful optimism; it is confident expectation anchored in the character and promises of God. Because we hope in what we do not yet see, patience becomes the shape our faith takes in ordinary time.\n\nWaiting well is hard. We want resolution now—the diagnosis explained, the prodigal home, the prayer answered. But patience is not passive resignation. It is active endurance: continuing to pray, continuing to obey, continuing to show up in small faithful acts while God works in unseen ways. The farmer does not hurry the harvest by anxiety; he tends the soil and trusts the seed.\n\nConsider where you are tempted to force what only God can grow. A strained relationship, a slow healing, a calling still unfolding. In those places, patience is not the absence of desire but the surrender of timing. The Spirit who helps our weakness also sustains our waiting. Today, let your unanswered longings become an altar of trust rather than a source of striving. Hope that endures proves it is rooted in something sturdier than circumstances—namely, the faithfulness of the One who promised.\n\n## Prayer\n\nFather, we confess our impatience. Teach us to wait with hope, trusting Your timing over our urgency. Sustain us by Your Spirit when answers tarry, and let our waiting become worship. In Jesus’ name, amen.\n\n## One-Line Application\n\nWait patiently today, trusting God’s unseen work in your unanswered prayers.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
