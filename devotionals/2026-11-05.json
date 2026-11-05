@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 329,
+  "theme": null,
+  "content_markdown": "# Waiting With Open Hands\n\n## Scripture\n\n“But as for me, I will look to the LORD; I will wait for the God of my salvation; my God will hear me.” — Micah 7:7\n\n## Reflection\n\nMicah wrote these words in a ruined landscape. Corruption ran through courts and homes alike, and trust had worn thin. Yet in the middle of that decay he makes a quiet, deliberate turn: “As for me.” He cannot control the culture around him, but he can choose where to fix his gaze. Waiting, in Scripture, is not passive resignation. It is active hope—looking toward the God who has promised to act, even when evidence is slow to arrive.\n\nWe often treat waiting as the empty space between prayer and answer. But Micah frames it as relationship: “my God will hear me.” The waiting itself becomes a place of listening, of rehearsing what we know to be true about God’s character when circumstances argue otherwise. This is practical. When a decision stalls, a diagnosis lingers, or a relationship stays unresolved, we can still choose our posture. We can name our disappointment honestly, then turn our eyes back to the Lord rather than to the noise.\n\nNotice that Micah does not deny the darkness—he describes it plainly in the verses before. Faith is not pretending things are fine. It is refusing to let the darkness have the final word. Today, waiting well may look like one small act of obedience: keeping the appointment, speaking the kind word, opening the Scripture even when distraction presses in. Hope grows through such ordinary faithfulness, and the God who hears us is not distant from any of it.\n\n## Prayer\n\nLord, when answers are slow and the world feels uncertain, fix our eyes on You. Teach us to wait with open hands, trusting that You hear us and will act in Your perfect time. Amen.\n\n## One-Line Application\n\nWait actively: look to the Lord, and trust that He hears.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
