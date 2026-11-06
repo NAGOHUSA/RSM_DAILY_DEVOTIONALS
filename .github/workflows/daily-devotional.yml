@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🧰 Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 🟢 Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '20'
 
@@ -48,7 +48,7 @@ jobs:
         run: node generate-devotional.js
 
       - name: ✅ Commit results
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore(devotional): add Rock Solid Man devotional for $(date -u +'%Y-%m-%d')"
           file_pattern: devotionals/*.json
