@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-06",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 288,
+  "theme": null,
+  "content_markdown": "# Grace for the Long Waiting\n\n## Scripture\n\n“Wait for the LORD; be strong, and let your heart take courage; wait for the LORD!” — Psalm 27:14\n\n## Reflection\n\nWaiting is rarely our first choice. We prefer resolution, clarity, the quick fix. Yet David writes these words not from a place of comfort but from the middle of threat, surrounded by enemies and uncertainty. His counsel is not passive resignation but active trust: “be strong, and let your heart take courage.” Biblical waiting is not idleness. It is the steady discipline of holding our hearts open before God when answers are slow.\n\nConsider where you are tempted to force a door or manufacture a resolution. Waiting exposes what we truly believe about God’s character. If we trust His goodness, we can endure delay without demanding our own timeline. If we doubt it, waiting feels like abandonment and we rush ahead.\n\nPractically, waiting well looks like honest prayer rather than silence, obedience in the small things rather than paralysis, and community rather than isolation. Courage in waiting is not the absence of longing—it is longing directed toward the One who is already at work. David repeats his command: “wait for the LORD.” Repetition reveals where his own heart needed steadying, and ours does too. The Lord is not delayed; He is forming something in us that haste would destroy. Today, let your waiting become worship rather than worry.\n\n## Prayer\n\nFather, teach us to wait with courage and hope. Guard our hearts from rushing ahead of Your timing, and help us trust Your goodness in the delay. Form in us what only waiting can produce. In Jesus’ name, amen.\n\n## One-Line Application\n\nLet your waiting become worship, not worry.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
