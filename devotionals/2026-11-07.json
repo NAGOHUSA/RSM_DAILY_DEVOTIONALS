@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-07",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 321,
+  "theme": null,
+  "content_markdown": "# Waiting with Steady Hope\n\n## Scripture\n\n“But those who hope in the LORD will renew their strength. They will soar on wings like eagles.” — Isaiah 40:31\n\n## Reflection\n\nIsaiah spoke these words to a people worn thin by exile—waiting, it seemed, on a God who had gone quiet. Their complaint was honest: “My way is hidden from the LORD” (v. 27). Perhaps you know that weariness. Hope can feel like a fragile thing when prayers stretch on unanswered and the calendar keeps moving without relief.\n\nNotice what Isaiah does not say. He doesn’t promise that hoping removes the waiting. He promises that hoping *renews* us within it. The Hebrew word for “renew” carries the picture of exchanging something worn out for something fresh—strength traded in, like a garment swapped for a new one. Hope is not passive optimism; it is an active turning of the heart toward the God who “will not grow tired or weary” (v. 28).\n\nPractically, that turning looks small and ordinary. It might mean naming one specific promise of God each morning before you check your phone. It might mean telling a trusted friend where you are exhausted rather than pretending. It might mean resting on purpose—sleep, sabbath, silence—because hope and hurry rarely travel together. Waiting well is not gritting your teeth; it is leaning your weight on the One who holds you.\n\nThe eagle image is striking: soaring is not striving. Birds rise by catching a wind they did not create. So it is with us. Hope lifts us not because we are strong, but because the LORD beneath us is.\n\n## Prayer\n\nFather, when waiting wears us down, teach us to hope in You rather than in outcomes. Renew our strength, lift our weary hearts, and help us rest in Your unfailing care. We ask this in Jesus’ name. Amen.\n\n## One-Line Application\n\nTrade your worn-out striving for fresh hope in God today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
