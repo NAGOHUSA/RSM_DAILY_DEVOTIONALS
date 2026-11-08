@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-08",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 283,
+  "theme": null,
+  "content_markdown": "# Resting in God’s Daily Mercy\n\n## Scripture\n\n“Because of the LORD’s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.” — Lamentations 3:22–23\n\n## Reflection\n\nJeremiah wrote these words amid ruins. Jerusalem had fallen, the temple was gone, and God’s people were exiled. Yet in the ashes he dared to say mercy was still arriving—fresh each dawn. Notice the grammar of hope: compassion is not stored up for special occasions but delivered daily, like manna. Yesterday’s portion cannot be saved for today, and today’s supply is already on its way.\n\nThis reframes how we carry our own ruins. Perhaps a relationship has crumbled, a plan has failed, or a long obedience feels unrewarded. The temptation is to measure God’s faithfulness by the size of yesterday’s provision. But Lamentations invites a different arithmetic: count mornings, not monuments. Each sunrise is a receipt of mercy.\n\nPractically, this means beginning the day by naming one specific evidence of God’s care—a conversation, a meal, a verse that surfaced—and ending it by thanking him for the mercy that met you there. It also means refusing to let yesterday’s failure define today’s identity. His compassions are not merely renewed; they are *new*, tailored to the grief or joy this day brings. Great is his faithfulness—not because our circumstances are easy, but because his mercy keeps arriving before we ask.\n\n## Prayer\n\nFather, we thank you that your mercies meet us each morning. When we are tempted to despair over yesterday, teach us to receive today’s fresh compassion with open hands and grateful hearts. Amen.\n\n## One-Line Application\n\nBegin today by naming one fresh evidence of God’s mercy.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
