@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 500,
+  "temperature": 0.7,
+  "words": 292,
+  "theme": null,
+  "content_markdown": "# Waiting with Quiet Hope\n\n## Scripture\n\n“But those who wait for the LORD shall renew their strength; they shall mount up with wings like eagles.” — Isaiah 40:31\n\n## Reflection\n\nWaiting feels like wasted time. We refresh the inbox, rehearse the diagnosis, and wonder why God delays. Yet Isaiah’s promise is not that waiting is easy, but that it is *formative*. The Hebrew word for wait carries the sense of twisting or binding together—a deliberate, expectant clinging to God rather than passive idleness. Waiting is not the absence of action; it is action directed toward the One who acts.\n\nNotice where the strength comes from. Not from our resolve, our planning, or our ability to white-knuckle through uncertainty, but from the Lord Himself. The people Isaiah addressed were exhausted—exiles who felt forgotten. The promise meets them exactly there: the weary are the ones who receive renewal. God does not reserve His strength for the self-sufficient.\n\nPractically, this means we can stop treating waiting as a problem to solve and start treating it as a place to abide. When the answer hasn’t come, we can still open Scripture, speak honest prayers, and serve the person in front of us. Small faithfulness in the waiting is not a distraction from God’s work—it is often the very ground where He grows our roots. Eagles don’t strain to rise; they catch the wind beneath them. So we wait, not empty-handed, but held.\n\n## Prayer\n\nLord, teach us to wait without panic. When answers tarry, renew our strength and fix our eyes on You. Keep us faithful in small things and patient in uncertainty, trusting Your timing over our urgency. Amen.\n\n## One-Line Application\n\nWait actively: pray, serve, and trust God to renew your strength today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        250,
+        350
+      ]
+    }
+  }
+}
