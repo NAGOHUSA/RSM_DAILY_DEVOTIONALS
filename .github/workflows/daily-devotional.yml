@@ -37,10 +37,10 @@ jobs:
           DEEPSEEK_MODEL: deepseek-chat
 
           # Cost / behavior knobs
-          DEVOTIONAL_MAX_TOKENS: "500"
+          DEVOTIONAL_MAX_TOKENS: "750"
           DEVOTIONAL_TEMPERATURE: "0.7"
-          DEVOTIONAL_WORDS_MIN: "250"
-          DEVOTIONAL_WORDS_MAX: "350"
+          DEVOTIONAL_WORDS_MIN: "320"
+          DEVOTIONAL_WORDS_MAX: "420"
           DEVOTIONAL_TIMEOUT_MS: "25000"
           DEVOTIONAL_MAX_ATTEMPTS: "2"
           # Optional theme for a season:

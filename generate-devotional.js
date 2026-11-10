@@ -74,7 +74,7 @@ function devotionalMessages(dateISO, recent = []) {
         "Sections in order:",
         "1) Title — ≤8 words.",
         "2) Scripture — exactly ONE verse/passage, ≤50 words quoted, include reference.",
-        "3) Reflection — 150–220 words, practical and theologically sound.",
+        "3) Reflection — 200–280 words, practical and theologically sound.",
         "4) Prayer — 30–50 words, first-person plural (“we”).",
         "5) One-Line Application — one sentence, ≤12 words.",
         "No prefaces or duplicate sections.",
