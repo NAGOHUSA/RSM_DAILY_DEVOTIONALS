@@ -190,6 +190,11 @@
   .involve-card .involve-icon { font-size: 2rem; margin-bottom: 1rem; display: block; }
   .involve-card h3 { font-family: var(--ff-display); font-size: 1.5rem; letter-spacing: 0.04em; color: var(--green-light); margin-bottom: 0.5rem; }
   .involve-card p { font-size: 0.87rem; color: var(--text-muted); line-height: 1.5; }
+  /* Sign-up forms (RunSheets embed: submissions go to the rsm tenant -- Form Submissions + Contacts) */
+  .signup-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 3rem; align-items: start; }
+  .signup-card { background: var(--cream); color: var(--stone); border-radius: 6px; padding: 1.75rem; border-left: 4px solid var(--green-bright); scroll-margin-top: 90px; }
+  .signup-card .rss-form { max-width: none; }
+  @media (max-width: 768px) { .signup-grid { grid-template-columns: 1fr; } .signup-card { padding: 1.25rem; } }
 
   /* DONATE SECTION */
   .donate-section {
@@ -384,12 +389,12 @@
     <span class="section-label">Get Involved</span>
     <h2>JOIN THE<br>BROTHERHOOD</h2>
     <div class="involve-grid">
-      <a class="involve-card" href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">
+      <a class="involve-card" href="#volunteer">
         <span class="involve-icon">🤝</span>
         <h3>VOLUNTEER</h3>
         <p>Help serve at our monthly gatherings. Sign up to get involved with set-up, hospitality, and more.</p>
       </a>
-      <a class="involve-card" href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" target="_blank" rel="noopener">
+      <a class="involve-card" href="#txt-alerts">
         <span class="involve-icon">📱</span>
         <h3>TXT ALERTS</h3>
         <p>Sign up for text reminders about upcoming events so you never miss a gathering.</p>
@@ -404,6 +409,10 @@
         <h3>GEAR</h3>
         <p>Represent the brotherhood. Check out our Rock Solid Man apparel and gear.</p>
       </a>
+    </div>
+    <div class="signup-grid">
+      <div class="signup-card" id="volunteer"><div data-rs-form="volunteer"></div></div>
+      <div class="signup-card" id="txt-alerts"><div data-rs-form="alerts"></div></div>
     </div>
   </div>
 </section>
@@ -483,8 +492,8 @@
     <div>
       <h4>Get Involved</h4>
       <ul>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfZrcWD32suGBvaXFfeDqzBRkIzo-BHyivnxmI0cOZpd-Q5zg/viewform?usp=header" target="_blank" rel="noopener">Volunteer</a></li>
-        <li><a href="https://docs.google.com/forms/d/1Xj2qhDiRMDFb9_3LOnrx7h3eZDS59K3XV_IoXVTcA14/edit" target="_blank" rel="noopener">TXT Alerts</a></li>
+        <li><a href="/contact.html#volunteer">Volunteer</a></li>
+        <li><a href="/contact.html#txt-alerts">TXT Alerts</a></li>
         <li><a href="merch/">Gear / Swag</a></li>
         <li><a href="https://www.youtube.com/@RSMMINISTRY" target="_blank" rel="noopener">YouTube</a></li>
         <li><a href="https://linktr.ee/rocksolidman" target="_blank" rel="noopener">All Socials</a></li>
@@ -531,5 +540,6 @@ document.querySelectorAll('a[href]').forEach(function(link) {
 })();
 </script>
 <script src="assets/site.js" defer></script>
+<script src="https://runsheets.us/embed/shop.js" data-tenant="rsm" data-color="#2d5a3b" defer></script>
 </body>
 </html>
