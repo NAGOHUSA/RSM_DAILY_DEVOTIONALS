@@ -47,8 +47,13 @@ jobs:
           # DEVO_THEME: "steadfastness"
         run: node generate-devotional.js
 
+      # Publishes every devotional as its own indexable page at /blog/YYYY-MM-DD/ and refreshes
+      # blog/index.html, blog/posts.json, blog/feed.xml and the blog block in sitemap.xml.
+      - name: 📰 Build the Daily Word blog pages
+        run: node generate-blog.js
+
       - name: ✅ Commit results
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore(devotional): add Rock Solid Man devotional for $(date -u +'%Y-%m-%d')"
-          file_pattern: devotionals/*.json
+          file_pattern: devotionals/*.json blog sitemap.xml

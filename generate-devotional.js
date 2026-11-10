@@ -39,9 +39,32 @@ const GQ = {
   url:    "https://api.groq.com/openai/v1/chat/completions",
 };
 
+// ===== Recent devotionals (2026-11-10) =====
+// The model kept circling back to the same themes and verses (8 of 9 early-November posts were about "waiting").
+// Near-duplicate posts hurt search ranking and bore readers, so the prompt lists the last 30 to steer away from.
+async function recentDevotionals(n = 30) {
+  try {
+    const dir = path.join(process.cwd(), "devotionals");
+    const files = (await fs.readdir(dir)).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().slice(-n);
+    const out = [];
+    for (const f of files) {
+      try {
+        const md = String(JSON.parse(await fs.readFile(path.join(dir, f), "utf8")).content_markdown || "");
+        const title = (md.match(/^#\s+(.+)$/m) || [])[1] || "";
+        const ref = (md.match(/[—–-]\s*((?:[1-3]\s)?[A-Z][a-z]+(?:\s[A-Z][a-z]+)?\s\d{1,3}:\d{1,3}(?:[-–]\d{1,3})?)/) || [])[1] || "";
+        if (title) out.push(ref ? `${title.trim()} (${ref})` : title.trim());
+      } catch { /* skip unreadable file */ }
+    }
+    return out;
+  } catch { return []; }
+}
+
 // ===== Prompt =====
-function devotionalMessages(dateISO) {
+function devotionalMessages(dateISO, recent = []) {
   const themeLine = THEME ? `Theme: ${THEME}\n` : "";
+  const avoidLine = recent.length
+    ? "Recent devotionals (do NOT reuse these titles, scripture passages or main themes; pick a different book of the Bible and a fresh topic men face):\n- " + recent.join("\n- ") + "\n"
+    : "";
   return [
     {
       role: "system",
@@ -62,6 +85,7 @@ function devotionalMessages(dateISO) {
       content: [
         `Date: ${dateISO}`,
         themeLine,
+        avoidLine,
         "Output using exactly these headers:",
         "# Title",
         "",
@@ -195,7 +219,7 @@ async function tryGroq(messages) {
 // ===== Main =====
 async function main() {
   const dateISO = new Date().toISOString().slice(0, 10);
-  const messages = devotionalMessages(dateISO);
+  const messages = devotionalMessages(dateISO, await recentDevotionals());
 
   const errors = [];
   for (const p of PROVIDERS) {
