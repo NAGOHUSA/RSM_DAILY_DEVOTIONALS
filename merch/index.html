@@ -172,9 +172,16 @@
     <form id="checkout" class="co" novalidate>
       <fieldset class="co__group" id="fulfill-group">
         <legend>How do you want it?</legend>
-        <label class="co__opt"><input type="radio" name="fulfillment" value="Ship" checked> <span>Ship it to me</span></label>
+        <label class="co__opt" id="ship-opt"><input type="radio" name="fulfillment" value="Ship" checked> <span>Ship it to me</span></label>
         <label class="co__opt" id="pickup-opt"><input type="radio" name="fulfillment" value="Pickup at gathering"> <span>Pick it up at a gathering <small>(no shipping)</small></span></label>
       </fieldset>
+
+      <fieldset class="co__group" id="pay-group" hidden>
+        <legend>How do you want to pay?</legend>
+        <label class="co__opt" id="paycard-opt"><input type="radio" name="pay" value="card" checked> <span>Pay now by card</span></label>
+        <label class="co__opt"><input type="radio" name="pay" value="pickup"> <span>Pay when I pick it up</span></label>
+      </fieldset>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
 
       <fieldset class="co__group">
         <legend>Your details</legend>
@@ -207,7 +214,7 @@
       <dl class="co__totals" id="totals"></dl>
       <p class="co__err" id="co-err" role="alert" hidden></p>
       <button type="submit" class="rsm-btn rsm-btn--green co__pay" id="pay-btn">Continue to secure payment</button>
-      <p class="co__fine">You&rsquo;ll pay by card on a secure Stripe page, then come right back here.</p>
+      <p class="co__fine" id="co-fine">You&rsquo;ll pay by card on a secure Stripe page, then come right back here.</p>
     </form>
   </div>
 </aside>
@@ -268,10 +275,11 @@
 <script>
 (function () {
   'use strict';
-  /* Orders go straight into RunSheets (Merch Store pack, tenant "rsm"): stock, the order board, payment status.
+  /* Orders go straight into RunSheets (Merch Store pack, tenant "rsm"): stock, the order board, payment status,
+     the Giving ledger (gift add-ons) and Contacts. API: runsheets.us/api/public/store (RunSheets PR #106).
      Prices and stock always come from RunSheets; this page only sends item ids, quantities and the buyer's details. */
   var params = new URLSearchParams(location.search);
-  var API = (params.get('store') === 'staging' ? 'https://runsheets-staging.web.app' : 'https://runsheets.us') + '/api/store/public';
+  var API = (params.get('store') === 'staging' ? 'https://runsheets-staging.web.app' : 'https://runsheets.us') + '/api/public/store';
   var TENANT = 'rsm';
   var CART_KEY = 'rsm-merch-cart-v1';
   var MARK = '../assets/rsm-mark.svg';
@@ -288,7 +296,9 @@
   function load() { try { var c = JSON.parse(localStorage.getItem(CART_KEY) || '[]'); return Array.isArray(c) ? c.filter(function (x) { return x && x.v && x.q > 0; }) : []; } catch (e) { return []; } }
   function save() { try { localStorage.setItem(CART_KEY, JSON.stringify(cart)); } catch (e) { /* private mode */ } }
 
-  function api(path, opts) {
+  function api(path, body) {
+    // text/plain JSON: no CORS preflight (RunSheets parses it as JSON).
+    var opts = body ? { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(body) } : undefined;
     return fetch(API + path, opts).then(function (r) { return r.json().catch(function () { return { error: 'Unexpected response (' + r.status + ')' }; }); })
       .then(function (d) { if (d && d.error) { var e = new Error(d.error); e.api = true; throw e; } return d; });
   }
@@ -296,7 +306,14 @@
   /* ------------------------------------------------------------ catalog */
   function loadCatalog() {
     return api('/catalog?t=' + TENANT).then(function (d) {
-      store = d.store; products = d.products || []; byVariant = {};
+      var online = d.online || {};
+      store = {
+        shippingFlat: Number((d.shipping || {}).flat) || 0, freeShippingOver: Number((d.shipping || {}).freeOver) || 0, taxRatePct: Number(d.taxRatePct) || 0,
+        pickupEnabled: !!d.pickup, cardCheckout: !!online.cardCheckout, payAtPickup: !!online.payAtPickup,
+      };
+      // Ship needs a card; pickup can be paid in person. Checkout is possible if either path is open.
+      store.checkoutReady = store.cardCheckout || (store.pickupEnabled && store.payAtPickup);
+      products = (d.products || []).map(normalizeProduct); byVariant = {};
       products.forEach(function (p) { p.variants.forEach(function (v) { byVariant[v.id] = { p: p, v: v }; }); });
       cart = cart.filter(function (l) { return byVariant[l.v]; });
       save();
@@ -309,6 +326,21 @@
         ? 'The store is restocking right now. Check back soon, or find us at the merch table at our next <a href="../events.html">gathering</a>.'
         : 'We couldn&rsquo;t load the store just now. Please refresh in a moment.');
     });
+  }
+
+  var SIZES = ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', 'OSFA'];
+  function normalizeProduct(p) {
+    var rank = function (z) { var i = SIZES.indexOf(z); return i < 0 ? 99 : i; };
+    var vs = (p.variants || []).map(function (v) {
+      var avail = Math.max(0, Number(v.available) || 0);
+      return { id: v.id, size: v.size || '', color: v.color || '', style: v.style || '', price: Number(v.price) || 0, inStock: !v.soldOut && avail > 0, left: !v.soldOut && avail > 0 && avail <= 5 ? avail : null };
+    }).sort(function (a, b) { return a.color.localeCompare(b.color) || a.style.localeCompare(b.style) || rank(a.size) - rank(b.size); });
+    var prices = vs.map(function (v) { return v.price; });
+    return {
+      id: p.id, name: p.name || '', category: p.category || 'Other', description: p.description || '', image: /^https:\/\//.test(p.image || '') ? p.image : '',
+      variants: vs, priceFrom: prices.length ? Math.min.apply(null, prices) : Number(p.price) || 0, priceTo: prices.length ? Math.max.apply(null, prices) : Number(p.price) || 0,
+      soldOut: !vs.some(function (v) { return v.inStock; }),
+    };
   }
 
   function notice(html) { var n = $('notice'); n.innerHTML = html; n.hidden = false; }
@@ -403,6 +435,11 @@
   }
   function count() { return cart.reduce(function (a, l) { return a + l.q; }, 0); }
   function fulfillment() { var r = document.querySelector('input[name="fulfillment"]:checked'); return r ? r.value : 'Ship'; }
+  function payment() {
+    if (fulfillment() === 'Ship') return 'card';
+    if (!store || !store.cardCheckout) return 'pickup';
+    var r = document.querySelector('input[name="pay"]:checked'); return r ? r.value : 'card';
+  }
 
   function totals() {
     var sub = cart.reduce(function (a, l) { var i = byVariant[l.v]; return a + (i ? i.v.price * l.q : 0); }, 0);
@@ -426,8 +463,13 @@
     }).join('') : '<li class="rsm-empty">Your cart is empty.</li>';
     $('checkout').hidden = !cart.length;
     var pickupOk = !!(store && store.pickupEnabled);
+    var shipOk = !store || store.cardCheckout;           // shipped orders are always paid by card
     $('pickup-opt').hidden = !pickupOk;
+    $('ship-opt').hidden = !shipOk;
     if (!pickupOk) document.querySelector('input[value="Ship"]').checked = true;
+    else if (!shipOk) document.querySelector('input[value="Pickup at gathering"]').checked = true;
+    // Pay choice only matters for pickup when both card and pay-at-pickup are open.
+    $('pay-group').hidden = !(store && fulfillment() !== 'Ship' && store.cardCheckout && store.payAtPickup);
     $('ship-fields').hidden = fulfillment() !== 'Ship';
     var t = totals();
     var freeNote = store && fulfillment() === 'Ship' && store.freeShippingOver > 0 && t.ship > 0 ? ' <small>(free over ' + fmt(store.freeShippingOver) + ')</small>' : '';
@@ -438,7 +480,8 @@
       '<dt class="is-total">Total</dt><dd class="is-total">' + fmt2(t.total) + '</dd>';
     var pay = $('pay-btn');
     pay.disabled = !(store && store.checkoutReady);
-    pay.textContent = store && !store.checkoutReady ? 'Online checkout coming soon' : 'Continue to secure payment';
+    pay.textContent = store && !store.checkoutReady ? 'Online checkout coming soon' : payment() === 'card' ? 'Continue to secure payment' : 'Place order \u2014 pay at pickup';
+    $('co-fine').innerHTML = payment() === 'card' ? 'You&rsquo;ll pay by card on a secure Stripe page, then come right back here.' : 'Pay at the merch table when you pick it up (cash, card or Venmo). We&rsquo;ll hold your items.';
     Array.prototype.forEach.call(document.querySelectorAll('.card'), function (c) { if (c._paint) c._paint(); });
   }
 
@@ -462,6 +505,7 @@
     if (t.hasAttribute('data-lq')) { var id = t.getAttribute('data-lq'); setQty(id, qtyInCart(id) + Number(t.getAttribute('data-d'))); }
   });
   $('fulfill-group').addEventListener('change', renderCart);
+  $('pay-group').addEventListener('change', renderCart);
   $('gifts').addEventListener('click', function (e) {
     var t = e.target.closest('[data-gift]'); if (!t) return;
     gift = Number(t.getAttribute('data-gift'));
@@ -480,56 +524,67 @@
     var need = ['name', 'email'].concat(ship ? ['address1', 'city', 'state', 'zip'] : []);
     var missing = need.filter(function (n) { var bad = !val(n); f.elements[n].classList.toggle('is-bad', bad); return bad; });
     if (missing.length) { err('Please fill in the highlighted fields.'); f.elements[missing[0]].focus(); return; }
-    var pay = $('pay-btn'); pay.disabled = true; pay.textContent = 'Starting secure checkout…';
-    api('/checkout', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        t: TENANT, fulfillment: fulfillment(), donation: gift, returnUrl: location.origin + location.pathname,
-        items: cart.map(function (l) { return { variantId: l.v, qty: l.q }; }),
-        buyer: { name: val('name'), email: val('email'), phone: val('phone'), address1: val('address1'), address2: val('address2'), city: val('city'), state: val('state'), zip: val('zip') },
-      }),
+    var pay = $('pay-btn'), how = payment(); pay.disabled = true; pay.textContent = how === 'card' ? 'Starting secure checkout…' : 'Placing your order…';
+    var summary = cart.map(function (l) { var i = byVariant[l.v]; return i ? { name: i.p.name, opt: [i.v.size, i.v.color, i.v.style].filter(Boolean).join(' · '), qty: l.q } : null; }).filter(Boolean);
+    api('/order', {
+      t: TENANT, pay: how, fulfillment: fulfillment(), gift: gift, website: val('website'), returnUrl: location.origin + location.pathname,
+      items: cart.map(function (l) { return { id: l.v, qty: l.q }; }),
+      buyer: { name: val('name'), email: val('email'), phone: val('phone') },
+      ship: ship ? { address1: val('address1'), address2: val('address2'), city: val('city'), state: val('state').toUpperCase(), zip: val('zip') } : {},
     }).then(function (d) {
-      try { sessionStorage.setItem('rsm-merch-pending', d.orderId); } catch (x) { /* ignore */ }
-      location.href = d.url;
+      try { sessionStorage.setItem('rsm-merch-last', JSON.stringify({ orderId: d.orderId, items: summary, total: d.total, firstName: val('name').split(/\s+/)[0], fulfillment: fulfillment() })); } catch (x) { /* ignore */ }
+      if (d.checkoutUrl) { location.href = d.checkoutUrl; return; }
+      // Pay at pickup: the order is placed and the stock is held.
+      cart = []; save(); gift = 0; openCart(false); renderCart();
+      showThanks({ orderId: d.orderId, paid: false, payAtPickup: true, total: d.total, items: summary, firstName: val('name').split(/\s+/)[0], fulfillment: fulfillment() });
+      pay.disabled = false;
     }, function (x) {
       err(x.api ? x.message : 'We couldn’t reach the store. Please check your connection and try again.');
-      pay.disabled = false; pay.textContent = 'Continue to secure payment';
-      if (/no longer available|ran out/i.test(x.message)) loadCatalog();
+      pay.disabled = false; renderCart();
+      if (/catalog|available|stock|ran out/i.test(x.message)) loadCatalog();
     });
   });
 
   /* ------------------------------------------------------------ return from Stripe */
   function showThanks(o) {
-    var paid = o.paid;
-    var items = (o.items || []).map(function (i) { return '<li>' + i.qty + ' &times; ' + esc(i.name) + (i.size || i.color ? ' <span class="meta">(' + esc([i.size, i.color, i.style].filter(Boolean).join(' · ')) + ')</span>' : '') + '</li>'; }).join('');
-    var how = o.fulfillment === 'Ship'
-      ? 'We&rsquo;ll pack it up and email you a tracking number when it ships.'
-      : 'We&rsquo;ll have it ready for you at the merch table at our next gathering &mdash; just give your name.';
-    $('thanks').innerHTML = paid
-      ? '<h2>Thank you' + (o.firstName ? ', ' + esc(o.firstName) : '') + '. <em>Order received.</em></h2><p>' + how + ' A receipt is on its way to your inbox.</p><ul>' + items + '</ul><p class="meta">Order ' + esc(o.orderId) + ' &middot; ' + fmt2(o.total) + '</p>'
-      : '<h2>Finishing up your <em>order</em>&hellip;</h2><p>We&rsquo;re confirming your payment. This usually takes a few seconds.</p><p class="meta">Order ' + esc(o.orderId) + '</p>';
+    var items = (o.items || []).map(function (i) { return '<li>' + i.qty + ' &times; ' + esc(i.name) + (i.opt ? ' <span class="meta">(' + esc(i.opt) + ')</span>' : '') + '</li>'; }).join('');
+    var hi = 'Thank you' + (o.firstName ? ', ' + esc(o.firstName) : '') + '. ';
+    var meta = '<p class="meta">Order ' + esc(o.orderId) + (o.total ? ' &middot; ' + fmt2(o.total) : '') + '</p>';
+    var html;
+    if (o.payAtPickup) {
+      html = '<h2>' + hi + '<em>Order placed.</em></h2><p>We&rsquo;re holding your items. Pick them up and pay at the merch table at our next <a href="../events.html">gathering</a> &mdash; just give your name.</p><ul>' + items + '</ul>' + meta;
+    } else if (o.paid) {
+      var how = o.fulfillment === 'Ship' ? 'We&rsquo;ll pack it up and ship it to you soon.' : 'We&rsquo;ll have it ready for you at the merch table at our next gathering &mdash; just give your name.';
+      html = '<h2>' + hi + '<em>Order received.</em></h2><p>' + how + ' Your receipt is on its way to your inbox.</p><ul>' + items + '</ul>' + meta;
+    } else {
+      html = '<h2>Finishing up your <em>order</em>&hellip;</h2><p>We&rsquo;re confirming your payment. This usually takes a few seconds.</p>' + meta;
+    }
+    $('thanks').innerHTML = html;
     $('thanks').hidden = false;
     $('thanks').scrollIntoView({ block: 'start' });
-    return paid;
+    return o.paid || o.payAtPickup;
   }
 
   function handleReturn() {
-    var orderId = params.get('order'), k = params.get('k'), cancelled = params.get('cancelled');
-    if (cancelled) {
+    var orderId = params.get('order');
+    if (!orderId) return;
+    history.replaceState(null, '', location.pathname);
+    if (params.get('cancelled')) {
       notice('Checkout was cancelled &mdash; nothing was charged. Your cart is still here when you&rsquo;re ready.');
-      history.replaceState(null, '', location.pathname);
       setTimeout(function () { if (cart.length) openCart(true); }, 400);
       return;
     }
-    if (!orderId || !k) return;
+    var last = {}; try { last = JSON.parse(sessionStorage.getItem('rsm-merch-last') || '{}') || {}; } catch (x) { last = {}; }
+    if (last.orderId !== orderId) last = { orderId: orderId };
     cart = []; save(); gift = 0;
     var tries = 0;
     (function poll() {
-      api('/order?t=' + TENANT + '&o=' + encodeURIComponent(orderId) + '&k=' + encodeURIComponent(k)).then(function (o) {
-        if (!showThanks(o) && ++tries < 8) setTimeout(poll, 2500);
-        else if (!o.paid) $('thanks').innerHTML += '<p class="meta">Still confirming. If your card was charged you&rsquo;re all set &mdash; you&rsquo;ll get an email receipt. Questions? <a href="../contact.html">Contact us</a>.</p>';
+      api('/order-status?t=' + TENANT + '&order=' + encodeURIComponent(orderId)).then(function (o) {
+        var done = showThanks({ orderId: orderId, paid: !!o.paid, items: last.items, total: last.total, firstName: last.firstName, fulfillment: last.fulfillment });
+        if (!done && ++tries < 8) setTimeout(poll, 2500);
+        else if (!done) $('thanks').innerHTML += '<p class="meta">Still confirming. If your card was charged you&rsquo;re all set &mdash; you&rsquo;ll get an email receipt. Questions? <a href="../contact.html">Contact us</a>.</p>';
       }, function () {
-        notice('Thanks for your order! We couldn&rsquo;t load its details just now, but you&rsquo;ll get an email receipt from our payment page.');
+        notice('Thanks for your order! We couldn&rsquo;t load its status just now, but you&rsquo;ll get an email receipt from our payment page.');
       });
     })();
   }
