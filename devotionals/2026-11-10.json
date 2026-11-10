@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-10",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 306,
+  "theme": null,
+  "content_markdown": "# Strength for the Weary Race\n\n## Scripture\n\n“Even youths grow tired and weary, and young men stumble and fall; but those who hope in the LORD will renew their strength. They will soar on wings like eagles.” — Isaiah 40:30–31\n\n## Reflection\n\nWe tend to believe exhaustion is a young man’s problem solved by more discipline. But Isaiah names a deeper truth: even the strongest stumble. Fatigue is not a moral failure; it is a human condition. The question is not whether we will grow weary but where we turn when we do.\n\nMany of us treat rest as a reward we earn after the work is finished. We push through the ache, ignore the warning lights, and quietly resent the limits God built into us. Yet the Lord does not scold the tired. He invites them to hope in Him—not in a better schedule, a stronger will, or a second wind. Hope in God is not passive resignation; it is active trust that reorients our striving around His strength rather than our own.\n\nPractically, this means we can stop pretending. We can name our weariness to God and to a trusted brother. We can keep ordinary rhythms—sleep, Sabbath, prayer—not as luxuries but as acts of faith. We can serve from a place of dependence rather than depletion, remembering that the church is a body, not a solo performance. And when we stumble, we need not hide. The God who renews strength is not disappointed by our weakness; He meets us in it.\n\n## Prayer\n\nFather, we confess our weariness and our habit of striving alone. Teach us to hope in You, to receive Your renewing strength, and to rest without shame. Renew us for faithful service today. Amen.\n\n## One-Line Application\n\nTrade your striving for hope in God; let Him renew your strength today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
