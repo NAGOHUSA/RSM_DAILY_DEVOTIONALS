@@ -330,6 +330,8 @@
   }
 
   var SIZES = ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL', '4XL', 'OSFA'];
+  // Placeholder photo per category until the product has its own photo in RunSheets (Merch Store > product > Photo URL).
+  var PLACEHOLDER_IMG = { 'T-Shirt': 'img/rsm-tee-black.jpg' };
   function normalizeProduct(p) {
     var rank = function (z) { var i = SIZES.indexOf(z); return i < 0 ? 99 : i; };
     var vs = (p.variants || []).map(function (v) {
@@ -338,7 +340,7 @@
     }).sort(function (a, b) { return a.color.localeCompare(b.color) || a.style.localeCompare(b.style) || rank(a.size) - rank(b.size); });
     var prices = vs.map(function (v) { return v.price; });
     return {
-      id: p.id, name: p.name || '', category: p.category || 'Other', description: p.description || '', image: /^https:\/\//.test(p.image || '') ? p.image : '',
+      id: p.id, name: p.name || '', category: p.category || 'Other', description: p.description || '', image: /^https:\/\//.test(p.image || '') ? p.image : (PLACEHOLDER_IMG[p.category] || ''),
       variants: vs, priceFrom: prices.length ? Math.min.apply(null, prices) : Number(p.price) || 0, priceTo: prices.length ? Math.max.apply(null, prices) : Number(p.price) || 0,
       soldOut: !vs.some(function (v) { return v.inStock; }),
     };
