@@ -355,6 +355,14 @@
   }
   .group-links a:hover { color: var(--cream); }
 
+  /* JOIN A GROUP (RunSheets sign-up form; submissions go to the RSM Registration Queue in RunSheets) */
+  .join-section { padding: 4rem 2rem; }
+  .join-section .container { max-width: 760px; }
+  .join-section h2 { font-family: var(--ff-display); font-size: clamp(2rem, 5vw, 3rem); letter-spacing: .04em; color: var(--cream); margin-bottom: .5rem; }
+  .join-section > .container > p { color: var(--cream-dark); margin-bottom: 1.5rem; max-width: 600px; }
+  .join-card { background: var(--cream); color: var(--stone); border-radius: 6px; padding: 1.75rem; border-left: 4px solid var(--green-bright); }
+  @media (max-width: 768px) { .join-section { padding: 2.75rem 1.25rem; } .join-card { padding: 1.25rem; } }
+
   /* CTA STRIP */
   .cta-section {
     background: var(--green-deep);
@@ -519,6 +527,16 @@
 
   <div id="results"></div>
 </main>
+
+<section class="join-section" id="join-a-group">
+  <div class="container">
+    <h2>JOIN A SMALL GROUP</h2>
+    <p>Tell us when and where works for you, and a group leader will reach out to get you connected with men in your area.</p>
+    <div class="join-card">
+      <div data-rs-form="group"></div>
+    </div>
+  </div>
+</section>
 
 <section class="cta-section">
   <div class="container">
@@ -798,5 +816,6 @@ render('all');
 </script>
 
 <script src="assets/site.js" defer></script>
+<script src="https://runsheets.us/embed/shop.js" data-tenant="rsm" data-color="#2d5a3b" defer></script>
 </body>
 </html>
