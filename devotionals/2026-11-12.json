@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-12",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 326,
+  "theme": null,
+  "content_markdown": "# Guard Your Heart, Guard Your Words\n\n## Scripture\n\n“Set a guard, O Lord, over my mouth; keep watch over the door of my lips!” — Psalm 141:3\n\n## Reflection\n\nA man’s words travel farther than he intends. A sharp reply at the dinner table, a careless joke in the locker room, a promise made too quickly—each leaves a wake we cannot recall. David knew this. In Psalm 141 he prays for a guard at the door of his lips, not because he feared public speaking, but because he knew his own heart could betray him in a single sentence.\n\nScripture ties speech to the heart: “Out of the abundance of the heart the mouth speaks” (Luke 6:45). So guarding our words is never merely behavior management. It is heart work. When we snap at a spouse or cut down a coworker, the problem began earlier—in a heart that felt unseen, disrespected, or tired. The mouth simply announced what the heart had been rehearsing.\n\nPractically, this means we can pray Psalm 141:3 before the meeting, before the drive home, before the conversation we are dreading. We can ask the Spirit to make us slow to speak (James 1:19), quick to listen, and honest without being harsh. A guarded mouth is not a silent mouth; it is a mouth surrendered to Christ—speaking truth, keeping confidences, refusing the easy jab, and building others up.\n\nMen are often taught that words are cheap. The gospel says otherwise. Our words can wound or heal, divide or reconcile, dishonor Christ or adorn the gospel. Today, before you speak, pause. Ask the Lord to stand at the door. Let Him decide what passes through.\n\n## Prayer\n\nFather, set a guard over our mouths and keep watch over our lips. Make our words truthful, gentle, and timely, that we might honor Christ and build up those around us. Amen.\n\n## One-Line Application\n\nPause before you speak today, and let God guard the door.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
