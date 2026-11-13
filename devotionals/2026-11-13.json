@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-13",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 372,
+  "theme": null,
+  "content_markdown": "# The Weight of Unspoken Anger\n\n## Scripture\n\n“Be angry, and do not sin; ponder in your heart on your bed, and be silent.” — Psalm 4:4\n\n## Reflection\n\nMost men carry anger they never name. It settles in the shoulders, the jaw, the short reply at dinner. We call it stress or fatigue, but underneath is often a wound we have not brought into the light. David writes Psalm 4 to people who feel wronged and unheard, and he does not tell them to pretend the anger away. He tells them to *ponder it on their bed*—to bring it into the quiet, alone with God, before it curdles into sin.\n\nThat is the harder work. Anger handled in the moment usually wounds someone. Anger handled before God can be sifted. On your bed, with no audience to impress, you can ask: What was actually threatened here—my pride, my reputation, my sense of control? What am I afraid of? What do I want that I am not getting? These questions are not weakness; they are honesty. And honesty before God is where change begins.\n\nNotice David's turn in the same psalm: “You have put more joy in my heart than they have when their grain and wine abound” (v. 7). The man who ponders his anger before God finds something sturdier than vindication—joy rooted in being heard by the One who judges rightly. He can lie down and sleep (v. 8), not because the situation resolved, but because he is no longer carrying the case alone.\n\nPractically, this means naming your anger to God in specifics, not generalities. It means delaying the email, the confrontation, the withdrawal—until you have sat with it in prayer. It means asking a trusted brother to hear what you are afraid to say aloud. Unspoken anger does not disappear; it leaks. Spoken to God, it can become the raw material of trust.\n\n## Prayer\n\nFather, we bring our anger into Your light instead of hiding it. Search us, show us the wounds beneath it, and teach us to ponder before You rather than strike. Give us joy deeper than our grievances. Amen.\n\n## One-Line Application\n\nName your anger to God before you name it to anyone else.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
