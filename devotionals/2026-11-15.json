@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-15",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 369,
+  "theme": null,
+  "content_markdown": "# The Courage to Speak Up\n\n## Scripture\n\n“Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.” — Joshua 1:9\n\n## Reflection\n\nJoshua stood where every man eventually stands: at the edge of something necessary and frightening. Moses was dead. The Jordan stretched wide. The task ahead was larger than his résumé. God's answer was not a strategy but a presence—repeated three times in one chapter: be strong and courageous.\n\nCourage is not the absence of fear; it is obedience in the presence of fear. Men often confuse courage with confidence—believing we must feel ready before we act. But God commanded Joshua before Joshua felt ready. The command rested on a promise, not a feeling: “I am with you.”\n\nWhere does fear keep you silent or still? Perhaps a conversation you've avoided, a responsibility you've deferred, a stand you've refused to take because it might cost you. Courage rarely arrives as a surge of boldness. More often it is a small, deliberate step taken while your hands still tremble—making the call, speaking the truth, showing up when retreat would be easier.\n\nNotice the shape of God's command: “Do not be frightened, and do not be dismayed.” Dismay is fear that has settled in and made itself at home. The remedy for both is the same—fixing your eyes on the One who goes with you, not on the size of what stands before you. Joshua's courage grew from meditating on God's word day and night (Joshua 1:8), not from rehearsing his own strength.\n\nBrother, you are not called to be fearless. You are called to be faithful. The God who commissioned Joshua goes with you too—into the hard conversation, the unfamiliar room, the decision you've delayed. Take the next step today, trembling hands and all.\n\n## Prayer\n\nFather, we confess the fears that keep us silent and still. Remind us that You go with us wherever we go. Give us courage to take the next faithful step, not in our own strength but in Yours. In Jesus' name, amen.\n\n## One-Line Application\n\nDo the courageous thing afraid—God goes with you.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
