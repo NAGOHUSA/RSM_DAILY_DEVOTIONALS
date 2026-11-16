@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-16",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 357,
+  "theme": null,
+  "content_markdown": "# The Discipline of Remembering\n\n## Scripture\n\n“Only be careful, and watch yourselves closely so that you do not forget the things your eyes have seen or let them fade from your heart as long as you live. Teach them to your children and to their children after them.” — Deuteronomy 4:9\n\n## Reflection\n\nMoses stood on the edge of the Jordan, addressing a generation that had not seen Egypt’s plagues or the parting of the sea. Their parents had, but the memory was fading. So Moses gave them a charge that sounds almost like a warning: watch yourselves closely, lest you forget.\n\nForgetfulness is rarely dramatic. No man wakes up deciding to abandon his faith. But slowly—through long work weeks, unanswered prayers, and the ordinary drift of days—the things we once saw clearly begin to blur. We forget how God provided when the bank account was empty. We forget the verse that carried us through the hospital hallway. We forget the prayer we prayed in desperation and the quiet answer that followed.\n\nDeuteronomy frames remembering as a discipline, not a feeling. Moses ties it to watchfulness and to telling—speaking God’s faithfulness aloud to the next generation. Memory is a muscle. It strengthens when we rehearse it and atrophies when we assume we’ll always recall what God has done.\n\nPractically, this means building small monuments into your week. Keep a journal of answered prayer. Name God’s provision out loud at the dinner table. Tell your kids the story of the job you didn’t deserve or the marriage that survived a hard season. When you’re tempted toward cynicism, return to the record of what your eyes have seen.\n\nThe God who acted then is the God who acts now. Remembering is not nostalgia—it is fuel for present faith.\n\n## Prayer\n\nFather, we confess how quickly we forget Your faithfulness. Guard our hearts from drifting, and help us rehearse Your goodness to one another and to the generations after us, that faith may be passed on and not lost. In Jesus’ name, amen.\n\n## One-Line Application\n\nRemember God’s faithfulness today, and speak it aloud to someone who needs it.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
