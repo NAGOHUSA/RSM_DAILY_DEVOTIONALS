@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:34:55.256Z",
+  "generated_at": "2026-11-17T18:59:47.593Z",
   "source_rss": "https://api.substack.com/feed/podcast/9723392.rss",
   "channel": {
     "title": "ROCK SOLID MAN Podcast",
@@ -12,8 +12,28 @@
     "youtube": "https://www.youtube.com/@RSMMINISTRY",
     "substack": "https://rocksolidman.substack.com/podcast"
   },
-  "episode_count": 17,
+  "episode_count": 19,
   "episodes": [
+    {
+      "title": "“Who Is This That Calls Me Lord” (Part 1 of 2 with Dusty Foskey)",
+      "link": "https://rocksolidman.substack.com/p/who-is-this-that-calls-me-lord-part",
+      "guid": "substack:post:225287138",
+      "pub_date": "2026-11-17T03:28:04.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/225287138/e0b5eb7d0b9b0b0d98e84225f019bca0.mp3",
+      "duration": "53:38",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/225287138/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
+    {
+      "title": "Faith, Family & Foster Care - A Conversation With Wayne Naugle",
+      "link": "https://rocksolidman.substack.com/p/faith-family-and-foster-care-a-conversation",
+      "guid": "substack:post:224588472",
+      "pub_date": "2026-11-12T12:26:04.000Z",
+      "summary": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com",
+      "audio_url": "https://api.substack.com/feed/podcast/224588472/734ed253b65f9ba93ba0cfa533d97a25.mp3",
+      "duration": "1:06:13",
+      "image": "https://substackcdn.com/feed/podcast/9723392/post/224588472/7c40bc3a5de3e83506246f7ea99f1f7f.jpg"
+    },
     {
       "title": "Emotionalism In The Church (part 2 of 2)",
       "link": "https://rocksolidman.substack.com/p/emotionalism-in-the-church-part-2",
