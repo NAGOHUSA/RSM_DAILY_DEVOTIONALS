@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-18",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 338,
+  "theme": null,
+  "content_markdown": "# The Snare of Comparison\n\n## Scripture\n\n“But when they measure themselves by one another and compare themselves with one another, they are without understanding.” — 2 Corinthians 10:12\n\n## Reflection\n\nComparison is an old snare, and men fall into it quietly. We scroll through a colleague’s promotion, a friend’s marriage, a stranger’s strength, and something in us shrinks. We begin to measure our lives against a highlight reel and come up short. Paul names this folly plainly: to measure ourselves by one another is to act “without understanding.” We are using the wrong tape measure.\n\nThe gospel reorders the whole accounting. You are not saved by outperforming the man beside you, nor condemned by his success. You were bought at a price, known before you were formed, and given work that is yours alone to do. Comparison ignores the particular calling God has placed on your life and trades it for a scoreboard no one asked you to keep. It breeds either pride or despair—both of which pull you away from Christ.\n\nPractically, this means naming the comparison when it rises. When envy stirs at another man’s gain, stop and ask: Whose approval am I actually chasing? Then bring that hunger to the Father. Celebrate another’s good without subtracting from your own. Guard your inputs—the feeds and conversations that feed the lie that you are behind. And return daily to the plain truth that in Christ you are already accepted, not because you measured up, but because he did on your behalf.\n\nFreedom grows here: you can run your own race with steady hands, grateful for the men beside you rather than threatened by them. Their gifts do not diminish yours, and their victories do not diminish Christ’s work in you.\n\n## Prayer\n\nFather, we confess the quiet envy that measures us against others. Free us from the scoreboard, teach us to celebrate our brothers’ good, and fix our eyes on Christ alone. Amen.\n\n## One-Line Application\n\nRun your own race and celebrate another man’s gain today.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
