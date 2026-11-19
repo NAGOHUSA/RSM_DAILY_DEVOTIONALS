@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-19",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 317,
+  "theme": null,
+  "content_markdown": "# The Courage to Be Known\n\n## Scripture\n\n“Therefore confess your sins to each other and pray for each other so that you may be healed.” — James 5:16\n\n## Reflection\n\nMost men learn early that being known is dangerous. We build a version of ourselves that looks competent, steady, unbothered—and then we guard it. We let people see the résumé, not the man behind it. We answer “fine” when the honest answer would take an hour and cost us something. This is not humility; it is fear wearing a good suit.\n\nJames writes to a scattered, suffering church and says something almost scandalous: confess to each other. Not to a priest behind a screen, not to God alone in the dark—though both matter—but to each other. Healing, he says, travels through honesty. Sin and shame grow in secrecy; they shrivel in the light of a trusted brother who listens and does not flinch.\n\nNotice the order: confession, then prayer, then healing. James does not promise that every wound closes on our timetable. He promises that hiding keeps it open. The man who never says the true thing stays sick in a place no one can reach.\n\nThis takes discernment. Confession is not broadcasting your failures to the crowd; it is opening your life to one or two trustworthy men who love Christ and love you enough to pray with you and, when needed, to call you back. Find that man. Be that man. The gospel makes this safe, because we come as men already forgiven, not as men auditioning for mercy.\n\n## Prayer\n\nFather, we confess that we hide—from You, from each other, even from ourselves. Give us the courage to be known and the humility to receive grace. Surround us with brothers who will pray with us and point us to Christ. Amen.\n\n## One-Line Application\n\nTell one trusted brother the true thing this week.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
