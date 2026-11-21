@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-21",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 339,
+  "theme": null,
+  "content_markdown": "# The Measure of a Man\n\n## Scripture\n\n“Be watchful, stand firm in the faith, act like men, be strong. Let all that you do be done in love.” — 1 Corinthians 16:13–14\n\n## Reflection\n\nMen carry a quiet pressure to prove ourselves—at work, at home, in the mirror. We measure strength by output, by composure, by never needing help. Paul writes something different to a church he loved: be watchful, stand firm, act like men, be strong. Then he adds the line we skip: let all that you do be done in love.\n\nThat last phrase reframes everything. Biblical strength is not the absence of tenderness; it is tenderness with a spine. Watchfulness means paying attention to what is happening in your own heart and in your home before it becomes a crisis. Standing firm means holding your ground on what matters—your integrity, your marriage vows, your word—when it costs you. Acting like men, in Paul’s grammar, is courage in the open, not bravado in the dark.\n\nAnd all of it, done in love. A man who is strong but harsh has only half the verse. A man who is gentle but passive has the other half. God calls us to both: the courage to lead and the humility to serve, the firmness to say no and the warmth to say it kindly.\n\nWhere is God asking you to stand firm this week—and where is He asking you to soften? Perhaps it is a conversation you have been avoiding, a boundary you have let slide, or a tenderness you have withheld because it felt weak. It is not weakness. It is obedience. Strength shaped by love is the measure of a man after God’s own heart.\n\n## Prayer\n\nFather, make us watchful, firm, and strong—but never strong without love. Shape our courage by Your kindness, that our homes and workplaces would see Jesus in how we lead and how we love. Amen.\n\n## One-Line Application\n\nStand firm this week, and let every strong word be spoken in love.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
