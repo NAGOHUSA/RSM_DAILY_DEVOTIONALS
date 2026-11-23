@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-23",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 337,
+  "theme": null,
+  "content_markdown": "# The Tongue of the Wise\n\n## Scripture\n\n“The tongue of the wise brings healing.” — Proverbs 12:18\n\n## Reflection\n\nSolomon sets two kinds of speech side by side: words that cut like a sword and words that heal. Every man knows the sword. A sharp reply in the kitchen, a cutting joke at the table, a correction delivered with contempt rather than care. The wound often outlasts the moment. We forget what we said; the one who heard it does not.\n\nBut notice the proverb’s quiet confidence. It does not merely warn against harmful words; it commends a different kind of tongue—the tongue of the wise. Wisdom here is not intelligence or eloquence. It is the discipline of considering what your words will do to the person receiving them. The wise man asks before he speaks: Will this build up or tear down? Is this true *and* timely? Am I saying this to serve him or to win?\n\nJames tells us the tongue is a small fire with great power (James 3:5). A single sentence can set the tone of a home for a whole evening. That is sobering, but it is also hopeful. The same small instrument that wounds can heal. A word of honest encouragement, a sincere apology, a gentle correction spoken without superiority—these are the tools God uses to mend what other words have broken.\n\nThis is not merely behavior management. Healing speech flows from a heart that has itself been healed by grace. When we remember how patient Christ has been with us, we can be patient with others. When we recall how gently He corrected us, our corrections grow gentle too. Ask the Lord to make your tongue an instrument of repair, not ruin.\n\n## Prayer\n\nFather, guard our tongues today. Let our words heal rather than wound, and make our speech gentle, truthful, and full of grace, for the good of those who hear us. Amen.\n\n## One-Line Application\n\nBefore you speak, ask whether your words will heal or wound.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
