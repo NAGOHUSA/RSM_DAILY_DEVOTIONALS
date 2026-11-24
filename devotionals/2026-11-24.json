@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-24",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 347,
+  "theme": null,
+  "content_markdown": "# The Discipline of a Holy Pause\n\n## Scripture\n\n“Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.” — James 1:19–20\n\n## Reflection\n\nJames writes to scattered believers who were facing pressure from every side—and pressure exposes the tongue. His counsel is counterintuitive to men: quick to listen, slow to speak, slow to anger. Notice the order. Listening comes first because listening is the posture of a heart that trusts God to be the judge. When we speak first, we crown ourselves as judge, jury, and prosecuting attorney over the people around us.\n\nThe pause between an offense and our response is a holy space. It is where the Spirit does His quiet work, where we can ask, *Is this mine to fix, or is this God’s to avenge?* Most of our anger is not righteous zeal for God’s name; it is wounded pride defending its own. James is blunt: that kind of anger never produces the righteousness God desires. It may feel powerful in the moment, but it leaves wreckage in its wake—in marriages, in workplaces, in the church.\n\nA holy pause is not passivity. It is the active discipline of bringing our reaction under the lordship of Christ. It means naming the heat rising in us and asking, “What is this revealing about my heart?” Often it reveals fear, unmet expectations, or a demand to be respected. When we bring those to the Father, He meets us with grace and gives us the freedom to respond rather than react. The man who masters the pause is not weak; he is governed by the Spirit, and his words carry weight because they are no longer ruled by the moment.\n\n## Prayer\n\nFather, we confess our quick tongues and hot tempers. Teach us to listen well, to pause before we speak, and to trust You with our wounds. Let Your Spirit govern our words today, for Your glory. Amen.\n\n## One-Line Application\n\nPause before you speak; let God rule your reaction.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
