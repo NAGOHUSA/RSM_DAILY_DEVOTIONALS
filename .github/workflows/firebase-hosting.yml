@@ -1,0 +1,33 @@
+# Deploys this site to Firebase Hosting (project nagoh-rocksolidman) via the shared Nagoh
+# pipeline in NAGOHUSA/NAGOHFIREBASE. Keyless auth: no secrets needed.
+# Added by the Nagoh Platform dashboard.
+name: Firebase Hosting
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+  workflow_run:
+    workflows:
+      - "Generate Rock Solid Man Devotional"
+      - "Update Rock Solid Man Podcast Feed (Weekly)"
+      - "Update Rock Solid Man Social Feed (Daily)"
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write        # keyless Google auth (Workload Identity Federation)
+  pull-requests: write   # preview URL comment
+
+concurrency:
+  group: firebase-${{ github.event.pull_request.number || 'main' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  firebase:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    uses: NAGOHUSA/NAGOHFIREBASE/.github/workflows/firebase-hosting.yml@v1
+    with:
+      build-command: ""   # e.g. "npm run build" if the site needs building
