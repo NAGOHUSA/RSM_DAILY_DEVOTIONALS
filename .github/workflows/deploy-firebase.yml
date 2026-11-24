@@ -1,0 +1,47 @@
+name: Deploy to Firebase Hosting
+
+# Deploys rocksolidman.org to Firebase Hosting (project nagoh-rocksolidman).
+# Runs on every push to main, and after each content-generator workflow finishes,
+# because commits made by those bots with GITHUB_TOKEN do not trigger push events.
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows:
+      - Generate Rock Solid Man Devotional
+      - Update Rock Solid Man Podcast Feed (Weekly)
+      - Update Rock Solid Man Social Feed (Daily)
+    types: [completed]
+  workflow_dispatch: {}
+
+concurrency:
+  group: firebase-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  id-token: write   # keyless auth via Workload Identity Federation
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    steps:
+      - name: 🧰 Checkout main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: 🔐 Authenticate to Google Cloud (WIF)
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/667497342080/locations/global/workloadIdentityPools/github/providers/github
+          service_account: github-deployer@nagoh-rocksolidman.iam.gserviceaccount.com
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: 🚀 Deploy hosting
+        run: npx --yes firebase-tools@latest deploy --only hosting --project nagoh-rocksolidman --non-interactive
