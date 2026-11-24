@@ -2,6 +2,7 @@
   "hosting": {
     "public": ".",
     "ignore": [
+      "gha-creds-*.json",
       "firebase.json",
       ".firebaserc",
       "**/.*",
@@ -20,15 +21,30 @@
     "headers": [
       {
         "source": "**/*.@(json|xml)",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=300"
+          }
+        ]
       },
       {
         "source": "**/*.@(html)",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=600" }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=600"
+          }
+        ]
       },
       {
         "source": "**/*.@(png|jpg|jpeg|gif|webp|svg|ico|mp4|mp3|woff2)",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=604800"
+          }
+        ]
       }
     ]
   }

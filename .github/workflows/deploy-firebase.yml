@@ -44,4 +44,4 @@ jobs:
           node-version: '20'
 
       - name: 🚀 Deploy hosting
-        run: npx --yes firebase-tools@latest deploy --only hosting --project nagoh-rocksolidman --non-interactive
+        run: npx --yes firebase-tools@latest deploy --only hosting --project nagoh-rocksolidman --non-interactive --debug 2>&1 | grep -vE "^\[debug\].*(\"access_token\"|Bearer)" ; exit ${PIPESTATUS[0]}
