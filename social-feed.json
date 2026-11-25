@@ -1,6 +1,6 @@
 {
   "_howto": "The homepage feed mixes upcoming events, the Daily Word, videos, the podcast and these posts. Add your own posts (Facebook, Instagram, announcements) to \"posts\" — newest date shows first. platform can be: facebook, instagram, youtube, substack, site. url and image are optional. The \"auto\" list is filled every day by generate-social-feed.js (YouTube uploads + Substack posts) — don't edit it by hand.",
-  "generated_at": "2026-11-24T21:00:44.581Z",
+  "generated_at": "2026-11-25T20:23:57.280Z",
   "posts": [
     {
       "platform": "site",
@@ -33,11 +33,11 @@
   "auto": [
     {
       "platform": "youtube",
-      "date": "2026-11-17T19:17:33+00:00",
-      "title": "Rock Solid 6",
+      "date": "2026-11-25T12:48:19+00:00",
+      "title": "“Who Is This That Calls Me Lord” (Part 2 of 2 with Dusty Foskey)",
       "text": "This is a public episode. If you would like to discuss this with other subscribers or get access to bonus episodes, visit rocksolidman.substack.com (https://rocksolidman.substack.com?utm_medium=podcast&utm_campaign=CTA_…",
-      "url": "https://www.youtube.com/watch?v=Z8SzDac-Akk",
-      "image": "https://i3.ytimg.com/vi/Z8SzDac-Akk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Y1g_wV2ZRdg",
+      "image": "https://i2.ytimg.com/vi/Y1g_wV2ZRdg/hqdefault.jpg",
       "kind": "video"
     },
     {
@@ -84,60 +84,6 @@
       "url": "https://www.youtube.com/watch?v=0Sfj-Ij4CNA",
       "image": "https://i1.ytimg.com/vi/0Sfj-Ij4CNA/hqdefault.jpg",
       "kind": "video"
-    },
-    {
-      "platform": "substack",
-      "date": "2026-11-17T03:28:04.000Z",
-      "title": "“Who Is This That Calls Me Lord” (Part 1 of 2 with Dusty Foskey)",
-      "text": "episode 015",
-      "url": "https://rocksolidman.substack.com/p/who-is-this-that-calls-me-lord-part",
-      "image": null,
-      "kind": "podcast"
-    },
-    {
-      "platform": "substack",
-      "date": "2026-11-12T12:26:04.000Z",
-      "title": "Faith, Family & Foster Care - A Conversation With Wayne Naugle",
-      "text": "episode 014",
-      "url": "https://rocksolidman.substack.com/p/faith-family-and-foster-care-a-conversation",
-      "image": null,
-      "kind": "podcast"
-    },
-    {
-      "platform": "substack",
-      "date": "2026-10-20T02:18:04.000Z",
-      "title": "Emotionalism In The Church (part 2 of 2)",
-      "text": "episode 013",
-      "url": "https://rocksolidman.substack.com/p/emotionalism-in-the-church-part-2",
-      "image": null,
-      "kind": "podcast"
-    },
-    {
-      "platform": "substack",
-      "date": "2026-10-13T00:57:12.000Z",
-      "title": "Emotionalism In The Church (part 1 of 2)",
-      "text": "episode 012",
-      "url": "https://rocksolidman.substack.com/p/emotionalism-in-the-church-part-1",
-      "image": null,
-      "kind": "podcast"
-    },
-    {
-      "platform": "substack",
-      "date": "2026-10-07T02:01:48.000Z",
-      "title": "No One Is Too Far Gone (part 2 of 2)",
-      "text": "episode 011",
-      "url": "https://rocksolidman.substack.com/p/no-one-is-too-far-gone-part-2-of",
-      "image": null,
-      "kind": "podcast"
-    },
-    {
-      "platform": "substack",
-      "date": "2026-10-05T11:28:17.000Z",
-      "title": "Rock Solid 6",
-      "text": "Let God Judge the Judgers",
-      "url": "https://rocksolidman.substack.com/p/rock-solid-6-38a",
-      "image": null,
-      "kind": "podcast"
     }
   ]
 }
