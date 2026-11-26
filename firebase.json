@@ -16,9 +16,58 @@
         "regex": "^/(about|contact|devotional|events|mensgroups|mission|partners|podcast|transparency|videos)/?$",
         "destination": "/:1.html",
         "type": 301
+      },
+      {
+        "regex": "^/home/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/(about-us|our-team)/?$",
+        "destination": "/about.html",
+        "type": 301
+      },
+      {
+        "regex": "^/groups/?$",
+        "destination": "/mensgroups.html",
+        "type": 301
+      },
+      {
+        "regex": "^/(services|services_group)(/.*)?$",
+        "destination": "/mensgroups.html",
+        "type": 301
+      },
+      {
+        "regex": "^/events?/.+$",
+        "destination": "/events.html",
+        "type": 301
+      },
+      {
+        "regex": "^/(shop|cart|checkout|my-account)(/.*)?$",
+        "destination": "/merch/",
+        "type": 301
+      },
+      {
+        "regex": "^/(product|product-category|product-tag)/.*$",
+        "destination": "/merch/",
+        "type": 301
+      },
+      {
+        "regex": "^/feed/?$",
+        "destination": "/blog/feed.xml",
+        "type": 301
       }
     ],
     "headers": [
+      {
+        "source": "**/*.json",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex"
+          }
+        ]
+      },
       {
         "source": "**/*.@(json|xml)",
         "headers": [
