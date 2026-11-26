@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-26",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 340,
+  "theme": null,
+  "content_markdown": "# The Work of Honest Scales\n\n## Scripture\n\n“A false balance is an abomination to the Lord, but a just weight is his delight.” — Proverbs 11:1\n\n## Reflection\n\nSolomon writes to a people who bought and sold at the gate, where a merchant’s scale was his reputation. To tip the scale was to steal quietly, to profit by a lie no one could see. God calls that abomination—not merely bad business, but an offense to His character. A just weight, by contrast, delights Him.\n\nMen still carry scales. We weigh our hours when no one audits them, our expense reports, our billable time, the quality we claim versus the quality we deliver. We weigh words too: the story told a little larger, the fault shifted a little further from ourselves. The world calls it savvy. Scripture calls it a false balance. The test is not whether anyone notices, but whether the weight is true when only God is watching.\n\nHonest scales are not a technique for earning favor; they are the fruit of a heart already weighed and found wanting, then covered by Christ. Because we have been dealt with generously—given mercy we did not earn—we are freed to deal generously and truthfully with others. Integrity in small transactions is not legalism; it is gratitude with a plumb line.\n\nPractically, this means naming the places where we round in our own favor: the receipt we don’t mention, the deadline we pad, the credit we quietly take. Bring one of those scales to God this week. Ask Him for the courage to make the weight just, even when it costs. A man who is honest when it is inconvenient is a man whose word can be trusted when it matters.\n\n## Prayer\n\nFather, we confess the scales we have tipped in our own favor. Search us, make our weights just, and let honesty in small things flow from hearts amazed by Your mercy. In Jesus’ name, amen.\n\n## One-Line Application\n\nMake the weight just, even when only God is watching.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
