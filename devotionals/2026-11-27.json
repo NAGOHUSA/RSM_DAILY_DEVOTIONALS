@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-27",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "max_tokens": 750,
+  "temperature": 0.7,
+  "words": 367,
+  "theme": null,
+  "content_markdown": "# The Anchor of a Steady Mind\n\n## Scripture\n\n“You keep him in perfect peace whose mind is stayed on you, because he trusts in you.” — Isaiah 26:3\n\n## Reflection\n\nA man’s mind is a busy place. Between deadlines, bills, and the noise of a dozen competing voices, our thoughts rarely sit still. Isaiah 26:3 speaks into that churn with a promise that sounds almost too good: *perfect peace*. But notice the condition—not the absence of trouble, but a mind *stayed* on God. The Hebrew word carries the picture of something propped up, leaning its full weight on a support. Peace is not the reward for a man who never worries; it is the fruit of a man who keeps returning his weight to the right support.\n\nThat is harder than it sounds. Our default is to stay our minds on the problem—rehearsing it, solving it, bracing for it. We lie awake running scenarios, mistaking worry for responsibility. But a mind fixed on circumstances will always be tossed by them. A mind fixed on God rests, because He does not change with the news cycle.\n\nPractically, this is a discipline of redirection. When anxiety rises, you don’t have to pretend it isn’t there; you turn it into prayer. When a fear loops, you name it before God and then deliberately recall what is true of Him—His faithfulness, His provision, His nearness. This is not positive thinking; it is trust with a direction. The man whose mind is stayed on God is not passive. He is actively choosing, moment by moment, where to put his weight.\n\nAnd the promise is not that peace arrives once and stays forever. It is that the God of peace keeps the man who keeps coming back. Today, you will have a hundred chances to fix your thoughts somewhere. Let each one be an invitation to lean again.\n\n## Prayer\n\nFather, our minds wander and worry so easily. Teach us to turn our thoughts back to You in trust, and keep us in Your peace as we lean our full weight on You today. Amen.\n\n## One-Line Application\n\nWhen your mind starts to spin, stop and lean your full weight on God.",
+  "meta": {
+    "version": "multi-provider-ds-oa-gq-1",
+    "constraints": {
+      "scripture_quote_words_max": 50,
+      "total_words_target": [
+        320,
+        420
+      ]
+    }
+  }
+}
